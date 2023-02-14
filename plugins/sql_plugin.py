@@ -1,12 +1,12 @@
-from airiflow.plugins_manager import AirflowPlugin
+from airflow.plugins_manager import AirflowPlugin
 from airflow.models import BaseOperator
 from airflow.hooks.base_hook import BaseHook
 
 class SqlOperator(BaseOperator):
-    algo
+    print('hola')
 
 class SqlHook(BaseHook):
-    algo
+    print('algo')
 
 class SqlPlugin(AirflowPlugin):
     name = 'sql_plugin'
