@@ -1,0 +1,24 @@
+[2023-01-31 17:27:07,125] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.list_files manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:27:07,137] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.list_files manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:27:07,138] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:27:07,138] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 17:27:07,139] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:27:07,165] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): list_files> on 2023-01-31 23:27:04.884341+00:00
+[2023-01-31 17:27:07,168] {standard_task_runner.py:52} INFO - Started process 14170 to run task
+[2023-01-31 17:27:07,170] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '3_hooks_xcoms', 'list_files', 'manual__2023-01-31T23:27:04.884341+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/3_hooks_xcoms.py', '--cfg-path', '/tmp/tmpaxz5hldr', '--error-file', '/tmp/tmpkvs8skgw']
+[2023-01-31 17:27:07,171] {standard_task_runner.py:80} INFO - Job 91: Subtask list_files
+[2023-01-31 17:27:07,230] {task_command.py:369} INFO - Running <TaskInstance: 3_hooks_xcoms.list_files manual__2023-01-31T23:27:04.884341+00:00 [running]> on host Tinmar.
+[2023-01-31 17:27:07,316] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=3_hooks_xcoms
+AIRFLOW_CTX_TASK_ID=list_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T23:27:04.884341+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T23:27:04.884341+00:00
+[2023-01-31 17:27:07,329] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 17:27:07,888] {python.py:173} INFO - Done. Returned value was: ['retail_2020.csv', 'retail_2021.csv']
+[2023-01-31 17:27:07,944] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=3_hooks_xcoms, task_id=list_files, execution_date=20230131T232704, start_date=20230131T232707, end_date=20230131T232707
+[2023-01-31 17:27:07,987] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-31 17:27:08,051] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,24 @@
+[2023-02-01 11:58:25,712] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.list_files manual__2023-02-01T17:58:20.452635+00:00 [queued]>
+[2023-02-01 11:58:25,725] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.list_files manual__2023-02-01T17:58:20.452635+00:00 [queued]>
+[2023-02-01 11:58:25,726] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:58:25,726] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-01 11:58:25,727] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:58:25,755] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): list_files> on 2023-02-01 17:58:20.452635+00:00
+[2023-02-01 11:58:25,758] {standard_task_runner.py:52} INFO - Started process 3032 to run task
+[2023-02-01 11:58:25,761] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '4_jinja_airflowmacros', 'list_files', 'manual__2023-02-01T17:58:20.452635+00:00', '--job-id', '110', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/4_jinja_airflowmacros.py', '--cfg-path', '/tmp/tmp4olu3ff7', '--error-file', '/tmp/tmpze2td9kp']
+[2023-02-01 11:58:25,762] {standard_task_runner.py:80} INFO - Job 110: Subtask list_files
+[2023-02-01 11:58:25,851] {task_command.py:369} INFO - Running <TaskInstance: 4_jinja_airflowmacros.list_files manual__2023-02-01T17:58:20.452635+00:00 [running]> on host Tinmar.
+[2023-02-01 11:58:25,968] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=4_jinja_airflowmacros
+AIRFLOW_CTX_TASK_ID=list_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-01T17:58:20.452635+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-01T17:58:20.452635+00:00
+[2023-02-01 11:58:25,982] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 11:58:26,520] {python.py:173} INFO - Done. Returned value was: ['retail_2020.csv', 'retail_2021.csv']
+[2023-02-01 11:58:26,578] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=4_jinja_airflowmacros, task_id=list_files, execution_date=20230201T175820, start_date=20230201T175825, end_date=20230201T175826
+[2023-02-01 11:58:26,621] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-01 11:58:26,678] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

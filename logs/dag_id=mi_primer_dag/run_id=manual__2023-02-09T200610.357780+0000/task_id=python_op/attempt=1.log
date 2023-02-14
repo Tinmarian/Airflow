@@ -1,0 +1,31 @@
+[2023-02-09 14:06:12,767] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: mi_primer_dag.python_op manual__2023-02-09T20:06:10.357780+00:00 [queued]>
+[2023-02-09 14:06:12,772] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: mi_primer_dag.python_op manual__2023-02-09T20:06:10.357780+00:00 [queued]>
+[2023-02-09 14:06:12,773] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 14:06:12,773] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-09 14:06:12,775] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 14:06:12,782] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): python_op> on 2023-02-09 20:06:10.357780+00:00
+[2023-02-09 14:06:12,785] {standard_task_runner.py:52} INFO - Started process 117196 to run task
+[2023-02-09 14:06:12,787] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_dag', 'python_op', 'manual__2023-02-09T20:06:10.357780+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/Apache_Airflow/primer_dag.py', '--cfg-path', '/tmp/tmpx4e2yagi', '--error-file', '/tmp/tmpys2d9w7q']
+[2023-02-09 14:06:12,788] {standard_task_runner.py:80} INFO - Job 49: Subtask python_op
+[2023-02-09 14:06:12,826] {task_command.py:369} INFO - Running <TaskInstance: mi_primer_dag.python_op manual__2023-02-09T20:06:10.357780+00:00 [running]> on host Tinmar.
+[2023-02-09 14:06:12,871] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=mi_primer_dag
+AIRFLOW_CTX_TASK_ID=python_op
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-09T20:06:10.357780+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-09T20:06:10.357780+00:00
+[2023-02-09 14:06:12,872] {logging_mixin.py:115} INFO - Hola Tinmar
+[2023-02-09 14:06:12,873] {logging_mixin.py:115} INFO - Hola Alejandra
+[2023-02-09 14:06:12,873] {logging_mixin.py:115} INFO - Hola Kenya
+[2023-02-09 14:06:12,874] {logging_mixin.py:115} INFO - Hola Atocha
+[2023-02-09 14:06:12,874] {logging_mixin.py:115} INFO - Hola Francisco
+[2023-02-09 14:06:12,874] {logging_mixin.py:115} INFO - Hola Paola
+[2023-02-09 14:06:12,875] {logging_mixin.py:115} INFO - Hola Lucy
+[2023-02-09 14:06:12,875] {logging_mixin.py:115} INFO - Hola Ajna
+[2023-02-09 14:06:12,876] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-09 14:06:12,885] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=mi_primer_dag, task_id=python_op, execution_date=20230209T200610, start_date=20230209T200612, end_date=20230209T200612
+[2023-02-09 14:06:12,919] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-09 14:06:12,947] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

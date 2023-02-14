@@ -1,0 +1,24 @@
+[2023-02-13 09:19:42,506] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.create_cluster scheduled__2023-02-12T00:00:00+00:00 [queued]>
+[2023-02-13 09:19:42,513] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.create_cluster scheduled__2023-02-12T00:00:00+00:00 [queued]>
+[2023-02-13 09:19:42,515] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 09:19:42,516] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-13 09:19:42,517] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 09:19:42,528] {taskinstance.py:1377} INFO - Executing <Task(DataprocCreateClusterOperator): create_cluster> on 2023-02-12 00:00:00+00:00
+[2023-02-13 09:19:42,531] {standard_task_runner.py:52} INFO - Started process 1176 to run task
+[2023-02-13 09:19:42,535] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags', 'create_cluster', 'scheduled__2023-02-12T00:00:00+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmpg9dyop3z', '--error-file', '/tmp/tmpmovyt2wx']
+[2023-02-13 09:19:42,537] {standard_task_runner.py:80} INFO - Job 79: Subtask create_cluster
+[2023-02-13 09:19:42,602] {task_command.py:369} INFO - Running <TaskInstance: 7_dataproc_subdags.create_cluster scheduled__2023-02-12T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-13 09:19:42,666] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags
+AIRFLOW_CTX_TASK_ID=create_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-12T00:00:00+00:00
+[2023-02-13 09:19:42,668] {dataproc.py:591} INFO - Creating cluster: ***-spark-cluster
+[2023-02-13 09:19:42,678] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-13 09:21:50,812] {dataproc.py:535} INFO - Cluster created.
+[2023-02-13 09:21:50,843] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=7_dataproc_subdags, task_id=create_cluster, execution_date=20230212T000000, start_date=20230213T151942, end_date=20230213T152150
+[2023-02-13 09:21:50,885] {local_task_job.py:156} INFO - Task exited with return code 0

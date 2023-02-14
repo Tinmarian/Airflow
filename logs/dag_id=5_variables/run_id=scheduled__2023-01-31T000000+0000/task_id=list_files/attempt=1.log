@@ -1,0 +1,24 @@
+[2023-02-01 12:13:41,917] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_variables.list_files scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 12:13:41,935] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_variables.list_files scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 12:13:41,936] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 12:13:41,937] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-01 12:13:41,938] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 12:13:41,980] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): list_files> on 2023-01-31 00:00:00+00:00
+[2023-02-01 12:13:41,983] {standard_task_runner.py:52} INFO - Started process 3685 to run task
+[2023-02-01 12:13:41,985] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '5_variables', 'list_files', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/5_variables.py', '--cfg-path', '/tmp/tmpip_mufj1', '--error-file', '/tmp/tmpi5vba3zp']
+[2023-02-01 12:13:41,986] {standard_task_runner.py:80} INFO - Job 114: Subtask list_files
+[2023-02-01 12:13:42,077] {task_command.py:369} INFO - Running <TaskInstance: 5_variables.list_files scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 12:13:42,179] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=5_variables
+AIRFLOW_CTX_TASK_ID=list_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 12:13:42,190] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 12:13:42,698] {python.py:173} INFO - Done. Returned value was: []
+[2023-02-01 12:13:42,746] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=5_variables, task_id=list_files, execution_date=20230131T000000, start_date=20230201T181341, end_date=20230201T181342
+[2023-02-01 12:13:42,802] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-01 12:13:42,860] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

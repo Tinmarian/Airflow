@@ -1,0 +1,74 @@
+[2023-02-11 11:07:23,699] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.delete_cluster scheduled__2023-02-10T00:00:00+00:00 [queued]>
+[2023-02-11 11:07:23,711] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.delete_cluster scheduled__2023-02-10T00:00:00+00:00 [queued]>
+[2023-02-11 11:07:23,712] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-11 11:07:23,713] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-11 11:07:23,713] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-11 11:07:23,730] {taskinstance.py:1377} INFO - Executing <Task(DataprocDeleteClusterOperator): delete_cluster> on 2023-02-10 00:00:00+00:00
+[2023-02-11 11:07:23,735] {standard_task_runner.py:52} INFO - Started process 169933 to run task
+[2023-02-11 11:07:23,741] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '6_dataproc_***', 'delete_cluster', 'scheduled__2023-02-10T00:00:00+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_***.py', '--cfg-path', '/tmp/tmpzqz_kagg', '--error-file', '/tmp/tmpp7746r58']
+[2023-02-11 11:07:23,744] {standard_task_runner.py:80} INFO - Job 67: Subtask delete_cluster
+[2023-02-11 11:07:23,805] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.delete_cluster scheduled__2023-02-10T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-11 11:07:23,868] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_***
+AIRFLOW_CTX_TASK_ID=delete_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-10T00:00:00+00:00
+[2023-02-11 11:07:23,880] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-11 11:07:23,885] {dataproc.py:817} INFO - Deleting cluster: ***-spark-cluster
+[2023-02-11 11:09:06,214] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.DEADLINE_EXCEEDED
+	details = "Deadline Exceeded"
+	debug_error_string = "UNKNOWN:Deadline Exceeded {created_time:"2023-02-11T11:09:06.212385817-06:00", grpc_status:4}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 828, in execute
+    operation.result()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 132, in result
+    self._blocking_poll(timeout=timeout, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 110, in _blocking_poll
+    retry_(self._done_or_raise)(**kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 88, in _done_or_raise
+    if not self.done(**kwargs):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/operation.py", line 170, in done
+    self._refresh_and_update(retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/operation.py", line 158, in _refresh_and_update
+    self._operation = self._refresh(retry=retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/operations_v1/operations_client.py", line 142, in get_operation
+    return self._get_operation(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/timeout.py", line 210, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.DeadlineExceeded: 504 Deadline Exceeded
+[2023-02-11 11:09:06,239] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=6_dataproc_***, task_id=delete_cluster, execution_date=20230210T000000, start_date=20230211T170723, end_date=20230211T170906
+[2023-02-11 15:33:11,453] {local_task_job.py:144} ERROR - Heartbeat time limit exceeded!
+[2023-02-11 15:33:11,456] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 169933. PIDs of all processes in the group: [169933]
+[2023-02-11 15:33:11,457] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 169933
+[2023-02-11 15:33:11,459] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-02-11 15:33:11,461] {standard_task_runner.py:92} ERROR - Failed to execute job 67 for task delete_cluster (Task received SIGTERM signal; 169933)
+[2023-02-11 15:33:11,472] {process_utils.py:75} INFO - Process psutil.Process(pid=169933, status='terminated', exitcode=1, started='11:07:23') (169933) terminated with exit code 1

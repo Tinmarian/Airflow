@@ -1,0 +1,49 @@
+[2023-01-31 10:16:02,127] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos scheduled__2023-01-30T00:00:00+00:00 [queued]>
+[2023-01-31 10:16:02,142] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos scheduled__2023-01-30T00:00:00+00:00 [queued]>
+[2023-01-31 10:16:02,142] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:16:02,144] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 10:16:02,145] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:16:02,174] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-30 00:00:00+00:00
+[2023-01-31 10:16:02,177] {standard_task_runner.py:52} INFO - Started process 229 to run task
+[2023-01-31 10:16:02,180] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2_simple_storage_bigquery', 'cargar_datos', 'scheduled__2023-01-30T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/2_simple_storage_bigquery.py', '--cfg-path', '/tmp/tmppnjypecr', '--error-file', '/tmp/tmpdo85l80g']
+[2023-01-31 10:16:02,181] {standard_task_runner.py:80} INFO - Job 21: Subtask cargar_datos
+[2023-01-31 10:16:02,241] {task_command.py:369} INFO - Running <TaskInstance: 2_simple_storage_bigquery.cargar_datos scheduled__2023-01-30T00:00:00+00:00 [running]> on host Tinmar.
+[2023-01-31 10:16:02,333] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2_simple_storage_bigquery
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-30T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-30T00:00:00+00:00
+[2023-01-31 10:16:02,346] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 10:16:02,347] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 10:16:02,347] {credentials_provider.py:323} INFO - Getting connection using `google.auth.default()` since no key file is defined for hook.
+[2023-01-31 10:16:05,352] {_metadata.py:99} WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+[2023-01-31 10:16:08,355] {_metadata.py:99} WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+[2023-01-31 10:16:11,360] {_metadata.py:99} WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+[2023-01-31 10:16:11,360] {_default.py:301} WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+[2023-01-31 10:16:11,361] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 378, in execute
+    self.configuration = self._use_existing_table()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 579, in _use_existing_table
+    default_project_id=self.hook.project_id or "",
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 342, in project_id
+    _, project_id = self.get_credentials_and_project_id()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 253, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 332, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 237, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_adc()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 318, in _get_credentials_using_adc
+    credentials, project_id = google.auth.default(scopes=self.scopes)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/auth/_default.py", line 653, in default
+    raise exceptions.DefaultCredentialsError(_HELP_MESSAGE)
+google.auth.exceptions.DefaultCredentialsError: Could not automatically determine credentials. Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credentials and re-run the application. For more information, please see https://cloud.google.com/docs/authentication/getting-started
+[2023-01-31 10:16:11,381] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=2_simple_storage_bigquery, task_id=cargar_datos, execution_date=20230130T000000, start_date=20230131T161602, end_date=20230131T161611
+[2023-01-31 10:16:11,411] {standard_task_runner.py:92} ERROR - Failed to execute job 21 for task cargar_datos (Could not automatically determine credentials. Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credentials and re-run the application. For more information, please see https://cloud.google.com/docs/authentication/getting-started; 229)
+[2023-01-31 10:16:11,445] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 10:16:11,502] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

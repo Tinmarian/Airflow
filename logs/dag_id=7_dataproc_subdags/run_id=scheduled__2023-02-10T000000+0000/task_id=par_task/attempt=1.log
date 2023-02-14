@@ -1,0 +1,35 @@
+[2023-02-11 11:07:53,095] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task scheduled__2023-02-10T00:00:00+00:00 [queued]>
+[2023-02-11 11:07:53,104] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task scheduled__2023-02-10T00:00:00+00:00 [queued]>
+[2023-02-11 11:07:53,105] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-11 11:07:53,106] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-11 11:07:53,107] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-11 11:07:53,118] {taskinstance.py:1377} INFO - Executing <Task(SubDagOperator): par_task> on 2023-02-10 00:00:00+00:00
+[2023-02-11 11:07:53,122] {standard_task_runner.py:52} INFO - Started process 170458 to run task
+[2023-02-11 11:07:53,126] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags', 'par_task', 'scheduled__2023-02-10T00:00:00+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmpk4srjerf', '--error-file', '/tmp/tmpxri899g9']
+[2023-02-11 11:07:53,127] {standard_task_runner.py:80} INFO - Job 71: Subtask par_task
+[2023-02-11 11:07:53,193] {task_command.py:369} INFO - Running <TaskInstance: 7_dataproc_subdags.par_task scheduled__2023-02-10T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-11 11:07:53,265] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags
+AIRFLOW_CTX_TASK_ID=par_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-10T00:00:00+00:00
+[2023-02-11 11:07:53,268] {logging_mixin.py:115} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-02-11 11:07:53,302] {subdag.py:176} INFO - Created DagRun: scheduled__2023-02-10T00:00:00+00:00
+[2023-02-11 11:08:53,384] {base.py:301} INFO - Success criteria met. Exiting.
+[2023-02-11 11:08:53,392] {subdag.py:191} INFO - Execution finished. State is failed
+[2023-02-11 11:08:53,403] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1451, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1601, in _execute_task_with_callbacks
+    self.task.post_execute(context=context, result=result)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/operators/subdag.py", line 194, in post_execute
+    raise AirflowException(f"Expected state: SUCCESS. Actual state: {dag_run.state}")
+airflow.exceptions.AirflowException: Expected state: SUCCESS. Actual state: failed
+[2023-02-11 11:08:53,409] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=7_dataproc_subdags, task_id=par_task, execution_date=20230210T000000, start_date=20230211T170753, end_date=20230211T170853
+[2023-02-11 11:08:53,418] {standard_task_runner.py:92} ERROR - Failed to execute job 71 for task par_task (Expected state: SUCCESS. Actual state: failed; 170458)
+[2023-02-11 11:08:53,460] {local_task_job.py:156} INFO - Task exited with return code 1

@@ -1,0 +1,48 @@
+[2023-01-31 17:27:09,706] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:27:09,718] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:27:09,718] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:27:09,719] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 17:27:09,719] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:27:09,749] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 23:27:04.884341+00:00
+[2023-01-31 17:27:09,752] {standard_task_runner.py:52} INFO - Started process 14188 to run task
+[2023-01-31 17:27:09,753] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '3_hooks_xcoms', 'cargar_datos', 'manual__2023-01-31T23:27:04.884341+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/3_hooks_xcoms.py', '--cfg-path', '/tmp/tmp61thj62_', '--error-file', '/tmp/tmpv1mqkspb']
+[2023-01-31 17:27:09,755] {standard_task_runner.py:80} INFO - Job 92: Subtask cargar_datos
+[2023-01-31 17:27:09,821] {task_command.py:369} INFO - Running <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [running]> on host Tinmar.
+[2023-01-31 17:27:09,913] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=3_hooks_xcoms
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T23:27:04.884341+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T23:27:04.884341+00:00
+[2023-01-31 17:27:09,925] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 17:27:09,927] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 17:27:09,965] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years_hooks&xcoms'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://original-bucked-987/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-01-31 17:27:09,966] {bigquery.py:1542} INFO - Inserting job airflow_3_hooks_xcoms_cargar_datos_2023_01_31T23_27_04_884341_00_00_874d135860c7983e1218c4462168a9b5
+[2023-01-31 17:27:10,461] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 382, in execute
+    job = self._submit_job(self.hook, job_id)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 302, in _submit_job
+    return hook.insert_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1545, in insert_job
+    job._begin()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/base.py", line 510, in _begin
+    api_response = client._call_api(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/client.py", line 782, in _call_api
+    return call()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.BadRequest: 400 POST https://bigquery.googleapis.com/bigquery/v2/projects/serene-gradient-371719/jobs?prettyPrint=false: Invalid table ID "retail_years_hooks&xcoms".
+[2023-01-31 17:27:10,474] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=3_hooks_xcoms, task_id=cargar_datos, execution_date=20230131T232704, start_date=20230131T232709, end_date=20230131T232710
+[2023-01-31 17:27:10,502] {standard_task_runner.py:92} ERROR - Failed to execute job 92 for task cargar_datos (400 POST https://bigquery.googleapis.com/bigquery/v2/projects/serene-gradient-371719/jobs?prettyPrint=false: Invalid table ID "retail_years_hooks&xcoms".; 14188)
+[2023-01-31 17:27:10,531] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 17:27:10,598] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

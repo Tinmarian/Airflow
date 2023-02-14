@@ -1,0 +1,24 @@
+[2023-02-01 18:04:42,170] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster manual__2023-02-01T23:53:34.596502+00:00 [queued]>
+[2023-02-01 18:04:42,182] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster manual__2023-02-01T23:53:34.596502+00:00 [queued]>
+[2023-02-01 18:04:42,183] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 18:04:42,183] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-02-01 18:04:42,184] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 18:04:42,213] {taskinstance.py:1377} INFO - Executing <Task(DataprocCreateClusterOperator): create_cluster> on 2023-02-01 23:53:34.596502+00:00
+[2023-02-01 18:04:42,215] {standard_task_runner.py:52} INFO - Started process 14509 to run task
+[2023-02-01 18:04:42,217] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '6_dataproc_airflow', 'create_cluster', 'manual__2023-02-01T23:53:34.596502+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_airflow.py', '--cfg-path', '/tmp/tmpzhmwcwgf', '--error-file', '/tmp/tmpac__1_fs']
+[2023-02-01 18:04:42,219] {standard_task_runner.py:80} INFO - Job 144: Subtask create_cluster
+[2023-02-01 18:04:42,285] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.create_cluster manual__2023-02-01T23:53:34.596502+00:00 [running]> on host Tinmar.
+[2023-02-01 18:04:42,387] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_airflow
+AIRFLOW_CTX_TASK_ID=create_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-01T23:53:34.596502+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-01T23:53:34.596502+00:00
+[2023-02-01 18:04:42,388] {dataproc.py:591} INFO - Creating cluster: airflow-spark-cluster
+[2023-02-01 18:04:42,398] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 18:07:00,482] {dataproc.py:535} INFO - Cluster created.
+[2023-02-01 18:07:00,545] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=6_dataproc_airflow, task_id=create_cluster, execution_date=20230201T235334, start_date=20230202T000442, end_date=20230202T000700
+[2023-02-01 18:07:00,617] {local_task_job.py:156} INFO - Task exited with return code 0

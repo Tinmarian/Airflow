@@ -1,0 +1,58 @@
+[2023-02-02 11:22:51,029] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task.avg_quant scheduled__2023-02-01T00:00:00+00:00 [queued]>
+[2023-02-02 11:22:51,042] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task.avg_quant scheduled__2023-02-01T00:00:00+00:00 [queued]>
+[2023-02-02 11:22:51,042] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-02 11:22:51,044] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-02 11:22:51,045] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-02 11:22:51,075] {taskinstance.py:1377} INFO - Executing <Task(DataprocSubmitJobOperator): avg_quant> on 2023-02-01 00:00:00+00:00
+[2023-02-02 11:22:51,077] {standard_task_runner.py:52} INFO - Started process 20175 to run task
+[2023-02-02 11:22:51,079] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '7_dataproc_subdags.par_task', 'avg_quant', 'scheduled__2023-02-01T00:00:00+00:00', '--job-id', '193', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmpy3jzx98e', '--error-file', '/tmp/tmpctvxpiqn']
+[2023-02-02 11:22:51,080] {standard_task_runner.py:80} INFO - Job 193: Subtask avg_quant
+[2023-02-02 11:22:51,144] {task_command.py:369} INFO - Running <TaskInstance: 7_dataproc_subdags.par_task.avg_quant scheduled__2023-02-01T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-02 11:22:51,255] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags.par_task
+AIRFLOW_CTX_TASK_ID=avg_quant
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-01T00:00:00+00:00
+[2023-02-02 11:22:51,256] {dataproc.py:1866} INFO - Submitting job
+[2023-02-02 11:22:51,269] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-02 11:22:51,760] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.NOT_FOUND
+	details = "Not found: Cluster projects/serene-gradient-371719/regions/us-central1/clusters/airflow-spark-cluster"
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.251.34.138:443 {grpc_message:"Not found: Cluster projects/serene-gradient-371719/regions/us-central1/clusters/airflow-spark-cluster", grpc_status:5, created_time:"2023-02-02T11:22:51.76007215-06:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 1868, in execute
+    job_object = self.hook.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 780, in submit_job
+    return client.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/dataproc_v1/services/job_controller/client.py", line 520, in submit_job
+    response = rpc(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 Not found: Cluster projects/serene-gradient-371719/regions/us-central1/clusters/airflow-spark-cluster
+[2023-02-02 11:22:51,786] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=7_dataproc_subdags.par_task, task_id=avg_quant, execution_date=20230201T000000, start_date=20230202T172251, end_date=20230202T172251
+[2023-02-02 11:22:51,814] {standard_task_runner.py:92} ERROR - Failed to execute job 193 for task avg_quant (404 Not found: Cluster projects/serene-gradient-371719/regions/us-central1/clusters/airflow-spark-cluster; 20175)
+[2023-02-02 11:22:51,859] {local_task_job.py:156} INFO - Task exited with return code 1

@@ -1,0 +1,26 @@
+[2023-01-31 17:29:22,941] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:29:22,956] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:29:22,956] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:29:22,957] {taskinstance.py:1357} INFO - Starting attempt 3 of 3
+[2023-01-31 17:29:22,957] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:29:22,985] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 23:27:04.884341+00:00
+[2023-01-31 17:29:22,988] {standard_task_runner.py:52} INFO - Started process 14260 to run task
+[2023-01-31 17:29:22,990] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '3_hooks_xcoms', 'cargar_datos', 'manual__2023-01-31T23:27:04.884341+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/3_hooks_xcoms.py', '--cfg-path', '/tmp/tmpq2_nd434', '--error-file', '/tmp/tmp3g8_pnyu']
+[2023-01-31 17:29:22,991] {standard_task_runner.py:80} INFO - Job 96: Subtask cargar_datos
+[2023-01-31 17:29:23,057] {task_command.py:369} INFO - Running <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [running]> on host Tinmar.
+[2023-01-31 17:29:23,187] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=3_hooks_xcoms
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T23:27:04.884341+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T23:27:04.884341+00:00
+[2023-01-31 17:29:23,200] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 17:29:23,202] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 17:29:23,239] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years_hooks_xcoms'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://airflow23_bucket/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-01-31 17:29:23,240] {bigquery.py:1542} INFO - Inserting job airflow_3_hooks_xcoms_cargar_datos_2023_01_31T23_27_04_884341_00_00_3f584fb3230c783f72150e2698c26423
+[2023-01-31 17:29:25,760] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=3_hooks_xcoms, task_id=cargar_datos, execution_date=20230131T232704, start_date=20230131T232922, end_date=20230131T232925
+[2023-01-31 17:29:25,820] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-31 17:29:25,877] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

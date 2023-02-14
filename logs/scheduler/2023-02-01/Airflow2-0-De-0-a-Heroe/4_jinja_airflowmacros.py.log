@@ -1,0 +1,42 @@
+[2023-02-01 15:51:54,893] {processor.py:153} INFO - Started process (PID=11958) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:51:54,893] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py for tasks to queue
+[2023-02-01 15:51:54,894] {logging_mixin.py:115} INFO - [2023-02-01 15:51:54,894] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:51:55,320] {processor.py:651} INFO - DAG(s) dict_keys(['4_jinja_airflowmacros']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:51:55,365] {logging_mixin.py:115} INFO - [2023-02-01 15:51:55,365] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:51:55,380] {logging_mixin.py:115} INFO - [2023-02-01 15:51:55,379] {dag.py:2915} INFO - Setting next_dagrun for 4_jinja_airflowmacros to 2023-02-01T00:00:00+00:00, run_after=2023-02-02T00:00:00+00:00
+[2023-02-01 15:51:55,427] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py took 0.536 seconds
+[2023-02-01 15:52:26,484] {processor.py:153} INFO - Started process (PID=11978) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:52:26,484] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py for tasks to queue
+[2023-02-01 15:52:26,485] {logging_mixin.py:115} INFO - [2023-02-01 15:52:26,485] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:52:27,058] {processor.py:651} INFO - DAG(s) dict_keys(['4_jinja_airflowmacros']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:52:27,106] {logging_mixin.py:115} INFO - [2023-02-01 15:52:27,106] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:52:27,131] {logging_mixin.py:115} INFO - [2023-02-01 15:52:27,131] {dag.py:2915} INFO - Setting next_dagrun for 4_jinja_airflowmacros to 2023-02-01T00:00:00+00:00, run_after=2023-02-02T00:00:00+00:00
+[2023-02-01 15:52:27,174] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py took 0.693 seconds
+[2023-02-01 15:52:57,967] {processor.py:153} INFO - Started process (PID=11998) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:52:57,968] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py for tasks to queue
+[2023-02-01 15:52:57,968] {logging_mixin.py:115} INFO - [2023-02-01 15:52:57,968] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:52:58,386] {processor.py:651} INFO - DAG(s) dict_keys(['4_jinja_airflowmacros']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:52:58,406] {logging_mixin.py:115} INFO - [2023-02-01 15:52:58,406] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:52:58,422] {logging_mixin.py:115} INFO - [2023-02-01 15:52:58,422] {dag.py:2915} INFO - Setting next_dagrun for 4_jinja_airflowmacros to 2023-02-01T00:00:00+00:00, run_after=2023-02-02T00:00:00+00:00
+[2023-02-01 15:52:58,462] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py took 0.497 seconds
+[2023-02-01 15:53:29,793] {processor.py:153} INFO - Started process (PID=12018) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:53:29,794] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py for tasks to queue
+[2023-02-01 15:53:29,795] {logging_mixin.py:115} INFO - [2023-02-01 15:53:29,795] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:53:30,288] {processor.py:651} INFO - DAG(s) dict_keys(['4_jinja_airflowmacros']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:53:30,310] {logging_mixin.py:115} INFO - [2023-02-01 15:53:30,310] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:53:30,329] {logging_mixin.py:115} INFO - [2023-02-01 15:53:30,329] {dag.py:2915} INFO - Setting next_dagrun for 4_jinja_airflowmacros to 2023-02-01T00:00:00+00:00, run_after=2023-02-02T00:00:00+00:00
+[2023-02-01 15:53:30,373] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py took 0.581 seconds
+[2023-02-01 15:54:00,794] {processor.py:153} INFO - Started process (PID=12038) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:54:00,794] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py for tasks to queue
+[2023-02-01 15:54:00,795] {logging_mixin.py:115} INFO - [2023-02-01 15:54:00,795] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:54:01,299] {processor.py:651} INFO - DAG(s) dict_keys(['4_jinja_airflowmacros']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:54:01,320] {logging_mixin.py:115} INFO - [2023-02-01 15:54:01,320] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:54:01,340] {logging_mixin.py:115} INFO - [2023-02-01 15:54:01,340] {dag.py:2915} INFO - Setting next_dagrun for 4_jinja_airflowmacros to 2023-02-01T00:00:00+00:00, run_after=2023-02-02T00:00:00+00:00
+[2023-02-01 15:54:01,399] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py took 0.607 seconds
+[2023-02-01 15:54:32,589] {processor.py:153} INFO - Started process (PID=12058) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:54:32,590] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py for tasks to queue
+[2023-02-01 15:54:32,590] {logging_mixin.py:115} INFO - [2023-02-01 15:54:32,590] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:54:33,019] {processor.py:651} INFO - DAG(s) dict_keys(['4_jinja_airflowmacros']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py
+[2023-02-01 15:54:33,042] {logging_mixin.py:115} INFO - [2023-02-01 15:54:33,041] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:54:33,071] {logging_mixin.py:115} INFO - [2023-02-01 15:54:33,071] {dag.py:2915} INFO - Setting next_dagrun for 4_jinja_airflowmacros to 2023-02-01T00:00:00+00:00, run_after=2023-02-02T00:00:00+00:00
+[2023-02-01 15:54:33,125] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/4_jinja_airflowmacros.py took 0.538 seconds

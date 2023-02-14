@@ -1,0 +1,36 @@
+[2023-02-01 12:13:44,494] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_variables.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 12:13:44,506] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 5_variables.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 12:13:44,506] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 12:13:44,506] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-01 12:13:44,507] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 12:13:44,531] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 00:00:00+00:00
+[2023-02-01 12:13:44,535] {standard_task_runner.py:52} INFO - Started process 3703 to run task
+[2023-02-01 12:13:44,537] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '5_variables', 'cargar_datos', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '115', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/5_variables.py', '--cfg-path', '/tmp/tmpis_tqslm', '--error-file', '/tmp/tmpv03dso69']
+[2023-02-01 12:13:44,538] {standard_task_runner.py:80} INFO - Job 115: Subtask cargar_datos
+[2023-02-01 12:13:44,593] {task_command.py:369} INFO - Running <TaskInstance: 5_variables.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 12:13:44,678] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=5_variables
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 12:13:44,691] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 12:13:44,693] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-02-01 12:13:44,729] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years_variables_macros'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://airflow23_bucket/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-02-01 12:13:44,730] {bigquery.py:1542} INFO - Inserting job airflow_5_variables_cargar_datos_2023_01_31T00_00_00_00_00_1945dd9c68470ad87529d1603509ef9b
+[2023-02-01 12:13:45,872] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 440, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Uris gs://airflow23_bucket/*
+[2023-02-01 12:13:45,885] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=5_variables, task_id=cargar_datos, execution_date=20230131T000000, start_date=20230201T181344, end_date=20230201T181345
+[2023-02-01 12:13:45,913] {standard_task_runner.py:92} ERROR - Failed to execute job 115 for task cargar_datos (404 Not found: Uris gs://airflow23_bucket/*; 3703)
+[2023-02-01 12:13:45,917] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-02-01 12:13:45,989] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

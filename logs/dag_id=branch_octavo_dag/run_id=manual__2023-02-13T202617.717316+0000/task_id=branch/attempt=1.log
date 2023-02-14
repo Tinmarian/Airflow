@@ -1,0 +1,35 @@
+[2023-02-13 14:26:21,704] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: branch_octavo_dag.branch manual__2023-02-13T20:26:17.717316+00:00 [queued]>
+[2023-02-13 14:26:21,709] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: branch_octavo_dag.branch manual__2023-02-13T20:26:17.717316+00:00 [queued]>
+[2023-02-13 14:26:21,710] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 14:26:21,710] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-13 14:26:21,711] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 14:26:21,718] {taskinstance.py:1377} INFO - Executing <Task(BranchPythonOperator): branch> on 2023-02-13 20:26:17.717316+00:00
+[2023-02-13 14:26:21,720] {standard_task_runner.py:52} INFO - Started process 193368 to run task
+[2023-02-13 14:26:21,721] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'branch_octavo_dag', 'branch', 'manual__2023-02-13T20:26:17.717316+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/Apache_Airflow/branch_octavo_dag.py', '--cfg-path', '/tmp/tmpc_6rkt7m', '--error-file', '/tmp/tmpj0jph3xb']
+[2023-02-13 14:26:21,723] {standard_task_runner.py:80} INFO - Job 135: Subtask branch
+[2023-02-13 14:26:21,761] {task_command.py:369} INFO - Running <TaskInstance: branch_octavo_dag.branch manual__2023-02-13T20:26:17.717316+00:00 [running]> on host Tinmar.
+[2023-02-13 14:26:21,806] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=branch_octavo_dag
+AIRFLOW_CTX_TASK_ID=branch
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-13T20:26:17.717316+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-13T20:26:17.717316+00:00
+[2023-02-13 14:26:21,816] {logging_mixin.py:115} INFO - [{"status":"success","min":0,"max":100,"random":86}]
+[2023-02-13 14:26:21,817] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 207, in execute
+    branch = super().execute(context)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/c/Airflow/dags/Apache_Airflow/branch_octavo_dag.py", line 19, in branching
+    response_list = ast.literaleval(api_response)
+NameError: name 'ast' is not defined
+[2023-02-13 14:26:21,831] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=branch_octavo_dag, task_id=branch, execution_date=20230213T202617, start_date=20230213T202621, end_date=20230213T202621
+[2023-02-13 14:26:21,838] {standard_task_runner.py:92} ERROR - Failed to execute job 135 for task branch (name 'ast' is not defined; 193368)
+[2023-02-13 14:26:21,856] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-02-13 14:26:21,892] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

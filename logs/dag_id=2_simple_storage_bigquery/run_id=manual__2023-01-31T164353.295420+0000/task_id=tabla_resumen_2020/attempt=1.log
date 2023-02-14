@@ -1,0 +1,31 @@
+[2023-01-31 10:44:05,282] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.tabla_resumen_2020 manual__2023-01-31T16:43:53.295420+00:00 [queued]>
+[2023-01-31 10:44:05,293] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.tabla_resumen_2020 manual__2023-01-31T16:43:53.295420+00:00 [queued]>
+[2023-01-31 10:44:05,294] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:44:05,296] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 10:44:05,296] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:44:05,325] {taskinstance.py:1377} INFO - Executing <Task(BigQueryExecuteQueryOperator): tabla_resumen_2020> on 2023-01-31 16:43:53.295420+00:00
+[2023-01-31 10:44:05,328] {standard_task_runner.py:52} INFO - Started process 1564 to run task
+[2023-01-31 10:44:05,330] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2_simple_storage_bigquery', 'tabla_resumen_2020', 'manual__2023-01-31T16:43:53.295420+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/2_simple_storage_bigquery.py', '--cfg-path', '/tmp/tmpfvgqumyf', '--error-file', '/tmp/tmpywzolahj']
+[2023-01-31 10:44:05,330] {standard_task_runner.py:80} INFO - Job 36: Subtask tabla_resumen_2020
+[2023-01-31 10:44:05,385] {task_command.py:369} INFO - Running <TaskInstance: 2_simple_storage_bigquery.tabla_resumen_2020 manual__2023-01-31T16:43:53.295420+00:00 [running]> on host Tinmar.
+[2023-01-31 10:44:05,468] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2_simple_storage_bigquery
+AIRFLOW_CTX_TASK_ID=tabla_resumen_2020
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T16:43:53.295420+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T16:43:53.295420+00:00
+[2023-01-31 10:44:05,468] {bigquery.py:1077} INFO - Executing: 
+        SELECT `year`, `area`, ROUND(AVG(`total_inc`), 4) AS avg_income
+        FROM `serene-gradient-371719.airflow_trabajo.retail_years` WHERE `year`=2020
+        GROUP BY `year`,`area`
+        ORDER BY `avg_income` ASC
+        
+[2023-01-31 10:44:05,478] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 10:44:05,481] {logging_mixin.py:115} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/bigquery.py:2050 DeprecationWarning: This method is deprecated. Please use `BigQueryHook.insert_job` method.
+[2023-01-31 10:44:05,518] {bigquery.py:1542} INFO - Inserting job airflow_1675183445517903_f995af1bffde88282c42a8d36f6c7478
+[2023-01-31 10:44:07,814] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=2_simple_storage_bigquery, task_id=tabla_resumen_2020, execution_date=20230131T164353, start_date=20230131T164405, end_date=20230131T164407
+[2023-01-31 10:44:07,856] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-31 10:44:07,887] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

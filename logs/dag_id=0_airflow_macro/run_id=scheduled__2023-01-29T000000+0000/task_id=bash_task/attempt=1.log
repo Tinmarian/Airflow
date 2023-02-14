@@ -1,0 +1,28 @@
+[2023-01-30 15:48:34,699] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 0_airflow_macro.bash_task scheduled__2023-01-29T00:00:00+00:00 [queued]>
+[2023-01-30 15:48:34,710] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 0_airflow_macro.bash_task scheduled__2023-01-29T00:00:00+00:00 [queued]>
+[2023-01-30 15:48:34,710] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-30 15:48:34,710] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-30 15:48:34,712] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-30 15:48:34,735] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): bash_task> on 2023-01-29 00:00:00+00:00
+[2023-01-30 15:48:34,739] {standard_task_runner.py:52} INFO - Started process 7998 to run task
+[2023-01-30 15:48:34,740] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '0_airflow_macro', 'bash_task', 'scheduled__2023-01-29T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/0_airflow_macro.py', '--cfg-path', '/tmp/tmp11nvztex', '--error-file', '/tmp/tmpx71te6rq']
+[2023-01-30 15:48:34,741] {standard_task_runner.py:80} INFO - Job 8: Subtask bash_task
+[2023-01-30 15:48:34,794] {task_command.py:369} INFO - Running <TaskInstance: 0_airflow_macro.bash_task scheduled__2023-01-29T00:00:00+00:00 [running]> on host Tinmar.
+[2023-01-30 15:48:34,880] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=0_airflow_macro
+AIRFLOW_CTX_TASK_ID=bash_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-29T00:00:00+00:00
+[2023-01-30 15:48:34,881] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-01-30 15:48:34,882] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "---> Mi primer DAG CON MACROS en Apache Airflow!, Fecha: $TODAY y TIMESTAMP ES: 20230129T000000+0000"']
+[2023-01-30 15:48:34,884] {subprocess.py:85} INFO - Output:
+[2023-01-30 15:48:34,885] {subprocess.py:92} INFO - ---> Mi primer DAG CON MACROS en Apache Airflow!, Fecha: 2023-01-30 y TIMESTAMP ES: 20230129T000000+0000
+[2023-01-30 15:48:34,885] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-01-30 15:48:34,922] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=0_airflow_macro, task_id=bash_task, execution_date=20230129T000000, start_date=20230130T214834, end_date=20230130T214834
+[2023-01-30 15:48:34,953] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-30 15:48:34,995] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

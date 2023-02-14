@@ -1,0 +1,135 @@
+[2023-02-01 17:49:39,385] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.impar_task scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 17:49:39,400] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.impar_task scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 17:49:39,401] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 17:49:39,401] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-01 17:49:39,401] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 17:49:39,430] {taskinstance.py:1377} INFO - Executing <Task(DataprocSubmitJobOperator): impar_task> on 2023-01-31 00:00:00+00:00
+[2023-02-01 17:49:39,432] {standard_task_runner.py:52} INFO - Started process 13881 to run task
+[2023-02-01 17:49:39,434] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '6_dataproc_airflow', 'impar_task', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_airflow.py', '--cfg-path', '/tmp/tmpm8fjcxvs', '--error-file', '/tmp/tmp5tpspewo']
+[2023-02-01 17:49:39,435] {standard_task_runner.py:80} INFO - Job 134: Subtask impar_task
+[2023-02-01 17:49:39,494] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.impar_task scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 17:49:39,603] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_airflow
+AIRFLOW_CTX_TASK_ID=impar_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 17:49:39,604] {dataproc.py:1866} INFO - Submitting job
+[2023-02-01 17:49:39,618] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 17:49:40,136] {dataproc.py:1878} INFO - Job IMPARTASK_dfa22fbf submitted successfully.
+[2023-02-01 17:49:40,173] {dataproc.py:1898} INFO - Waiting for job IMPARTASK_dfa22fbf to complete
+[2023-02-01 17:50:11,479] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 1899, in execute
+    self.hook.wait_for_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 713, in wait_for_job
+    raise AirflowException(f"Job failed:\n{job}")
+airflow.exceptions.AirflowException: Job failed:
+reference {
+  project_id: "serene-gradient-371719"
+  job_id: "IMPARTASK_dfa22fbf"
+}
+placement {
+  cluster_name: "airflow-spark-cluster"
+  cluster_uuid: "cec59d66-eb5c-41ff-89bf-7946efb1556b"
+}
+pyspark_job {
+  main_python_file_uri: "gs://airflow_spark_bucket/pyspark/impar_task/vars_stdp.py"
+  jar_file_uris: "gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar"
+}
+status {
+  state: ERROR
+  details: "File not found: gs://airflow_spark_bucket/pyspark/impar_task/vars_stdp.py"
+  state_start_time {
+    seconds: 1675295375
+    nanos: 496966000
+  }
+}
+status_history {
+  state: PENDING
+  state_start_time {
+    seconds: 1675295349
+    nanos: 32643000
+  }
+}
+status_history {
+  state: SETUP_DONE
+  state_start_time {
+    seconds: 1675295349
+    nanos: 65282000
+  }
+}
+status_history {
+  state: RUNNING
+  state_start_time {
+    seconds: 1675295349
+    nanos: 437204000
+  }
+}
+driver_control_files_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/cec59d66-eb5c-41ff-89bf-7946efb1556b/jobs/IMPARTASK_dfa22fbf/"
+driver_output_resource_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/cec59d66-eb5c-41ff-89bf-7946efb1556b/jobs/IMPARTASK_dfa22fbf/driveroutput"
+labels {
+  key: "airflow-version"
+  value: "v2-3-0"
+}
+job_uuid: "ce7cf7ab-63ad-4b0a-96c6-99c50e19f492"
+done: true
+
+[2023-02-01 17:50:11,485] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=6_dataproc_airflow, task_id=impar_task, execution_date=20230131T000000, start_date=20230201T234939, end_date=20230201T235011
+[2023-02-01 17:50:11,513] {standard_task_runner.py:92} ERROR - Failed to execute job 134 for task impar_task (Job failed:
+reference {
+  project_id: "serene-gradient-371719"
+  job_id: "IMPARTASK_dfa22fbf"
+}
+placement {
+  cluster_name: "airflow-spark-cluster"
+  cluster_uuid: "cec59d66-eb5c-41ff-89bf-7946efb1556b"
+}
+pyspark_job {
+  main_python_file_uri: "gs://airflow_spark_bucket/pyspark/impar_task/vars_stdp.py"
+  jar_file_uris: "gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar"
+}
+status {
+  state: ERROR
+  details: "File not found: gs://airflow_spark_bucket/pyspark/impar_task/vars_stdp.py"
+  state_start_time {
+    seconds: 1675295375
+    nanos: 496966000
+  }
+}
+status_history {
+  state: PENDING
+  state_start_time {
+    seconds: 1675295349
+    nanos: 32643000
+  }
+}
+status_history {
+  state: SETUP_DONE
+  state_start_time {
+    seconds: 1675295349
+    nanos: 65282000
+  }
+}
+status_history {
+  state: RUNNING
+  state_start_time {
+    seconds: 1675295349
+    nanos: 437204000
+  }
+}
+driver_control_files_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/cec59d66-eb5c-41ff-89bf-7946efb1556b/jobs/IMPARTASK_dfa22fbf/"
+driver_output_resource_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/cec59d66-eb5c-41ff-89bf-7946efb1556b/jobs/IMPARTASK_dfa22fbf/driveroutput"
+labels {
+  key: "airflow-version"
+  value: "v2-3-0"
+}
+job_uuid: "ce7cf7ab-63ad-4b0a-96c6-99c50e19f492"
+done: true
+; 13881)
+[2023-02-01 17:50:11,517] {local_task_job.py:156} INFO - Task exited with return code 1

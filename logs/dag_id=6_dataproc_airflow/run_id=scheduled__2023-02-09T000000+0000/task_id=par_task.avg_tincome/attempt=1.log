@@ -1,0 +1,26 @@
+[2023-02-11 09:59:52,689] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome scheduled__2023-02-09T00:00:00+00:00 [queued]>
+[2023-02-11 09:59:52,700] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome scheduled__2023-02-09T00:00:00+00:00 [queued]>
+[2023-02-11 09:59:52,701] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-11 09:59:52,702] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-11 09:59:52,702] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-11 09:59:52,715] {taskinstance.py:1377} INFO - Executing <Task(DataprocSubmitJobOperator): par_task.avg_tincome> on 2023-02-09 00:00:00+00:00
+[2023-02-11 09:59:52,720] {standard_task_runner.py:52} INFO - Started process 169306 to run task
+[2023-02-11 09:59:52,723] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '6_dataproc_***', 'par_task.avg_tincome', 'scheduled__2023-02-09T00:00:00+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_***.py', '--cfg-path', '/tmp/tmp_msd8p32', '--error-file', '/tmp/tmpix9ky66p']
+[2023-02-11 09:59:52,725] {standard_task_runner.py:80} INFO - Job 61: Subtask par_task.avg_tincome
+[2023-02-11 09:59:52,795] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome scheduled__2023-02-09T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-11 09:59:52,864] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_***
+AIRFLOW_CTX_TASK_ID=par_task.avg_tincome
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-09T00:00:00+00:00
+[2023-02-11 09:59:52,866] {dataproc.py:1866} INFO - Submitting job
+[2023-02-11 09:59:52,880] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-11 11:07:28,496] {local_task_job.py:220} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-02-11 11:07:28,512] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 169306. PIDs of all processes in the group: [169306]
+[2023-02-11 11:07:28,514] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 169306
+[2023-02-11 11:07:28,726] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-02-11 11:07:28,819] {process_utils.py:75} INFO - Process psutil.Process(pid=169306, status='terminated', exitcode=0, started='09:59:52') (169306) terminated with exit code 0

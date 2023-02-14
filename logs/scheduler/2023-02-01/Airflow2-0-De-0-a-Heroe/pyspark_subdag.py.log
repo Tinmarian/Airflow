@@ -1,0 +1,30 @@
+[2023-02-01 15:52:07,765] {processor.py:153} INFO - Started process (PID=11973) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:52:07,766] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py for tasks to queue
+[2023-02-01 15:52:07,767] {logging_mixin.py:115} INFO - [2023-02-01 15:52:07,767] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:52:07,947] {processor.py:653} WARNING - No viable dags retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:52:07,972] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py took 0.209 seconds
+[2023-02-01 15:52:40,183] {processor.py:153} INFO - Started process (PID=11993) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:52:40,184] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py for tasks to queue
+[2023-02-01 15:52:40,185] {logging_mixin.py:115} INFO - [2023-02-01 15:52:40,184] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:52:41,491] {processor.py:653} WARNING - No viable dags retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:52:41,538] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py took 1.356 seconds
+[2023-02-01 15:53:12,063] {processor.py:153} INFO - Started process (PID=12013) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:53:12,063] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py for tasks to queue
+[2023-02-01 15:53:12,064] {logging_mixin.py:115} INFO - [2023-02-01 15:53:12,064] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:53:12,223] {processor.py:653} WARNING - No viable dags retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:53:12,243] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py took 0.182 seconds
+[2023-02-01 15:53:45,563] {processor.py:153} INFO - Started process (PID=12033) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:53:45,564] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py for tasks to queue
+[2023-02-01 15:53:45,565] {logging_mixin.py:115} INFO - [2023-02-01 15:53:45,565] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:53:45,821] {processor.py:653} WARNING - No viable dags retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:53:45,863] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py took 0.302 seconds
+[2023-02-01 15:54:16,581] {processor.py:153} INFO - Started process (PID=12053) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:54:16,582] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py for tasks to queue
+[2023-02-01 15:54:16,583] {logging_mixin.py:115} INFO - [2023-02-01 15:54:16,583] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:54:16,759] {processor.py:653} WARNING - No viable dags retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:54:16,784] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py took 0.205 seconds
+[2023-02-01 15:54:47,879] {processor.py:153} INFO - Started process (PID=12073) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:54:47,880] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py for tasks to queue
+[2023-02-01 15:54:47,880] {logging_mixin.py:115} INFO - [2023-02-01 15:54:47,880] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:54:48,088] {processor.py:653} WARNING - No viable dags retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py
+[2023-02-01 15:54:48,111] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/pyspark_subdag.py took 0.234 seconds

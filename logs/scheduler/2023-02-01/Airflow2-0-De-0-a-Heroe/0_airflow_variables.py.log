@@ -1,0 +1,42 @@
+[2023-02-01 15:51:56,750] {processor.py:153} INFO - Started process (PID=11960) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:51:56,751] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py for tasks to queue
+[2023-02-01 15:51:56,751] {logging_mixin.py:115} INFO - [2023-02-01 15:51:56,751] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:51:56,805] {processor.py:651} INFO - DAG(s) dict_keys(['0_airflow_variables']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:51:56,851] {logging_mixin.py:115} INFO - [2023-02-01 15:51:56,851] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:51:56,867] {logging_mixin.py:115} INFO - [2023-02-01 15:51:56,867] {dag.py:2915} INFO - Setting next_dagrun for 0_airflow_variables to 2023-02-01T12:30:00+00:00, run_after=2023-02-02T12:30:00+00:00
+[2023-02-01 15:51:56,921] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py took 0.173 seconds
+[2023-02-01 15:52:27,625] {processor.py:153} INFO - Started process (PID=11980) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:52:27,626] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py for tasks to queue
+[2023-02-01 15:52:27,626] {logging_mixin.py:115} INFO - [2023-02-01 15:52:27,626] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:52:27,668] {processor.py:651} INFO - DAG(s) dict_keys(['0_airflow_variables']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:52:27,686] {logging_mixin.py:115} INFO - [2023-02-01 15:52:27,686] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:52:27,703] {logging_mixin.py:115} INFO - [2023-02-01 15:52:27,703] {dag.py:2915} INFO - Setting next_dagrun for 0_airflow_variables to 2023-02-01T12:30:00+00:00, run_after=2023-02-02T12:30:00+00:00
+[2023-02-01 15:52:27,745] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py took 0.121 seconds
+[2023-02-01 15:52:59,677] {processor.py:153} INFO - Started process (PID=12000) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:52:59,679] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py for tasks to queue
+[2023-02-01 15:52:59,680] {logging_mixin.py:115} INFO - [2023-02-01 15:52:59,680] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:52:59,740] {processor.py:651} INFO - DAG(s) dict_keys(['0_airflow_variables']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:52:59,759] {logging_mixin.py:115} INFO - [2023-02-01 15:52:59,759] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:52:59,777] {logging_mixin.py:115} INFO - [2023-02-01 15:52:59,777] {dag.py:2915} INFO - Setting next_dagrun for 0_airflow_variables to 2023-02-01T12:30:00+00:00, run_after=2023-02-02T12:30:00+00:00
+[2023-02-01 15:52:59,819] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py took 0.144 seconds
+[2023-02-01 15:53:31,622] {processor.py:153} INFO - Started process (PID=12020) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:53:31,625] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py for tasks to queue
+[2023-02-01 15:53:31,625] {logging_mixin.py:115} INFO - [2023-02-01 15:53:31,625] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:53:31,674] {processor.py:651} INFO - DAG(s) dict_keys(['0_airflow_variables']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:53:31,698] {logging_mixin.py:115} INFO - [2023-02-01 15:53:31,698] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:53:31,717] {logging_mixin.py:115} INFO - [2023-02-01 15:53:31,717] {dag.py:2915} INFO - Setting next_dagrun for 0_airflow_variables to 2023-02-01T12:30:00+00:00, run_after=2023-02-02T12:30:00+00:00
+[2023-02-01 15:53:31,767] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py took 0.146 seconds
+[2023-02-01 15:54:02,608] {processor.py:153} INFO - Started process (PID=12040) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:54:02,609] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py for tasks to queue
+[2023-02-01 15:54:02,609] {logging_mixin.py:115} INFO - [2023-02-01 15:54:02,609] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:54:02,651] {processor.py:651} INFO - DAG(s) dict_keys(['0_airflow_variables']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:54:02,669] {logging_mixin.py:115} INFO - [2023-02-01 15:54:02,669] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:54:02,687] {logging_mixin.py:115} INFO - [2023-02-01 15:54:02,687] {dag.py:2915} INFO - Setting next_dagrun for 0_airflow_variables to 2023-02-01T12:30:00+00:00, run_after=2023-02-02T12:30:00+00:00
+[2023-02-01 15:54:02,730] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py took 0.124 seconds
+[2023-02-01 15:54:34,392] {processor.py:153} INFO - Started process (PID=12060) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:54:34,393] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py for tasks to queue
+[2023-02-01 15:54:34,394] {logging_mixin.py:115} INFO - [2023-02-01 15:54:34,394] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:54:34,436] {processor.py:651} INFO - DAG(s) dict_keys(['0_airflow_variables']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py
+[2023-02-01 15:54:34,459] {logging_mixin.py:115} INFO - [2023-02-01 15:54:34,459] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:54:34,482] {logging_mixin.py:115} INFO - [2023-02-01 15:54:34,482] {dag.py:2915} INFO - Setting next_dagrun for 0_airflow_variables to 2023-02-01T12:30:00+00:00, run_after=2023-02-02T12:30:00+00:00
+[2023-02-01 15:54:34,530] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/0_airflow_variables.py took 0.139 seconds

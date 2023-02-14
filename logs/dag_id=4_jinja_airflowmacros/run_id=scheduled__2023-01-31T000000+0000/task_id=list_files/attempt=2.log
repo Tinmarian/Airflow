@@ -1,0 +1,24 @@
+[2023-02-01 11:47:42,499] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.list_files scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 11:47:42,512] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.list_files scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 11:47:42,512] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:47:42,513] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-02-01 11:47:42,514] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:47:42,548] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): list_files> on 2023-01-31 00:00:00+00:00
+[2023-02-01 11:47:42,550] {standard_task_runner.py:52} INFO - Started process 2520 to run task
+[2023-02-01 11:47:42,552] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '4_jinja_airflowmacros', 'list_files', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/4_jinja_airflowmacros.py', '--cfg-path', '/tmp/tmp3t_gsmqv', '--error-file', '/tmp/tmpufaf_1ft']
+[2023-02-01 11:47:42,553] {standard_task_runner.py:80} INFO - Job 104: Subtask list_files
+[2023-02-01 11:47:42,635] {task_command.py:369} INFO - Running <TaskInstance: 4_jinja_airflowmacros.list_files scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 11:47:42,716] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=4_jinja_airflowmacros
+AIRFLOW_CTX_TASK_ID=list_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 11:47:42,728] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 11:47:43,264] {python.py:173} INFO - Done. Returned value was: []
+[2023-02-01 11:47:43,331] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=4_jinja_airflowmacros, task_id=list_files, execution_date=20230131T000000, start_date=20230201T174742, end_date=20230201T174743
+[2023-02-01 11:47:43,370] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-01 11:47:43,430] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,38 @@
+[2023-02-01 11:49:39,123] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.tabla_resumen scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 11:49:39,140] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.tabla_resumen scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 11:49:39,141] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:49:39,142] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-02-01 11:49:39,142] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:49:39,191] {taskinstance.py:1377} INFO - Executing <Task(BigQueryExecuteQueryOperator): tabla_resumen> on 2023-01-31 00:00:00+00:00
+[2023-02-01 11:49:39,196] {standard_task_runner.py:52} INFO - Started process 2663 to run task
+[2023-02-01 11:49:39,198] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '4_jinja_airflowmacros', 'tabla_resumen', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/4_jinja_airflowmacros.py', '--cfg-path', '/tmp/tmpkjh_p2kj', '--error-file', '/tmp/tmpv0c1w8fw']
+[2023-02-01 11:49:39,199] {standard_task_runner.py:80} INFO - Job 108: Subtask tabla_resumen
+[2023-02-01 11:49:39,283] {task_command.py:369} INFO - Running <TaskInstance: 4_jinja_airflowmacros.tabla_resumen scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 11:49:39,381] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=4_jinja_airflowmacros
+AIRFLOW_CTX_TASK_ID=tabla_resumen
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 11:49:39,382] {bigquery.py:1077} INFO - Executing: 
+        SELECT
+            `year`,
+            `area`,
+            ROUND(AVG(`total_inc`), 4) AS avg_income
+        FROM
+            `serene-gradient-371719.airflow_trabajo.retail_years_jinja_macros`
+        GROUP BY
+            `year`,
+            `area`
+        ORDER BY
+            `area` ASC
+        
+[2023-02-01 11:49:39,394] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 11:49:39,398] {logging_mixin.py:115} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/bigquery.py:2050 DeprecationWarning: This method is deprecated. Please use `BigQueryHook.insert_job` method.
+[2023-02-01 11:49:39,437] {bigquery.py:1542} INFO - Inserting job airflow_1675273779436956_cec0bd099431d21558abbac77e21e5c4
+[2023-02-01 11:49:41,997] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=4_jinja_airflowmacros, task_id=tabla_resumen, execution_date=20230131T000000, start_date=20230201T174939, end_date=20230201T174941
+[2023-02-01 11:49:42,039] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-01 11:49:42,106] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

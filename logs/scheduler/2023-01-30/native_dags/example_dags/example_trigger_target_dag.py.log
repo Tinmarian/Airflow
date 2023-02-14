@@ -1,0 +1,914 @@
+[2023-01-30 13:45:20,297] {processor.py:153} INFO - Started process (PID=3014) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:45:20,298] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:45:20,298] {logging_mixin.py:115} INFO - [2023-01-30 13:45:20,298] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:45:20,311] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:45:20,397] {logging_mixin.py:115} INFO - [2023-01-30 13:45:20,397] {manager.py:508} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2023-01-30 13:45:20,433] {logging_mixin.py:115} INFO - [2023-01-30 13:45:20,433] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2023-01-30 13:45:20,470] {logging_mixin.py:115} INFO - [2023-01-30 13:45:20,470] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2023-01-30 13:45:20,470] {logging_mixin.py:115} INFO - [2023-01-30 13:45:20,470] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:45:20,551] {logging_mixin.py:115} INFO - [2023-01-30 13:45:20,551] {dag.py:2390} INFO - Creating ORM DAG for example_trigger_target_dag
+[2023-01-30 13:45:20,559] {logging_mixin.py:115} INFO - [2023-01-30 13:45:20,559] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:45:20,602] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.307 seconds
+[2023-01-30 13:45:56,442] {processor.py:153} INFO - Started process (PID=3048) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:45:56,442] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:45:56,443] {logging_mixin.py:115} INFO - [2023-01-30 13:45:56,443] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:45:56,451] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:45:56,468] {logging_mixin.py:115} INFO - [2023-01-30 13:45:56,468] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:45:56,482] {logging_mixin.py:115} INFO - [2023-01-30 13:45:56,482] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:45:56,515] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.075 seconds
+[2023-01-30 13:50:15,351] {processor.py:153} INFO - Started process (PID=3276) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:50:15,352] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:50:15,352] {logging_mixin.py:115} INFO - [2023-01-30 13:50:15,352] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:50:15,361] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:50:15,378] {logging_mixin.py:115} INFO - [2023-01-30 13:50:15,378] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:50:15,391] {logging_mixin.py:115} INFO - [2023-01-30 13:50:15,391] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:50:15,421] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.071 seconds
+[2023-01-30 13:50:53,192] {processor.py:153} INFO - Started process (PID=3310) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:50:53,192] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:50:53,193] {logging_mixin.py:115} INFO - [2023-01-30 13:50:53,193] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:50:53,201] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:50:53,222] {logging_mixin.py:115} INFO - [2023-01-30 13:50:53,222] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:50:53,236] {logging_mixin.py:115} INFO - [2023-01-30 13:50:53,236] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:50:53,276] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2023-01-30 13:51:31,710] {processor.py:153} INFO - Started process (PID=3346) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:51:31,711] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:51:31,711] {logging_mixin.py:115} INFO - [2023-01-30 13:51:31,711] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:51:31,720] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:51:31,743] {logging_mixin.py:115} INFO - [2023-01-30 13:51:31,743] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:51:31,759] {logging_mixin.py:115} INFO - [2023-01-30 13:51:31,759] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:51:31,798] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2023-01-30 13:52:14,266] {processor.py:153} INFO - Started process (PID=3384) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:52:14,267] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:52:14,269] {logging_mixin.py:115} INFO - [2023-01-30 13:52:14,269] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:52:14,277] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:52:14,304] {logging_mixin.py:115} INFO - [2023-01-30 13:52:14,304] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:52:14,322] {logging_mixin.py:115} INFO - [2023-01-30 13:52:14,322] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:52:14,360] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds
+[2023-01-30 13:52:52,578] {processor.py:153} INFO - Started process (PID=3420) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:52:52,578] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:52:52,579] {logging_mixin.py:115} INFO - [2023-01-30 13:52:52,579] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:52:52,587] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:52:52,607] {logging_mixin.py:115} INFO - [2023-01-30 13:52:52,607] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:52:52,620] {logging_mixin.py:115} INFO - [2023-01-30 13:52:52,620] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:52:52,660] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.084 seconds
+[2023-01-30 13:53:34,569] {processor.py:153} INFO - Started process (PID=3457) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:53:34,570] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:53:34,571] {logging_mixin.py:115} INFO - [2023-01-30 13:53:34,571] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:53:34,579] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:53:34,599] {logging_mixin.py:115} INFO - [2023-01-30 13:53:34,599] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:53:34,613] {logging_mixin.py:115} INFO - [2023-01-30 13:53:34,613] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:53:34,653] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2023-01-30 13:54:13,672] {processor.py:153} INFO - Started process (PID=3491) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:54:13,673] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:54:13,673] {logging_mixin.py:115} INFO - [2023-01-30 13:54:13,673] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:54:13,682] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:54:13,716] {logging_mixin.py:115} INFO - [2023-01-30 13:54:13,716] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:54:13,733] {logging_mixin.py:115} INFO - [2023-01-30 13:54:13,733] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:54:13,773] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.103 seconds
+[2023-01-30 13:54:58,234] {processor.py:153} INFO - Started process (PID=3530) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:54:58,235] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:54:58,236] {logging_mixin.py:115} INFO - [2023-01-30 13:54:58,236] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:54:58,244] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:54:58,267] {logging_mixin.py:115} INFO - [2023-01-30 13:54:58,267] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:54:58,282] {logging_mixin.py:115} INFO - [2023-01-30 13:54:58,282] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:54:58,331] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.098 seconds
+[2023-01-30 13:55:54,163] {processor.py:153} INFO - Started process (PID=3584) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:55:54,163] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:55:54,164] {logging_mixin.py:115} INFO - [2023-01-30 13:55:54,164] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:55:54,174] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:55:54,192] {logging_mixin.py:115} INFO - [2023-01-30 13:55:54,192] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:55:54,207] {logging_mixin.py:115} INFO - [2023-01-30 13:55:54,207] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:55:54,243] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2023-01-30 13:56:44,111] {processor.py:153} INFO - Started process (PID=3635) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:56:44,112] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:56:44,113] {logging_mixin.py:115} INFO - [2023-01-30 13:56:44,112] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:56:44,120] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:56:44,137] {logging_mixin.py:115} INFO - [2023-01-30 13:56:44,137] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:56:44,151] {logging_mixin.py:115} INFO - [2023-01-30 13:56:44,151] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:56:44,186] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2023-01-30 13:57:32,859] {processor.py:153} INFO - Started process (PID=3684) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:57:32,860] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:57:32,861] {logging_mixin.py:115} INFO - [2023-01-30 13:57:32,861] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:57:32,869] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:57:32,887] {logging_mixin.py:115} INFO - [2023-01-30 13:57:32,887] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:57:32,900] {logging_mixin.py:115} INFO - [2023-01-30 13:57:32,900] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:57:32,936] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.078 seconds
+[2023-01-30 13:58:21,426] {processor.py:153} INFO - Started process (PID=3732) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:58:21,427] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:58:21,427] {logging_mixin.py:115} INFO - [2023-01-30 13:58:21,427] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:58:21,436] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:58:21,454] {logging_mixin.py:115} INFO - [2023-01-30 13:58:21,454] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:58:21,471] {logging_mixin.py:115} INFO - [2023-01-30 13:58:21,471] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:58:21,514] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2023-01-30 13:59:14,682] {processor.py:153} INFO - Started process (PID=3784) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:59:14,683] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 13:59:14,683] {logging_mixin.py:115} INFO - [2023-01-30 13:59:14,683] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:59:14,692] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 13:59:14,716] {logging_mixin.py:115} INFO - [2023-01-30 13:59:14,716] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 13:59:14,730] {logging_mixin.py:115} INFO - [2023-01-30 13:59:14,730] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 13:59:14,774] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.094 seconds
+[2023-01-30 14:00:12,981] {processor.py:153} INFO - Started process (PID=3838) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:00:12,982] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:00:12,983] {logging_mixin.py:115} INFO - [2023-01-30 14:00:12,983] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:00:12,991] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:00:13,009] {logging_mixin.py:115} INFO - [2023-01-30 14:00:13,009] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:00:13,023] {logging_mixin.py:115} INFO - [2023-01-30 14:00:13,023] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:00:13,063] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.083 seconds
+[2023-01-30 14:01:07,846] {processor.py:153} INFO - Started process (PID=3891) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:01:07,847] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:01:07,847] {logging_mixin.py:115} INFO - [2023-01-30 14:01:07,847] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:01:07,855] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:01:07,874] {logging_mixin.py:115} INFO - [2023-01-30 14:01:07,874] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:01:07,887] {logging_mixin.py:115} INFO - [2023-01-30 14:01:07,887] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:01:07,933] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.089 seconds
+[2023-01-30 14:02:02,021] {processor.py:153} INFO - Started process (PID=3945) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:02:02,022] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:02:02,023] {logging_mixin.py:115} INFO - [2023-01-30 14:02:02,023] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:02:02,031] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:02:02,050] {logging_mixin.py:115} INFO - [2023-01-30 14:02:02,050] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:02:02,064] {logging_mixin.py:115} INFO - [2023-01-30 14:02:02,064] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:02:02,103] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.083 seconds
+[2023-01-30 14:03:13,508] {processor.py:153} INFO - Started process (PID=4019) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:03:13,509] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:03:13,510] {logging_mixin.py:115} INFO - [2023-01-30 14:03:13,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:03:13,519] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:03:13,535] {logging_mixin.py:115} INFO - [2023-01-30 14:03:13,535] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:03:13,549] {logging_mixin.py:115} INFO - [2023-01-30 14:03:13,549] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:03:13,590] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.084 seconds
+[2023-01-30 14:04:28,138] {processor.py:153} INFO - Started process (PID=4093) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:04:28,139] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:04:28,139] {logging_mixin.py:115} INFO - [2023-01-30 14:04:28,139] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:04:28,148] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:04:28,165] {logging_mixin.py:115} INFO - [2023-01-30 14:04:28,165] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:04:28,179] {logging_mixin.py:115} INFO - [2023-01-30 14:04:28,179] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:04:28,221] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2023-01-30 14:05:36,439] {processor.py:153} INFO - Started process (PID=4165) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:05:36,440] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:05:36,441] {logging_mixin.py:115} INFO - [2023-01-30 14:05:36,441] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:05:36,451] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:05:36,472] {logging_mixin.py:115} INFO - [2023-01-30 14:05:36,472] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:05:36,490] {logging_mixin.py:115} INFO - [2023-01-30 14:05:36,490] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:05:36,530] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.093 seconds
+[2023-01-30 14:06:51,178] {processor.py:153} INFO - Started process (PID=4239) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:06:51,178] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:06:51,179] {logging_mixin.py:115} INFO - [2023-01-30 14:06:51,179] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:06:51,187] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:06:51,205] {logging_mixin.py:115} INFO - [2023-01-30 14:06:51,205] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:06:51,220] {logging_mixin.py:115} INFO - [2023-01-30 14:06:51,220] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:06:51,256] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.080 seconds
+[2023-01-30 14:08:00,410] {processor.py:153} INFO - Started process (PID=4312) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:08:00,411] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:08:00,411] {logging_mixin.py:115} INFO - [2023-01-30 14:08:00,411] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:08:00,420] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:08:00,447] {logging_mixin.py:115} INFO - [2023-01-30 14:08:00,447] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:08:00,464] {logging_mixin.py:115} INFO - [2023-01-30 14:08:00,464] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:08:00,504] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds
+[2023-01-30 14:09:11,066] {processor.py:153} INFO - Started process (PID=4383) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:09:11,067] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:09:11,067] {logging_mixin.py:115} INFO - [2023-01-30 14:09:11,067] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:09:11,076] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:09:11,092] {logging_mixin.py:115} INFO - [2023-01-30 14:09:11,092] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:09:11,110] {logging_mixin.py:115} INFO - [2023-01-30 14:09:11,110] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:09:11,146] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2023-01-30 14:10:26,271] {processor.py:153} INFO - Started process (PID=4459) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:10:26,272] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:10:26,273] {logging_mixin.py:115} INFO - [2023-01-30 14:10:26,272] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:10:26,281] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:10:26,305] {logging_mixin.py:115} INFO - [2023-01-30 14:10:26,305] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:10:26,328] {logging_mixin.py:115} INFO - [2023-01-30 14:10:26,328] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:10:26,380] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.111 seconds
+[2023-01-30 14:11:39,575] {processor.py:153} INFO - Started process (PID=4532) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:11:39,576] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:11:39,576] {logging_mixin.py:115} INFO - [2023-01-30 14:11:39,576] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:11:39,586] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:11:39,610] {logging_mixin.py:115} INFO - [2023-01-30 14:11:39,610] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:11:39,628] {logging_mixin.py:115} INFO - [2023-01-30 14:11:39,628] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:11:39,661] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.088 seconds
+[2023-01-30 14:12:48,620] {processor.py:153} INFO - Started process (PID=4602) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:12:48,621] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:12:48,621] {logging_mixin.py:115} INFO - [2023-01-30 14:12:48,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:12:48,630] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:12:48,655] {logging_mixin.py:115} INFO - [2023-01-30 14:12:48,655] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:12:48,677] {logging_mixin.py:115} INFO - [2023-01-30 14:12:48,677] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:12:48,714] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds
+[2023-01-30 14:13:56,583] {processor.py:153} INFO - Started process (PID=4671) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:13:56,583] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:13:56,584] {logging_mixin.py:115} INFO - [2023-01-30 14:13:56,584] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:13:56,592] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:13:56,616] {logging_mixin.py:115} INFO - [2023-01-30 14:13:56,615] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:13:56,633] {logging_mixin.py:115} INFO - [2023-01-30 14:13:56,633] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:13:56,669] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.088 seconds
+[2023-01-30 14:15:07,633] {processor.py:153} INFO - Started process (PID=4744) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:15:07,634] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:15:07,634] {logging_mixin.py:115} INFO - [2023-01-30 14:15:07,634] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:15:07,643] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:15:07,663] {logging_mixin.py:115} INFO - [2023-01-30 14:15:07,663] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:15:07,677] {logging_mixin.py:115} INFO - [2023-01-30 14:15:07,677] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:15:07,719] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.088 seconds
+[2023-01-30 14:16:20,465] {processor.py:153} INFO - Started process (PID=4816) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:16:20,466] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:16:20,466] {logging_mixin.py:115} INFO - [2023-01-30 14:16:20,466] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:16:20,475] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:16:20,494] {logging_mixin.py:115} INFO - [2023-01-30 14:16:20,494] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:16:20,513] {logging_mixin.py:115} INFO - [2023-01-30 14:16:20,512] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:16:20,550] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.087 seconds
+[2023-01-30 14:17:33,962] {processor.py:153} INFO - Started process (PID=4892) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:17:33,962] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:17:33,963] {logging_mixin.py:115} INFO - [2023-01-30 14:17:33,963] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:17:33,972] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:17:33,993] {logging_mixin.py:115} INFO - [2023-01-30 14:17:33,993] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:17:34,007] {logging_mixin.py:115} INFO - [2023-01-30 14:17:34,007] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:17:34,042] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2023-01-30 14:18:44,597] {processor.py:153} INFO - Started process (PID=4964) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:18:44,598] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:18:44,599] {logging_mixin.py:115} INFO - [2023-01-30 14:18:44,599] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:18:44,607] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:18:44,628] {logging_mixin.py:115} INFO - [2023-01-30 14:18:44,628] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:18:44,643] {logging_mixin.py:115} INFO - [2023-01-30 14:18:44,643] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:18:44,687] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.091 seconds
+[2023-01-30 14:19:55,563] {processor.py:153} INFO - Started process (PID=5038) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:19:55,564] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:19:55,564] {logging_mixin.py:115} INFO - [2023-01-30 14:19:55,564] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:19:55,573] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:19:55,590] {logging_mixin.py:115} INFO - [2023-01-30 14:19:55,590] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:19:55,612] {logging_mixin.py:115} INFO - [2023-01-30 14:19:55,612] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:19:55,653] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.091 seconds
+[2023-01-30 14:21:03,750] {processor.py:153} INFO - Started process (PID=5108) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:21:03,750] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:21:03,751] {logging_mixin.py:115} INFO - [2023-01-30 14:21:03,751] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:21:03,759] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:21:03,779] {logging_mixin.py:115} INFO - [2023-01-30 14:21:03,779] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:21:03,792] {logging_mixin.py:115} INFO - [2023-01-30 14:21:03,792] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:21:03,830] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2023-01-30 14:22:15,799] {processor.py:153} INFO - Started process (PID=5182) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:22:15,800] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:22:15,800] {logging_mixin.py:115} INFO - [2023-01-30 14:22:15,800] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:22:15,809] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:22:15,829] {logging_mixin.py:115} INFO - [2023-01-30 14:22:15,829] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:22:15,843] {logging_mixin.py:115} INFO - [2023-01-30 14:22:15,843] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:22:15,878] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.081 seconds
+[2023-01-30 14:23:24,923] {processor.py:153} INFO - Started process (PID=5253) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:23:24,923] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:23:24,924] {logging_mixin.py:115} INFO - [2023-01-30 14:23:24,924] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:23:24,933] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:23:24,952] {logging_mixin.py:115} INFO - [2023-01-30 14:23:24,952] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:23:24,967] {logging_mixin.py:115} INFO - [2023-01-30 14:23:24,966] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:23:25,002] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2023-01-30 14:24:39,351] {processor.py:153} INFO - Started process (PID=5328) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:24:39,351] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:24:39,352] {logging_mixin.py:115} INFO - [2023-01-30 14:24:39,352] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:24:39,360] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:24:39,377] {logging_mixin.py:115} INFO - [2023-01-30 14:24:39,377] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:24:39,393] {logging_mixin.py:115} INFO - [2023-01-30 14:24:39,393] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:24:39,431] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2023-01-30 14:25:45,444] {processor.py:153} INFO - Started process (PID=5397) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:25:45,445] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:25:45,446] {logging_mixin.py:115} INFO - [2023-01-30 14:25:45,446] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:25:45,454] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:25:45,471] {logging_mixin.py:115} INFO - [2023-01-30 14:25:45,471] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:25:45,484] {logging_mixin.py:115} INFO - [2023-01-30 14:25:45,484] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:25:45,523] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.080 seconds
+[2023-01-30 14:26:52,463] {processor.py:153} INFO - Started process (PID=5468) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:26:52,464] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:26:52,464] {logging_mixin.py:115} INFO - [2023-01-30 14:26:52,464] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:26:52,473] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:26:52,491] {logging_mixin.py:115} INFO - [2023-01-30 14:26:52,491] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:26:52,504] {logging_mixin.py:115} INFO - [2023-01-30 14:26:52,504] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:26:52,543] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2023-01-30 14:28:03,784] {processor.py:153} INFO - Started process (PID=5541) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:28:03,785] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:28:03,786] {logging_mixin.py:115} INFO - [2023-01-30 14:28:03,786] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:28:03,794] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:28:03,818] {logging_mixin.py:115} INFO - [2023-01-30 14:28:03,818] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:28:03,833] {logging_mixin.py:115} INFO - [2023-01-30 14:28:03,832] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:28:03,869] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.086 seconds
+[2023-01-30 14:29:07,599] {processor.py:153} INFO - Started process (PID=5610) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:29:07,599] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 14:29:07,600] {logging_mixin.py:115} INFO - [2023-01-30 14:29:07,600] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:29:07,609] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 14:29:07,628] {logging_mixin.py:115} INFO - [2023-01-30 14:29:07,628] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 14:29:07,642] {logging_mixin.py:115} INFO - [2023-01-30 14:29:07,642] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 14:29:07,677] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.080 seconds
+[2023-01-30 15:08:18,807] {processor.py:153} INFO - Started process (PID=5687) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:08:18,807] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:08:18,808] {logging_mixin.py:115} INFO - [2023-01-30 15:08:18,808] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:08:18,816] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:08:18,842] {logging_mixin.py:115} INFO - [2023-01-30 15:08:18,842] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:08:18,861] {logging_mixin.py:115} INFO - [2023-01-30 15:08:18,861] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:08:18,905] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.100 seconds
+[2023-01-30 15:09:30,792] {processor.py:153} INFO - Started process (PID=5753) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:09:30,793] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:09:30,794] {logging_mixin.py:115} INFO - [2023-01-30 15:09:30,794] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:09:30,803] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:09:30,840] {logging_mixin.py:115} INFO - [2023-01-30 15:09:30,840] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:09:30,866] {logging_mixin.py:115} INFO - [2023-01-30 15:09:30,866] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:09:30,915] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.125 seconds
+[2023-01-30 15:10:47,076] {processor.py:153} INFO - Started process (PID=5817) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:10:47,077] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:10:47,078] {logging_mixin.py:115} INFO - [2023-01-30 15:10:47,078] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:10:47,087] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:10:47,121] {logging_mixin.py:115} INFO - [2023-01-30 15:10:47,121] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:10:47,144] {logging_mixin.py:115} INFO - [2023-01-30 15:10:47,144] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:10:47,198] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.124 seconds
+[2023-01-30 15:12:06,139] {processor.py:153} INFO - Started process (PID=5891) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:12:06,139] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:12:06,140] {logging_mixin.py:115} INFO - [2023-01-30 15:12:06,140] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:12:06,149] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:12:06,172] {logging_mixin.py:115} INFO - [2023-01-30 15:12:06,172] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:12:06,194] {logging_mixin.py:115} INFO - [2023-01-30 15:12:06,194] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:12:06,239] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2023-01-30 15:13:05,265] {processor.py:153} INFO - Started process (PID=5945) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:13:05,266] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:13:05,267] {logging_mixin.py:115} INFO - [2023-01-30 15:13:05,266] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:13:05,277] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:13:05,299] {logging_mixin.py:115} INFO - [2023-01-30 15:13:05,299] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:13:05,316] {logging_mixin.py:115} INFO - [2023-01-30 15:13:05,316] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:13:05,358] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.095 seconds
+[2023-01-30 15:14:00,194] {processor.py:153} INFO - Started process (PID=5998) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:14:00,195] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:14:00,195] {logging_mixin.py:115} INFO - [2023-01-30 15:14:00,195] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:14:00,205] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:14:00,231] {logging_mixin.py:115} INFO - [2023-01-30 15:14:00,231] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:14:00,249] {logging_mixin.py:115} INFO - [2023-01-30 15:14:00,249] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:14:00,295] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.103 seconds
+[2023-01-30 15:14:53,913] {processor.py:153} INFO - Started process (PID=6050) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:14:53,914] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:14:53,914] {logging_mixin.py:115} INFO - [2023-01-30 15:14:53,914] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:14:53,924] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:14:53,954] {logging_mixin.py:115} INFO - [2023-01-30 15:14:53,954] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:14:53,976] {logging_mixin.py:115} INFO - [2023-01-30 15:14:53,976] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:14:54,029] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.117 seconds
+[2023-01-30 15:16:11,558] {processor.py:153} INFO - Started process (PID=6127) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:16:11,559] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:16:11,559] {logging_mixin.py:115} INFO - [2023-01-30 15:16:11,559] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:16:11,568] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:16:11,599] {logging_mixin.py:115} INFO - [2023-01-30 15:16:11,599] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:16:11,620] {logging_mixin.py:115} INFO - [2023-01-30 15:16:11,620] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:16:11,663] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.107 seconds
+[2023-01-30 15:17:07,536] {processor.py:153} INFO - Started process (PID=6179) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:17:07,536] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:17:07,537] {logging_mixin.py:115} INFO - [2023-01-30 15:17:07,537] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:17:07,546] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:17:07,566] {logging_mixin.py:115} INFO - [2023-01-30 15:17:07,566] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:17:07,582] {logging_mixin.py:115} INFO - [2023-01-30 15:17:07,582] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:17:07,623] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.089 seconds
+[2023-01-30 15:18:03,141] {processor.py:153} INFO - Started process (PID=6232) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:18:03,141] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:18:03,142] {logging_mixin.py:115} INFO - [2023-01-30 15:18:03,142] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:18:03,151] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:18:03,175] {logging_mixin.py:115} INFO - [2023-01-30 15:18:03,175] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:18:03,192] {logging_mixin.py:115} INFO - [2023-01-30 15:18:03,192] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:18:03,237] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.098 seconds
+[2023-01-30 15:19:00,170] {processor.py:153} INFO - Started process (PID=6284) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:19:00,170] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:19:00,171] {logging_mixin.py:115} INFO - [2023-01-30 15:19:00,171] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:19:00,180] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:19:00,202] {logging_mixin.py:115} INFO - [2023-01-30 15:19:00,202] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:19:00,219] {logging_mixin.py:115} INFO - [2023-01-30 15:19:00,219] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:19:00,262] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.094 seconds
+[2023-01-30 15:19:57,533] {processor.py:153} INFO - Started process (PID=6338) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:19:57,533] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:19:57,534] {logging_mixin.py:115} INFO - [2023-01-30 15:19:57,534] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:19:57,542] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:19:57,563] {logging_mixin.py:115} INFO - [2023-01-30 15:19:57,563] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:19:57,579] {logging_mixin.py:115} INFO - [2023-01-30 15:19:57,579] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:19:57,627] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds
+[2023-01-30 15:21:19,720] {processor.py:153} INFO - Started process (PID=6415) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:21:19,721] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:21:19,721] {logging_mixin.py:115} INFO - [2023-01-30 15:21:19,721] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:21:19,730] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:21:19,752] {logging_mixin.py:115} INFO - [2023-01-30 15:21:19,752] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:21:19,768] {logging_mixin.py:115} INFO - [2023-01-30 15:21:19,768] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:21:19,808] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2023-01-30 15:22:13,941] {processor.py:153} INFO - Started process (PID=6468) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:22:13,942] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:22:13,943] {logging_mixin.py:115} INFO - [2023-01-30 15:22:13,943] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:22:13,952] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:22:13,974] {logging_mixin.py:115} INFO - [2023-01-30 15:22:13,974] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:22:13,991] {logging_mixin.py:115} INFO - [2023-01-30 15:22:13,991] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:22:14,033] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.093 seconds
+[2023-01-30 15:23:34,902] {processor.py:153} INFO - Started process (PID=6545) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:23:34,903] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:23:34,903] {logging_mixin.py:115} INFO - [2023-01-30 15:23:34,903] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:23:34,913] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:23:34,936] {logging_mixin.py:115} INFO - [2023-01-30 15:23:34,936] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:23:34,953] {logging_mixin.py:115} INFO - [2023-01-30 15:23:34,953] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:23:34,995] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.095 seconds
+[2023-01-30 15:24:52,891] {processor.py:153} INFO - Started process (PID=6621) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:24:52,892] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:24:52,893] {logging_mixin.py:115} INFO - [2023-01-30 15:24:52,893] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:24:52,901] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:24:52,923] {logging_mixin.py:115} INFO - [2023-01-30 15:24:52,922] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:24:52,938] {logging_mixin.py:115} INFO - [2023-01-30 15:24:52,937] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:24:52,980] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.091 seconds
+[2023-01-30 15:26:06,496] {processor.py:153} INFO - Started process (PID=6696) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:26:06,497] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:26:06,498] {logging_mixin.py:115} INFO - [2023-01-30 15:26:06,498] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:26:06,507] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:26:06,528] {logging_mixin.py:115} INFO - [2023-01-30 15:26:06,528] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:26:06,543] {logging_mixin.py:115} INFO - [2023-01-30 15:26:06,543] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:26:06,588] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.093 seconds
+[2023-01-30 15:27:25,533] {processor.py:153} INFO - Started process (PID=6770) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:27:25,534] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:27:25,535] {logging_mixin.py:115} INFO - [2023-01-30 15:27:25,535] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:27:25,543] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:27:25,569] {logging_mixin.py:115} INFO - [2023-01-30 15:27:25,569] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:27:25,585] {logging_mixin.py:115} INFO - [2023-01-30 15:27:25,585] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:27:25,628] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.098 seconds
+[2023-01-30 15:28:24,459] {processor.py:153} INFO - Started process (PID=6824) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:28:24,460] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:28:24,461] {logging_mixin.py:115} INFO - [2023-01-30 15:28:24,461] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:28:24,470] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:28:24,491] {logging_mixin.py:115} INFO - [2023-01-30 15:28:24,491] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:28:24,506] {logging_mixin.py:115} INFO - [2023-01-30 15:28:24,506] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:28:24,549] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.091 seconds
+[2023-01-30 15:29:19,366] {processor.py:153} INFO - Started process (PID=6878) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:29:19,366] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:29:19,367] {logging_mixin.py:115} INFO - [2023-01-30 15:29:19,367] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:29:19,375] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:29:19,398] {logging_mixin.py:115} INFO - [2023-01-30 15:29:19,398] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:29:19,416] {logging_mixin.py:115} INFO - [2023-01-30 15:29:19,416] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:29:19,463] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.099 seconds
+[2023-01-30 15:30:43,073] {processor.py:153} INFO - Started process (PID=6957) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:30:43,074] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:30:43,075] {logging_mixin.py:115} INFO - [2023-01-30 15:30:43,074] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:30:43,083] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:30:43,105] {logging_mixin.py:115} INFO - [2023-01-30 15:30:43,105] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:30:43,120] {logging_mixin.py:115} INFO - [2023-01-30 15:30:43,120] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:30:43,162] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2023-01-30 15:31:58,917] {processor.py:153} INFO - Started process (PID=7032) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:31:58,917] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:31:58,918] {logging_mixin.py:115} INFO - [2023-01-30 15:31:58,918] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:31:58,927] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:31:58,948] {logging_mixin.py:115} INFO - [2023-01-30 15:31:58,948] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:31:58,966] {logging_mixin.py:115} INFO - [2023-01-30 15:31:58,966] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:31:59,004] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.089 seconds
+[2023-01-30 15:33:14,164] {processor.py:153} INFO - Started process (PID=7108) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:33:14,165] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:33:14,165] {logging_mixin.py:115} INFO - [2023-01-30 15:33:14,165] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:33:14,174] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:33:14,199] {logging_mixin.py:115} INFO - [2023-01-30 15:33:14,199] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:33:14,217] {logging_mixin.py:115} INFO - [2023-01-30 15:33:14,217] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:33:14,255] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.093 seconds
+[2023-01-30 15:34:28,653] {processor.py:153} INFO - Started process (PID=7182) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:34:28,653] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:34:28,654] {logging_mixin.py:115} INFO - [2023-01-30 15:34:28,654] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:34:28,664] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:34:28,689] {logging_mixin.py:115} INFO - [2023-01-30 15:34:28,689] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:34:28,707] {logging_mixin.py:115} INFO - [2023-01-30 15:34:28,707] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:34:28,757] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.106 seconds
+[2023-01-30 15:35:45,912] {processor.py:153} INFO - Started process (PID=7257) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:35:45,912] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:35:45,913] {logging_mixin.py:115} INFO - [2023-01-30 15:35:45,913] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:35:45,922] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:35:45,948] {logging_mixin.py:115} INFO - [2023-01-30 15:35:45,947] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:35:45,966] {logging_mixin.py:115} INFO - [2023-01-30 15:35:45,966] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:35:46,010] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.100 seconds
+[2023-01-30 15:36:40,708] {processor.py:153} INFO - Started process (PID=7311) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:36:40,709] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:36:40,710] {logging_mixin.py:115} INFO - [2023-01-30 15:36:40,710] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:36:40,720] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:36:40,755] {logging_mixin.py:115} INFO - [2023-01-30 15:36:40,755] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:36:40,778] {logging_mixin.py:115} INFO - [2023-01-30 15:36:40,778] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:36:40,816] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.110 seconds
+[2023-01-30 15:37:58,362] {processor.py:153} INFO - Started process (PID=7385) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:37:58,363] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:37:58,364] {logging_mixin.py:115} INFO - [2023-01-30 15:37:58,364] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:37:58,372] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:37:58,395] {logging_mixin.py:115} INFO - [2023-01-30 15:37:58,395] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:37:58,413] {logging_mixin.py:115} INFO - [2023-01-30 15:37:58,412] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:37:58,455] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.095 seconds
+[2023-01-30 15:39:19,390] {processor.py:153} INFO - Started process (PID=7463) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:39:19,391] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:39:19,392] {logging_mixin.py:115} INFO - [2023-01-30 15:39:19,392] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:39:19,401] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:39:19,428] {logging_mixin.py:115} INFO - [2023-01-30 15:39:19,428] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:39:19,445] {logging_mixin.py:115} INFO - [2023-01-30 15:39:19,445] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:39:19,485] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.097 seconds
+[2023-01-30 15:40:13,956] {processor.py:153} INFO - Started process (PID=7516) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:40:13,956] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:40:13,957] {logging_mixin.py:115} INFO - [2023-01-30 15:40:13,957] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:40:13,967] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:40:13,992] {logging_mixin.py:115} INFO - [2023-01-30 15:40:13,991] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:40:14,008] {logging_mixin.py:115} INFO - [2023-01-30 15:40:14,008] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:40:14,057] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.104 seconds
+[2023-01-30 15:41:34,855] {processor.py:153} INFO - Started process (PID=7593) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:41:34,856] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:41:34,856] {logging_mixin.py:115} INFO - [2023-01-30 15:41:34,856] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:41:34,865] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:41:34,887] {logging_mixin.py:115} INFO - [2023-01-30 15:41:34,886] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:41:34,902] {logging_mixin.py:115} INFO - [2023-01-30 15:41:34,902] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:41:34,972] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.119 seconds
+[2023-01-30 15:42:50,976] {processor.py:153} INFO - Started process (PID=7670) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:42:50,977] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:42:50,978] {logging_mixin.py:115} INFO - [2023-01-30 15:42:50,978] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:42:50,986] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:42:51,017] {logging_mixin.py:115} INFO - [2023-01-30 15:42:51,017] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:42:51,038] {logging_mixin.py:115} INFO - [2023-01-30 15:42:51,038] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:42:51,081] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.107 seconds
+[2023-01-30 15:44:10,763] {processor.py:153} INFO - Started process (PID=7745) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:44:10,764] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:44:10,765] {logging_mixin.py:115} INFO - [2023-01-30 15:44:10,765] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:44:10,774] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:44:10,798] {logging_mixin.py:115} INFO - [2023-01-30 15:44:10,797] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:44:10,822] {logging_mixin.py:115} INFO - [2023-01-30 15:44:10,822] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:44:10,936] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.174 seconds
+[2023-01-30 15:45:09,569] {processor.py:153} INFO - Started process (PID=7799) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:45:09,570] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:45:09,570] {logging_mixin.py:115} INFO - [2023-01-30 15:45:09,570] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:45:09,579] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:45:09,600] {logging_mixin.py:115} INFO - [2023-01-30 15:45:09,600] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:45:09,617] {logging_mixin.py:115} INFO - [2023-01-30 15:45:09,617] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:45:09,729] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.162 seconds
+[2023-01-30 15:46:05,007] {processor.py:153} INFO - Started process (PID=7852) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:46:05,008] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:46:05,014] {logging_mixin.py:115} INFO - [2023-01-30 15:46:05,014] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:46:05,024] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:46:05,047] {logging_mixin.py:115} INFO - [2023-01-30 15:46:05,047] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:46:05,064] {logging_mixin.py:115} INFO - [2023-01-30 15:46:05,064] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:46:05,180] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.175 seconds
+[2023-01-30 15:47:02,376] {processor.py:153} INFO - Started process (PID=7904) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:47:02,377] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:47:02,378] {logging_mixin.py:115} INFO - [2023-01-30 15:47:02,378] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:47:02,387] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:47:02,409] {logging_mixin.py:115} INFO - [2023-01-30 15:47:02,409] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:47:02,424] {logging_mixin.py:115} INFO - [2023-01-30 15:47:02,424] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:47:02,545] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.171 seconds
+[2023-01-30 15:48:04,463] {processor.py:153} INFO - Started process (PID=7968) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:48:04,464] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:48:04,464] {logging_mixin.py:115} INFO - [2023-01-30 15:48:04,464] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:48:04,474] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:48:04,496] {logging_mixin.py:115} INFO - [2023-01-30 15:48:04,496] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:48:04,513] {logging_mixin.py:115} INFO - [2023-01-30 15:48:04,513] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:48:04,622] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.161 seconds
+[2023-01-30 15:49:03,096] {processor.py:153} INFO - Started process (PID=8030) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:49:03,096] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:49:03,097] {logging_mixin.py:115} INFO - [2023-01-30 15:49:03,097] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:49:03,112] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:49:03,156] {logging_mixin.py:115} INFO - [2023-01-30 15:49:03,156] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:49:03,278] {logging_mixin.py:115} INFO - [2023-01-30 15:49:03,278] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:49:03,321] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.227 seconds
+[2023-01-30 15:50:01,872] {processor.py:153} INFO - Started process (PID=8086) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:50:01,872] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:50:01,873] {logging_mixin.py:115} INFO - [2023-01-30 15:50:01,873] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:50:01,881] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:50:01,905] {logging_mixin.py:115} INFO - [2023-01-30 15:50:01,905] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:50:01,984] {logging_mixin.py:115} INFO - [2023-01-30 15:50:01,984] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:50:02,026] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.156 seconds
+[2023-01-30 15:50:57,787] {processor.py:153} INFO - Started process (PID=8140) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:50:57,787] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:50:57,788] {logging_mixin.py:115} INFO - [2023-01-30 15:50:57,788] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:50:57,796] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:50:57,826] {logging_mixin.py:115} INFO - [2023-01-30 15:50:57,826] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:50:57,919] {logging_mixin.py:115} INFO - [2023-01-30 15:50:57,919] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:50:57,957] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.172 seconds
+[2023-01-30 15:51:54,984] {processor.py:153} INFO - Started process (PID=8197) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:51:54,985] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:51:54,985] {logging_mixin.py:115} INFO - [2023-01-30 15:51:54,985] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:51:54,994] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:51:55,017] {logging_mixin.py:115} INFO - [2023-01-30 15:51:55,017] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:51:55,101] {logging_mixin.py:115} INFO - [2023-01-30 15:51:55,101] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:51:55,152] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.170 seconds
+[2023-01-30 15:52:50,483] {processor.py:153} INFO - Started process (PID=8251) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:52:50,484] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:52:50,485] {logging_mixin.py:115} INFO - [2023-01-30 15:52:50,485] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:52:50,495] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:52:50,517] {logging_mixin.py:115} INFO - [2023-01-30 15:52:50,516] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:52:50,610] {logging_mixin.py:115} INFO - [2023-01-30 15:52:50,609] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:52:50,646] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.167 seconds
+[2023-01-30 15:54:09,232] {processor.py:153} INFO - Started process (PID=8328) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:54:09,234] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:54:09,234] {logging_mixin.py:115} INFO - [2023-01-30 15:54:09,234] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:54:09,243] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:54:09,264] {logging_mixin.py:115} INFO - [2023-01-30 15:54:09,264] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:54:09,344] {logging_mixin.py:115} INFO - [2023-01-30 15:54:09,343] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:54:09,385] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.154 seconds
+[2023-01-30 15:55:26,157] {processor.py:153} INFO - Started process (PID=8403) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:55:26,157] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:55:26,158] {logging_mixin.py:115} INFO - [2023-01-30 15:55:26,158] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:55:26,167] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:55:26,193] {logging_mixin.py:115} INFO - [2023-01-30 15:55:26,193] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:55:26,275] {logging_mixin.py:115} INFO - [2023-01-30 15:55:26,275] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:55:26,325] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.170 seconds
+[2023-01-30 15:56:42,227] {processor.py:153} INFO - Started process (PID=8479) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:56:42,228] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:56:42,229] {logging_mixin.py:115} INFO - [2023-01-30 15:56:42,229] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:56:42,237] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:56:42,260] {logging_mixin.py:115} INFO - [2023-01-30 15:56:42,260] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:56:42,338] {logging_mixin.py:115} INFO - [2023-01-30 15:56:42,338] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:56:42,379] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.153 seconds
+[2023-01-30 15:58:01,393] {processor.py:153} INFO - Started process (PID=8555) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:58:01,394] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:58:01,394] {logging_mixin.py:115} INFO - [2023-01-30 15:58:01,394] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:58:01,403] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:58:01,424] {logging_mixin.py:115} INFO - [2023-01-30 15:58:01,423] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:58:01,503] {logging_mixin.py:115} INFO - [2023-01-30 15:58:01,503] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:58:01,541] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.150 seconds
+[2023-01-30 15:59:19,974] {processor.py:153} INFO - Started process (PID=8631) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:59:19,974] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 15:59:19,975] {logging_mixin.py:115} INFO - [2023-01-30 15:59:19,975] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:59:19,984] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 15:59:20,009] {logging_mixin.py:115} INFO - [2023-01-30 15:59:20,009] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 15:59:20,096] {logging_mixin.py:115} INFO - [2023-01-30 15:59:20,096] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 15:59:20,148] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.176 seconds
+[2023-01-30 16:00:40,336] {processor.py:153} INFO - Started process (PID=8708) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:00:40,337] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:00:40,338] {logging_mixin.py:115} INFO - [2023-01-30 16:00:40,338] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:00:40,348] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:00:40,372] {logging_mixin.py:115} INFO - [2023-01-30 16:00:40,372] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:00:40,470] {logging_mixin.py:115} INFO - [2023-01-30 16:00:40,470] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:00:40,517] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.183 seconds
+[2023-01-30 16:01:37,741] {processor.py:153} INFO - Started process (PID=8761) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:01:37,741] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:01:37,742] {logging_mixin.py:115} INFO - [2023-01-30 16:01:37,742] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:01:37,752] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:01:37,777] {logging_mixin.py:115} INFO - [2023-01-30 16:01:37,777] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:01:37,866] {logging_mixin.py:115} INFO - [2023-01-30 16:01:37,866] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:01:37,911] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.172 seconds
+[2023-01-30 16:02:35,037] {processor.py:153} INFO - Started process (PID=8814) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:02:35,038] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:02:35,039] {logging_mixin.py:115} INFO - [2023-01-30 16:02:35,039] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:02:35,048] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:02:35,070] {logging_mixin.py:115} INFO - [2023-01-30 16:02:35,070] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:02:35,156] {logging_mixin.py:115} INFO - [2023-01-30 16:02:35,156] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:02:35,204] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.168 seconds
+[2023-01-30 16:03:32,029] {processor.py:153} INFO - Started process (PID=8868) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:03:32,029] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:03:32,030] {logging_mixin.py:115} INFO - [2023-01-30 16:03:32,030] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:03:32,040] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:03:32,061] {logging_mixin.py:115} INFO - [2023-01-30 16:03:32,061] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:03:32,147] {logging_mixin.py:115} INFO - [2023-01-30 16:03:32,147] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:03:32,191] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.164 seconds
+[2023-01-30 16:04:32,175] {processor.py:153} INFO - Started process (PID=8920) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:04:32,176] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:04:32,177] {logging_mixin.py:115} INFO - [2023-01-30 16:04:32,177] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:04:32,186] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:04:32,211] {logging_mixin.py:115} INFO - [2023-01-30 16:04:32,211] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:04:32,298] {logging_mixin.py:115} INFO - [2023-01-30 16:04:32,298] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:04:32,343] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.170 seconds
+[2023-01-30 16:05:39,616] {processor.py:153} INFO - Started process (PID=8980) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:05:39,617] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:05:39,619] {logging_mixin.py:115} INFO - [2023-01-30 16:05:39,618] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:05:39,639] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:05:39,679] {logging_mixin.py:115} INFO - [2023-01-30 16:05:39,679] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:05:39,820] {logging_mixin.py:115} INFO - [2023-01-30 16:05:39,820] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:05:39,901] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.289 seconds
+[2023-01-30 16:06:49,296] {processor.py:153} INFO - Started process (PID=9039) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:06:49,297] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:06:49,297] {logging_mixin.py:115} INFO - [2023-01-30 16:06:49,297] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:06:49,310] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:06:49,353] {logging_mixin.py:115} INFO - [2023-01-30 16:06:49,352] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:06:49,462] {logging_mixin.py:115} INFO - [2023-01-30 16:06:49,462] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:06:49,508] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.214 seconds
+[2023-01-30 16:07:48,598] {processor.py:153} INFO - Started process (PID=9093) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:07:48,599] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:07:48,599] {logging_mixin.py:115} INFO - [2023-01-30 16:07:48,599] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:07:48,609] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:07:48,636] {logging_mixin.py:115} INFO - [2023-01-30 16:07:48,636] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:07:48,732] {logging_mixin.py:115} INFO - [2023-01-30 16:07:48,732] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:07:48,778] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.182 seconds
+[2023-01-30 16:08:55,488] {processor.py:153} INFO - Started process (PID=9150) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:08:55,490] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:08:55,491] {logging_mixin.py:115} INFO - [2023-01-30 16:08:55,491] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:08:55,512] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:08:55,558] {logging_mixin.py:115} INFO - [2023-01-30 16:08:55,558] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:08:55,714] {logging_mixin.py:115} INFO - [2023-01-30 16:08:55,714] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:08:55,759] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.275 seconds
+[2023-01-30 16:09:56,379] {processor.py:153} INFO - Started process (PID=9204) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:09:56,380] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:09:56,382] {logging_mixin.py:115} INFO - [2023-01-30 16:09:56,382] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:09:56,391] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:09:56,413] {logging_mixin.py:115} INFO - [2023-01-30 16:09:56,413] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:09:56,498] {logging_mixin.py:115} INFO - [2023-01-30 16:09:56,498] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:09:56,542] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.164 seconds
+[2023-01-30 16:10:57,786] {processor.py:153} INFO - Started process (PID=9259) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:10:57,787] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:10:57,787] {logging_mixin.py:115} INFO - [2023-01-30 16:10:57,787] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:10:57,798] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:10:57,826] {logging_mixin.py:115} INFO - [2023-01-30 16:10:57,826] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:10:57,921] {logging_mixin.py:115} INFO - [2023-01-30 16:10:57,921] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:10:57,979] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.195 seconds
+[2023-01-30 16:12:02,282] {processor.py:153} INFO - Started process (PID=9316) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:12:02,283] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:12:02,284] {logging_mixin.py:115} INFO - [2023-01-30 16:12:02,284] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:12:02,294] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:12:02,318] {logging_mixin.py:115} INFO - [2023-01-30 16:12:02,318] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:12:02,415] {logging_mixin.py:115} INFO - [2023-01-30 16:12:02,415] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:12:02,457] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.177 seconds
+[2023-01-30 16:13:01,978] {processor.py:153} INFO - Started process (PID=9370) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:13:01,979] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:13:01,981] {logging_mixin.py:115} INFO - [2023-01-30 16:13:01,981] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:13:01,990] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:13:02,016] {logging_mixin.py:115} INFO - [2023-01-30 16:13:02,016] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:13:02,104] {logging_mixin.py:115} INFO - [2023-01-30 16:13:02,104] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:13:02,151] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.174 seconds
+[2023-01-30 16:14:01,333] {processor.py:153} INFO - Started process (PID=9424) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:14:01,334] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:14:01,335] {logging_mixin.py:115} INFO - [2023-01-30 16:14:01,335] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:14:01,344] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:14:01,368] {logging_mixin.py:115} INFO - [2023-01-30 16:14:01,368] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:14:01,459] {logging_mixin.py:115} INFO - [2023-01-30 16:14:01,459] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:14:01,503] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.172 seconds
+[2023-01-30 16:15:01,520] {processor.py:153} INFO - Started process (PID=9479) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:15:01,521] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:15:01,521] {logging_mixin.py:115} INFO - [2023-01-30 16:15:01,521] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:15:01,531] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:15:01,553] {logging_mixin.py:115} INFO - [2023-01-30 16:15:01,553] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:15:01,641] {logging_mixin.py:115} INFO - [2023-01-30 16:15:01,641] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:15:01,685] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.167 seconds
+[2023-01-30 16:16:01,536] {processor.py:153} INFO - Started process (PID=9533) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:16:01,537] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:16:01,538] {logging_mixin.py:115} INFO - [2023-01-30 16:16:01,538] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:16:01,547] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:16:01,569] {logging_mixin.py:115} INFO - [2023-01-30 16:16:01,569] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:16:01,657] {logging_mixin.py:115} INFO - [2023-01-30 16:16:01,657] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:16:01,701] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.166 seconds
+[2023-01-30 16:16:57,488] {processor.py:153} INFO - Started process (PID=9587) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:16:57,489] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:16:57,490] {logging_mixin.py:115} INFO - [2023-01-30 16:16:57,490] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:16:57,499] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:16:57,524] {logging_mixin.py:115} INFO - [2023-01-30 16:16:57,524] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:16:57,617] {logging_mixin.py:115} INFO - [2023-01-30 16:16:57,617] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:16:57,659] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.174 seconds
+[2023-01-30 16:17:57,299] {processor.py:153} INFO - Started process (PID=9642) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:17:57,300] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:17:57,301] {logging_mixin.py:115} INFO - [2023-01-30 16:17:57,301] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:17:57,310] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:17:57,333] {logging_mixin.py:115} INFO - [2023-01-30 16:17:57,333] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:17:57,428] {logging_mixin.py:115} INFO - [2023-01-30 16:17:57,428] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:17:57,472] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.174 seconds
+[2023-01-30 16:18:57,664] {processor.py:153} INFO - Started process (PID=9698) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:18:57,664] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:18:57,665] {logging_mixin.py:115} INFO - [2023-01-30 16:18:57,665] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:18:57,674] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:18:57,699] {logging_mixin.py:115} INFO - [2023-01-30 16:18:57,699] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:18:57,788] {logging_mixin.py:115} INFO - [2023-01-30 16:18:57,788] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:18:57,831] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.169 seconds
+[2023-01-30 16:19:59,018] {processor.py:153} INFO - Started process (PID=9752) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:19:59,018] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:19:59,019] {logging_mixin.py:115} INFO - [2023-01-30 16:19:59,019] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:19:59,029] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:19:59,062] {logging_mixin.py:115} INFO - [2023-01-30 16:19:59,062] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:19:59,164] {logging_mixin.py:115} INFO - [2023-01-30 16:19:59,164] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:19:59,205] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.189 seconds
+[2023-01-30 16:21:02,372] {processor.py:153} INFO - Started process (PID=9807) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:21:02,373] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:21:02,374] {logging_mixin.py:115} INFO - [2023-01-30 16:21:02,373] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:21:02,384] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:21:02,419] {logging_mixin.py:115} INFO - [2023-01-30 16:21:02,419] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:21:02,524] {logging_mixin.py:115} INFO - [2023-01-30 16:21:02,524] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:21:02,567] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.197 seconds
+[2023-01-30 16:22:07,612] {processor.py:153} INFO - Started process (PID=9864) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:22:07,613] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:22:07,614] {logging_mixin.py:115} INFO - [2023-01-30 16:22:07,614] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:22:07,624] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:22:07,652] {logging_mixin.py:115} INFO - [2023-01-30 16:22:07,652] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:22:07,747] {logging_mixin.py:115} INFO - [2023-01-30 16:22:07,747] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:22:07,792] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.182 seconds
+[2023-01-30 16:23:06,914] {processor.py:153} INFO - Started process (PID=9919) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:23:06,915] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:23:06,916] {logging_mixin.py:115} INFO - [2023-01-30 16:23:06,916] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:23:06,925] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:23:06,949] {logging_mixin.py:115} INFO - [2023-01-30 16:23:06,949] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:23:07,047] {logging_mixin.py:115} INFO - [2023-01-30 16:23:07,047] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:23:07,094] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.181 seconds
+[2023-01-30 16:24:06,521] {processor.py:153} INFO - Started process (PID=9971) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:24:06,521] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:24:06,522] {logging_mixin.py:115} INFO - [2023-01-30 16:24:06,522] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:24:06,532] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:24:06,553] {logging_mixin.py:115} INFO - [2023-01-30 16:24:06,553] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:24:06,645] {logging_mixin.py:115} INFO - [2023-01-30 16:24:06,644] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:24:06,726] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.207 seconds
+[2023-01-30 16:25:10,707] {processor.py:153} INFO - Started process (PID=10028) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:25:10,708] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:25:10,709] {logging_mixin.py:115} INFO - [2023-01-30 16:25:10,708] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:25:10,718] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:25:10,741] {logging_mixin.py:115} INFO - [2023-01-30 16:25:10,741] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:25:10,837] {logging_mixin.py:115} INFO - [2023-01-30 16:25:10,837] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:25:10,888] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.182 seconds
+[2023-01-30 16:26:10,796] {processor.py:153} INFO - Started process (PID=10082) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:26:10,796] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:26:10,797] {logging_mixin.py:115} INFO - [2023-01-30 16:26:10,797] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:26:10,806] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:26:10,828] {logging_mixin.py:115} INFO - [2023-01-30 16:26:10,828] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:26:10,920] {logging_mixin.py:115} INFO - [2023-01-30 16:26:10,920] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:26:10,964] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.171 seconds
+[2023-01-30 16:27:18,573] {processor.py:153} INFO - Started process (PID=10139) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:27:18,574] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:27:18,587] {logging_mixin.py:115} INFO - [2023-01-30 16:27:18,587] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:27:18,597] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:27:18,787] {logging_mixin.py:115} INFO - [2023-01-30 16:27:18,787] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:27:18,999] {logging_mixin.py:115} INFO - [2023-01-30 16:27:18,999] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:27:19,211] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.641 seconds
+[2023-01-30 16:28:52,713] {processor.py:153} INFO - Started process (PID=10208) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:28:52,713] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:28:52,714] {logging_mixin.py:115} INFO - [2023-01-30 16:28:52,714] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:28:52,724] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:28:52,751] {logging_mixin.py:115} INFO - [2023-01-30 16:28:52,751] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:28:52,850] {logging_mixin.py:115} INFO - [2023-01-30 16:28:52,850] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:28:52,891] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.180 seconds
+[2023-01-30 16:29:57,942] {processor.py:153} INFO - Started process (PID=10265) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:29:57,943] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:29:57,943] {logging_mixin.py:115} INFO - [2023-01-30 16:29:57,943] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:29:57,954] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:29:57,979] {logging_mixin.py:115} INFO - [2023-01-30 16:29:57,979] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:29:58,095] {logging_mixin.py:115} INFO - [2023-01-30 16:29:58,095] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:29:58,149] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.209 seconds
+[2023-01-30 16:31:00,802] {processor.py:153} INFO - Started process (PID=10320) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:31:00,803] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:31:00,804] {logging_mixin.py:115} INFO - [2023-01-30 16:31:00,804] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:31:00,813] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:31:00,846] {logging_mixin.py:115} INFO - [2023-01-30 16:31:00,846] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:31:00,936] {logging_mixin.py:115} INFO - [2023-01-30 16:31:00,936] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:31:00,977] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.176 seconds
+[2023-01-30 16:32:01,147] {processor.py:153} INFO - Started process (PID=10375) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:32:01,148] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:32:01,149] {logging_mixin.py:115} INFO - [2023-01-30 16:32:01,149] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:32:01,158] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:32:01,184] {logging_mixin.py:115} INFO - [2023-01-30 16:32:01,184] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:32:01,275] {logging_mixin.py:115} INFO - [2023-01-30 16:32:01,275] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:32:01,320] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.175 seconds
+[2023-01-30 16:33:01,477] {processor.py:153} INFO - Started process (PID=10429) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:33:01,478] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:33:01,479] {logging_mixin.py:115} INFO - [2023-01-30 16:33:01,478] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:33:01,490] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:33:01,513] {logging_mixin.py:115} INFO - [2023-01-30 16:33:01,512] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:33:01,611] {logging_mixin.py:115} INFO - [2023-01-30 16:33:01,611] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:33:01,661] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.186 seconds
+[2023-01-30 16:34:11,129] {processor.py:153} INFO - Started process (PID=10488) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:34:11,129] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:34:11,130] {logging_mixin.py:115} INFO - [2023-01-30 16:34:11,130] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:34:11,140] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:34:11,163] {logging_mixin.py:115} INFO - [2023-01-30 16:34:11,163] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:34:11,261] {logging_mixin.py:115} INFO - [2023-01-30 16:34:11,261] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:34:11,310] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.182 seconds
+[2023-01-30 16:35:12,403] {processor.py:153} INFO - Started process (PID=10543) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:35:12,404] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:35:12,405] {logging_mixin.py:115} INFO - [2023-01-30 16:35:12,405] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:35:12,415] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:35:12,440] {logging_mixin.py:115} INFO - [2023-01-30 16:35:12,440] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:35:12,538] {logging_mixin.py:115} INFO - [2023-01-30 16:35:12,538] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:35:12,582] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.180 seconds
+[2023-01-30 16:36:15,949] {processor.py:153} INFO - Started process (PID=10598) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:36:15,949] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:36:15,950] {logging_mixin.py:115} INFO - [2023-01-30 16:36:15,950] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:36:15,960] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:36:15,980] {logging_mixin.py:115} INFO - [2023-01-30 16:36:15,980] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:36:16,076] {logging_mixin.py:115} INFO - [2023-01-30 16:36:16,076] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:36:16,122] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.175 seconds
+[2023-01-30 16:37:17,061] {processor.py:153} INFO - Started process (PID=10653) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:37:17,062] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:37:17,063] {logging_mixin.py:115} INFO - [2023-01-30 16:37:17,063] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:37:17,074] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:37:17,103] {logging_mixin.py:115} INFO - [2023-01-30 16:37:17,103] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:37:17,202] {logging_mixin.py:115} INFO - [2023-01-30 16:37:17,202] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:37:17,243] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.184 seconds
+[2023-01-30 16:38:15,606] {processor.py:153} INFO - Started process (PID=10706) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:38:15,607] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:38:15,608] {logging_mixin.py:115} INFO - [2023-01-30 16:38:15,608] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:38:15,617] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:38:15,641] {logging_mixin.py:115} INFO - [2023-01-30 16:38:15,641] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:38:15,750] {logging_mixin.py:115} INFO - [2023-01-30 16:38:15,750] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:38:15,830] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.226 seconds
+[2023-01-30 16:39:23,656] {processor.py:153} INFO - Started process (PID=10765) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:39:23,657] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:39:23,658] {logging_mixin.py:115} INFO - [2023-01-30 16:39:23,658] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:39:23,669] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:39:23,716] {logging_mixin.py:115} INFO - [2023-01-30 16:39:23,716] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:39:23,838] {logging_mixin.py:115} INFO - [2023-01-30 16:39:23,838] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:39:23,908] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.254 seconds
+[2023-01-30 16:40:27,607] {processor.py:153} INFO - Started process (PID=10820) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:40:27,608] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:40:27,608] {logging_mixin.py:115} INFO - [2023-01-30 16:40:27,608] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:40:27,617] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:40:27,640] {logging_mixin.py:115} INFO - [2023-01-30 16:40:27,640] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:40:27,733] {logging_mixin.py:115} INFO - [2023-01-30 16:40:27,733] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:40:27,777] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.172 seconds
+[2023-01-30 16:41:29,522] {processor.py:153} INFO - Started process (PID=10875) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:41:29,523] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:41:29,524] {logging_mixin.py:115} INFO - [2023-01-30 16:41:29,523] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:41:29,533] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:41:29,561] {logging_mixin.py:115} INFO - [2023-01-30 16:41:29,561] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:41:29,652] {logging_mixin.py:115} INFO - [2023-01-30 16:41:29,652] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:41:29,692] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.172 seconds
+[2023-01-30 16:42:32,267] {processor.py:153} INFO - Started process (PID=10931) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:42:32,268] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:42:32,269] {logging_mixin.py:115} INFO - [2023-01-30 16:42:32,269] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:42:32,278] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:42:32,301] {logging_mixin.py:115} INFO - [2023-01-30 16:42:32,301] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:42:32,388] {logging_mixin.py:115} INFO - [2023-01-30 16:42:32,388] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:42:32,430] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.164 seconds
+[2023-01-30 16:43:31,655] {processor.py:153} INFO - Started process (PID=10985) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:43:31,656] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:43:31,656] {logging_mixin.py:115} INFO - [2023-01-30 16:43:31,656] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:43:31,665] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:43:31,687] {logging_mixin.py:115} INFO - [2023-01-30 16:43:31,687] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:43:31,780] {logging_mixin.py:115} INFO - [2023-01-30 16:43:31,780] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:43:31,819] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.166 seconds
+[2023-01-30 16:44:36,628] {processor.py:153} INFO - Started process (PID=11042) to work on /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:44:36,629] {processor.py:641} INFO - Processing file /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-01-30 16:44:36,630] {logging_mixin.py:115} INFO - [2023-01-30 16:44:36,630] {dagbag.py:507} INFO - Filling up the DagBag from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:44:36,640] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-01-30 16:44:36,667] {logging_mixin.py:115} INFO - [2023-01-30 16:44:36,666] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-01-30 16:44:36,769] {logging_mixin.py:115} INFO - [2023-01-30 16:44:36,769] {dag.py:2915} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-01-30 16:44:36,830] {processor.py:161} INFO - Processing /home/tinmar/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.204 seconds

@@ -1,0 +1,182 @@
+[2023-02-06 12:30:13,129] {processor.py:153} INFO - Started process (PID=10881) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:30:13,130] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:30:13,130] {logging_mixin.py:115} INFO - [2023-02-06 12:30:13,130] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:30:13,685] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:30:13,756] {logging_mixin.py:115} INFO - [2023-02-06 12:30:13,755] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:30:13,777] {logging_mixin.py:115} INFO - [2023-02-06 12:30:13,777] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:30:13,827] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.700 seconds
+[2023-02-06 12:30:44,250] {processor.py:153} INFO - Started process (PID=10901) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:30:44,251] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:30:44,251] {logging_mixin.py:115} INFO - [2023-02-06 12:30:44,251] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:30:44,835] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:30:44,855] {logging_mixin.py:115} INFO - [2023-02-06 12:30:44,854] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:30:44,874] {logging_mixin.py:115} INFO - [2023-02-06 12:30:44,873] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:30:44,936] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.688 seconds
+[2023-02-06 12:31:16,457] {processor.py:153} INFO - Started process (PID=10921) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:31:16,459] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:31:16,459] {logging_mixin.py:115} INFO - [2023-02-06 12:31:16,459] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:31:16,961] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:31:16,983] {logging_mixin.py:115} INFO - [2023-02-06 12:31:16,983] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:31:16,998] {logging_mixin.py:115} INFO - [2023-02-06 12:31:16,998] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:31:17,040] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.585 seconds
+[2023-02-06 12:31:47,321] {processor.py:153} INFO - Started process (PID=10941) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:31:47,322] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:31:47,323] {logging_mixin.py:115} INFO - [2023-02-06 12:31:47,323] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:31:47,852] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:31:47,879] {logging_mixin.py:115} INFO - [2023-02-06 12:31:47,878] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:31:47,899] {logging_mixin.py:115} INFO - [2023-02-06 12:31:47,899] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:31:47,948] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.628 seconds
+[2023-02-06 12:32:19,054] {processor.py:153} INFO - Started process (PID=10962) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:32:19,056] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:32:19,056] {logging_mixin.py:115} INFO - [2023-02-06 12:32:19,056] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:32:19,643] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:32:19,692] {logging_mixin.py:115} INFO - [2023-02-06 12:32:19,691] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:32:19,728] {logging_mixin.py:115} INFO - [2023-02-06 12:32:19,727] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:32:19,805] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.752 seconds
+[2023-02-06 12:32:57,276] {processor.py:153} INFO - Started process (PID=10982) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:32:57,278] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:32:57,279] {logging_mixin.py:115} INFO - [2023-02-06 12:32:57,279] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:32:58,319] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:32:58,473] {logging_mixin.py:115} INFO - [2023-02-06 12:32:58,473] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:32:58,579] {logging_mixin.py:115} INFO - [2023-02-06 12:32:58,579] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:32:58,961] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 1.688 seconds
+[2023-02-06 12:33:29,521] {processor.py:153} INFO - Started process (PID=11002) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:33:29,522] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:33:29,523] {logging_mixin.py:115} INFO - [2023-02-06 12:33:29,523] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:33:30,055] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:33:30,073] {logging_mixin.py:115} INFO - [2023-02-06 12:33:30,072] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:33:30,088] {logging_mixin.py:115} INFO - [2023-02-06 12:33:30,088] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:33:30,125] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.606 seconds
+[2023-02-06 12:34:00,342] {processor.py:153} INFO - Started process (PID=11022) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:34:00,342] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:34:00,343] {logging_mixin.py:115} INFO - [2023-02-06 12:34:00,343] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:34:00,853] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:34:00,878] {logging_mixin.py:115} INFO - [2023-02-06 12:34:00,877] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:34:00,900] {logging_mixin.py:115} INFO - [2023-02-06 12:34:00,900] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:34:00,947] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.607 seconds
+[2023-02-06 12:34:31,328] {processor.py:153} INFO - Started process (PID=11042) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:34:31,328] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:34:31,329] {logging_mixin.py:115} INFO - [2023-02-06 12:34:31,329] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:34:31,863] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:34:31,890] {logging_mixin.py:115} INFO - [2023-02-06 12:34:31,890] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:34:31,907] {logging_mixin.py:115} INFO - [2023-02-06 12:34:31,907] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:34:31,953] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.627 seconds
+[2023-02-06 12:35:04,544] {processor.py:153} INFO - Started process (PID=11062) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:35:04,545] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:35:04,546] {logging_mixin.py:115} INFO - [2023-02-06 12:35:04,546] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:35:05,155] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:35:05,197] {logging_mixin.py:115} INFO - [2023-02-06 12:35:05,196] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:35:05,221] {logging_mixin.py:115} INFO - [2023-02-06 12:35:05,221] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:35:05,280] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.739 seconds
+[2023-02-06 12:35:39,557] {processor.py:153} INFO - Started process (PID=11082) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:35:39,558] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:35:39,559] {logging_mixin.py:115} INFO - [2023-02-06 12:35:39,559] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:35:40,478] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:35:40,576] {logging_mixin.py:115} INFO - [2023-02-06 12:35:40,576] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:35:40,648] {logging_mixin.py:115} INFO - [2023-02-06 12:35:40,648] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:35:40,952] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 1.398 seconds
+[2023-02-06 12:36:16,936] {processor.py:153} INFO - Started process (PID=11102) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:36:16,938] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:36:16,939] {logging_mixin.py:115} INFO - [2023-02-06 12:36:16,939] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:36:17,575] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:36:17,598] {logging_mixin.py:115} INFO - [2023-02-06 12:36:17,598] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:36:17,615] {logging_mixin.py:115} INFO - [2023-02-06 12:36:17,615] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:36:17,664] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.730 seconds
+[2023-02-06 12:36:47,990] {processor.py:153} INFO - Started process (PID=11148) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:36:47,991] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:36:47,991] {logging_mixin.py:115} INFO - [2023-02-06 12:36:47,991] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:36:48,481] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:36:48,505] {logging_mixin.py:115} INFO - [2023-02-06 12:36:48,505] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:36:48,525] {logging_mixin.py:115} INFO - [2023-02-06 12:36:48,525] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:36:48,565] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.577 seconds
+[2023-02-06 12:37:19,015] {processor.py:153} INFO - Started process (PID=11175) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:37:19,016] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:37:19,017] {logging_mixin.py:115} INFO - [2023-02-06 12:37:19,017] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:37:19,474] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:37:19,501] {logging_mixin.py:115} INFO - [2023-02-06 12:37:19,501] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:37:19,525] {logging_mixin.py:115} INFO - [2023-02-06 12:37:19,525] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:37:19,600] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.587 seconds
+[2023-02-06 12:37:49,897] {processor.py:153} INFO - Started process (PID=11195) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:37:49,897] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:37:49,898] {logging_mixin.py:115} INFO - [2023-02-06 12:37:49,898] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:37:50,361] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:37:50,389] {logging_mixin.py:115} INFO - [2023-02-06 12:37:50,389] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:37:50,406] {logging_mixin.py:115} INFO - [2023-02-06 12:37:50,406] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:37:50,447] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.552 seconds
+[2023-02-06 12:38:20,591] {processor.py:153} INFO - Started process (PID=11215) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:38:20,592] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:38:20,592] {logging_mixin.py:115} INFO - [2023-02-06 12:38:20,592] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:38:21,105] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:38:21,128] {logging_mixin.py:115} INFO - [2023-02-06 12:38:21,128] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:38:21,142] {logging_mixin.py:115} INFO - [2023-02-06 12:38:21,142] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:38:21,177] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.588 seconds
+[2023-02-06 12:38:51,682] {processor.py:153} INFO - Started process (PID=11235) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:38:51,682] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:38:51,683] {logging_mixin.py:115} INFO - [2023-02-06 12:38:51,683] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:38:52,147] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:38:52,165] {logging_mixin.py:115} INFO - [2023-02-06 12:38:52,165] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:38:52,179] {logging_mixin.py:115} INFO - [2023-02-06 12:38:52,179] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:38:52,216] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.536 seconds
+[2023-02-06 12:39:23,229] {processor.py:153} INFO - Started process (PID=11255) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:39:23,230] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:39:23,230] {logging_mixin.py:115} INFO - [2023-02-06 12:39:23,230] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:39:23,693] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:39:23,714] {logging_mixin.py:115} INFO - [2023-02-06 12:39:23,714] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:39:23,729] {logging_mixin.py:115} INFO - [2023-02-06 12:39:23,729] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:39:23,771] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.544 seconds
+[2023-02-06 12:39:59,362] {processor.py:153} INFO - Started process (PID=11276) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:39:59,362] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:39:59,363] {logging_mixin.py:115} INFO - [2023-02-06 12:39:59,363] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:39:59,902] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:39:59,921] {logging_mixin.py:115} INFO - [2023-02-06 12:39:59,920] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:39:59,936] {logging_mixin.py:115} INFO - [2023-02-06 12:39:59,936] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:39:59,973] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.613 seconds
+[2023-02-06 12:40:30,844] {processor.py:153} INFO - Started process (PID=11296) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:40:30,845] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:40:30,846] {logging_mixin.py:115} INFO - [2023-02-06 12:40:30,846] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:40:31,335] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:40:31,353] {logging_mixin.py:115} INFO - [2023-02-06 12:40:31,353] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:40:31,367] {logging_mixin.py:115} INFO - [2023-02-06 12:40:31,367] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:40:31,408] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.567 seconds
+[2023-02-06 12:41:01,620] {processor.py:153} INFO - Started process (PID=11316) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:41:01,621] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:41:01,621] {logging_mixin.py:115} INFO - [2023-02-06 12:41:01,621] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:41:02,089] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:41:02,109] {logging_mixin.py:115} INFO - [2023-02-06 12:41:02,109] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:41:02,124] {logging_mixin.py:115} INFO - [2023-02-06 12:41:02,123] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:41:02,162] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.544 seconds
+[2023-02-06 12:41:32,605] {processor.py:153} INFO - Started process (PID=11336) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:41:32,606] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:41:32,606] {logging_mixin.py:115} INFO - [2023-02-06 12:41:32,606] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:41:33,063] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:41:33,085] {logging_mixin.py:115} INFO - [2023-02-06 12:41:33,085] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:41:33,099] {logging_mixin.py:115} INFO - [2023-02-06 12:41:33,099] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:41:33,136] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.533 seconds
+[2023-02-06 12:42:03,384] {processor.py:153} INFO - Started process (PID=11356) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:42:03,384] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:42:03,385] {logging_mixin.py:115} INFO - [2023-02-06 12:42:03,385] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:42:03,849] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:42:03,869] {logging_mixin.py:115} INFO - [2023-02-06 12:42:03,869] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:42:03,883] {logging_mixin.py:115} INFO - [2023-02-06 12:42:03,883] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:42:03,921] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.539 seconds
+[2023-02-06 12:42:34,140] {processor.py:153} INFO - Started process (PID=11377) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:42:34,141] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:42:34,141] {logging_mixin.py:115} INFO - [2023-02-06 12:42:34,141] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:42:34,639] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:42:34,668] {logging_mixin.py:115} INFO - [2023-02-06 12:42:34,668] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:42:34,689] {logging_mixin.py:115} INFO - [2023-02-06 12:42:34,688] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:42:34,736] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.597 seconds
+[2023-02-06 12:43:04,879] {processor.py:153} INFO - Started process (PID=11397) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:43:04,880] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:43:04,880] {logging_mixin.py:115} INFO - [2023-02-06 12:43:04,880] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:43:05,340] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:43:05,358] {logging_mixin.py:115} INFO - [2023-02-06 12:43:05,358] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:43:05,372] {logging_mixin.py:115} INFO - [2023-02-06 12:43:05,372] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:43:05,407] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.530 seconds
+[2023-02-06 12:43:36,039] {processor.py:153} INFO - Started process (PID=11417) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:43:36,039] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py for tasks to queue
+[2023-02-06 12:43:36,040] {logging_mixin.py:115} INFO - [2023-02-06 12:43:36,040] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:43:36,494] {processor.py:651} INFO - DAG(s) dict_keys(['2.3_azure_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py
+[2023-02-06 12:43:36,513] {logging_mixin.py:115} INFO - [2023-02-06 12:43:36,513] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:43:36,527] {logging_mixin.py:115} INFO - [2023-02-06 12:43:36,527] {dag.py:2915} INFO - Setting next_dagrun for 2.3_azure_storage_bigquery to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:43:36,570] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.3_azure_storage_bigquery.py took 0.533 seconds

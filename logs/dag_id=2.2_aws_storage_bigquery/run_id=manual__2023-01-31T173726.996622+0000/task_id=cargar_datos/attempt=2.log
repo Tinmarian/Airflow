@@ -1,0 +1,26 @@
+[2023-01-31 11:44:28,776] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.2_aws_storage_bigquery.cargar_datos manual__2023-01-31T17:37:26.996622+00:00 [queued]>
+[2023-01-31 11:44:28,789] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.2_aws_storage_bigquery.cargar_datos manual__2023-01-31T17:37:26.996622+00:00 [queued]>
+[2023-01-31 11:44:28,789] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 11:44:28,789] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-01-31 11:44:28,790] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 11:44:28,814] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 17:37:26.996622+00:00
+[2023-01-31 11:44:28,816] {standard_task_runner.py:52} INFO - Started process 4056 to run task
+[2023-01-31 11:44:28,818] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2.2_aws_storage_bigquery', 'cargar_datos', 'manual__2023-01-31T17:37:26.996622+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/2.2_aws_storage_bigquery.py', '--cfg-path', '/tmp/tmpyeti7hm7', '--error-file', '/tmp/tmpx5bu52yh']
+[2023-01-31 11:44:28,819] {standard_task_runner.py:80} INFO - Job 48: Subtask cargar_datos
+[2023-01-31 11:44:28,874] {task_command.py:369} INFO - Running <TaskInstance: 2.2_aws_storage_bigquery.cargar_datos manual__2023-01-31T17:37:26.996622+00:00 [running]> on host Tinmar.
+[2023-01-31 11:44:28,956] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2.2_aws_storage_bigquery
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T17:37:26.996622+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T17:37:26.996622+00:00
+[2023-01-31 11:44:28,967] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 11:44:28,969] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 11:44:29,005] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years_aws'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://aws_airflow23/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-01-31 11:44:29,006] {bigquery.py:1542} INFO - Inserting job airflow_2_2_aws_storage_bigquery_cargar_datos_2023_01_31T17_37_26_996622_00_00_502c7a9c845c05e6fb181f31a8817d77
+[2023-01-31 11:44:38,035] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=2.2_aws_storage_bigquery, task_id=cargar_datos, execution_date=20230131T173726, start_date=20230131T174428, end_date=20230131T174438
+[2023-01-31 11:44:38,105] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-31 11:44:38,151] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

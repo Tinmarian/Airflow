@@ -1,0 +1,42 @@
+[2023-02-01 15:52:05,470] {processor.py:153} INFO - Started process (PID=11971) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:52:05,471] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py for tasks to queue
+[2023-02-01 15:52:05,472] {logging_mixin.py:115} INFO - [2023-02-01 15:52:05,472] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:52:05,509] {processor.py:651} INFO - DAG(s) dict_keys(['8_documentation']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:52:05,646] {logging_mixin.py:115} INFO - [2023-02-01 15:52:05,646] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:52:05,693] {logging_mixin.py:115} INFO - [2023-02-01 15:52:05,693] {dag.py:2915} INFO - Setting next_dagrun for 8_documentation to 2023-01-31T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01 15:52:05,799] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py took 0.330 seconds
+[2023-02-01 15:52:37,584] {processor.py:153} INFO - Started process (PID=11991) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:52:37,585] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py for tasks to queue
+[2023-02-01 15:52:37,586] {logging_mixin.py:115} INFO - [2023-02-01 15:52:37,585] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:52:37,616] {processor.py:651} INFO - DAG(s) dict_keys(['8_documentation']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:52:37,640] {logging_mixin.py:115} INFO - [2023-02-01 15:52:37,640] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:52:37,658] {logging_mixin.py:115} INFO - [2023-02-01 15:52:37,658] {dag.py:2915} INFO - Setting next_dagrun for 8_documentation to 2023-01-31T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01 15:52:37,700] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py took 0.118 seconds
+[2023-02-01 15:53:08,322] {processor.py:153} INFO - Started process (PID=12011) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:53:08,323] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py for tasks to queue
+[2023-02-01 15:53:08,324] {logging_mixin.py:115} INFO - [2023-02-01 15:53:08,324] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:53:08,366] {processor.py:651} INFO - DAG(s) dict_keys(['8_documentation']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:53:08,389] {logging_mixin.py:115} INFO - [2023-02-01 15:53:08,389] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:53:08,408] {logging_mixin.py:115} INFO - [2023-02-01 15:53:08,407] {dag.py:2915} INFO - Setting next_dagrun for 8_documentation to 2023-01-31T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01 15:53:08,454] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py took 0.134 seconds
+[2023-02-01 15:53:43,047] {processor.py:153} INFO - Started process (PID=12031) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:53:43,048] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py for tasks to queue
+[2023-02-01 15:53:43,049] {logging_mixin.py:115} INFO - [2023-02-01 15:53:43,049] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:53:43,106] {processor.py:651} INFO - DAG(s) dict_keys(['8_documentation']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:53:43,159] {logging_mixin.py:115} INFO - [2023-02-01 15:53:43,159] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:53:43,191] {logging_mixin.py:115} INFO - [2023-02-01 15:53:43,191] {dag.py:2915} INFO - Setting next_dagrun for 8_documentation to 2023-01-31T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01 15:53:43,287] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py took 0.243 seconds
+[2023-02-01 15:54:14,512] {processor.py:153} INFO - Started process (PID=12051) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:54:14,513] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py for tasks to queue
+[2023-02-01 15:54:14,514] {logging_mixin.py:115} INFO - [2023-02-01 15:54:14,513] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:54:14,549] {processor.py:651} INFO - DAG(s) dict_keys(['8_documentation']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:54:14,577] {logging_mixin.py:115} INFO - [2023-02-01 15:54:14,577] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:54:14,597] {logging_mixin.py:115} INFO - [2023-02-01 15:54:14,597] {dag.py:2915} INFO - Setting next_dagrun for 8_documentation to 2023-01-31T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01 15:54:14,648] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py took 0.138 seconds
+[2023-02-01 15:54:46,293] {processor.py:153} INFO - Started process (PID=12071) to work on /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:54:46,294] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py for tasks to queue
+[2023-02-01 15:54:46,295] {logging_mixin.py:115} INFO - [2023-02-01 15:54:46,295] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:54:46,324] {processor.py:651} INFO - DAG(s) dict_keys(['8_documentation']) retrieved from /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py
+[2023-02-01 15:54:46,347] {logging_mixin.py:115} INFO - [2023-02-01 15:54:46,347] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-01 15:54:46,364] {logging_mixin.py:115} INFO - [2023-02-01 15:54:46,364] {dag.py:2915} INFO - Setting next_dagrun for 8_documentation to 2023-01-31T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-02-01 15:54:46,407] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2-0-De-0-a-Heroe/8_documentation.py took 0.116 seconds

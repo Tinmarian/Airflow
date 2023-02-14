@@ -1,0 +1,36 @@
+[2023-01-31 17:28:35,604] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:28:35,615] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [queued]>
+[2023-01-31 17:28:35,615] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:28:35,616] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-01-31 17:28:35,616] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:28:35,643] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 23:27:04.884341+00:00
+[2023-01-31 17:28:35,645] {standard_task_runner.py:52} INFO - Started process 14224 to run task
+[2023-01-31 17:28:35,647] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '3_hooks_xcoms', 'cargar_datos', 'manual__2023-01-31T23:27:04.884341+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/3_hooks_xcoms.py', '--cfg-path', '/tmp/tmp06bv27pb', '--error-file', '/tmp/tmpgxeyept0']
+[2023-01-31 17:28:35,648] {standard_task_runner.py:80} INFO - Job 94: Subtask cargar_datos
+[2023-01-31 17:28:35,705] {task_command.py:369} INFO - Running <TaskInstance: 3_hooks_xcoms.cargar_datos manual__2023-01-31T23:27:04.884341+00:00 [running]> on host Tinmar.
+[2023-01-31 17:28:35,792] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=3_hooks_xcoms
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T23:27:04.884341+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T23:27:04.884341+00:00
+[2023-01-31 17:28:35,803] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 17:28:35,804] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 17:28:35,840] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years_hooks_xcoms'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://original-bucked-987/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-01-31 17:28:35,841] {bigquery.py:1542} INFO - Inserting job airflow_3_hooks_xcoms_cargar_datos_2023_01_31T23_27_04_884341_00_00_c1c6d873ee447fa138e0f38cda897f6a
+[2023-01-31 17:28:36,935] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 440, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.Forbidden: 403 Access Denied: File gs://original-bucked-987/: Access Denied
+[2023-01-31 17:28:36,953] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=3_hooks_xcoms, task_id=cargar_datos, execution_date=20230131T232704, start_date=20230131T232835, end_date=20230131T232836
+[2023-01-31 17:28:36,978] {standard_task_runner.py:92} ERROR - Failed to execute job 94 for task cargar_datos (403 Access Denied: File gs://original-bucked-987/: Access Denied; 14224)
+[2023-01-31 17:28:36,989] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 17:28:37,041] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

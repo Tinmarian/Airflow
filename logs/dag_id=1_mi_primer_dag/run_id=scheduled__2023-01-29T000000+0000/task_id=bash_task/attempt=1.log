@@ -1,0 +1,28 @@
+[2023-01-30 15:47:39,142] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1_mi_primer_dag.bash_task scheduled__2023-01-29T00:00:00+00:00 [queued]>
+[2023-01-30 15:47:39,165] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1_mi_primer_dag.bash_task scheduled__2023-01-29T00:00:00+00:00 [queued]>
+[2023-01-30 15:47:39,166] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-30 15:47:39,166] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-30 15:47:39,167] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-30 15:47:39,212] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): bash_task> on 2023-01-29 00:00:00+00:00
+[2023-01-30 15:47:39,214] {standard_task_runner.py:52} INFO - Started process 7940 to run task
+[2023-01-30 15:47:39,216] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '1_mi_primer_dag', 'bash_task', 'scheduled__2023-01-29T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/1_mi_primer_dag.py', '--cfg-path', '/tmp/tmpimmh7lcw', '--error-file', '/tmp/tmprv9ir3h2']
+[2023-01-30 15:47:39,216] {standard_task_runner.py:80} INFO - Job 4: Subtask bash_task
+[2023-01-30 15:47:39,289] {task_command.py:369} INFO - Running <TaskInstance: 1_mi_primer_dag.bash_task scheduled__2023-01-29T00:00:00+00:00 [running]> on host Tinmar.
+[2023-01-30 15:47:39,398] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=1_mi_primer_dag
+AIRFLOW_CTX_TASK_ID=bash_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-29T00:00:00+00:00
+[2023-01-30 15:47:39,398] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-01-30 15:47:39,401] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'echo "---> Mi primer DAG en Apache Airflow!, Fecha: $TODAY"']
+[2023-01-30 15:47:39,404] {subprocess.py:85} INFO - Output:
+[2023-01-30 15:47:39,406] {subprocess.py:92} INFO - ---> Mi primer DAG en Apache Airflow!, Fecha: 2023-01-30
+[2023-01-30 15:47:39,406] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-01-30 15:47:39,465] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=1_mi_primer_dag, task_id=bash_task, execution_date=20230129T000000, start_date=20230130T214739, end_date=20230130T214739
+[2023-01-30 15:47:39,509] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-30 15:47:39,567] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

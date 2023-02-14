@@ -1,0 +1,175 @@
+[2023-02-06 12:30:16,293] {processor.py:153} INFO - Started process (PID=10886) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:30:16,294] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:30:16,295] {logging_mixin.py:115} INFO - [2023-02-06 12:30:16,295] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:30:16,339] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:30:16,392] {logging_mixin.py:115} INFO - [2023-02-06 12:30:16,392] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:30:16,493] {logging_mixin.py:115} INFO - [2023-02-06 12:30:16,493] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:30:16,543] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.253 seconds
+[2023-02-06 12:30:47,401] {processor.py:153} INFO - Started process (PID=10906) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:30:47,402] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:30:47,403] {logging_mixin.py:115} INFO - [2023-02-06 12:30:47,403] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:30:47,436] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:30:47,459] {logging_mixin.py:115} INFO - [2023-02-06 12:30:47,459] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:30:47,478] {logging_mixin.py:115} INFO - [2023-02-06 12:30:47,477] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:30:47,533] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.134 seconds
+[2023-02-06 12:31:20,037] {processor.py:153} INFO - Started process (PID=10926) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:31:20,038] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:31:20,038] {logging_mixin.py:115} INFO - [2023-02-06 12:31:20,038] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:31:20,067] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:31:20,087] {logging_mixin.py:115} INFO - [2023-02-06 12:31:20,087] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:31:20,104] {logging_mixin.py:115} INFO - [2023-02-06 12:31:20,104] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:31:20,149] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.114 seconds
+[2023-02-06 12:31:50,950] {processor.py:153} INFO - Started process (PID=10946) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:31:50,951] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:31:50,951] {logging_mixin.py:115} INFO - [2023-02-06 12:31:50,951] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:31:50,978] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:31:50,996] {logging_mixin.py:115} INFO - [2023-02-06 12:31:50,996] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:31:51,012] {logging_mixin.py:115} INFO - [2023-02-06 12:31:51,012] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:31:51,051] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.103 seconds
+[2023-02-06 12:32:23,137] {processor.py:153} INFO - Started process (PID=10967) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:32:23,140] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:32:23,141] {logging_mixin.py:115} INFO - [2023-02-06 12:32:23,141] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:32:23,321] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:32:23,492] {logging_mixin.py:115} INFO - [2023-02-06 12:32:23,492] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:32:23,533] {logging_mixin.py:115} INFO - [2023-02-06 12:32:23,533] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:32:23,652] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.517 seconds
+[2023-02-06 12:33:04,185] {processor.py:153} INFO - Started process (PID=10987) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:33:04,187] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:33:04,191] {logging_mixin.py:115} INFO - [2023-02-06 12:33:04,190] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:33:04,258] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:33:04,298] {logging_mixin.py:115} INFO - [2023-02-06 12:33:04,297] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:33:04,394] {logging_mixin.py:115} INFO - [2023-02-06 12:33:04,394] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:33:04,580] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.398 seconds
+[2023-02-06 12:33:35,384] {processor.py:153} INFO - Started process (PID=11007) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:33:35,384] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:33:35,385] {logging_mixin.py:115} INFO - [2023-02-06 12:33:35,385] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:33:35,410] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:33:35,428] {logging_mixin.py:115} INFO - [2023-02-06 12:33:35,428] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:33:35,444] {logging_mixin.py:115} INFO - [2023-02-06 12:33:35,444] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:33:35,492] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.110 seconds
+[2023-02-06 12:34:06,455] {processor.py:153} INFO - Started process (PID=11027) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:34:06,456] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:34:06,456] {logging_mixin.py:115} INFO - [2023-02-06 12:34:06,456] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:34:06,483] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:34:06,503] {logging_mixin.py:115} INFO - [2023-02-06 12:34:06,503] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:34:06,521] {logging_mixin.py:115} INFO - [2023-02-06 12:34:06,521] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:34:06,564] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.110 seconds
+[2023-02-06 12:34:37,606] {processor.py:153} INFO - Started process (PID=11047) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:34:37,607] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:34:37,609] {logging_mixin.py:115} INFO - [2023-02-06 12:34:37,609] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:34:37,678] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:34:37,725] {logging_mixin.py:115} INFO - [2023-02-06 12:34:37,725] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:34:37,761] {logging_mixin.py:115} INFO - [2023-02-06 12:34:37,760] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:34:37,848] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.243 seconds
+[2023-02-06 12:35:09,639] {processor.py:153} INFO - Started process (PID=11067) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:35:09,640] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:35:09,641] {logging_mixin.py:115} INFO - [2023-02-06 12:35:09,641] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:35:09,702] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:35:09,739] {logging_mixin.py:115} INFO - [2023-02-06 12:35:09,738] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:35:09,773] {logging_mixin.py:115} INFO - [2023-02-06 12:35:09,773] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:35:09,877] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.240 seconds
+[2023-02-06 12:35:45,249] {processor.py:153} INFO - Started process (PID=11087) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:35:45,254] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:35:45,264] {logging_mixin.py:115} INFO - [2023-02-06 12:35:45,264] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:35:45,513] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:35:45,565] {logging_mixin.py:115} INFO - [2023-02-06 12:35:45,565] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:35:45,607] {logging_mixin.py:115} INFO - [2023-02-06 12:35:45,607] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:35:45,702] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.455 seconds
+[2023-02-06 12:36:22,157] {processor.py:153} INFO - Started process (PID=11108) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:36:22,157] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:36:22,158] {logging_mixin.py:115} INFO - [2023-02-06 12:36:22,158] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:36:22,188] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:36:22,207] {logging_mixin.py:115} INFO - [2023-02-06 12:36:22,207] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:36:22,222] {logging_mixin.py:115} INFO - [2023-02-06 12:36:22,222] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:36:22,266] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.111 seconds
+[2023-02-06 12:36:52,984] {processor.py:153} INFO - Started process (PID=11156) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:36:52,986] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:36:52,987] {logging_mixin.py:115} INFO - [2023-02-06 12:36:52,986] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:36:53,015] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:36:53,033] {logging_mixin.py:115} INFO - [2023-02-06 12:36:53,033] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:36:53,049] {logging_mixin.py:115} INFO - [2023-02-06 12:36:53,049] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:36:53,103] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.121 seconds
+[2023-02-06 12:37:24,018] {processor.py:153} INFO - Started process (PID=11181) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:37:24,019] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:37:24,020] {logging_mixin.py:115} INFO - [2023-02-06 12:37:24,020] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:37:24,048] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:37:24,072] {logging_mixin.py:115} INFO - [2023-02-06 12:37:24,072] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:37:24,090] {logging_mixin.py:115} INFO - [2023-02-06 12:37:24,090] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:37:24,139] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.131 seconds
+[2023-02-06 12:37:55,150] {processor.py:153} INFO - Started process (PID=11201) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:37:55,150] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:37:55,151] {logging_mixin.py:115} INFO - [2023-02-06 12:37:55,151] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:37:55,182] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:37:55,213] {logging_mixin.py:115} INFO - [2023-02-06 12:37:55,212] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:37:55,229] {logging_mixin.py:115} INFO - [2023-02-06 12:37:55,229] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:37:55,271] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.123 seconds
+[2023-02-06 12:38:26,129] {processor.py:153} INFO - Started process (PID=11221) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:38:26,130] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:38:26,131] {logging_mixin.py:115} INFO - [2023-02-06 12:38:26,130] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:38:26,156] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:38:26,175] {logging_mixin.py:115} INFO - [2023-02-06 12:38:26,175] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:38:26,190] {logging_mixin.py:115} INFO - [2023-02-06 12:38:26,190] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:38:26,231] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.103 seconds
+[2023-02-06 12:38:57,353] {processor.py:153} INFO - Started process (PID=11241) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:38:57,353] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:38:57,354] {logging_mixin.py:115} INFO - [2023-02-06 12:38:57,354] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:38:57,379] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:38:57,399] {logging_mixin.py:115} INFO - [2023-02-06 12:38:57,399] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:38:57,414] {logging_mixin.py:115} INFO - [2023-02-06 12:38:57,414] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:38:57,458] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.107 seconds
+[2023-02-06 12:39:28,369] {processor.py:153} INFO - Started process (PID=11261) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:39:28,370] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:39:28,370] {logging_mixin.py:115} INFO - [2023-02-06 12:39:28,370] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:39:28,396] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:39:28,415] {logging_mixin.py:115} INFO - [2023-02-06 12:39:28,415] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:39:28,431] {logging_mixin.py:115} INFO - [2023-02-06 12:39:28,431] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:39:28,471] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.103 seconds
+[2023-02-06 12:40:02,829] {processor.py:153} INFO - Started process (PID=11281) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:40:02,830] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:40:02,831] {logging_mixin.py:115} INFO - [2023-02-06 12:40:02,831] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:40:02,856] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:40:02,874] {logging_mixin.py:115} INFO - [2023-02-06 12:40:02,874] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:40:02,890] {logging_mixin.py:115} INFO - [2023-02-06 12:40:02,890] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:40:02,929] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.101 seconds
+[2023-02-06 12:40:34,300] {processor.py:153} INFO - Started process (PID=11301) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:40:34,301] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:40:34,302] {logging_mixin.py:115} INFO - [2023-02-06 12:40:34,301] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:40:34,327] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:40:34,347] {logging_mixin.py:115} INFO - [2023-02-06 12:40:34,347] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:40:34,363] {logging_mixin.py:115} INFO - [2023-02-06 12:40:34,363] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:40:34,403] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.105 seconds
+[2023-02-06 12:41:05,034] {processor.py:153} INFO - Started process (PID=11321) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:41:05,035] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:41:05,035] {logging_mixin.py:115} INFO - [2023-02-06 12:41:05,035] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:41:05,061] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:41:05,081] {logging_mixin.py:115} INFO - [2023-02-06 12:41:05,081] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:41:05,098] {logging_mixin.py:115} INFO - [2023-02-06 12:41:05,098] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:41:05,150] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.118 seconds
+[2023-02-06 12:41:36,038] {processor.py:153} INFO - Started process (PID=11341) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:41:36,039] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:41:36,039] {logging_mixin.py:115} INFO - [2023-02-06 12:41:36,039] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:41:36,065] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:41:36,086] {logging_mixin.py:115} INFO - [2023-02-06 12:41:36,086] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:41:36,103] {logging_mixin.py:115} INFO - [2023-02-06 12:41:36,102] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:41:36,150] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.114 seconds
+[2023-02-06 12:42:06,832] {processor.py:153} INFO - Started process (PID=11362) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:42:06,833] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:42:06,834] {logging_mixin.py:115} INFO - [2023-02-06 12:42:06,834] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:42:06,859] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:42:06,877] {logging_mixin.py:115} INFO - [2023-02-06 12:42:06,877] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:42:06,892] {logging_mixin.py:115} INFO - [2023-02-06 12:42:06,892] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:42:06,929] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.099 seconds
+[2023-02-06 12:42:37,684] {processor.py:153} INFO - Started process (PID=11382) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:42:37,687] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:42:37,688] {logging_mixin.py:115} INFO - [2023-02-06 12:42:37,688] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:42:37,713] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:42:37,733] {logging_mixin.py:115} INFO - [2023-02-06 12:42:37,733] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:42:37,749] {logging_mixin.py:115} INFO - [2023-02-06 12:42:37,749] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:42:37,786] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.104 seconds
+[2023-02-06 12:43:08,894] {processor.py:153} INFO - Started process (PID=11402) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:43:08,895] {processor.py:641} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py for tasks to queue
+[2023-02-06 12:43:08,896] {logging_mixin.py:115} INFO - [2023-02-06 12:43:08,896] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:43:08,925] {processor.py:651} INFO - DAG(s) dict_keys(['1_mi_primer_dag']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py
+[2023-02-06 12:43:08,942] {logging_mixin.py:115} INFO - [2023-02-06 12:43:08,942] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-06 12:43:08,958] {logging_mixin.py:115} INFO - [2023-02-06 12:43:08,957] {dag.py:2915} INFO - Setting next_dagrun for 1_mi_primer_dag to 2023-02-05T00:00:00+00:00, run_after=2023-02-06T00:00:00+00:00
+[2023-02-06 12:43:08,996] {processor.py:161} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/1_mi_primer_dag.py took 0.103 seconds
