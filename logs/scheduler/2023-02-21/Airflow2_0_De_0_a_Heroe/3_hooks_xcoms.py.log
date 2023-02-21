@@ -3428,3 +3428,52 @@
 [2023-02-21T16:13:27.600-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:13:27.600-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:13:27.624-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:13:27.624-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
 [2023-02-21T16:13:27.650-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 0.773 seconds
+[2023-02-21T16:14:00.281-0600] {processor.py:156} INFO - Started process (PID=630423) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:14:00.282-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py for tasks to queue
+[2023-02-21T16:14:00.284-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:00.284-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:14:00.981-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_xcoms']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:14:01.011-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:01.010-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:14:01.031-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:01.031-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:14:01.056-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 0.779 seconds
+[2023-02-21T16:14:32.192-0600] {processor.py:156} INFO - Started process (PID=630778) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:14:32.193-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py for tasks to queue
+[2023-02-21T16:14:32.194-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:32.194-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:14:32.683-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_xcoms']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:14:32.706-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:32.705-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:14:32.722-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:32.721-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:14:32.738-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 0.549 seconds
+[2023-02-21T16:15:03.734-0600] {processor.py:156} INFO - Started process (PID=631168) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:15:03.735-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py for tasks to queue
+[2023-02-21T16:15:03.736-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:03.736-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:15:04.352-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_xcoms']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:15:04.381-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:04.381-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:15:04.403-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:04.402-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:15:04.432-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 0.701 seconds
+[2023-02-21T16:15:35.824-0600] {processor.py:156} INFO - Started process (PID=631514) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:15:35.826-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py for tasks to queue
+[2023-02-21T16:15:35.828-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:35.828-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:15:36.532-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_xcoms']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:15:36.561-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:36.560-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:15:36.581-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:36.580-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:15:36.605-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 0.785 seconds
+[2023-02-21T16:16:07.070-0600] {processor.py:156} INFO - Started process (PID=631867) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:16:07.072-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py for tasks to queue
+[2023-02-21T16:16:07.074-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:07.073-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:16:07.965-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_xcoms']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:16:08.011-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:08.010-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:16:08.040-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:08.040-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:16:08.066-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 1.000 seconds
+[2023-02-21T16:16:38.598-0600] {processor.py:156} INFO - Started process (PID=632221) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:16:38.599-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py for tasks to queue
+[2023-02-21T16:16:38.600-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:38.600-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:16:39.135-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_xcoms']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:16:39.158-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:39.157-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:16:39.174-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:39.174-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:16:39.191-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 0.596 seconds
+[2023-02-21T16:17:09.934-0600] {processor.py:156} INFO - Started process (PID=632621) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:17:09.936-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py for tasks to queue
+[2023-02-21T16:17:09.937-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:09.937-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:17:10.643-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_xcoms']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py
+[2023-02-21T16:17:10.672-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:10.672-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:17:10.690-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:10.690-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_xcoms to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:17:10.715-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/3_hooks_xcoms.py took 0.785 seconds

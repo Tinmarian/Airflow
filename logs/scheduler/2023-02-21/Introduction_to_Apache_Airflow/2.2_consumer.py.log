@@ -3491,3 +3491,45 @@
 [2023-02-21T16:13:54.579-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:13:54.579-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:13:54.603-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:13:54.602-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_consumer to None, run_after=None
 [2023-02-21T16:13:54.637-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py took 0.163 seconds
+[2023-02-21T16:14:25.561-0600] {processor.py:156} INFO - Started process (PID=630597) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:14:25.562-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py for tasks to queue
+[2023-02-21T16:14:25.564-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:25.564-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:14:25.624-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_consumer']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:14:25.659-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:25.659-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:14:25.678-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:25.677-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_consumer to None, run_after=None
+[2023-02-21T16:14:25.702-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py took 0.144 seconds
+[2023-02-21T16:14:56.750-0600] {processor.py:156} INFO - Started process (PID=630996) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:14:56.751-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py for tasks to queue
+[2023-02-21T16:14:56.753-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:56.752-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:14:56.825-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_consumer']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:14:56.866-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:56.866-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:14:56.884-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:56.884-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_consumer to None, run_after=None
+[2023-02-21T16:14:56.914-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py took 0.167 seconds
+[2023-02-21T16:15:28.284-0600] {processor.py:156} INFO - Started process (PID=631342) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:15:28.286-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py for tasks to queue
+[2023-02-21T16:15:28.287-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:28.287-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:15:28.359-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_consumer']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:15:28.406-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:28.406-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:15:28.433-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:28.433-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_consumer to None, run_after=None
+[2023-02-21T16:15:28.469-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py took 0.187 seconds
+[2023-02-21T16:15:59.204-0600] {processor.py:156} INFO - Started process (PID=631686) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:15:59.205-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py for tasks to queue
+[2023-02-21T16:15:59.205-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:59.205-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:15:59.240-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_consumer']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:15:59.265-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:59.264-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:15:59.280-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:59.280-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_consumer to None, run_after=None
+[2023-02-21T16:15:59.298-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py took 0.097 seconds
+[2023-02-21T16:16:30.625-0600] {processor.py:156} INFO - Started process (PID=632043) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:16:30.626-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py for tasks to queue
+[2023-02-21T16:16:30.628-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:30.627-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:16:30.700-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_consumer']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:16:30.733-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:30.733-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:16:30.752-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:30.752-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_consumer to None, run_after=None
+[2023-02-21T16:16:30.779-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py took 0.158 seconds
+[2023-02-21T16:17:02.145-0600] {processor.py:156} INFO - Started process (PID=632431) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:17:02.147-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py for tasks to queue
+[2023-02-21T16:17:02.148-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:02.148-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:17:02.254-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_consumer']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py
+[2023-02-21T16:17:02.296-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:02.296-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:17:02.314-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:02.314-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_consumer to None, run_after=None
+[2023-02-21T16:17:02.348-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.2_consumer.py took 0.206 seconds
