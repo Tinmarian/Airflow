@@ -485,3 +485,143 @@ airflow.exceptions.AirflowException: The trigger_rule must be one of {<TriggerRu
 [2023-02-21T16:13:50.582-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:13:50.581-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:13:50.607-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:13:50.606-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
 [2023-02-21T16:13:50.638-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.164 seconds
+[2023-02-21T16:14:20.960-0600] {processor.py:156} INFO - Started process (PID=630470) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:14:20.962-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:14:20.963-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:20.963-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:14:20.998-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:14:21.033-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:21.032-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:14:21.052-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:21.052-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:14:21.073-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.116 seconds
+[2023-02-21T16:14:51.583-0600] {processor.py:156} INFO - Started process (PID=630853) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:14:51.585-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:14:51.586-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:51.586-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:14:51.651-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:14:51.697-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:51.697-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:14:51.718-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:14:51.718-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:14:51.745-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.165 seconds
+[2023-02-21T16:15:22.591-0600] {processor.py:156} INFO - Started process (PID=631213) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:15:22.593-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:15:22.594-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:22.594-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:15:22.651-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:15:22.696-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:22.696-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:15:22.717-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:22.717-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:15:22.743-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.156 seconds
+[2023-02-21T16:15:53.321-0600] {processor.py:156} INFO - Started process (PID=631551) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:15:53.322-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:15:53.325-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:53.324-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:15:53.375-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:15:53.414-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:53.414-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:15:53.435-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:15:53.435-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:15:53.460-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.143 seconds
+[2023-02-21T16:16:23.808-0600] {processor.py:156} INFO - Started process (PID=631911) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:16:23.809-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:16:23.811-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:23.811-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:16:23.876-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:16:23.918-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:23.918-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:16:23.940-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:23.940-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:16:23.965-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.161 seconds
+[2023-02-21T16:16:54.612-0600] {processor.py:156} INFO - Started process (PID=632261) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:16:54.614-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:16:54.615-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:54.615-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:16:54.670-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:16:54.708-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:54.708-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:16:54.727-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:16:54.727-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:16:54.746-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.136 seconds
+[2023-02-21T16:17:25.985-0600] {processor.py:156} INFO - Started process (PID=632700) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:17:25.986-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:17:25.988-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:25.988-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:17:26.030-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:17:26.068-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:26.068-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:17:26.090-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:26.090-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:17:26.113-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.131 seconds
+[2023-02-21T16:18:18.840-0600] {processor.py:156} INFO - Started process (PID=633048) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:18:18.842-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:18:18.843-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:18.843-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:18:18.894-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:18:18.941-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:18.941-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:18:18.960-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:18.960-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:18:18.984-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.147 seconds
+[2023-02-21T16:18:49.920-0600] {processor.py:156} INFO - Started process (PID=633406) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:18:49.921-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:18:49.922-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:49.922-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:18:49.958-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:18:49.989-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:49.989-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:18:50.009-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:50.009-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:18:50.032-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.114 seconds
+[2023-02-21T16:19:20.780-0600] {processor.py:156} INFO - Started process (PID=633757) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:19:20.781-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:19:20.782-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:20.782-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:19:20.824-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:19:20.869-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:20.868-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:19:20.890-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:20.890-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:19:20.916-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.140 seconds
+[2023-02-21T16:19:51.512-0600] {processor.py:156} INFO - Started process (PID=634101) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:19:51.514-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:19:51.514-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:51.514-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:19:51.576-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:19:51.616-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:51.616-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:19:51.636-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:51.636-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:19:51.658-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.149 seconds
+[2023-02-21T16:20:22.251-0600] {processor.py:156} INFO - Started process (PID=634435) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:20:22.254-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:20:22.256-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:22.256-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:20:22.331-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:20:22.370-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:22.370-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:20:22.390-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:22.390-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:20:22.412-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.163 seconds
+[2023-02-21T16:20:53.134-0600] {processor.py:156} INFO - Started process (PID=634785) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:20:53.136-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:20:53.137-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:53.137-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:20:53.202-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:20:53.247-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:53.247-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:20:53.271-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:53.271-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:20:53.297-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.166 seconds
+[2023-02-21T16:21:23.813-0600] {processor.py:156} INFO - Started process (PID=635128) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:21:23.814-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:21:23.816-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:23.816-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:21:23.893-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:21:23.934-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:23.934-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:21:23.954-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:23.954-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:21:23.980-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.170 seconds
+[2023-02-21T16:21:54.617-0600] {processor.py:156} INFO - Started process (PID=635468) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:21:54.618-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:21:54.619-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:54.619-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:21:54.697-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:21:54.749-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:54.748-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:21:54.772-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:54.772-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:21:54.797-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.184 seconds
+[2023-02-21T16:22:25.679-0600] {processor.py:156} INFO - Started process (PID=635812) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:22:25.680-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:22:25.681-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:25.681-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:22:25.705-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:22:25.730-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:25.730-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:22:25.744-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:25.744-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:22:25.764-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.086 seconds
+[2023-02-21T16:33:23.129-0600] {processor.py:156} INFO - Started process (PID=636117) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:33:23.130-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:33:23.131-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:33:23.131-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:33:23.179-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:33:23.214-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:33:23.213-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:33:23.236-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:33:23.236-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:33:23.261-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.135 seconds
+[2023-02-21T16:34:29.856-0600] {processor.py:156} INFO - Started process (PID=636565) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:34:29.858-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:34:29.859-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:29.859-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:34:29.929-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:34:29.966-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:29.966-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:34:29.986-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:29.986-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:34:30.009-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.155 seconds
+[2023-02-21T16:35:00.940-0600] {processor.py:156} INFO - Started process (PID=636941) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:35:00.942-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:35:00.943-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:00.943-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:35:00.998-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:35:01.054-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:01.054-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:01.079-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:01.079-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:35:01.105-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.168 seconds
+[2023-02-21T16:35:31.844-0600] {processor.py:156} INFO - Started process (PID=637679) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:35:31.851-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py for tasks to queue
+[2023-02-21T16:35:31.852-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:31.852-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:35:31.946-0600] {processor.py:768} INFO - DAG(s) dict_keys(['5_trigger_rules']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T16:35:31.987-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:31.987-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:32.010-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:32.010-0600] {dag.py:3324} INFO - Setting next_dagrun for 5_trigger_rules to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:35:32.034-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py took 0.193 seconds
