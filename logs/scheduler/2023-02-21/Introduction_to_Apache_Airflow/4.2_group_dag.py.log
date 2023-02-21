@@ -6262,3 +6262,15 @@
 [2023-02-21T16:37:11.249-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:11.249-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:37:11.255-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:11.255-0600] {dag.py:3324} INFO - Setting next_dagrun for 4.2_group_dag.downloads to None, run_after=None
 [2023-02-21T16:37:11.273-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/4.2_group_dag.py took 0.620 seconds
+[2023-02-21T16:37:42.139-0600] {processor.py:156} INFO - Started process (PID=639288) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/4.2_group_dag.py
+[2023-02-21T16:37:42.140-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/4.2_group_dag.py for tasks to queue
+[2023-02-21T16:37:42.141-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:42.141-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/4.2_group_dag.py
+[2023-02-21T16:37:42.403-0600] {processor.py:768} INFO - DAG(s) dict_keys(['4.2_group_dag.downloads', '4.2_group_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/4.2_group_dag.py
+[2023-02-21T16:37:42.488-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:37:42.489-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:37:42.663-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:42.663-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:37:42.686-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:42.686-0600] {dag.py:3324} INFO - Setting next_dagrun for 4.2_group_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:37:42.695-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:42.695-0600] {dag.py:3324} INFO - Setting next_dagrun for 4.2_group_dag.downloads to None, run_after=None
+[2023-02-21T16:37:42.709-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:42.709-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:37:42.715-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:42.715-0600] {dag.py:3324} INFO - Setting next_dagrun for 4.2_group_dag.downloads to None, run_after=None
+[2023-02-21T16:37:42.739-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/4.2_group_dag.py took 0.603 seconds

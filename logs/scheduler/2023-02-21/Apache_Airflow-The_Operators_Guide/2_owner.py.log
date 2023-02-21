@@ -2645,3 +2645,10 @@ NameError: name 'dag' is not defined
 [2023-02-21T16:37:05.679-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:05.679-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:37:05.709-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:05.708-0600] {dag.py:3324} INFO - Setting next_dagrun for 2_owner to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
 [2023-02-21T16:37:05.742-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/2_owner.py took 0.169 seconds
+[2023-02-21T16:37:36.074-0600] {processor.py:156} INFO - Started process (PID=639175) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/2_owner.py
+[2023-02-21T16:37:36.085-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/2_owner.py for tasks to queue
+[2023-02-21T16:37:36.086-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:36.086-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/2_owner.py
+[2023-02-21T16:37:36.125-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2_owner']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/2_owner.py
+[2023-02-21T16:37:36.166-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:36.166-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:37:36.189-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:36.189-0600] {dag.py:3324} INFO - Setting next_dagrun for 2_owner to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:37:36.216-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/2_owner.py took 0.145 seconds

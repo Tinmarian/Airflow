@@ -2623,3 +2623,8 @@
 [2023-02-21T16:37:09.037-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:09.036-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py
 [2023-02-21T16:37:09.132-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py
 [2023-02-21T16:37:09.151-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py took 0.120 seconds
+[2023-02-21T16:37:39.563-0600] {processor.py:156} INFO - Started process (PID=639234) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py
+[2023-02-21T16:37:39.565-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py for tasks to queue
+[2023-02-21T16:37:39.567-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:39.567-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py
+[2023-02-21T16:37:39.630-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py
+[2023-02-21T16:37:39.649-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_transforms.py took 0.088 seconds

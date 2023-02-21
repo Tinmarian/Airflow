@@ -3540,3 +3540,17 @@
 [2023-02-21T16:36:49.553-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:49.553-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:36:49.571-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:49.570-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_aws_storage_bigquery to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
 [2023-02-21T16:36:49.595-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py took 0.769 seconds
+[2023-02-21T16:37:20.635-0600] {processor.py:156} INFO - Started process (PID=639141) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py
+[2023-02-21T16:37:20.636-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py for tasks to queue
+[2023-02-21T16:37:20.637-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:20.637-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py
+[2023-02-21T16:37:21.316-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_aws_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py
+[2023-02-21T16:37:21.351-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:21.351-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:37:21.375-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:21.375-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_aws_storage_bigquery to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:37:21.400-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py took 0.769 seconds
+[2023-02-21T16:37:52.583-0600] {processor.py:156} INFO - Started process (PID=639502) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py
+[2023-02-21T16:37:52.585-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py for tasks to queue
+[2023-02-21T16:37:52.585-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:52.585-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py
+[2023-02-21T16:37:53.132-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.2_aws_storage_bigquery']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py
+[2023-02-21T16:37:53.155-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:53.155-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:37:53.176-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:53.176-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.2_aws_storage_bigquery to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:37:53.200-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/2.2_aws_storage_bigquery.py took 0.619 seconds
