@@ -3526,3 +3526,73 @@
 [2023-02-21T16:17:05.081-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:05.081-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:17:05.100-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:05.099-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
 [2023-02-21T16:17:05.126-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.190 seconds
+[2023-02-21T16:17:36.491-0600] {processor.py:156} INFO - Started process (PID=632926) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:17:36.493-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:17:36.494-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.494-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:17:36.552-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:17:36.589-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.589-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:17:36.611-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.611-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:17:36.634-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.146 seconds
+[2023-02-21T16:18:24.147-0600] {processor.py:156} INFO - Started process (PID=633230) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:18:24.148-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:18:24.150-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.150-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:18:24.213-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:18:24.254-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.254-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:18:24.274-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.274-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:18:24.296-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.153 seconds
+[2023-02-21T16:18:54.858-0600] {processor.py:156} INFO - Started process (PID=633588) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:18:54.860-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:18:54.860-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:54.860-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:18:54.897-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:18:54.928-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:54.928-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:18:54.948-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:54.948-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:18:54.972-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.116 seconds
+[2023-02-21T16:19:26.635-0600] {processor.py:156} INFO - Started process (PID=633937) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:19:26.636-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:19:26.638-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:26.638-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:19:26.693-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:19:26.737-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:26.736-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:19:26.764-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:26.763-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:19:26.796-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.165 seconds
+[2023-02-21T16:19:58.791-0600] {processor.py:156} INFO - Started process (PID=634282) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:19:58.793-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:19:58.794-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:58.794-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:19:58.842-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:19:58.881-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:58.880-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:19:58.900-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:58.900-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:19:58.921-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.133 seconds
+[2023-02-21T16:20:30.463-0600] {processor.py:156} INFO - Started process (PID=634636) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:20:30.464-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:20:30.464-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.464-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:20:30.502-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:20:30.529-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.529-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:20:30.546-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.545-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:20:30.567-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.107 seconds
+[2023-02-21T16:21:01.502-0600] {processor.py:156} INFO - Started process (PID=634983) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:21:01.503-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:21:01.504-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.504-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:21:01.537-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:21:01.575-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.575-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:21:01.594-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.594-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:21:01.616-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.117 seconds
+[2023-02-21T16:21:32.252-0600] {processor.py:156} INFO - Started process (PID=635327) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:21:32.253-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:21:32.254-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.254-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:21:32.292-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:21:32.321-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.320-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:21:32.338-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.338-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:21:32.360-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.111 seconds
+[2023-02-21T16:22:03.127-0600] {processor.py:156} INFO - Started process (PID=635676) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:22:03.128-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:22:03.129-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.129-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:22:03.198-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:22:03.232-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.232-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:22:03.257-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.257-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:22:03.284-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.160 seconds
+[2023-02-21T16:22:34.286-0600] {processor.py:156} INFO - Started process (PID=636013) to work on /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:22:34.288-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/8_branch_dag.py for tasks to queue
+[2023-02-21T16:22:34.288-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.288-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:22:34.335-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_branch_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/8_branch_dag.py
+[2023-02-21T16:22:34.364-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.364-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:22:34.378-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.378-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_branch_dag to None, run_after=None
+[2023-02-21T16:22:34.401-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/8_branch_dag.py took 0.116 seconds

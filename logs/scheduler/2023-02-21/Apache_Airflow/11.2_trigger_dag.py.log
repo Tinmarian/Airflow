@@ -3526,3 +3526,73 @@
 [2023-02-21T16:17:03.712-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:03.712-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:17:03.732-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:03.732-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
 [2023-02-21T16:17:03.761-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.161 seconds
+[2023-02-21T16:17:34.969-0600] {processor.py:156} INFO - Started process (PID=632901) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:17:34.971-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:17:34.972-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:34.972-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:17:35.042-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:17:35.097-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:35.096-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:17:35.118-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:35.118-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:17:35.149-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.184 seconds
+[2023-02-21T16:18:23.971-0600] {processor.py:156} INFO - Started process (PID=633221) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:18:23.973-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:18:23.974-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:23.974-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:18:24.026-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:18:24.062-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.062-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:18:24.081-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.081-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:18:24.104-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.137 seconds
+[2023-02-21T16:18:54.628-0600] {processor.py:156} INFO - Started process (PID=633577) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:18:54.630-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:18:54.631-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:54.631-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:18:54.697-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:18:54.732-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:54.732-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:18:54.750-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:54.750-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:18:54.771-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.146 seconds
+[2023-02-21T16:19:26.421-0600] {processor.py:156} INFO - Started process (PID=633926) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:19:26.422-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:19:26.423-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:26.423-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:19:26.493-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:19:26.533-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:26.532-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:19:26.561-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:26.561-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:19:26.589-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.171 seconds
+[2023-02-21T16:19:58.624-0600] {processor.py:156} INFO - Started process (PID=634270) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:19:58.625-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:19:58.626-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:58.626-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:19:58.675-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:19:58.706-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:58.706-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:19:58.725-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:58.725-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:19:58.751-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.130 seconds
+[2023-02-21T16:20:30.152-0600] {processor.py:156} INFO - Started process (PID=634621) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:20:30.153-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:20:30.154-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.154-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:20:30.213-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:20:30.246-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.246-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:20:30.265-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.264-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:20:30.287-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.138 seconds
+[2023-02-21T16:21:01.104-0600] {processor.py:156} INFO - Started process (PID=634967) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:21:01.105-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:21:01.106-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.106-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:21:01.143-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:21:01.173-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.172-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:21:01.191-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.191-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:21:01.213-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.112 seconds
+[2023-02-21T16:21:32.101-0600] {processor.py:156} INFO - Started process (PID=635315) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:21:32.102-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:21:32.103-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.102-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:21:32.136-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:21:32.164-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.164-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:21:32.182-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.182-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:21:32.207-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.108 seconds
+[2023-02-21T16:22:02.825-0600] {processor.py:156} INFO - Started process (PID=635663) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:22:02.826-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:22:02.827-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:02.827-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:22:02.869-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:22:02.898-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:02.898-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:22:02.918-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:02.918-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:22:02.941-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.119 seconds
+[2023-02-21T16:22:33.989-0600] {processor.py:156} INFO - Started process (PID=635999) to work on /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:22:33.990-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py for tasks to queue
+[2023-02-21T16:22:33.991-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:33.991-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:22:34.040-0600] {processor.py:768} INFO - DAG(s) dict_keys(['11.2_trigger_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py
+[2023-02-21T16:22:34.069-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.068-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:22:34.084-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.084-0600] {dag.py:3324} INFO - Setting next_dagrun for 11.2_trigger_dag to None, run_after=None
+[2023-02-21T16:22:34.103-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/11.2_trigger_dag.py took 0.117 seconds

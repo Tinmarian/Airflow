@@ -4525,3 +4525,93 @@
 [2023-02-21T16:17:05.314-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:05.314-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
 [2023-02-21T16:17:05.317-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:05.317-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
 [2023-02-21T16:17:05.344-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.204 seconds
+[2023-02-21T16:17:36.675-0600] {processor.py:156} INFO - Started process (PID=632933) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:17:36.677-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:17:36.679-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.679-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:17:36.757-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Brasil', '10_dynamic_dags_Nicaragua', '10_dynamic_dags_Mexico']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:17:36.800-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.800-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:17:36.819-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.818-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:17:36.824-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.824-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:17:36.827-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:17:36.827-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:17:36.849-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.176 seconds
+[2023-02-21T16:18:24.373-0600] {processor.py:156} INFO - Started process (PID=633239) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:18:24.374-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:18:24.376-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.376-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:18:24.443-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Brasil', '10_dynamic_dags_Mexico', '10_dynamic_dags_Nicaragua']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:18:24.482-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.482-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:18:24.503-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.502-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:18:24.508-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.508-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:18:24.511-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:24.511-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:18:24.539-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.168 seconds
+[2023-02-21T16:18:55.086-0600] {processor.py:156} INFO - Started process (PID=633597) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:18:55.087-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:18:55.088-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:55.088-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:18:55.120-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Mexico', '10_dynamic_dags_Brasil', '10_dynamic_dags_Nicaragua']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:18:55.152-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:55.151-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:18:55.169-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:55.169-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:18:55.173-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:55.173-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:18:55.174-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:18:55.174-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:18:55.190-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.106 seconds
+[2023-02-21T16:19:26.969-0600] {processor.py:156} INFO - Started process (PID=633946) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:19:26.970-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:19:26.971-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:26.971-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:19:27.043-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Mexico', '10_dynamic_dags_Brasil', '10_dynamic_dags_Nicaragua']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:19:27.077-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:27.077-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:19:27.095-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:27.095-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:19:27.100-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:27.100-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:19:27.101-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:27.101-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:19:27.120-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.153 seconds
+[2023-02-21T16:19:58.955-0600] {processor.py:156} INFO - Started process (PID=634291) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:19:58.957-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:19:58.959-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:58.959-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:19:59.010-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Mexico', '10_dynamic_dags_Brasil', '10_dynamic_dags_Nicaragua']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:19:59.053-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:59.053-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:19:59.072-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:59.071-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:19:59.077-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:59.077-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:19:59.081-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:19:59.081-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:19:59.101-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.148 seconds
+[2023-02-21T16:20:30.464-0600] {processor.py:156} INFO - Started process (PID=634639) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:20:30.465-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:20:30.466-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.466-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:20:30.501-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Brasil', '10_dynamic_dags_Mexico', '10_dynamic_dags_Nicaragua']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:20:30.534-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.534-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:20:30.552-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.552-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:20:30.556-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.556-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:20:30.558-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:20:30.558-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:20:30.576-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.115 seconds
+[2023-02-21T16:21:01.502-0600] {processor.py:156} INFO - Started process (PID=634986) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:21:01.503-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:21:01.504-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.504-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:21:01.537-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Nicaragua', '10_dynamic_dags_Mexico', '10_dynamic_dags_Brasil']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:21:01.575-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.575-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:21:01.594-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.593-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:21:01.598-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.598-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:21:01.600-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:01.600-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:21:01.617-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.118 seconds
+[2023-02-21T16:21:32.400-0600] {processor.py:156} INFO - Started process (PID=635333) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:21:32.401-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:21:32.402-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.402-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:21:32.439-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Mexico', '10_dynamic_dags_Brasil', '10_dynamic_dags_Nicaragua']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:21:32.472-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.471-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:21:32.489-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.489-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:21:32.496-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.495-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:21:32.497-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:21:32.497-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:21:32.514-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.117 seconds
+[2023-02-21T16:22:03.427-0600] {processor.py:156} INFO - Started process (PID=635684) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:22:03.429-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:22:03.430-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.430-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:22:03.503-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Nicaragua', '10_dynamic_dags_Brasil', '10_dynamic_dags_Mexico']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:22:03.542-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.541-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:22:03.564-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.564-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:22:03.569-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.569-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:22:03.570-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:03.570-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:22:03.589-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.164 seconds
+[2023-02-21T16:22:34.444-0600] {processor.py:156} INFO - Started process (PID=636019) to work on /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:22:34.445-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py for tasks to queue
+[2023-02-21T16:22:34.446-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.446-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:22:34.487-0600] {processor.py:768} INFO - DAG(s) dict_keys(['10_dynamic_dags_Nicaragua', '10_dynamic_dags_Brasil', '10_dynamic_dags_Mexico']) retrieved from /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py
+[2023-02-21T16:22:34.526-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.525-0600] {dag.py:2573} INFO - Sync 3 DAGs
+[2023-02-21T16:22:34.545-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.545-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Brasil to None, run_after=None
+[2023-02-21T16:22:34.551-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.551-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Mexico to None, run_after=None
+[2023-02-21T16:22:34.553-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:34.553-0600] {dag.py:3324} INFO - Setting next_dagrun for 10_dynamic_dags_Nicaragua to None, run_after=None
+[2023-02-21T16:22:34.572-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/10_dynamic_dags_dag.py took 0.130 seconds
