@@ -6142,3 +6142,75 @@
 [2023-02-21T16:22:25.990-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:25.990-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:22:25.994-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:25.994-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
 [2023-02-21T16:22:26.003-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py took 0.210 seconds
+[2023-02-21T16:34:03.102-0600] {processor.py:156} INFO - Started process (PID=636356) to work on /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:34:03.104-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py for tasks to queue
+[2023-02-21T16:34:03.105-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:03.105-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:34:03.176-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_subdags_dag.subdag', '7_subdags_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:34:03.258-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:34:03.259-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:34:03.446-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:03.446-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:34:03.474-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:03.474-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:34:03.481-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:03.480-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:34:03.492-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:03.492-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:34:03.499-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:03.498-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:34:03.517-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py took 0.417 seconds
+[2023-02-21T16:34:35.883-0600] {processor.py:156} INFO - Started process (PID=636776) to work on /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:34:35.885-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py for tasks to queue
+[2023-02-21T16:34:35.887-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:35.887-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:34:35.981-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_subdags_dag.subdag', '7_subdags_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:34:36.052-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:34:36.054-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:34:36.231-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:36.231-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:34:36.258-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:36.258-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:34:36.263-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:36.263-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:34:36.279-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:36.278-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:34:36.284-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:36.284-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:34:36.303-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py took 0.426 seconds
+[2023-02-21T16:35:07.639-0600] {processor.py:156} INFO - Started process (PID=637442) to work on /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:35:07.640-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py for tasks to queue
+[2023-02-21T16:35:07.642-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:07.642-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:35:07.719-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_subdags_dag.subdag', '7_subdags_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:35:07.789-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:35:07.791-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:35:07.955-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:07.954-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:35:07.973-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:07.972-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:35:07.978-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:07.977-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:35:07.991-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:07.991-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:07.996-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:07.996-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:35:08.012-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py took 0.376 seconds
+[2023-02-21T16:35:38.954-0600] {processor.py:156} INFO - Started process (PID=637853) to work on /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:35:38.955-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py for tasks to queue
+[2023-02-21T16:35:38.957-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:38.957-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:35:39.011-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_subdags_dag.subdag', '7_subdags_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:35:39.046-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:35:39.047-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:35:39.198-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:39.198-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:35:39.216-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:39.216-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:35:39.225-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:39.225-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:35:39.234-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:39.234-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:39.238-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:39.238-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:35:39.253-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py took 0.302 seconds
+[2023-02-21T16:36:10.574-0600] {processor.py:156} INFO - Started process (PID=638265) to work on /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:36:10.576-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py for tasks to queue
+[2023-02-21T16:36:10.578-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:10.578-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:36:10.671-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_subdags_dag.subdag', '7_subdags_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:36:10.711-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:36:10.712-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:36:10.849-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:10.848-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:36:10.870-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:10.870-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:36:10.875-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:10.875-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:36:10.886-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:10.886-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:10.892-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:10.892-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:36:10.908-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py took 0.337 seconds
+[2023-02-21T16:36:42.820-0600] {processor.py:156} INFO - Started process (PID=638622) to work on /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:36:42.822-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py for tasks to queue
+[2023-02-21T16:36:42.824-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:42.824-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:36:42.897-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_subdags_dag.subdag', '7_subdags_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py
+[2023-02-21T16:36:42.969-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:36:42.970-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:36:43.124-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:43.123-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:36:43.145-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:43.145-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag to 2023-02-20T00:00:00+00:00, run_after=2023-02-21T00:00:00+00:00
+[2023-02-21T16:36:43.151-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:43.151-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:36:43.161-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:43.161-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:43.167-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:43.167-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_subdags_dag.subdag to None, run_after=None
+[2023-02-21T16:36:43.187-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/7_subdags_dag.py took 0.370 seconds

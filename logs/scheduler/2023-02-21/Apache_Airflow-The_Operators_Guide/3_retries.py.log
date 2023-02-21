@@ -2104,3 +2104,24 @@ SyntaxError: positional argument follows keyword argument
 [2023-02-21T16:35:32.211-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:32.211-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:35:32.230-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:32.230-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_retries to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
 [2023-02-21T16:35:32.251-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py took 0.166 seconds
+[2023-02-21T16:36:02.726-0600] {processor.py:156} INFO - Started process (PID=638099) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:36:02.728-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py for tasks to queue
+[2023-02-21T16:36:02.729-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:02.729-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:36:02.812-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_retries']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:36:02.856-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:02.856-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:02.879-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:02.879-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_retries to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:36:02.905-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py took 0.182 seconds
+[2023-02-21T16:36:33.744-0600] {processor.py:156} INFO - Started process (PID=638453) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:36:33.745-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py for tasks to queue
+[2023-02-21T16:36:33.747-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:33.747-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:36:33.800-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_retries']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:36:33.834-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:33.834-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:33.854-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:33.853-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_retries to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:36:33.877-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py took 0.136 seconds
+[2023-02-21T16:37:05.044-0600] {processor.py:156} INFO - Started process (PID=638821) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:37:05.046-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py for tasks to queue
+[2023-02-21T16:37:05.047-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:05.047-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:37:05.140-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_retries']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T16:37:05.186-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:05.186-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:37:05.206-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:05.206-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_retries to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:37:05.233-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py took 0.192 seconds

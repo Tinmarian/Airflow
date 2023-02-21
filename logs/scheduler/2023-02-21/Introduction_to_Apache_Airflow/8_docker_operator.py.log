@@ -4174,3 +4174,59 @@
 [2023-02-21T16:22:27.781-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:27.780-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:22:27.793-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:27.793-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
 [2023-02-21T16:22:27.811-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.105 seconds
+[2023-02-21T16:33:59.339-0600] {processor.py:156} INFO - Started process (PID=636202) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:33:59.341-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py for tasks to queue
+[2023-02-21T16:33:59.342-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:33:59.342-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:33:59.474-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-21T16:33:59.482-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_docker_operator']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:33:59.512-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:33:59.511-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:33:59.530-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:33:59.529-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
+[2023-02-21T16:33:59.555-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.218 seconds
+[2023-02-21T16:34:30.872-0600] {processor.py:156} INFO - Started process (PID=636615) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:34:30.874-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py for tasks to queue
+[2023-02-21T16:34:30.875-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:30.875-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:34:30.990-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-21T16:34:30.998-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_docker_operator']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:34:31.026-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:31.026-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:34:31.044-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:31.044-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
+[2023-02-21T16:34:31.072-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.202 seconds
+[2023-02-21T16:35:02.115-0600] {processor.py:156} INFO - Started process (PID=637176) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:35:02.117-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py for tasks to queue
+[2023-02-21T16:35:02.119-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:02.119-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:35:02.289-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-21T16:35:02.307-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_docker_operator']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:35:02.361-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:02.361-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:02.390-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:02.390-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
+[2023-02-21T16:35:02.421-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.309 seconds
+[2023-02-21T16:35:33.063-0600] {processor.py:156} INFO - Started process (PID=637718) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:35:33.064-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py for tasks to queue
+[2023-02-21T16:35:33.066-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:33.066-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:35:33.173-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-21T16:35:33.182-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_docker_operator']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:35:33.214-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:33.214-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:33.237-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:33.237-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
+[2023-02-21T16:35:33.269-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.209 seconds
+[2023-02-21T16:36:04.244-0600] {processor.py:156} INFO - Started process (PID=638132) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:36:04.245-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py for tasks to queue
+[2023-02-21T16:36:04.246-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:04.246-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:36:04.369-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-21T16:36:04.377-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_docker_operator']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:36:04.407-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:04.406-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:04.425-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:04.425-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
+[2023-02-21T16:36:04.471-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.230 seconds
+[2023-02-21T16:36:35.595-0600] {processor.py:156} INFO - Started process (PID=638487) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:36:35.597-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py for tasks to queue
+[2023-02-21T16:36:35.599-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:35.598-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:36:35.738-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-21T16:36:35.747-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_docker_operator']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:36:35.778-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:35.778-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:35.798-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:35.798-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
+[2023-02-21T16:36:35.827-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.235 seconds
+[2023-02-21T16:37:06.618-0600] {processor.py:156} INFO - Started process (PID=638851) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:37:06.619-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py for tasks to queue
+[2023-02-21T16:37:06.620-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:06.620-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:37:06.731-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-21T16:37:06.740-0600] {processor.py:768} INFO - DAG(s) dict_keys(['8_docker_operator']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-21T16:37:06.770-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:06.770-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:37:06.791-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:37:06.791-0600] {dag.py:3324} INFO - Setting next_dagrun for 8_docker_operator to None, run_after=None
+[2023-02-21T16:37:06.814-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py took 0.200 seconds

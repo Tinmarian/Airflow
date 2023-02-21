@@ -6628,3 +6628,81 @@
 [2023-02-21T16:22:37.444-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:37.444-0600] {dag.py:2573} INFO - Sync 1 DAGs
 [2023-02-21T16:22:37.448-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:22:37.448-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
 [2023-02-21T16:22:37.460-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 0.623 seconds
+[2023-02-21T16:34:05.202-0600] {processor.py:156} INFO - Started process (PID=636452) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:34:05.204-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py for tasks to queue
+[2023-02-21T16:34:05.205-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:05.205-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:34:05.821-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `airflow.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-21T16:34:05.849-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_dataproc_subdags.par_task', '7_dataproc_subdags']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:34:05.939-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:34:05.941-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:34:06.144-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:06.144-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:34:06.175-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:06.175-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:34:06.182-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:06.182-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:34:06.204-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:06.204-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:34:06.210-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:06.210-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:34:06.234-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 1.035 seconds
+[2023-02-21T16:34:38.526-0600] {processor.py:156} INFO - Started process (PID=636857) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:34:38.528-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py for tasks to queue
+[2023-02-21T16:34:38.530-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:38.529-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:34:38.913-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `airflow.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-21T16:34:38.933-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_dataproc_subdags.par_task', '7_dataproc_subdags']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:34:39.068-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:34:39.070-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:34:39.348-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:39.347-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:34:39.370-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:39.370-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:34:39.375-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:39.375-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:34:39.383-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:39.383-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:34:39.389-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:34:39.389-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:34:39.405-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 0.883 seconds
+[2023-02-21T16:35:10.337-0600] {processor.py:156} INFO - Started process (PID=637524) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:35:10.339-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py for tasks to queue
+[2023-02-21T16:35:10.340-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:10.340-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:35:10.729-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `airflow.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-21T16:35:10.751-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_dataproc_subdags.par_task', '7_dataproc_subdags']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:35:10.817-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:35:10.819-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:35:11.125-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:11.124-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:35:11.147-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:11.147-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:35:11.153-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:11.153-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:35:11.167-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:11.167-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:11.174-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:11.174-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:35:11.192-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 0.858 seconds
+[2023-02-21T16:35:42.065-0600] {processor.py:156} INFO - Started process (PID=637975) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:35:42.066-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py for tasks to queue
+[2023-02-21T16:35:42.068-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:42.067-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:35:42.410-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `airflow.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-21T16:35:42.429-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_dataproc_subdags.par_task', '7_dataproc_subdags']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:35:42.471-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:35:42.472-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:35:42.753-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:42.753-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:35:42.775-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:42.775-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:35:42.780-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:42.780-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:35:42.792-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:42.791-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:35:42.798-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:35:42.798-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:35:42.817-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 0.755 seconds
+[2023-02-21T16:36:13.563-0600] {processor.py:156} INFO - Started process (PID=638357) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:36:13.564-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py for tasks to queue
+[2023-02-21T16:36:13.565-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:13.564-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:36:13.845-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `airflow.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-21T16:36:13.866-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_dataproc_subdags.par_task', '7_dataproc_subdags']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:36:14.017-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:36:14.018-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:36:14.147-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:14.146-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:36:14.166-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:14.166-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:36:14.171-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:14.171-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:36:14.179-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:14.179-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:14.184-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:14.184-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:36:14.199-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 0.639 seconds
+[2023-02-21T16:36:45.132-0600] {processor.py:156} INFO - Started process (PID=638706) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:36:45.135-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py for tasks to queue
+[2023-02-21T16:36:45.136-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:45.136-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:36:45.579-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `airflow.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-21T16:36:45.598-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_dataproc_subdags.par_task', '7_dataproc_subdags']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-21T16:36:45.669-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-21T16:36:45.672-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-21T16:36:45.832-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:45.832-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-21T16:36:45.851-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:45.851-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T16:36:45.856-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:45.856-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:36:45.869-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:45.869-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T16:36:45.874-0600] {logging_mixin.py:117} INFO - [2023-02-21T16:36:45.874-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-21T16:36:45.891-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 0.763 seconds
