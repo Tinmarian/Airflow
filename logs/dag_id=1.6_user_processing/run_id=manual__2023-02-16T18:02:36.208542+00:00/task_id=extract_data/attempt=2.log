@@ -1,0 +1,25 @@
+[2023-02-16 12:03:47,631] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T18:02:36.208542+00:00 [queued]>
+[2023-02-16 12:03:47,649] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T18:02:36.208542+00:00 [queued]>
+[2023-02-16 12:03:47,652] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 12:03:47,658] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-02-16 12:03:47,659] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 12:03:47,669] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-16 18:02:36.208542+00:00
+[2023-02-16 12:03:47,672] {standard_task_runner.py:52} INFO - Started process 76863 to run task
+[2023-02-16 12:03:47,675] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '1.6_user_processing', 'extract_data', 'manual__2023-02-16T18:02:36.208542+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6_user_processing.py', '--cfg-path', '/tmp/tmpodmufo9b', '--error-file', '/tmp/tmpafkz6yun']
+[2023-02-16 12:03:47,677] {standard_task_runner.py:80} INFO - Job 269: Subtask extract_data
+[2023-02-16 12:03:47,732] {task_command.py:369} INFO - Running <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T18:02:36.208542+00:00 [running]> on host Tinmar.
+[2023-02-16 12:03:47,789] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T18:02:36.208542+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-16T18:02:36.208542+00:00
+[2023-02-16 12:03:47,791] {http.py:123} INFO - Calling HTTP method
+[2023-02-16 12:03:47,802] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-16 12:03:48,080] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Jose","last":"Cruz"},"location":{"street":{"number":4055,"name":"Ranchview Dr"},"city":"Bowral","state":"Western Australia","country":"Australia","postcode":6086,"coordinates":{"latitude":"-83.4947","longitude":"-33.1043"},"timezone":{"offset":"+3:00","description":"Baghdad, Riyadh, Moscow, St. Petersburg"}},"email":"jose.cruz@example.com","login":{"uuid":"8286b2ec-bd1d-42ed-bff7-a8395e13917d","username":"yellowladybug693","password":"weather","salt":"T2fZj6ZT","md5":"fa3318d6bd3c33ba0cc85d7547fc8785","sha1":"d78c5ac4b396567b6f7d104882c3210cb43cef8e","sha256":"2ce99130e799c29bf271a241b97ece128b9e28ea36a6a5f1c866f1d8ff6d7e28"},"dob":{"date":"1976-04-10T05:33:13.356Z","age":46},"registered":{"date":"2006-07-30T12:47:57.425Z","age":16},"phone":"03-9125-1481","cell":"0436-469-205","id":{"name":"TFN","value":"571253568"},"picture":{"large":"https://randomuser.me/api/portraits/men/59.jpg","medium":"https://randomuser.me/api/portraits/med/men/59.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/59.jpg"},"nat":"AU"}],"info":{"seed":"137bc46ecf6b013a","results":1,"page":1,"version":"1.4"}}
+[2023-02-16 12:03:48,108] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=1.6_user_processing, task_id=extract_data, execution_date=20230216T180236, start_date=20230216T180347, end_date=20230216T180348
+[2023-02-16 12:03:48,143] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-16 12:03:48,183] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1001 @@
+[2023-02-15 16:45:43,572] {processor.py:153} INFO - Started process (PID=441601) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:45:43,574] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:45:43,575] {logging_mixin.py:115} INFO - [2023-02-15 16:45:43,575] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:45:43,641] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:45:43,677] {logging_mixin.py:115} INFO - [2023-02-15 16:45:43,676] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:45:43,694] {logging_mixin.py:115} INFO - [2023-02-15 16:45:43,694] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:45:43,710] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.141 seconds
+[2023-02-15 16:46:13,950] {processor.py:153} INFO - Started process (PID=441809) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:46:13,951] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:46:13,952] {logging_mixin.py:115} INFO - [2023-02-15 16:46:13,952] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:46:14,003] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:46:14,032] {logging_mixin.py:115} INFO - [2023-02-15 16:46:14,032] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:46:14,043] {logging_mixin.py:115} INFO - [2023-02-15 16:46:14,043] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:46:14,058] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.110 seconds
+[2023-02-15 16:46:44,436] {processor.py:153} INFO - Started process (PID=442036) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:46:44,436] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:46:44,437] {logging_mixin.py:115} INFO - [2023-02-15 16:46:44,437] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:46:44,495] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:46:44,524] {logging_mixin.py:115} INFO - [2023-02-15 16:46:44,523] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:46:44,538] {logging_mixin.py:115} INFO - [2023-02-15 16:46:44,538] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:46:44,622] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.188 seconds
+[2023-02-15 16:47:14,896] {processor.py:153} INFO - Started process (PID=442235) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:47:14,897] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:47:14,898] {logging_mixin.py:115} INFO - [2023-02-15 16:47:14,898] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:47:14,928] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:47:14,948] {logging_mixin.py:115} INFO - [2023-02-15 16:47:14,948] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:47:14,960] {logging_mixin.py:115} INFO - [2023-02-15 16:47:14,960] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:47:14,983] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.089 seconds
+[2023-02-15 16:47:45,652] {processor.py:153} INFO - Started process (PID=442697) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:47:45,653] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:47:45,654] {logging_mixin.py:115} INFO - [2023-02-15 16:47:45,654] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:47:45,709] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:47:45,739] {logging_mixin.py:115} INFO - [2023-02-15 16:47:45,739] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:47:45,754] {logging_mixin.py:115} INFO - [2023-02-15 16:47:45,754] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:47:45,767] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.117 seconds
+[2023-02-15 16:48:16,358] {processor.py:153} INFO - Started process (PID=443003) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:48:16,359] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:48:16,360] {logging_mixin.py:115} INFO - [2023-02-15 16:48:16,360] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:48:16,391] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:48:16,415] {logging_mixin.py:115} INFO - [2023-02-15 16:48:16,415] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:48:16,427] {logging_mixin.py:115} INFO - [2023-02-15 16:48:16,427] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:48:16,440] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.085 seconds
+[2023-02-15 16:48:47,002] {processor.py:153} INFO - Started process (PID=443250) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:48:47,003] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:48:47,004] {logging_mixin.py:115} INFO - [2023-02-15 16:48:47,003] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:48:47,030] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:48:47,050] {logging_mixin.py:115} INFO - [2023-02-15 16:48:47,050] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:48:47,062] {logging_mixin.py:115} INFO - [2023-02-15 16:48:47,062] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:48:47,074] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 16:49:17,844] {processor.py:153} INFO - Started process (PID=443433) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:49:17,844] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:49:17,845] {logging_mixin.py:115} INFO - [2023-02-15 16:49:17,845] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:49:17,871] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:49:17,895] {logging_mixin.py:115} INFO - [2023-02-15 16:49:17,895] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:49:17,909] {logging_mixin.py:115} INFO - [2023-02-15 16:49:17,909] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:49:17,919] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.078 seconds
+[2023-02-15 16:49:48,581] {processor.py:153} INFO - Started process (PID=443617) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:49:48,581] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:49:48,582] {logging_mixin.py:115} INFO - [2023-02-15 16:49:48,582] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:49:48,604] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:49:48,623] {logging_mixin.py:115} INFO - [2023-02-15 16:49:48,623] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:49:48,635] {logging_mixin.py:115} INFO - [2023-02-15 16:49:48,635] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:49:48,645] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.067 seconds
+[2023-02-15 16:50:19,746] {processor.py:153} INFO - Started process (PID=443799) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:50:19,747] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:50:19,748] {logging_mixin.py:115} INFO - [2023-02-15 16:50:19,747] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:50:19,770] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:50:19,792] {logging_mixin.py:115} INFO - [2023-02-15 16:50:19,792] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:50:19,804] {logging_mixin.py:115} INFO - [2023-02-15 16:50:19,804] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:50:19,817] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 16:50:50,286] {processor.py:153} INFO - Started process (PID=443968) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:50:50,286] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:50:50,287] {logging_mixin.py:115} INFO - [2023-02-15 16:50:50,287] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:50:50,307] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:50:50,325] {logging_mixin.py:115} INFO - [2023-02-15 16:50:50,325] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:50:50,336] {logging_mixin.py:115} INFO - [2023-02-15 16:50:50,336] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:50:50,346] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.063 seconds
+[2023-02-15 16:51:20,695] {processor.py:153} INFO - Started process (PID=444132) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:51:20,697] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:51:20,698] {logging_mixin.py:115} INFO - [2023-02-15 16:51:20,698] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:51:20,744] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:51:20,771] {logging_mixin.py:115} INFO - [2023-02-15 16:51:20,771] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:51:20,788] {logging_mixin.py:115} INFO - [2023-02-15 16:51:20,787] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:51:20,801] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.109 seconds
+[2023-02-15 16:51:50,939] {processor.py:153} INFO - Started process (PID=444298) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:51:50,940] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:51:50,940] {logging_mixin.py:115} INFO - [2023-02-15 16:51:50,940] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:51:50,966] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:51:50,987] {logging_mixin.py:115} INFO - [2023-02-15 16:51:50,987] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:51:50,999] {logging_mixin.py:115} INFO - [2023-02-15 16:51:50,999] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:51:51,010] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 16:52:21,778] {processor.py:153} INFO - Started process (PID=444462) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:52:21,779] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:52:21,780] {logging_mixin.py:115} INFO - [2023-02-15 16:52:21,780] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:52:21,801] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:52:21,821] {logging_mixin.py:115} INFO - [2023-02-15 16:52:21,821] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:52:21,832] {logging_mixin.py:115} INFO - [2023-02-15 16:52:21,832] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:52:21,845] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 16:52:52,041] {processor.py:153} INFO - Started process (PID=444625) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:52:52,042] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:52:52,043] {logging_mixin.py:115} INFO - [2023-02-15 16:52:52,043] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:52:52,066] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:52:52,087] {logging_mixin.py:115} INFO - [2023-02-15 16:52:52,087] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:52:52,098] {logging_mixin.py:115} INFO - [2023-02-15 16:52:52,098] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:52:52,108] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 16:53:22,731] {processor.py:153} INFO - Started process (PID=444792) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:53:22,732] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:53:22,733] {logging_mixin.py:115} INFO - [2023-02-15 16:53:22,733] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:53:22,763] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:53:22,786] {logging_mixin.py:115} INFO - [2023-02-15 16:53:22,786] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:53:22,798] {logging_mixin.py:115} INFO - [2023-02-15 16:53:22,798] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:53:22,809] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.080 seconds
+[2023-02-15 16:53:53,614] {processor.py:153} INFO - Started process (PID=444955) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:53:53,615] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:53:53,616] {logging_mixin.py:115} INFO - [2023-02-15 16:53:53,615] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:53:53,645] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:53:53,686] {logging_mixin.py:115} INFO - [2023-02-15 16:53:53,686] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:53:53,706] {logging_mixin.py:115} INFO - [2023-02-15 16:53:53,706] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:53:53,726] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.115 seconds
+[2023-02-15 16:54:23,948] {processor.py:153} INFO - Started process (PID=445118) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:54:23,949] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:54:23,950] {logging_mixin.py:115} INFO - [2023-02-15 16:54:23,950] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:54:23,972] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:54:23,994] {logging_mixin.py:115} INFO - [2023-02-15 16:54:23,994] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:54:24,006] {logging_mixin.py:115} INFO - [2023-02-15 16:54:24,006] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:54:24,019] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 16:54:54,641] {processor.py:153} INFO - Started process (PID=445288) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:54:54,642] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:54:54,643] {logging_mixin.py:115} INFO - [2023-02-15 16:54:54,643] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:54:54,667] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:54:54,689] {logging_mixin.py:115} INFO - [2023-02-15 16:54:54,689] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:54:54,700] {logging_mixin.py:115} INFO - [2023-02-15 16:54:54,700] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:54:54,711] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 16:55:25,033] {processor.py:153} INFO - Started process (PID=445455) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:55:25,034] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:55:25,034] {logging_mixin.py:115} INFO - [2023-02-15 16:55:25,034] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:55:25,060] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:55:25,080] {logging_mixin.py:115} INFO - [2023-02-15 16:55:25,080] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:55:25,090] {logging_mixin.py:115} INFO - [2023-02-15 16:55:25,090] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:55:25,100] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.068 seconds
+[2023-02-15 16:55:55,488] {processor.py:153} INFO - Started process (PID=445621) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:55:55,489] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:55:55,490] {logging_mixin.py:115} INFO - [2023-02-15 16:55:55,490] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:55:55,516] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:55:55,541] {logging_mixin.py:115} INFO - [2023-02-15 16:55:55,541] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:55:55,554] {logging_mixin.py:115} INFO - [2023-02-15 16:55:55,554] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:55:55,563] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.077 seconds
+[2023-02-15 16:56:25,875] {processor.py:153} INFO - Started process (PID=445785) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:56:25,876] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:56:25,877] {logging_mixin.py:115} INFO - [2023-02-15 16:56:25,876] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:56:25,907] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:56:25,929] {logging_mixin.py:115} INFO - [2023-02-15 16:56:25,929] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:56:25,941] {logging_mixin.py:115} INFO - [2023-02-15 16:56:25,940] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:56:25,952] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.080 seconds
+[2023-02-15 16:56:57,050] {processor.py:153} INFO - Started process (PID=445951) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:56:57,051] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:56:57,051] {logging_mixin.py:115} INFO - [2023-02-15 16:56:57,051] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:56:57,090] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:56:57,118] {logging_mixin.py:115} INFO - [2023-02-15 16:56:57,118] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:56:57,131] {logging_mixin.py:115} INFO - [2023-02-15 16:56:57,131] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:56:57,142] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.094 seconds
+[2023-02-15 16:57:27,525] {processor.py:153} INFO - Started process (PID=446115) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:57:27,526] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:57:27,527] {logging_mixin.py:115} INFO - [2023-02-15 16:57:27,527] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:57:27,561] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:57:27,585] {logging_mixin.py:115} INFO - [2023-02-15 16:57:27,585] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:57:27,597] {logging_mixin.py:115} INFO - [2023-02-15 16:57:27,597] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:57:27,609] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.086 seconds
+[2023-02-15 16:57:58,104] {processor.py:153} INFO - Started process (PID=446279) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:57:58,105] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:57:58,105] {logging_mixin.py:115} INFO - [2023-02-15 16:57:58,105] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:57:58,127] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:57:58,147] {logging_mixin.py:115} INFO - [2023-02-15 16:57:58,147] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:57:58,159] {logging_mixin.py:115} INFO - [2023-02-15 16:57:58,159] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:57:58,170] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.068 seconds
+[2023-02-15 16:58:28,976] {processor.py:153} INFO - Started process (PID=446441) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:58:28,976] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:58:28,977] {logging_mixin.py:115} INFO - [2023-02-15 16:58:28,977] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:58:28,995] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:58:29,014] {logging_mixin.py:115} INFO - [2023-02-15 16:58:29,014] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:58:29,025] {logging_mixin.py:115} INFO - [2023-02-15 16:58:29,025] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:58:29,036] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.062 seconds
+[2023-02-15 16:58:59,789] {processor.py:153} INFO - Started process (PID=446607) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:58:59,790] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:58:59,791] {logging_mixin.py:115} INFO - [2023-02-15 16:58:59,791] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:58:59,811] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:58:59,832] {logging_mixin.py:115} INFO - [2023-02-15 16:58:59,832] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:58:59,846] {logging_mixin.py:115} INFO - [2023-02-15 16:58:59,846] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:58:59,857] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.070 seconds
+[2023-02-15 16:59:30,169] {processor.py:153} INFO - Started process (PID=446773) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:59:30,171] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 16:59:30,172] {logging_mixin.py:115} INFO - [2023-02-15 16:59:30,172] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:59:30,208] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 16:59:30,238] {logging_mixin.py:115} INFO - [2023-02-15 16:59:30,238] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 16:59:30,252] {logging_mixin.py:115} INFO - [2023-02-15 16:59:30,251] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 16:59:30,261] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.094 seconds
+[2023-02-15 17:00:18,034] {processor.py:153} INFO - Started process (PID=446939) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:00:18,035] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:00:18,036] {logging_mixin.py:115} INFO - [2023-02-15 17:00:18,036] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:00:18,058] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:00:18,083] {logging_mixin.py:115} INFO - [2023-02-15 17:00:18,083] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:00:18,095] {logging_mixin.py:115} INFO - [2023-02-15 17:00:18,094] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:00:18,107] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:00:48,853] {processor.py:153} INFO - Started process (PID=447104) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:00:48,854] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:00:48,855] {logging_mixin.py:115} INFO - [2023-02-15 17:00:48,854] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:00:48,881] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:00:48,906] {logging_mixin.py:115} INFO - [2023-02-15 17:00:48,906] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:00:48,920] {logging_mixin.py:115} INFO - [2023-02-15 17:00:48,920] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:00:48,935] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.084 seconds
+[2023-02-15 17:01:19,206] {processor.py:153} INFO - Started process (PID=447270) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:01:19,206] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:01:19,207] {logging_mixin.py:115} INFO - [2023-02-15 17:01:19,207] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:01:19,229] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:01:19,251] {logging_mixin.py:115} INFO - [2023-02-15 17:01:19,250] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:01:19,262] {logging_mixin.py:115} INFO - [2023-02-15 17:01:19,262] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:01:19,275] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:01:49,604] {processor.py:153} INFO - Started process (PID=447435) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:01:49,605] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:01:49,606] {logging_mixin.py:115} INFO - [2023-02-15 17:01:49,606] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:01:49,633] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:01:49,655] {logging_mixin.py:115} INFO - [2023-02-15 17:01:49,655] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:01:49,666] {logging_mixin.py:115} INFO - [2023-02-15 17:01:49,666] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:01:49,679] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.077 seconds
+[2023-02-15 17:02:20,250] {processor.py:153} INFO - Started process (PID=447599) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:02:20,251] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:02:20,252] {logging_mixin.py:115} INFO - [2023-02-15 17:02:20,252] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:02:20,276] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:02:20,296] {logging_mixin.py:115} INFO - [2023-02-15 17:02:20,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:02:20,307] {logging_mixin.py:115} INFO - [2023-02-15 17:02:20,307] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:02:20,320] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:02:50,871] {processor.py:153} INFO - Started process (PID=447766) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:02:50,874] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:02:50,875] {logging_mixin.py:115} INFO - [2023-02-15 17:02:50,875] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:02:50,899] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:02:50,918] {logging_mixin.py:115} INFO - [2023-02-15 17:02:50,918] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:02:50,928] {logging_mixin.py:115} INFO - [2023-02-15 17:02:50,928] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:02:50,939] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.070 seconds
+[2023-02-15 17:03:21,595] {processor.py:153} INFO - Started process (PID=447930) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:03:21,596] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:03:21,597] {logging_mixin.py:115} INFO - [2023-02-15 17:03:21,597] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:03:21,618] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:03:21,637] {logging_mixin.py:115} INFO - [2023-02-15 17:03:21,637] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:03:21,649] {logging_mixin.py:115} INFO - [2023-02-15 17:03:21,649] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:03:21,661] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.067 seconds
+[2023-02-15 17:03:53,801] {processor.py:153} INFO - Started process (PID=448095) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:03:53,803] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:03:53,804] {logging_mixin.py:115} INFO - [2023-02-15 17:03:53,804] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:03:53,917] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:03:53,991] {logging_mixin.py:115} INFO - [2023-02-15 17:03:53,991] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:03:54,004] {logging_mixin.py:115} INFO - [2023-02-15 17:03:54,004] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:03:54,042] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.243 seconds
+[2023-02-15 17:04:24,959] {processor.py:153} INFO - Started process (PID=448259) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:04:24,962] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:04:24,973] {logging_mixin.py:115} INFO - [2023-02-15 17:04:24,973] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:04:25,316] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:04:25,344] {logging_mixin.py:115} INFO - [2023-02-15 17:04:25,344] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:04:25,361] {logging_mixin.py:115} INFO - [2023-02-15 17:04:25,361] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:04:25,375] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.419 seconds
+[2023-02-15 17:04:55,922] {processor.py:153} INFO - Started process (PID=448425) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:04:55,923] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:04:55,924] {logging_mixin.py:115} INFO - [2023-02-15 17:04:55,924] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:04:55,946] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:04:55,968] {logging_mixin.py:115} INFO - [2023-02-15 17:04:55,968] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:04:55,980] {logging_mixin.py:115} INFO - [2023-02-15 17:04:55,980] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:04:55,996] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.076 seconds
+[2023-02-15 17:05:26,887] {processor.py:153} INFO - Started process (PID=448596) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:05:26,888] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:05:26,889] {logging_mixin.py:115} INFO - [2023-02-15 17:05:26,889] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:05:26,915] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:05:26,937] {logging_mixin.py:115} INFO - [2023-02-15 17:05:26,937] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:05:26,953] {logging_mixin.py:115} INFO - [2023-02-15 17:05:26,953] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:05:26,970] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.085 seconds
+[2023-02-15 17:05:57,470] {processor.py:153} INFO - Started process (PID=448762) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:05:57,471] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:05:57,471] {logging_mixin.py:115} INFO - [2023-02-15 17:05:57,471] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:05:57,500] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:05:57,523] {logging_mixin.py:115} INFO - [2023-02-15 17:05:57,523] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:05:57,540] {logging_mixin.py:115} INFO - [2023-02-15 17:05:57,540] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:05:57,552] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.084 seconds
+[2023-02-15 17:06:27,763] {processor.py:153} INFO - Started process (PID=448926) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:06:27,764] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:06:27,764] {logging_mixin.py:115} INFO - [2023-02-15 17:06:27,764] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:06:27,791] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:06:27,812] {logging_mixin.py:115} INFO - [2023-02-15 17:06:27,812] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:06:27,823] {logging_mixin.py:115} INFO - [2023-02-15 17:06:27,823] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:06:27,835] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 17:06:58,224] {processor.py:153} INFO - Started process (PID=449092) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:06:58,224] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:06:58,225] {logging_mixin.py:115} INFO - [2023-02-15 17:06:58,225] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:06:58,249] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:06:58,271] {logging_mixin.py:115} INFO - [2023-02-15 17:06:58,271] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:06:58,283] {logging_mixin.py:115} INFO - [2023-02-15 17:06:58,283] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:06:58,294] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:07:29,079] {processor.py:153} INFO - Started process (PID=449256) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:07:29,080] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:07:29,080] {logging_mixin.py:115} INFO - [2023-02-15 17:07:29,080] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:07:29,115] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:07:29,140] {logging_mixin.py:115} INFO - [2023-02-15 17:07:29,140] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:07:29,152] {logging_mixin.py:115} INFO - [2023-02-15 17:07:29,152] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:07:29,165] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.088 seconds
+[2023-02-15 17:07:59,429] {processor.py:153} INFO - Started process (PID=449420) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:07:59,429] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:07:59,430] {logging_mixin.py:115} INFO - [2023-02-15 17:07:59,430] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:07:59,474] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:07:59,498] {logging_mixin.py:115} INFO - [2023-02-15 17:07:59,498] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:07:59,509] {logging_mixin.py:115} INFO - [2023-02-15 17:07:59,509] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:07:59,521] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.095 seconds
+[2023-02-15 17:08:30,023] {processor.py:153} INFO - Started process (PID=449586) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:08:30,023] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:08:30,024] {logging_mixin.py:115} INFO - [2023-02-15 17:08:30,024] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:08:30,057] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:08:30,075] {logging_mixin.py:115} INFO - [2023-02-15 17:08:30,075] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:08:30,086] {logging_mixin.py:115} INFO - [2023-02-15 17:08:30,086] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:08:30,096] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.076 seconds
+[2023-02-15 17:09:00,933] {processor.py:153} INFO - Started process (PID=449750) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:09:00,934] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:09:00,935] {logging_mixin.py:115} INFO - [2023-02-15 17:09:00,935] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:09:00,988] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:09:01,015] {logging_mixin.py:115} INFO - [2023-02-15 17:09:01,015] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:09:01,033] {logging_mixin.py:115} INFO - [2023-02-15 17:09:01,033] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:09:01,058] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.127 seconds
+[2023-02-15 17:09:31,292] {processor.py:153} INFO - Started process (PID=449916) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:09:31,293] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:09:31,294] {logging_mixin.py:115} INFO - [2023-02-15 17:09:31,294] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:09:31,324] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:09:31,344] {logging_mixin.py:115} INFO - [2023-02-15 17:09:31,344] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:09:31,357] {logging_mixin.py:115} INFO - [2023-02-15 17:09:31,357] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:09:31,368] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.078 seconds
+[2023-02-15 17:10:17,967] {processor.py:153} INFO - Started process (PID=450083) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:10:17,968] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:10:17,968] {logging_mixin.py:115} INFO - [2023-02-15 17:10:17,968] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:10:17,990] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:10:18,013] {logging_mixin.py:115} INFO - [2023-02-15 17:10:18,013] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:10:18,024] {logging_mixin.py:115} INFO - [2023-02-15 17:10:18,024] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:10:18,037] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:10:48,277] {processor.py:153} INFO - Started process (PID=450249) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:10:48,278] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:10:48,279] {logging_mixin.py:115} INFO - [2023-02-15 17:10:48,279] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:10:48,319] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:10:48,347] {logging_mixin.py:115} INFO - [2023-02-15 17:10:48,347] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:10:48,361] {logging_mixin.py:115} INFO - [2023-02-15 17:10:48,361] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:10:48,371] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.097 seconds
+[2023-02-15 17:11:18,794] {processor.py:153} INFO - Started process (PID=450416) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:11:18,795] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:11:18,796] {logging_mixin.py:115} INFO - [2023-02-15 17:11:18,795] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:11:18,822] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:11:18,844] {logging_mixin.py:115} INFO - [2023-02-15 17:11:18,844] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:11:18,862] {logging_mixin.py:115} INFO - [2023-02-15 17:11:18,862] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:11:18,871] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.079 seconds
+[2023-02-15 17:11:49,200] {processor.py:153} INFO - Started process (PID=450578) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:11:49,200] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:11:49,201] {logging_mixin.py:115} INFO - [2023-02-15 17:11:49,201] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:11:49,223] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:11:49,245] {logging_mixin.py:115} INFO - [2023-02-15 17:11:49,244] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:11:49,255] {logging_mixin.py:115} INFO - [2023-02-15 17:11:49,255] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:11:49,269] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:12:19,502] {processor.py:153} INFO - Started process (PID=450742) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:12:19,502] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:12:19,503] {logging_mixin.py:115} INFO - [2023-02-15 17:12:19,503] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:12:19,524] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:12:19,546] {logging_mixin.py:115} INFO - [2023-02-15 17:12:19,545] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:12:19,557] {logging_mixin.py:115} INFO - [2023-02-15 17:12:19,557] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:12:19,568] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.068 seconds
+[2023-02-15 17:12:49,788] {processor.py:153} INFO - Started process (PID=450915) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:12:49,789] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:12:49,790] {logging_mixin.py:115} INFO - [2023-02-15 17:12:49,790] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:12:49,813] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:12:49,838] {logging_mixin.py:115} INFO - [2023-02-15 17:12:49,838] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:12:49,851] {logging_mixin.py:115} INFO - [2023-02-15 17:12:49,851] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:12:49,867] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.081 seconds
+[2023-02-15 17:13:20,147] {processor.py:153} INFO - Started process (PID=451083) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:13:20,148] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:13:20,149] {logging_mixin.py:115} INFO - [2023-02-15 17:13:20,149] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:13:20,171] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:13:20,192] {logging_mixin.py:115} INFO - [2023-02-15 17:13:20,192] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:13:20,203] {logging_mixin.py:115} INFO - [2023-02-15 17:13:20,203] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:13:20,216] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:13:50,495] {processor.py:153} INFO - Started process (PID=451253) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:13:50,495] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:13:50,496] {logging_mixin.py:115} INFO - [2023-02-15 17:13:50,496] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:13:50,517] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:13:50,538] {logging_mixin.py:115} INFO - [2023-02-15 17:13:50,538] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:13:50,552] {logging_mixin.py:115} INFO - [2023-02-15 17:13:50,552] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:13:50,567] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 17:14:20,986] {processor.py:153} INFO - Started process (PID=451419) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:14:20,987] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:14:20,988] {logging_mixin.py:115} INFO - [2023-02-15 17:14:20,988] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:14:21,015] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:14:21,035] {logging_mixin.py:115} INFO - [2023-02-15 17:14:21,035] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:14:21,046] {logging_mixin.py:115} INFO - [2023-02-15 17:14:21,046] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:14:21,056] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:14:51,405] {processor.py:153} INFO - Started process (PID=451585) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:14:51,406] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:14:51,406] {logging_mixin.py:115} INFO - [2023-02-15 17:14:51,406] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:14:51,436] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:14:51,459] {logging_mixin.py:115} INFO - [2023-02-15 17:14:51,458] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:14:51,471] {logging_mixin.py:115} INFO - [2023-02-15 17:14:51,470] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:14:51,485] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.082 seconds
+[2023-02-15 17:15:22,038] {processor.py:153} INFO - Started process (PID=451748) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:15:22,038] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:15:22,039] {logging_mixin.py:115} INFO - [2023-02-15 17:15:22,039] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:15:22,059] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:15:22,080] {logging_mixin.py:115} INFO - [2023-02-15 17:15:22,080] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:15:22,091] {logging_mixin.py:115} INFO - [2023-02-15 17:15:22,091] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:15:22,104] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.068 seconds
+[2023-02-15 17:15:53,085] {processor.py:153} INFO - Started process (PID=451910) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:15:53,086] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:15:53,087] {logging_mixin.py:115} INFO - [2023-02-15 17:15:53,087] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:15:53,112] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:15:53,135] {logging_mixin.py:115} INFO - [2023-02-15 17:15:53,135] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:15:53,147] {logging_mixin.py:115} INFO - [2023-02-15 17:15:53,147] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:15:53,161] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.078 seconds
+[2023-02-15 17:16:23,525] {processor.py:153} INFO - Started process (PID=452075) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:16:23,526] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:16:23,527] {logging_mixin.py:115} INFO - [2023-02-15 17:16:23,527] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:16:23,549] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:16:23,574] {logging_mixin.py:115} INFO - [2023-02-15 17:16:23,574] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:16:23,587] {logging_mixin.py:115} INFO - [2023-02-15 17:16:23,587] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:16:23,600] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.077 seconds
+[2023-02-15 17:16:54,199] {processor.py:153} INFO - Started process (PID=452245) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:16:54,199] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:16:54,200] {logging_mixin.py:115} INFO - [2023-02-15 17:16:54,200] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:16:54,227] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:16:54,255] {logging_mixin.py:115} INFO - [2023-02-15 17:16:54,255] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:16:54,266] {logging_mixin.py:115} INFO - [2023-02-15 17:16:54,266] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:16:54,279] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.082 seconds
+[2023-02-15 17:17:24,665] {processor.py:153} INFO - Started process (PID=452409) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:17:24,666] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:17:24,667] {logging_mixin.py:115} INFO - [2023-02-15 17:17:24,667] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:17:24,693] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:17:24,714] {logging_mixin.py:115} INFO - [2023-02-15 17:17:24,714] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:17:24,726] {logging_mixin.py:115} INFO - [2023-02-15 17:17:24,726] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:17:24,739] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:17:55,437] {processor.py:153} INFO - Started process (PID=452577) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:17:55,438] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:17:55,438] {logging_mixin.py:115} INFO - [2023-02-15 17:17:55,438] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:17:55,464] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:17:55,485] {logging_mixin.py:115} INFO - [2023-02-15 17:17:55,485] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:17:55,496] {logging_mixin.py:115} INFO - [2023-02-15 17:17:55,496] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:17:55,508] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:18:26,216] {processor.py:153} INFO - Started process (PID=452740) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:18:26,216] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:18:26,217] {logging_mixin.py:115} INFO - [2023-02-15 17:18:26,217] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:18:26,246] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:18:26,272] {logging_mixin.py:115} INFO - [2023-02-15 17:18:26,272] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:18:26,282] {logging_mixin.py:115} INFO - [2023-02-15 17:18:26,282] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:18:26,293] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.079 seconds
+[2023-02-15 17:18:56,608] {processor.py:153} INFO - Started process (PID=452907) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:18:56,609] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:18:56,609] {logging_mixin.py:115} INFO - [2023-02-15 17:18:56,609] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:18:56,632] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:18:56,656] {logging_mixin.py:115} INFO - [2023-02-15 17:18:56,656] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:18:56,668] {logging_mixin.py:115} INFO - [2023-02-15 17:18:56,668] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:18:56,681] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:19:26,990] {processor.py:153} INFO - Started process (PID=453063) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:19:26,991] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:19:26,992] {logging_mixin.py:115} INFO - [2023-02-15 17:19:26,992] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:19:27,016] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:19:27,040] {logging_mixin.py:115} INFO - [2023-02-15 17:19:27,040] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:19:27,051] {logging_mixin.py:115} INFO - [2023-02-15 17:19:27,051] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:19:27,063] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:19:57,947] {processor.py:153} INFO - Started process (PID=453233) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:19:57,948] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:19:57,949] {logging_mixin.py:115} INFO - [2023-02-15 17:19:57,949] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:19:57,979] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:19:58,004] {logging_mixin.py:115} INFO - [2023-02-15 17:19:58,004] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:19:58,016] {logging_mixin.py:115} INFO - [2023-02-15 17:19:58,016] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:19:58,028] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.083 seconds
+[2023-02-15 17:20:28,397] {processor.py:153} INFO - Started process (PID=453378) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:20:28,397] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:20:28,398] {logging_mixin.py:115} INFO - [2023-02-15 17:20:28,398] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:20:28,429] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:20:28,454] {logging_mixin.py:115} INFO - [2023-02-15 17:20:28,454] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:20:28,466] {logging_mixin.py:115} INFO - [2023-02-15 17:20:28,466] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:20:28,480] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.085 seconds
+[2023-02-15 17:20:59,013] {processor.py:153} INFO - Started process (PID=453543) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:20:59,014] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:20:59,015] {logging_mixin.py:115} INFO - [2023-02-15 17:20:59,015] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:20:59,046] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:20:59,067] {logging_mixin.py:115} INFO - [2023-02-15 17:20:59,067] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:20:59,080] {logging_mixin.py:115} INFO - [2023-02-15 17:20:59,080] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:20:59,096] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.085 seconds
+[2023-02-15 17:21:29,582] {processor.py:153} INFO - Started process (PID=453701) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:21:29,583] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:21:29,583] {logging_mixin.py:115} INFO - [2023-02-15 17:21:29,583] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:21:29,604] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:21:29,625] {logging_mixin.py:115} INFO - [2023-02-15 17:21:29,625] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:21:29,636] {logging_mixin.py:115} INFO - [2023-02-15 17:21:29,636] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:21:29,653] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:22:00,133] {processor.py:153} INFO - Started process (PID=453860) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:22:00,134] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:22:00,135] {logging_mixin.py:115} INFO - [2023-02-15 17:22:00,135] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:22:00,161] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:22:00,182] {logging_mixin.py:115} INFO - [2023-02-15 17:22:00,182] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:22:00,194] {logging_mixin.py:115} INFO - [2023-02-15 17:22:00,194] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:22:00,208] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.077 seconds
+[2023-02-15 17:22:30,787] {processor.py:153} INFO - Started process (PID=454026) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:22:30,788] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:22:30,788] {logging_mixin.py:115} INFO - [2023-02-15 17:22:30,788] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:22:30,810] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:22:30,830] {logging_mixin.py:115} INFO - [2023-02-15 17:22:30,830] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:22:30,840] {logging_mixin.py:115} INFO - [2023-02-15 17:22:30,840] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:22:30,853] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 17:23:01,951] {processor.py:153} INFO - Started process (PID=454193) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:23:01,951] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:23:01,952] {logging_mixin.py:115} INFO - [2023-02-15 17:23:01,952] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:23:01,977] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:23:01,997] {logging_mixin.py:115} INFO - [2023-02-15 17:23:01,997] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:23:02,008] {logging_mixin.py:115} INFO - [2023-02-15 17:23:02,008] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:23:02,019] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:23:32,331] {processor.py:153} INFO - Started process (PID=454343) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:23:32,332] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:23:32,333] {logging_mixin.py:115} INFO - [2023-02-15 17:23:32,333] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:23:32,358] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:23:32,379] {logging_mixin.py:115} INFO - [2023-02-15 17:23:32,379] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:23:32,390] {logging_mixin.py:115} INFO - [2023-02-15 17:23:32,390] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:23:32,401] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:24:02,954] {processor.py:153} INFO - Started process (PID=454507) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:24:02,955] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:24:02,956] {logging_mixin.py:115} INFO - [2023-02-15 17:24:02,956] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:24:02,988] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:24:03,012] {logging_mixin.py:115} INFO - [2023-02-15 17:24:03,012] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:24:03,024] {logging_mixin.py:115} INFO - [2023-02-15 17:24:03,024] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:24:03,037] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.086 seconds
+[2023-02-15 17:24:33,568] {processor.py:153} INFO - Started process (PID=454675) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:24:33,569] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:24:33,570] {logging_mixin.py:115} INFO - [2023-02-15 17:24:33,570] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:24:33,598] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:24:33,620] {logging_mixin.py:115} INFO - [2023-02-15 17:24:33,620] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:24:33,632] {logging_mixin.py:115} INFO - [2023-02-15 17:24:33,632] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:24:33,645] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.079 seconds
+[2023-02-15 17:25:18,671] {processor.py:153} INFO - Started process (PID=454839) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:25:18,672] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:25:18,673] {logging_mixin.py:115} INFO - [2023-02-15 17:25:18,673] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:25:18,706] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:25:18,727] {logging_mixin.py:115} INFO - [2023-02-15 17:25:18,727] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:25:18,737] {logging_mixin.py:115} INFO - [2023-02-15 17:25:18,737] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:25:18,749] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.079 seconds
+[2023-02-15 17:25:49,663] {processor.py:153} INFO - Started process (PID=455002) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:25:49,663] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:25:49,664] {logging_mixin.py:115} INFO - [2023-02-15 17:25:49,664] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:25:49,687] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:25:49,709] {logging_mixin.py:115} INFO - [2023-02-15 17:25:49,709] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:25:49,720] {logging_mixin.py:115} INFO - [2023-02-15 17:25:49,720] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:25:49,732] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:26:20,227] {processor.py:153} INFO - Started process (PID=455167) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:26:20,228] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:26:20,229] {logging_mixin.py:115} INFO - [2023-02-15 17:26:20,229] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:26:20,249] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:26:20,269] {logging_mixin.py:115} INFO - [2023-02-15 17:26:20,269] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:26:20,281] {logging_mixin.py:115} INFO - [2023-02-15 17:26:20,280] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:26:20,293] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.068 seconds
+[2023-02-15 17:26:50,603] {processor.py:153} INFO - Started process (PID=455329) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:26:50,604] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:26:50,605] {logging_mixin.py:115} INFO - [2023-02-15 17:26:50,605] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:26:50,629] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:26:50,649] {logging_mixin.py:115} INFO - [2023-02-15 17:26:50,649] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:26:50,660] {logging_mixin.py:115} INFO - [2023-02-15 17:26:50,660] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:26:50,673] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:27:21,097] {processor.py:153} INFO - Started process (PID=455493) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:27:21,097] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:27:21,098] {logging_mixin.py:115} INFO - [2023-02-15 17:27:21,098] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:27:21,117] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:27:21,136] {logging_mixin.py:115} INFO - [2023-02-15 17:27:21,136] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:27:21,149] {logging_mixin.py:115} INFO - [2023-02-15 17:27:21,149] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:27:21,161] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.066 seconds
+[2023-02-15 17:27:51,746] {processor.py:153} INFO - Started process (PID=455658) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:27:51,746] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:27:51,747] {logging_mixin.py:115} INFO - [2023-02-15 17:27:51,747] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:27:51,772] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:27:51,792] {logging_mixin.py:115} INFO - [2023-02-15 17:27:51,792] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:27:51,803] {logging_mixin.py:115} INFO - [2023-02-15 17:27:51,803] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:27:51,818] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 17:28:22,401] {processor.py:153} INFO - Started process (PID=455824) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:28:22,401] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:28:22,402] {logging_mixin.py:115} INFO - [2023-02-15 17:28:22,402] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:28:22,425] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:28:22,445] {logging_mixin.py:115} INFO - [2023-02-15 17:28:22,445] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:28:22,457] {logging_mixin.py:115} INFO - [2023-02-15 17:28:22,457] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:28:22,470] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:28:52,727] {processor.py:153} INFO - Started process (PID=455989) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:28:52,727] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:28:52,728] {logging_mixin.py:115} INFO - [2023-02-15 17:28:52,728] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:28:52,757] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:28:52,783] {logging_mixin.py:115} INFO - [2023-02-15 17:28:52,782] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:28:52,797] {logging_mixin.py:115} INFO - [2023-02-15 17:28:52,797] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:28:52,806] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.081 seconds
+[2023-02-15 17:29:23,358] {processor.py:153} INFO - Started process (PID=456157) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:29:23,358] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:29:23,359] {logging_mixin.py:115} INFO - [2023-02-15 17:29:23,359] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:29:23,382] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:29:23,403] {logging_mixin.py:115} INFO - [2023-02-15 17:29:23,402] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:29:23,413] {logging_mixin.py:115} INFO - [2023-02-15 17:29:23,413] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:29:23,425] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.070 seconds
+[2023-02-15 17:29:53,765] {processor.py:153} INFO - Started process (PID=456320) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:29:53,766] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:29:53,767] {logging_mixin.py:115} INFO - [2023-02-15 17:29:53,767] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:29:53,790] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:29:53,811] {logging_mixin.py:115} INFO - [2023-02-15 17:29:53,811] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:29:53,823] {logging_mixin.py:115} INFO - [2023-02-15 17:29:53,823] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:29:53,835] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:30:24,409] {processor.py:153} INFO - Started process (PID=456488) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:30:24,410] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:30:24,411] {logging_mixin.py:115} INFO - [2023-02-15 17:30:24,411] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:30:24,437] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:30:24,460] {logging_mixin.py:115} INFO - [2023-02-15 17:30:24,460] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:30:24,471] {logging_mixin.py:115} INFO - [2023-02-15 17:30:24,471] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:30:24,483] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:30:54,875] {processor.py:153} INFO - Started process (PID=456652) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:30:54,876] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:30:54,876] {logging_mixin.py:115} INFO - [2023-02-15 17:30:54,876] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:30:54,898] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:30:54,917] {logging_mixin.py:115} INFO - [2023-02-15 17:30:54,917] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:30:54,928] {logging_mixin.py:115} INFO - [2023-02-15 17:30:54,928] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:30:54,938] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.065 seconds
+[2023-02-15 17:31:25,257] {processor.py:153} INFO - Started process (PID=456818) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:31:25,258] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:31:25,258] {logging_mixin.py:115} INFO - [2023-02-15 17:31:25,258] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:31:25,282] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:31:25,302] {logging_mixin.py:115} INFO - [2023-02-15 17:31:25,301] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:31:25,313] {logging_mixin.py:115} INFO - [2023-02-15 17:31:25,313] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:31:25,325] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.070 seconds
+[2023-02-15 17:31:55,758] {processor.py:153} INFO - Started process (PID=456984) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:31:55,758] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:31:55,759] {logging_mixin.py:115} INFO - [2023-02-15 17:31:55,759] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:31:55,780] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:31:55,802] {logging_mixin.py:115} INFO - [2023-02-15 17:31:55,802] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:31:55,814] {logging_mixin.py:115} INFO - [2023-02-15 17:31:55,814] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:31:55,829] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:32:26,145] {processor.py:153} INFO - Started process (PID=457150) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:32:26,146] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:32:26,146] {logging_mixin.py:115} INFO - [2023-02-15 17:32:26,146] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:32:26,169] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:32:26,192] {logging_mixin.py:115} INFO - [2023-02-15 17:32:26,192] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:32:26,203] {logging_mixin.py:115} INFO - [2023-02-15 17:32:26,203] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:32:26,216] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:32:56,674] {processor.py:153} INFO - Started process (PID=457310) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:32:56,675] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:32:56,676] {logging_mixin.py:115} INFO - [2023-02-15 17:32:56,676] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:32:56,699] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:32:56,723] {logging_mixin.py:115} INFO - [2023-02-15 17:32:56,723] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:32:56,735] {logging_mixin.py:115} INFO - [2023-02-15 17:32:56,735] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:32:56,746] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 17:33:26,948] {processor.py:153} INFO - Started process (PID=457477) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:33:26,948] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:33:26,949] {logging_mixin.py:115} INFO - [2023-02-15 17:33:26,949] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:33:26,972] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:33:26,992] {logging_mixin.py:115} INFO - [2023-02-15 17:33:26,992] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:33:27,003] {logging_mixin.py:115} INFO - [2023-02-15 17:33:27,003] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:33:27,016] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.070 seconds
+[2023-02-15 17:33:57,191] {processor.py:153} INFO - Started process (PID=457641) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:33:57,192] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:33:57,193] {logging_mixin.py:115} INFO - [2023-02-15 17:33:57,192] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:33:57,214] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:33:57,234] {logging_mixin.py:115} INFO - [2023-02-15 17:33:57,234] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:33:57,245] {logging_mixin.py:115} INFO - [2023-02-15 17:33:57,245] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:33:57,258] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 17:34:27,701] {processor.py:153} INFO - Started process (PID=457808) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:34:27,702] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:34:27,703] {logging_mixin.py:115} INFO - [2023-02-15 17:34:27,703] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:34:27,729] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:34:27,748] {logging_mixin.py:115} INFO - [2023-02-15 17:34:27,748] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:34:27,759] {logging_mixin.py:115} INFO - [2023-02-15 17:34:27,759] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:34:27,773] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:34:58,275] {processor.py:153} INFO - Started process (PID=457970) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:34:58,275] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:34:58,276] {logging_mixin.py:115} INFO - [2023-02-15 17:34:58,275] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:34:58,295] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:34:58,315] {logging_mixin.py:115} INFO - [2023-02-15 17:34:58,315] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:34:58,328] {logging_mixin.py:115} INFO - [2023-02-15 17:34:58,327] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:34:58,339] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.066 seconds
+[2023-02-15 17:35:29,083] {processor.py:153} INFO - Started process (PID=458137) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:35:29,083] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:35:29,084] {logging_mixin.py:115} INFO - [2023-02-15 17:35:29,084] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:35:29,107] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:35:29,129] {logging_mixin.py:115} INFO - [2023-02-15 17:35:29,129] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:35:29,140] {logging_mixin.py:115} INFO - [2023-02-15 17:35:29,140] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:35:29,154] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:35:59,459] {processor.py:153} INFO - Started process (PID=458304) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:35:59,460] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:35:59,461] {logging_mixin.py:115} INFO - [2023-02-15 17:35:59,460] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:35:59,494] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:35:59,519] {logging_mixin.py:115} INFO - [2023-02-15 17:35:59,519] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:35:59,530] {logging_mixin.py:115} INFO - [2023-02-15 17:35:59,530] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:35:59,543] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.086 seconds
+[2023-02-15 17:36:30,032] {processor.py:153} INFO - Started process (PID=458466) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:36:30,033] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:36:30,034] {logging_mixin.py:115} INFO - [2023-02-15 17:36:30,033] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:36:30,053] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:36:30,073] {logging_mixin.py:115} INFO - [2023-02-15 17:36:30,073] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:36:30,083] {logging_mixin.py:115} INFO - [2023-02-15 17:36:30,083] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:36:30,095] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.065 seconds
+[2023-02-15 17:37:00,527] {processor.py:153} INFO - Started process (PID=458639) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:37:00,528] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:37:00,529] {logging_mixin.py:115} INFO - [2023-02-15 17:37:00,529] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:37:00,556] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:37:00,576] {logging_mixin.py:115} INFO - [2023-02-15 17:37:00,576] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:37:00,587] {logging_mixin.py:115} INFO - [2023-02-15 17:37:00,587] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:37:00,600] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:37:30,970] {processor.py:153} INFO - Started process (PID=458805) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:37:30,970] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:37:30,971] {logging_mixin.py:115} INFO - [2023-02-15 17:37:30,971] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:37:30,994] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:37:31,015] {logging_mixin.py:115} INFO - [2023-02-15 17:37:31,015] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:37:31,026] {logging_mixin.py:115} INFO - [2023-02-15 17:37:31,026] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:37:31,042] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 17:38:01,720] {processor.py:153} INFO - Started process (PID=458969) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:38:01,721] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:38:01,721] {logging_mixin.py:115} INFO - [2023-02-15 17:38:01,721] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:38:01,750] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:38:01,772] {logging_mixin.py:115} INFO - [2023-02-15 17:38:01,772] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:38:01,783] {logging_mixin.py:115} INFO - [2023-02-15 17:38:01,782] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:38:01,796] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.078 seconds
+[2023-02-15 17:38:32,084] {processor.py:153} INFO - Started process (PID=459137) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:38:32,084] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:38:32,085] {logging_mixin.py:115} INFO - [2023-02-15 17:38:32,085] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:38:32,108] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:38:32,128] {logging_mixin.py:115} INFO - [2023-02-15 17:38:32,128] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:38:32,138] {logging_mixin.py:115} INFO - [2023-02-15 17:38:32,138] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:38:32,146] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.064 seconds
+[2023-02-15 17:39:02,747] {processor.py:153} INFO - Started process (PID=459298) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:39:02,748] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:39:02,749] {logging_mixin.py:115} INFO - [2023-02-15 17:39:02,749] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:39:02,776] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:39:02,806] {logging_mixin.py:115} INFO - [2023-02-15 17:39:02,806] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:39:02,819] {logging_mixin.py:115} INFO - [2023-02-15 17:39:02,819] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:39:02,832] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.087 seconds
+[2023-02-15 17:39:33,510] {processor.py:153} INFO - Started process (PID=459467) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:39:33,511] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:39:33,511] {logging_mixin.py:115} INFO - [2023-02-15 17:39:33,511] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:39:33,553] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:39:33,579] {logging_mixin.py:115} INFO - [2023-02-15 17:39:33,579] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:39:33,591] {logging_mixin.py:115} INFO - [2023-02-15 17:39:33,590] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:39:33,604] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.096 seconds
+[2023-02-15 17:40:21,838] {processor.py:153} INFO - Started process (PID=459642) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:40:21,839] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:40:21,839] {logging_mixin.py:115} INFO - [2023-02-15 17:40:21,839] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:40:21,865] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:40:21,888] {logging_mixin.py:115} INFO - [2023-02-15 17:40:21,888] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:40:21,900] {logging_mixin.py:115} INFO - [2023-02-15 17:40:21,900] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:40:21,914] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.078 seconds
+[2023-02-15 17:40:52,915] {processor.py:153} INFO - Started process (PID=459808) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:40:52,916] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:40:52,917] {logging_mixin.py:115} INFO - [2023-02-15 17:40:52,917] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:40:52,939] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:40:52,964] {logging_mixin.py:115} INFO - [2023-02-15 17:40:52,964] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:40:52,977] {logging_mixin.py:115} INFO - [2023-02-15 17:40:52,977] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:40:52,992] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.080 seconds
+[2023-02-15 17:41:23,258] {processor.py:153} INFO - Started process (PID=459972) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:41:23,259] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:41:23,259] {logging_mixin.py:115} INFO - [2023-02-15 17:41:23,259] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:41:23,286] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:41:23,308] {logging_mixin.py:115} INFO - [2023-02-15 17:41:23,308] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:41:23,324] {logging_mixin.py:115} INFO - [2023-02-15 17:41:23,324] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:41:23,338] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.082 seconds
+[2023-02-15 17:41:54,117] {processor.py:153} INFO - Started process (PID=460137) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:41:54,118] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:41:54,118] {logging_mixin.py:115} INFO - [2023-02-15 17:41:54,118] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:41:54,149] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:41:54,171] {logging_mixin.py:115} INFO - [2023-02-15 17:41:54,171] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:41:54,184] {logging_mixin.py:115} INFO - [2023-02-15 17:41:54,184] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:41:54,195] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.081 seconds
+[2023-02-15 17:42:24,459] {processor.py:153} INFO - Started process (PID=460302) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:42:24,460] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:42:24,461] {logging_mixin.py:115} INFO - [2023-02-15 17:42:24,461] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:42:24,483] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:42:24,505] {logging_mixin.py:115} INFO - [2023-02-15 17:42:24,505] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:42:24,518] {logging_mixin.py:115} INFO - [2023-02-15 17:42:24,518] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:42:24,530] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:42:55,695] {processor.py:153} INFO - Started process (PID=460480) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:42:55,696] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:42:55,697] {logging_mixin.py:115} INFO - [2023-02-15 17:42:55,697] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:42:55,723] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:42:55,750] {logging_mixin.py:115} INFO - [2023-02-15 17:42:55,750] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:42:55,764] {logging_mixin.py:115} INFO - [2023-02-15 17:42:55,764] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:42:55,777] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.085 seconds
+[2023-02-15 17:43:26,684] {processor.py:153} INFO - Started process (PID=460647) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:43:26,685] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:43:26,686] {logging_mixin.py:115} INFO - [2023-02-15 17:43:26,686] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:43:26,722] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:43:26,751] {logging_mixin.py:115} INFO - [2023-02-15 17:43:26,751] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:43:26,768] {logging_mixin.py:115} INFO - [2023-02-15 17:43:26,768] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:43:26,780] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.098 seconds
+[2023-02-15 17:43:57,416] {processor.py:153} INFO - Started process (PID=460816) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:43:57,417] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:43:57,418] {logging_mixin.py:115} INFO - [2023-02-15 17:43:57,418] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:43:57,466] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:43:57,495] {logging_mixin.py:115} INFO - [2023-02-15 17:43:57,495] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:43:57,507] {logging_mixin.py:115} INFO - [2023-02-15 17:43:57,507] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:43:57,523] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.110 seconds
+[2023-02-15 17:44:28,262] {processor.py:153} INFO - Started process (PID=460983) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:44:28,262] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:44:28,263] {logging_mixin.py:115} INFO - [2023-02-15 17:44:28,263] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:44:28,287] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:44:28,309] {logging_mixin.py:115} INFO - [2023-02-15 17:44:28,309] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:44:28,321] {logging_mixin.py:115} INFO - [2023-02-15 17:44:28,321] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:44:28,335] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:44:58,839] {processor.py:153} INFO - Started process (PID=461145) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:44:58,840] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:44:58,841] {logging_mixin.py:115} INFO - [2023-02-15 17:44:58,841] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:44:58,862] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:44:58,882] {logging_mixin.py:115} INFO - [2023-02-15 17:44:58,882] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:44:58,893] {logging_mixin.py:115} INFO - [2023-02-15 17:44:58,893] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:44:58,905] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.067 seconds
+[2023-02-15 17:45:29,696] {processor.py:153} INFO - Started process (PID=461314) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:45:29,697] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:45:29,697] {logging_mixin.py:115} INFO - [2023-02-15 17:45:29,697] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:45:29,718] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:45:29,737] {logging_mixin.py:115} INFO - [2023-02-15 17:45:29,737] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:45:29,748] {logging_mixin.py:115} INFO - [2023-02-15 17:45:29,748] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:45:29,760] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.065 seconds
+[2023-02-15 17:46:00,557] {processor.py:153} INFO - Started process (PID=461484) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:46:00,561] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:46:00,563] {logging_mixin.py:115} INFO - [2023-02-15 17:46:00,563] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:46:00,622] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:46:00,656] {logging_mixin.py:115} INFO - [2023-02-15 17:46:00,656] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:46:00,671] {logging_mixin.py:115} INFO - [2023-02-15 17:46:00,671] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:46:00,690] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.135 seconds
+[2023-02-15 17:46:30,798] {processor.py:153} INFO - Started process (PID=461645) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:46:30,798] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:46:30,799] {logging_mixin.py:115} INFO - [2023-02-15 17:46:30,799] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:46:30,819] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:46:30,842] {logging_mixin.py:115} INFO - [2023-02-15 17:46:30,842] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:46:30,854] {logging_mixin.py:115} INFO - [2023-02-15 17:46:30,854] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:46:30,868] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:47:01,285] {processor.py:153} INFO - Started process (PID=461812) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:47:01,285] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:47:01,286] {logging_mixin.py:115} INFO - [2023-02-15 17:47:01,286] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:47:01,314] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:47:01,334] {logging_mixin.py:115} INFO - [2023-02-15 17:47:01,334] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:47:01,346] {logging_mixin.py:115} INFO - [2023-02-15 17:47:01,346] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:47:01,353] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.071 seconds
+[2023-02-15 17:47:31,912] {processor.py:153} INFO - Started process (PID=461974) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:47:31,913] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:47:31,914] {logging_mixin.py:115} INFO - [2023-02-15 17:47:31,914] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:47:31,940] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:47:31,964] {logging_mixin.py:115} INFO - [2023-02-15 17:47:31,964] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:47:31,977] {logging_mixin.py:115} INFO - [2023-02-15 17:47:31,977] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:47:31,992] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.082 seconds
+[2023-02-15 17:48:02,521] {processor.py:153} INFO - Started process (PID=462140) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:48:02,521] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:48:02,522] {logging_mixin.py:115} INFO - [2023-02-15 17:48:02,522] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:48:02,551] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:48:02,575] {logging_mixin.py:115} INFO - [2023-02-15 17:48:02,575] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:48:02,586] {logging_mixin.py:115} INFO - [2023-02-15 17:48:02,586] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:48:02,598] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.079 seconds
+[2023-02-15 17:48:33,122] {processor.py:153} INFO - Started process (PID=462305) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:48:33,122] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:48:33,123] {logging_mixin.py:115} INFO - [2023-02-15 17:48:33,123] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:48:33,146] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:48:33,166] {logging_mixin.py:115} INFO - [2023-02-15 17:48:33,166] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:48:33,177] {logging_mixin.py:115} INFO - [2023-02-15 17:48:33,177] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:48:33,187] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.067 seconds
+[2023-02-15 17:49:03,984] {processor.py:153} INFO - Started process (PID=462472) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:49:03,985] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:49:03,986] {logging_mixin.py:115} INFO - [2023-02-15 17:49:03,986] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:49:04,009] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:49:04,033] {logging_mixin.py:115} INFO - [2023-02-15 17:49:04,033] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:49:04,044] {logging_mixin.py:115} INFO - [2023-02-15 17:49:04,044] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:49:04,056] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:49:34,408] {processor.py:153} INFO - Started process (PID=462638) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:49:34,409] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:49:34,409] {logging_mixin.py:115} INFO - [2023-02-15 17:49:34,409] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:49:34,430] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:49:34,452] {logging_mixin.py:115} INFO - [2023-02-15 17:49:34,452] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:49:34,463] {logging_mixin.py:115} INFO - [2023-02-15 17:49:34,463] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:49:34,474] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 17:50:21,297] {processor.py:153} INFO - Started process (PID=462801) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:50:21,298] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:50:21,298] {logging_mixin.py:115} INFO - [2023-02-15 17:50:21,298] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:50:21,317] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:50:21,336] {logging_mixin.py:115} INFO - [2023-02-15 17:50:21,335] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:50:21,346] {logging_mixin.py:115} INFO - [2023-02-15 17:50:21,346] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:50:21,362] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.067 seconds
+[2023-02-15 17:50:51,768] {processor.py:153} INFO - Started process (PID=462970) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:50:51,769] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:50:51,770] {logging_mixin.py:115} INFO - [2023-02-15 17:50:51,770] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:50:51,796] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:50:51,820] {logging_mixin.py:115} INFO - [2023-02-15 17:50:51,820] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:50:51,833] {logging_mixin.py:115} INFO - [2023-02-15 17:50:51,833] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:50:51,844] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.079 seconds
+[2023-02-15 17:51:22,213] {processor.py:153} INFO - Started process (PID=463134) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:51:22,213] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:51:22,214] {logging_mixin.py:115} INFO - [2023-02-15 17:51:22,214] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:51:22,234] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:51:22,253] {logging_mixin.py:115} INFO - [2023-02-15 17:51:22,253] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:51:22,265] {logging_mixin.py:115} INFO - [2023-02-15 17:51:22,265] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:51:22,279] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.068 seconds
+[2023-02-15 17:51:52,787] {processor.py:153} INFO - Started process (PID=463300) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:51:52,788] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:51:52,789] {logging_mixin.py:115} INFO - [2023-02-15 17:51:52,789] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:51:52,817] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:51:52,837] {logging_mixin.py:115} INFO - [2023-02-15 17:51:52,837] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:51:52,847] {logging_mixin.py:115} INFO - [2023-02-15 17:51:52,847] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:51:52,860] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:52:23,046] {processor.py:153} INFO - Started process (PID=463464) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:52:23,047] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:52:23,048] {logging_mixin.py:115} INFO - [2023-02-15 17:52:23,048] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:52:23,084] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:52:23,108] {logging_mixin.py:115} INFO - [2023-02-15 17:52:23,107] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:52:23,119] {logging_mixin.py:115} INFO - [2023-02-15 17:52:23,119] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:52:23,132] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.088 seconds
+[2023-02-15 17:52:53,560] {processor.py:153} INFO - Started process (PID=463626) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:52:53,561] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:52:53,562] {logging_mixin.py:115} INFO - [2023-02-15 17:52:53,562] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:52:53,587] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:52:53,606] {logging_mixin.py:115} INFO - [2023-02-15 17:52:53,606] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:52:53,617] {logging_mixin.py:115} INFO - [2023-02-15 17:52:53,617] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:52:53,630] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.072 seconds
+[2023-02-15 17:53:24,113] {processor.py:153} INFO - Started process (PID=463792) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:53:24,113] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:53:24,114] {logging_mixin.py:115} INFO - [2023-02-15 17:53:24,114] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:53:24,142] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:53:24,172] {logging_mixin.py:115} INFO - [2023-02-15 17:53:24,171] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:53:24,185] {logging_mixin.py:115} INFO - [2023-02-15 17:53:24,185] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:53:24,199] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.089 seconds
+[2023-02-15 17:53:54,871] {processor.py:153} INFO - Started process (PID=463960) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:53:54,872] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:53:54,872] {logging_mixin.py:115} INFO - [2023-02-15 17:53:54,872] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:53:54,895] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:53:54,916] {logging_mixin.py:115} INFO - [2023-02-15 17:53:54,916] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:53:54,927] {logging_mixin.py:115} INFO - [2023-02-15 17:53:54,927] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:53:54,942] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.073 seconds
+[2023-02-15 17:54:25,316] {processor.py:153} INFO - Started process (PID=464121) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:54:25,316] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:54:25,317] {logging_mixin.py:115} INFO - [2023-02-15 17:54:25,317] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:54:25,341] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:54:25,361] {logging_mixin.py:115} INFO - [2023-02-15 17:54:25,360] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:54:25,371] {logging_mixin.py:115} INFO - [2023-02-15 17:54:25,371] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:54:25,383] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.070 seconds
+[2023-02-15 17:54:56,061] {processor.py:153} INFO - Started process (PID=464290) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:54:56,062] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:54:56,064] {logging_mixin.py:115} INFO - [2023-02-15 17:54:56,064] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:54:56,096] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:54:56,119] {logging_mixin.py:115} INFO - [2023-02-15 17:54:56,119] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:54:56,131] {logging_mixin.py:115} INFO - [2023-02-15 17:54:56,130] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:54:56,145] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.086 seconds
+[2023-02-15 17:55:26,647] {processor.py:153} INFO - Started process (PID=464453) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:55:26,648] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:55:26,649] {logging_mixin.py:115} INFO - [2023-02-15 17:55:26,648] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:55:26,671] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:55:26,694] {logging_mixin.py:115} INFO - [2023-02-15 17:55:26,694] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:55:26,705] {logging_mixin.py:115} INFO - [2023-02-15 17:55:26,705] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:55:26,720] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.075 seconds
+[2023-02-15 17:55:57,213] {processor.py:153} INFO - Started process (PID=464619) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:55:57,213] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:55:57,214] {logging_mixin.py:115} INFO - [2023-02-15 17:55:57,214] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:55:57,241] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:55:57,265] {logging_mixin.py:115} INFO - [2023-02-15 17:55:57,264] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:55:57,278] {logging_mixin.py:115} INFO - [2023-02-15 17:55:57,278] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:55:57,290] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.080 seconds
+[2023-02-15 17:56:27,669] {processor.py:153} INFO - Started process (PID=464784) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:56:27,669] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:56:27,670] {logging_mixin.py:115} INFO - [2023-02-15 17:56:27,670] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:56:27,691] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:56:27,711] {logging_mixin.py:115} INFO - [2023-02-15 17:56:27,711] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:56:27,722] {logging_mixin.py:115} INFO - [2023-02-15 17:56:27,722] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:56:27,735] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 17:56:58,070] {processor.py:153} INFO - Started process (PID=464950) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:56:58,071] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:56:58,072] {logging_mixin.py:115} INFO - [2023-02-15 17:56:58,072] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:56:58,094] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:56:58,118] {logging_mixin.py:115} INFO - [2023-02-15 17:56:58,117] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:56:58,129] {logging_mixin.py:115} INFO - [2023-02-15 17:56:58,129] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:56:58,142] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.074 seconds
+[2023-02-15 17:57:28,457] {processor.py:153} INFO - Started process (PID=465114) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:57:28,458] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:57:28,459] {logging_mixin.py:115} INFO - [2023-02-15 17:57:28,459] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:57:28,480] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:57:28,501] {logging_mixin.py:115} INFO - [2023-02-15 17:57:28,501] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:57:28,512] {logging_mixin.py:115} INFO - [2023-02-15 17:57:28,512] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:57:28,524] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 17:57:58,808] {processor.py:153} INFO - Started process (PID=465283) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:57:58,808] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:57:58,809] {logging_mixin.py:115} INFO - [2023-02-15 17:57:58,809] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:57:58,832] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:57:58,851] {logging_mixin.py:115} INFO - [2023-02-15 17:57:58,851] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:57:58,862] {logging_mixin.py:115} INFO - [2023-02-15 17:57:58,862] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:57:58,875] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.069 seconds
+[2023-02-15 17:58:29,016] {processor.py:153} INFO - Started process (PID=465445) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:58:29,017] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:58:29,017] {logging_mixin.py:115} INFO - [2023-02-15 17:58:29,017] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:58:29,046] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:58:29,065] {logging_mixin.py:115} INFO - [2023-02-15 17:58:29,064] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:58:29,077] {logging_mixin.py:115} INFO - [2023-02-15 17:58:29,077] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:58:29,084] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.070 seconds
+[2023-02-15 17:58:59,384] {processor.py:153} INFO - Started process (PID=465611) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:58:59,385] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:58:59,386] {logging_mixin.py:115} INFO - [2023-02-15 17:58:59,386] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:58:59,409] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:58:59,427] {logging_mixin.py:115} INFO - [2023-02-15 17:58:59,427] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:58:59,437] {logging_mixin.py:115} INFO - [2023-02-15 17:58:59,437] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:58:59,447] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.065 seconds
+[2023-02-15 17:59:30,080] {processor.py:153} INFO - Started process (PID=465774) to work on /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:59:30,081] {processor.py:641} INFO - Processing file /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py for tasks to queue
+[2023-02-15 17:59:30,082] {logging_mixin.py:115} INFO - [2023-02-15 17:59:30,082] {dagbag.py:507} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:59:30,108] {processor.py:651} INFO - DAG(s) dict_keys(['2_Los_Simpson']) retrieved from /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py
+[2023-02-15 17:59:30,133] {logging_mixin.py:115} INFO - [2023-02-15 17:59:30,133] {dag.py:2371} INFO - Sync 1 DAGs
+[2023-02-15 17:59:30,146] {logging_mixin.py:115} INFO - [2023-02-15 17:59:30,146] {dag.py:2915} INFO - Setting next_dagrun for 2_Los_Simpson to None, run_after=None
+[2023-02-15 17:59:30,161] {processor.py:161} INFO - Processing /c/Airflow/dags/Apache_Airflow/2_Los_Simpson.py took 0.083 seconds

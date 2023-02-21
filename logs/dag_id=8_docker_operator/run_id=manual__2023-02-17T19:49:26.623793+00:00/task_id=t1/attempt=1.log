@@ -1,0 +1,26 @@
+[2023-02-17T13:49:27.457-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 8_docker_operator.t1 manual__2023-02-17T19:49:26.623793+00:00 [queued]>
+[2023-02-17T13:49:27.465-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 8_docker_operator.t1 manual__2023-02-17T19:49:26.623793+00:00 [queued]>
+[2023-02-17T13:49:27.466-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T13:49:27.466-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T13:49:27.467-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T13:49:27.474-0600] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): t1> on 2023-02-17 19:49:26.623793+00:00
+[2023-02-17T13:49:27.477-0600] {standard_task_runner.py:54} INFO - Started process 171878 to run task
+[2023-02-17T13:49:27.478-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '8_docker_operator', 't1', 'manual__2023-02-17T19:49:26.623793+00:00', '--job-id', '419', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/8_docker_operator.py', '--cfg-path', '/tmp/tmpp50zrrxe']
+[2023-02-17T13:49:27.480-0600] {standard_task_runner.py:83} INFO - Job 419: Subtask t1
+[2023-02-17T13:49:27.481-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-17T13:49:27.531-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-17T13:49:27.592-0600] {task_command.py:384} INFO - Running <TaskInstance: 8_docker_operator.t1 manual__2023-02-17T19:49:26.623793+00:00 [running]> on host Tinmar.
+[2023-02-17T13:49:27.637-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=8_docker_operator
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T19:49:26.623793+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-17T19:49:26.623793+00:00
+[2023-02-17T13:49:27.638-0600] {logging_mixin.py:117} INFO - Hola
+[2023-02-17T13:49:27.638-0600] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-17T13:49:27.647-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=8_docker_operator, task_id=t1, execution_date=20230217T194926, start_date=20230217T194927, end_date=20230217T194927
+[2023-02-17T13:49:27.691-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-17T13:49:27.711-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

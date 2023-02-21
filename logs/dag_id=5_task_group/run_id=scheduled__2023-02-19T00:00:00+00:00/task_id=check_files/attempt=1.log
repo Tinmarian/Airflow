@@ -1,0 +1,28 @@
+[2023-02-20T09:18:32.396-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 5_task_group.check_files scheduled__2023-02-19T00:00:00+00:00 [queued]>
+[2023-02-20T09:18:32.420-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 5_task_group.check_files scheduled__2023-02-19T00:00:00+00:00 [queued]>
+[2023-02-20T09:18:32.422-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T09:18:32.424-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-20T09:18:32.425-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T09:18:32.438-0600] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): check_files> on 2023-02-19 00:00:00+00:00
+[2023-02-20T09:18:32.441-0600] {standard_task_runner.py:54} INFO - Started process 198506 to run task
+[2023-02-20T09:18:32.444-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '5_task_group', 'check_files', 'scheduled__2023-02-19T00:00:00+00:00', '--job-id', '566', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/5_task_group.py', '--cfg-path', '/tmp/tmp_aht0s43']
+[2023-02-20T09:18:32.446-0600] {standard_task_runner.py:83} INFO - Job 566: Subtask check_files
+[2023-02-20T09:18:32.448-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/5_task_group.py
+[2023-02-20T09:18:32.667-0600] {task_command.py:384} INFO - Running <TaskInstance: 5_task_group.check_files scheduled__2023-02-19T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-20T09:18:32.740-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=5_task_group
+AIRFLOW_CTX_TASK_ID=check_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-19T00:00:00+00:00
+[2023-02-20T09:18:32.741-0600] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-20T09:18:32.742-0600] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sleep 10']
+[2023-02-20T09:18:32.749-0600] {subprocess.py:86} INFO - Output:
+[2023-02-20T09:18:42.751-0600] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-02-20T09:18:42.780-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=5_task_group, task_id=check_files, execution_date=20230219T000000, start_date=20230220T151832, end_date=20230220T151842
+[2023-02-20T09:18:42.813-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-20T09:18:42.837-0600] {local_task_job.py:273} INFO - 3 downstream tasks scheduled from follow-on schedule check

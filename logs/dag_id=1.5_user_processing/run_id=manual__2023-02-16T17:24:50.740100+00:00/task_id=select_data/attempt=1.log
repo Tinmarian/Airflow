@@ -1,0 +1,31 @@
+[2023-02-16 11:24:52,288] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.select_data manual__2023-02-16T17:24:50.740100+00:00 [queued]>
+[2023-02-16 11:24:52,297] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.select_data manual__2023-02-16T17:24:50.740100+00:00 [queued]>
+[2023-02-16 11:24:52,297] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 11:24:52,298] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-16 11:24:52,299] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 11:24:52,308] {taskinstance.py:1377} INFO - Executing <Task(PostgresOperator): select_data> on 2023-02-16 17:24:50.740100+00:00
+[2023-02-16 11:24:52,311] {standard_task_runner.py:52} INFO - Started process 61257 to run task
+[2023-02-16 11:24:52,314] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '1.5_user_processing', 'select_data', 'manual__2023-02-16T17:24:50.740100+00:00', '--job-id', '235', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.5_user_processing.py', '--cfg-path', '/tmp/tmpv4kc3qqe', '--error-file', '/tmp/tmpaks1ukzh']
+[2023-02-16 11:24:52,315] {standard_task_runner.py:80} INFO - Job 235: Subtask select_data
+[2023-02-16 11:24:52,377] {task_command.py:369} INFO - Running <TaskInstance: 1.5_user_processing.select_data manual__2023-02-16T17:24:50.740100+00:00 [running]> on host Tinmar.
+[2023-02-16 11:24:52,441] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.5_user_processing
+AIRFLOW_CTX_TASK_ID=select_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T17:24:50.740100+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-16T17:24:50.740100+00:00
+[2023-02-16 11:24:52,442] {sql.py:254} INFO - Executing: 
+                                        SELECT * FROM users
+                                    
+[2023-02-16 11:24:52,456] {base.py:68} INFO - Using connection ID 'postgres' for task execution.
+[2023-02-16 11:24:52,496] {base.py:68} INFO - Using connection ID 'postgres' for task execution.
+[2023-02-16 11:24:52,505] {sql.py:375} INFO - Running statement: 
+                                        SELECT * FROM users
+                                    , parameters: None
+[2023-02-16 11:24:52,506] {sql.py:384} INFO - Rows affected: 2
+[2023-02-16 11:24:52,535] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=1.5_user_processing, task_id=select_data, execution_date=20230216T172450, start_date=20230216T172452, end_date=20230216T172452
+[2023-02-16 11:24:52,570] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-16 11:24:52,598] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

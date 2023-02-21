@@ -1,0 +1,82 @@
+[2023-02-01 16:18:26,216] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 16:18:26,232] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 16:18:26,232] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 16:18:26,235] {taskinstance.py:1357} INFO - Starting attempt 3 of 3
+[2023-02-01 16:18:26,235] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 16:18:26,271] {taskinstance.py:1377} INFO - Executing <Task(DataprocCreateClusterOperator): create_cluster> on 2023-01-31 00:00:00+00:00
+[2023-02-01 16:18:26,273] {standard_task_runner.py:52} INFO - Started process 12995 to run task
+[2023-02-01 16:18:26,275] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '6_dataproc_airflow', 'create_cluster', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_airflow.py', '--cfg-path', '/tmp/tmp619_xn2i', '--error-file', '/tmp/tmpat723mdv']
+[2023-02-01 16:18:26,276] {standard_task_runner.py:80} INFO - Job 124: Subtask create_cluster
+[2023-02-01 16:18:26,366] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 16:18:26,517] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_airflow
+AIRFLOW_CTX_TASK_ID=create_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 16:18:26,518] {dataproc.py:591} INFO - Creating cluster: airflow_spark_cluster
+[2023-02-01 16:18:26,532] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 16:18:27,100] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.65.106:443 {grpc_message:"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.", grpc_status:16, created_time:"2023-02-01T16:18:27.09924914-06:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 599, in execute
+    cluster = self._create_cluster(hook)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 522, in _create_cluster
+    operation = hook.create_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 322, in create_cluster
+    result = client.create_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/dataproc_v1/services/cluster_controller/client.py", line 560, in create_cluster
+    response = rpc(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/timeout.py", line 99, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.Unauthenticated: 401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project. [reason: "ACCESS_TOKEN_EXPIRED"
+domain: "googleapis.com"
+metadata {
+  key: "method"
+  value: "google.cloud.dataproc.v1.ClusterController.CreateCluster"
+}
+metadata {
+  key: "service"
+  value: "dataproc.googleapis.com"
+}
+]
+[2023-02-01 16:18:27,120] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=6_dataproc_airflow, task_id=create_cluster, execution_date=20230131T000000, start_date=20230201T221826, end_date=20230201T221827
+[2023-02-01 16:18:27,147] {standard_task_runner.py:92} ERROR - Failed to execute job 124 for task create_cluster (401 Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project. [reason: "ACCESS_TOKEN_EXPIRED"
+domain: "googleapis.com"
+metadata {
+  key: "method"
+  value: "google.cloud.dataproc.v1.ClusterController.CreateCluster"
+}
+metadata {
+  key: "service"
+  value: "dataproc.googleapis.com"
+}
+]; 12995)
+[2023-02-01 16:18:27,154] {local_task_job.py:156} INFO - Task exited with return code 1

@@ -1,0 +1,25 @@
+[2023-02-16 12:11:04,207] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T18:10:57.909407+00:00 [queued]>
+[2023-02-16 12:11:04,214] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T18:10:57.909407+00:00 [queued]>
+[2023-02-16 12:11:04,215] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 12:11:04,218] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-16 12:11:04,218] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 12:11:04,226] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-16 18:10:57.909407+00:00
+[2023-02-16 12:11:04,229] {standard_task_runner.py:52} INFO - Started process 79958 to run task
+[2023-02-16 12:11:04,231] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '1.6_user_processing', 'extract_data', 'manual__2023-02-16T18:10:57.909407+00:00', '--job-id', '283', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6_user_processing.py', '--cfg-path', '/tmp/tmpy0o9pbu8', '--error-file', '/tmp/tmp35yug0b9']
+[2023-02-16 12:11:04,233] {standard_task_runner.py:80} INFO - Job 283: Subtask extract_data
+[2023-02-16 12:11:04,277] {task_command.py:369} INFO - Running <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T18:10:57.909407+00:00 [running]> on host Tinmar.
+[2023-02-16 12:11:04,326] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T18:10:57.909407+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-16T18:10:57.909407+00:00
+[2023-02-16 12:11:04,327] {http.py:123} INFO - Calling HTTP method
+[2023-02-16 12:11:04,337] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-16 12:11:04,603] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Victoria","last":"Moulin"},"location":{"street":{"number":2403,"name":"Rue de L'Abbé-Soulange-Bodin"},"city":"Clermont-Ferrand","state":"Marne","country":"France","postcode":29292,"coordinates":{"latitude":"-20.2242","longitude":"128.4910"},"timezone":{"offset":"+10:00","description":"Eastern Australia, Guam, Vladivostok"}},"email":"victoria.moulin@example.com","login":{"uuid":"fb4f393a-3634-478d-9e3c-9bf537b8d591","username":"silvermouse748","password":"claymore","salt":"ympEH1e4","md5":"afbcbf74fc12f11b101fca018c20d8e5","sha1":"d0f946e7ca569f3c2151f553cc30b6ac4e52351a","sha256":"4e396af75afceeb6b9d2c99f5f434e44f636053d121c52874593587739b3a900"},"dob":{"date":"1998-04-08T20:07:19.395Z","age":24},"registered":{"date":"2009-07-29T10:36:25.426Z","age":13},"phone":"03-75-83-50-75","cell":"06-77-55-83-32","id":{"name":"INSEE","value":"2980374622675 03"},"picture":{"large":"https://randomuser.me/api/portraits/women/23.jpg","medium":"https://randomuser.me/api/portraits/med/women/23.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/23.jpg"},"nat":"FR"}],"info":{"seed":"181034ae512a3a5b","results":1,"page":1,"version":"1.4"}}
+[2023-02-16 12:11:04,629] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=1.6_user_processing, task_id=extract_data, execution_date=20230216T181057, start_date=20230216T181104, end_date=20230216T181104
+[2023-02-16 12:11:04,669] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-16 12:11:04,702] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

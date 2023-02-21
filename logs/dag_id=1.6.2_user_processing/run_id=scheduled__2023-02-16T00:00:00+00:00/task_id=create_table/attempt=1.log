@@ -1,0 +1,49 @@
+[2023-02-17T12:11:09.820-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.2_user_processing.create_table scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T12:11:09.830-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.2_user_processing.create_table scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T12:11:09.831-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T12:11:09.832-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T12:11:09.833-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T12:11:09.841-0600] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_table> on 2023-02-16 00:00:00+00:00
+[2023-02-17T12:11:09.844-0600] {standard_task_runner.py:54} INFO - Started process 124654 to run task
+[2023-02-17T12:11:09.846-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.6.2_user_processing', 'create_table', 'scheduled__2023-02-16T00:00:00+00:00', '--job-id', '393', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6.2_user_processing.py', '--cfg-path', '/tmp/tmpr4j8s_et']
+[2023-02-17T12:11:09.848-0600] {standard_task_runner.py:83} INFO - Job 393: Subtask create_table
+[2023-02-17T12:11:09.849-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-17T12:11:10.185-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.6.2_user_processing.create_table scheduled__2023-02-16T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-17T12:11:10.242-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6.2_user_processing
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-16T00:00:00+00:00
+[2023-02-17T12:11:10.243-0600] {sql.py:254} INFO - Executing: 
+                                        CREATE TABLE IF NOT EXISTS users (
+                                            firstname TEXT NOT NULL,
+                                            lastname TEXT NOT NULL,
+                                            country TEXT NOT NULL,
+                                            username TEXT NOT NULL,
+                                            password TEXT NOT NULL,
+                                            email TEXT NOT NULL
+                                        );
+                                    
+[2023-02-17T12:11:10.254-0600] {base.py:71} INFO - Using connection ID 'postgres_default' for task execution.
+[2023-02-17T12:11:10.428-0600] {base.py:71} INFO - Using connection ID 'postgres_default' for task execution.
+[2023-02-17T12:11:11.568-0600] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 260, in execute
+    output = hook.run(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 342, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/postgres/hooks/postgres.py", line 144, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+[2023-02-17T12:11:11.578-0600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=1.6.2_user_processing, task_id=create_table, execution_date=20230216T000000, start_date=20230217T181109, end_date=20230217T181111
+[2023-02-17T12:11:11.587-0600] {standard_task_runner.py:102} ERROR - Failed to execute job 393 for task create_table (could not translate host name "postgres" to address: Name or service not known
+; 124654)
+[2023-02-17T12:11:11.596-0600] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-02-17T12:11:11.619-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

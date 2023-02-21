@@ -1,0 +1,29 @@
+[2023-02-21T11:47:59.766-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 3_retries.task_a manual__2023-02-21T17:47:58.933454+00:00 [queued]>
+[2023-02-21T11:47:59.774-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 3_retries.task_a manual__2023-02-21T17:47:58.933454+00:00 [queued]>
+[2023-02-21T11:47:59.774-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T11:47:59.775-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-21T11:47:59.775-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T11:47:59.782-0600] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): task_a> on 2023-02-21 17:47:58.933454+00:00
+[2023-02-21T11:47:59.785-0600] {standard_task_runner.py:54} INFO - Started process 521240 to run task
+[2023-02-21T11:47:59.787-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '3_retries', 'task_a', 'manual__2023-02-21T17:47:58.933454+00:00', '--job-id', '653', '--raw', '--subdir', 'DAGS_FOLDER/Apache_Airflow-The_Operators_Guide/3_retries.py', '--cfg-path', '/tmp/tmp_41ptfxr']
+[2023-02-21T11:47:59.788-0600] {standard_task_runner.py:83} INFO - Job 653: Subtask task_a
+[2023-02-21T11:47:59.789-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/3_retries.py
+[2023-02-21T11:47:59.857-0600] {task_command.py:384} INFO - Running <TaskInstance: 3_retries.task_a manual__2023-02-21T17:47:58.933454+00:00 [running]> on host Tinmar.
+[2023-02-21T11:47:59.897-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=3_retries
+AIRFLOW_CTX_TASK_ID=task_a
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-21T17:47:58.933454+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-21T17:47:58.933454+00:00
+[2023-02-21T11:47:59.898-0600] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-21T11:47:59.899-0600] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'task_a'"]
+[2023-02-21T11:47:59.904-0600] {subprocess.py:86} INFO - Output:
+[2023-02-21T11:47:59.904-0600] {subprocess.py:93} INFO - task_a
+[2023-02-21T11:47:59.905-0600] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-02-21T11:47:59.924-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=3_retries, task_id=task_a, execution_date=20230221T174758, start_date=20230221T174759, end_date=20230221T174759
+[2023-02-21T11:47:59.959-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-21T11:47:59.976-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

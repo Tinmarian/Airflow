@@ -1,0 +1,24 @@
+[2023-02-13 14:42:16,708] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: branch_octavo_dag.api_call manual__2023-02-13T20:42:14.859597+00:00 [queued]>
+[2023-02-13 14:42:16,713] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: branch_octavo_dag.api_call manual__2023-02-13T20:42:14.859597+00:00 [queued]>
+[2023-02-13 14:42:16,714] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 14:42:16,715] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-13 14:42:16,715] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 14:42:16,722] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): api_call> on 2023-02-13 20:42:14.859597+00:00
+[2023-02-13 14:42:16,725] {standard_task_runner.py:52} INFO - Started process 204055 to run task
+[2023-02-13 14:42:16,727] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'branch_octavo_dag', 'api_call', 'manual__2023-02-13T20:42:14.859597+00:00', '--job-id', '145', '--raw', '--subdir', 'DAGS_FOLDER/Apache_Airflow/branch_octavo_dag.py', '--cfg-path', '/tmp/tmprprh7w4_', '--error-file', '/tmp/tmpyik6_gn_']
+[2023-02-13 14:42:16,728] {standard_task_runner.py:80} INFO - Job 145: Subtask api_call
+[2023-02-13 14:42:16,767] {task_command.py:369} INFO - Running <TaskInstance: branch_octavo_dag.api_call manual__2023-02-13T20:42:14.859597+00:00 [running]> on host Tinmar.
+[2023-02-13 14:42:16,809] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=branch_octavo_dag
+AIRFLOW_CTX_TASK_ID=api_call
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-13T20:42:14.859597+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-13T20:42:14.859597+00:00
+[2023-02-13 14:42:16,810] {http.py:123} INFO - Calling HTTP method
+[2023-02-13 14:42:16,817] {base.py:68} INFO - Using connection ID 'random_number' for task execution.
+[2023-02-13 14:42:17,989] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=branch_octavo_dag, task_id=api_call, execution_date=20230213T204214, start_date=20230213T204216, end_date=20230213T204217
+[2023-02-13 14:42:18,032] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-13 14:42:18,060] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2023-02-16 11:27:11,114] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.extract_data manual__2023-02-16T17:27:05.053608+00:00 [queued]>
+[2023-02-16 11:27:11,123] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.extract_data manual__2023-02-16T17:27:05.053608+00:00 [queued]>
+[2023-02-16 11:27:11,124] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 11:27:11,127] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-16 11:27:11,127] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 11:27:11,135] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-16 17:27:05.053608+00:00
+[2023-02-16 11:27:11,138] {standard_task_runner.py:52} INFO - Started process 62218 to run task
+[2023-02-16 11:27:11,140] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '1.5_user_processing', 'extract_data', 'manual__2023-02-16T17:27:05.053608+00:00', '--job-id', '242', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.5_user_processing.py', '--cfg-path', '/tmp/tmpg7i806rt', '--error-file', '/tmp/tmpkuctssoa']
+[2023-02-16 11:27:11,142] {standard_task_runner.py:80} INFO - Job 242: Subtask extract_data
+[2023-02-16 11:27:11,189] {task_command.py:369} INFO - Running <TaskInstance: 1.5_user_processing.extract_data manual__2023-02-16T17:27:05.053608+00:00 [running]> on host Tinmar.
+[2023-02-16 11:27:11,243] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.5_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T17:27:05.053608+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-16T17:27:05.053608+00:00
+[2023-02-16 11:27:11,244] {http.py:123} INFO - Calling HTTP method
+[2023-02-16 11:27:11,254] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-16 11:27:11,502] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Mrs","first":"Raquel","last":"Vargas"},"location":{"street":{"number":6167,"name":"Calle de Toledo"},"city":"Madrid","state":"Castilla la Mancha","country":"Spain","postcode":39353,"coordinates":{"latitude":"-31.9354","longitude":"121.4165"},"timezone":{"offset":"-5:00","description":"Eastern Time (US & Canada), Bogota, Lima"}},"email":"raquel.vargas@example.com","login":{"uuid":"cf849a84-55db-4cd6-8ffa-30bfe09e5f22","username":"redduck121","password":"welcome","salt":"vZSWYxs9","md5":"fb086c72a2b3f441a1fd37dac179f20b","sha1":"f6e75f1f579a1bfd41f30ff43d537bda2ecd0f2d","sha256":"c8716d67109df768afe4e022236c65d7f8d32a444a88fcf8e50d41583ec679c9"},"dob":{"date":"1986-09-08T13:28:27.817Z","age":36},"registered":{"date":"2022-01-27T07:51:24.022Z","age":1},"phone":"905-839-115","cell":"671-375-949","id":{"name":"DNI","value":"91158425-N"},"picture":{"large":"https://randomuser.me/api/portraits/women/89.jpg","medium":"https://randomuser.me/api/portraits/med/women/89.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/89.jpg"},"nat":"ES"}],"info":{"seed":"0ff04ad283cfd92a","results":1,"page":1,"version":"1.4"}}
+[2023-02-16 11:27:11,528] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=1.5_user_processing, task_id=extract_data, execution_date=20230216T172705, start_date=20230216T172711, end_date=20230216T172711
+[2023-02-16 11:27:11,575] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-16 11:27:11,606] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

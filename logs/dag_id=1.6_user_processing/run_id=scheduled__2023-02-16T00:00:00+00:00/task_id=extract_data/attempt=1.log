@@ -1,0 +1,26 @@
+[2023-02-17T08:30:20.619-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T08:30:20.630-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T08:30:20.631-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:30:20.631-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T08:30:20.632-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:30:20.641-0600] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-16 00:00:00+00:00
+[2023-02-17T08:30:20.644-0600] {standard_task_runner.py:54} INFO - Started process 2349 to run task
+[2023-02-17T08:30:20.646-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.6_user_processing', 'extract_data', 'scheduled__2023-02-16T00:00:00+00:00', '--job-id', '336', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6_user_processing.py', '--cfg-path', '/tmp/tmp18i77bcf']
+[2023-02-17T08:30:20.648-0600] {standard_task_runner.py:83} INFO - Job 336: Subtask extract_data
+[2023-02-17T08:30:20.649-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6_user_processing.py
+[2023-02-17T08:30:20.975-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.6_user_processing.extract_data scheduled__2023-02-16T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-17T08:30:21.027-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-16T00:00:00+00:00
+[2023-02-17T08:30:21.028-0600] {http.py:123} INFO - Calling HTTP method
+[2023-02-17T08:30:21.037-0600] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-17T08:30:21.289-0600] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"آراد","last":"کریمی"},"location":{"street":{"number":937,"name":"نبرد جنوبی"},"city":"خمینی‌شهر","state":"بوشهر","country":"Iran","postcode":73033,"coordinates":{"latitude":"14.0345","longitude":"-88.4699"},"timezone":{"offset":"+5:45","description":"Kathmandu"}},"email":"ard.khrymy@example.com","login":{"uuid":"0db1d63b-868e-4a29-be21-18ef40085f4b","username":"blackcat160","password":"telephon","salt":"FBF3OjK9","md5":"21f804a101376cbd0b327d06ef4e0081","sha1":"b1539efc2ba440b16a5d44213adfe47d835016cb","sha256":"c02e194951d0eefd86c3942bb129b00c13ebe0fd67bcd85c56b059364f150350"},"dob":{"date":"1975-05-13T19:43:19.829Z","age":47},"registered":{"date":"2020-06-02T17:03:24.265Z","age":2},"phone":"020-05392796","cell":"0958-896-8848","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/99.jpg","medium":"https://randomuser.me/api/portraits/med/men/99.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/99.jpg"},"nat":"IR"}],"info":{"seed":"4bd4899dc8fdbe45","results":1,"page":1,"version":"1.4"}}
+[2023-02-17T08:30:21.429-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=1.6_user_processing, task_id=extract_data, execution_date=20230216T000000, start_date=20230217T143020, end_date=20230217T143021
+[2023-02-17T08:30:21.460-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-17T08:30:21.486-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

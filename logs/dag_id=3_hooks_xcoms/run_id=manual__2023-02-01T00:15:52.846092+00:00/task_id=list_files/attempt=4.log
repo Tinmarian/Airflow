@@ -1,0 +1,67 @@
+[2023-01-31 17:21:05,967] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.list_files manual__2023-02-01T00:15:52.846092+00:00 [queued]>
+[2023-01-31 17:21:05,977] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 3_hooks_xcoms.list_files manual__2023-02-01T00:15:52.846092+00:00 [queued]>
+[2023-01-31 17:21:05,978] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:21:05,979] {taskinstance.py:1357} INFO - Starting attempt 4 of 4
+[2023-01-31 17:21:05,979] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:21:06,005] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): list_files> on 2023-02-01 00:15:52.846092+00:00
+[2023-01-31 17:21:06,007] {standard_task_runner.py:52} INFO - Started process 13963 to run task
+[2023-01-31 17:21:06,010] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '3_hooks_xcoms', 'list_files', 'manual__2023-02-01T00:15:52.846092+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/3_hooks_xcoms.py', '--cfg-path', '/tmp/tmp095ce8vj', '--error-file', '/tmp/tmpy9s6y4t3']
+[2023-01-31 17:21:06,011] {standard_task_runner.py:80} INFO - Job 90: Subtask list_files
+[2023-01-31 17:21:06,067] {task_command.py:369} INFO - Running <TaskInstance: 3_hooks_xcoms.list_files manual__2023-02-01T00:15:52.846092+00:00 [running]> on host Tinmar.
+[2023-01-31 17:21:06,142] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=3_hooks_xcoms
+AIRFLOW_CTX_TASK_ID=list_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-01T00:15:52.846092+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-01T00:15:52.846092+00:00
+[2023-01-31 17:21:06,152] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 17:21:06,394] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/c/Airflow/dags/Airflow2.0-De-0-a-Heroe/3_hooks_xcoms.py", line 32, in list_objects
+    return GCSHook().list(bucket)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/gcs.py", line 711, in list
+    for blob in blobs:
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/page_iterator.py", line 208, in _items_iter
+    for page in self._page_iter(increment=False):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/page_iterator.py", line 244, in _page_iter
+    page = self._next_page()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/page_iterator.py", line 373, in _next_page
+    response = self._get_next_page_response()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/page_iterator.py", line 432, in _get_next_page_response
+    return self.api_request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/storage/_http.py", line 72, in api_request
+    return call()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/auth/transport/requests.py", line 545, in request
+    self.credentials.before_request(auth_request, method, url, request_headers)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/auth/credentials.py", line 135, in before_request
+    self.refresh(request)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/service_account.py", line 429, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/_client.py", line 294, in jwt_grant
+    response_data = _token_endpoint_request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/_client.py", line 265, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.'})
+[2023-01-31 17:21:06,414] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=3_hooks_xcoms, task_id=list_files, execution_date=20230201T001552, start_date=20230201T002105, end_date=20230201T002106
+[2023-01-31 17:21:06,440] {standard_task_runner.py:92} ERROR - Failed to execute job 90 for task list_files (('invalid_grant: Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.'}); 13963)
+[2023-01-31 17:21:06,465] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 17:21:06,533] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

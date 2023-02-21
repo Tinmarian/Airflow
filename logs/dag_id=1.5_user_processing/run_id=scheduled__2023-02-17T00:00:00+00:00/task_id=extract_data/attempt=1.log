@@ -1,0 +1,26 @@
+[2023-02-18T02:59:39.505-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.extract_data scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-02-18T02:59:39.514-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.extract_data scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-02-18T02:59:39.514-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T02:59:39.515-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T02:59:39.515-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T02:59:39.538-0600] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-17 00:00:00+00:00
+[2023-02-18T02:59:39.544-0600] {standard_task_runner.py:54} INFO - Started process 192109 to run task
+[2023-02-18T02:59:39.546-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.5_user_processing', 'extract_data', 'scheduled__2023-02-17T00:00:00+00:00', '--job-id', '460', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.5_user_processing.py', '--cfg-path', '/tmp/tmpf_rtljnt']
+[2023-02-18T02:59:39.549-0600] {standard_task_runner.py:83} INFO - Job 460: Subtask extract_data
+[2023-02-18T02:59:39.550-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.5_user_processing.py
+[2023-02-18T02:59:39.892-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.5_user_processing.extract_data scheduled__2023-02-17T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T02:59:39.949-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.5_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-17T00:00:00+00:00
+[2023-02-18T02:59:39.950-0600] {http.py:123} INFO - Calling HTTP method
+[2023-02-18T02:59:39.962-0600] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-18T02:59:40.342-0600] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Nicoline","last":"Øverås"},"location":{"street":{"number":3858,"name":"Østfoldgata"},"city":"Skomrak","state":"Finnmark - Finnmárku","country":"Norway","postcode":"9442","coordinates":{"latitude":"46.3424","longitude":"116.6850"},"timezone":{"offset":"-11:00","description":"Midway Island, Samoa"}},"email":"nicoline.overas@example.com","login":{"uuid":"bf106fb4-9c8a-45a3-9864-babc75f1834f","username":"crazypanda688","password":"gangbanged","salt":"XHNuOpeH","md5":"077e9e5d42a41e81e43418082d8d6b1b","sha1":"53a20ef49fd87ea9751934bd2bf58e6b5e7b2e5a","sha256":"86282832c216b1587de3294cef4d96dd45311b20c6b327c78622fb3d59b4d451"},"dob":{"date":"1985-07-18T08:58:41.422Z","age":37},"registered":{"date":"2018-06-20T02:36:08.924Z","age":4},"phone":"59151292","cell":"47579382","id":{"name":"FN","value":"18078506209"},"picture":{"large":"https://randomuser.me/api/portraits/women/44.jpg","medium":"https://randomuser.me/api/portraits/med/women/44.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/44.jpg"},"nat":"NO"}],"info":{"seed":"3aa0b9119bcf0d5c","results":1,"page":1,"version":"1.4"}}
+[2023-02-18T02:59:40.366-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=1.5_user_processing, task_id=extract_data, execution_date=20230217T000000, start_date=20230218T085939, end_date=20230218T085940
+[2023-02-18T02:59:40.403-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-18T02:59:40.429-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

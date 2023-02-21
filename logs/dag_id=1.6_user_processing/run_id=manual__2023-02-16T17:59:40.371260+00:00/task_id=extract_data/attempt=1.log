@@ -1,0 +1,25 @@
+[2023-02-16 11:59:47,693] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T17:59:40.371260+00:00 [queued]>
+[2023-02-16 11:59:47,700] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T17:59:40.371260+00:00 [queued]>
+[2023-02-16 11:59:47,700] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 11:59:47,703] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-16 11:59:47,703] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16 11:59:47,710] {taskinstance.py:1377} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-16 17:59:40.371260+00:00
+[2023-02-16 11:59:47,713] {standard_task_runner.py:52} INFO - Started process 75168 to run task
+[2023-02-16 11:59:47,715] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '1.6_user_processing', 'extract_data', 'manual__2023-02-16T17:59:40.371260+00:00', '--job-id', '255', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6_user_processing.py', '--cfg-path', '/tmp/tmpuogs51hk', '--error-file', '/tmp/tmp1je0p063']
+[2023-02-16 11:59:47,716] {standard_task_runner.py:80} INFO - Job 255: Subtask extract_data
+[2023-02-16 11:59:47,763] {task_command.py:369} INFO - Running <TaskInstance: 1.6_user_processing.extract_data manual__2023-02-16T17:59:40.371260+00:00 [running]> on host Tinmar.
+[2023-02-16 11:59:47,812] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T17:59:40.371260+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-16T17:59:40.371260+00:00
+[2023-02-16 11:59:47,813] {http.py:123} INFO - Calling HTTP method
+[2023-02-16 11:59:47,821] {base.py:68} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-16 11:59:48,094] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Ignatz","last":"Kunath"},"location":{"street":{"number":2667,"name":"Königsberger Straße"},"city":"Kroppenstedt","state":"Saarland","country":"Germany","postcode":61811,"coordinates":{"latitude":"-48.5668","longitude":"-152.1714"},"timezone":{"offset":"+10:00","description":"Eastern Australia, Guam, Vladivostok"}},"email":"ignatz.kunath@example.com","login":{"uuid":"77f487b9-0892-4711-95e2-4b1bdf9ba3e9","username":"tinydog371","password":"freak","salt":"bILkDeg1","md5":"63eef2f021d1406940fe723a52d2fd1f","sha1":"abdee0a40d710b8f25aed0c4588dfd0fca9bafcb","sha256":"25bccf475186d9547dfd37f0f26d3040c501921d35aa45e638c73489181a3803"},"dob":{"date":"1984-04-05T11:34:58.961Z","age":38},"registered":{"date":"2003-08-26T20:03:34.524Z","age":19},"phone":"0895-7629631","cell":"0171-0621838","id":{"name":"SVNR","value":"76 050484 K 282"},"picture":{"large":"https://randomuser.me/api/portraits/men/71.jpg","medium":"https://randomuser.me/api/portraits/med/men/71.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/71.jpg"},"nat":"DE"}],"info":{"seed":"5d67dae293c3f7c4","results":1,"page":1,"version":"1.4"}}
+[2023-02-16 11:59:48,120] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=1.6_user_processing, task_id=extract_data, execution_date=20230216T175940, start_date=20230216T175947, end_date=20230216T175948
+[2023-02-16 11:59:48,158] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-16 11:59:48,188] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,26 @@
+[2023-02-01 11:48:36,156] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 11:48:36,171] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 4_jinja_airflowmacros.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 11:48:36,172] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:48:36,173] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-02-01 11:48:36,174] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 11:48:36,234] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 00:00:00+00:00
+[2023-02-01 11:48:36,239] {standard_task_runner.py:52} INFO - Started process 2587 to run task
+[2023-02-01 11:48:36,244] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '4_jinja_airflowmacros', 'cargar_datos', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/4_jinja_airflowmacros.py', '--cfg-path', '/tmp/tmpti0ns5uh', '--error-file', '/tmp/tmpzx8mhzli']
+[2023-02-01 11:48:36,246] {standard_task_runner.py:80} INFO - Job 106: Subtask cargar_datos
+[2023-02-01 11:48:36,340] {task_command.py:369} INFO - Running <TaskInstance: 4_jinja_airflowmacros.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 11:48:36,435] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=4_jinja_airflowmacros
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 11:48:36,448] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 11:48:36,449] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-02-01 11:48:36,487] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years_jinja_macros'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://airflow23_bucket/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-02-01 11:48:36,489] {bigquery.py:1542} INFO - Inserting job airflow_4_jinja_airflowmacros_cargar_datos_2023_01_31T00_00_00_00_00_c070bcdbbaa45c63a0ad4dc36083792f
+[2023-02-01 11:48:41,783] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=4_jinja_airflowmacros, task_id=cargar_datos, execution_date=20230131T000000, start_date=20230201T174836, end_date=20230201T174841
+[2023-02-01 11:48:41,822] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-01 11:48:41,878] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

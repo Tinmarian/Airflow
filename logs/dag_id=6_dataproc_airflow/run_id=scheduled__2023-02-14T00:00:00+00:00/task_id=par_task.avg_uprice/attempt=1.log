@@ -1,0 +1,58 @@
+[2023-02-15 16:47:38,897] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_uprice scheduled__2023-02-14T00:00:00+00:00 [queued]>
+[2023-02-15 16:47:38,903] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_uprice scheduled__2023-02-14T00:00:00+00:00 [queued]>
+[2023-02-15 16:47:38,904] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15 16:47:38,907] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-15 16:47:38,908] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15 16:47:38,915] {taskinstance.py:1377} INFO - Executing <Task(DataprocSubmitJobOperator): par_task.avg_uprice> on 2023-02-14 00:00:00+00:00
+[2023-02-15 16:47:38,918] {standard_task_runner.py:52} INFO - Started process 442415 to run task
+[2023-02-15 16:47:38,921] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '6_dataproc_***', 'par_task.avg_uprice', 'scheduled__2023-02-14T00:00:00+00:00', '--job-id', '207', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_***.py', '--cfg-path', '/tmp/tmpj6m_7boy', '--error-file', '/tmp/tmpdkl_ww96']
+[2023-02-15 16:47:38,922] {standard_task_runner.py:80} INFO - Job 207: Subtask par_task.avg_uprice
+[2023-02-15 16:47:38,985] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.par_task.avg_uprice scheduled__2023-02-14T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-15 16:47:39,045] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_***
+AIRFLOW_CTX_TASK_ID=par_task.avg_uprice
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-14T00:00:00+00:00
+[2023-02-15 16:47:39,047] {dataproc.py:1866} INFO - Submitting job
+[2023-02-15 16:47:39,057] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-15 16:47:39,684] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.ALREADY_EXISTS
+	details = "Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_uprice"
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:172.217.15.10:443 {grpc_message:"Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_uprice", grpc_status:6, created_time:"2023-02-15T16:47:39.683201685-06:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 1868, in execute
+    job_object = self.hook.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 780, in submit_job
+    return client.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/dataproc_v1/services/job_controller/client.py", line 520, in submit_job
+    response = rpc(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.AlreadyExists: 409 Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_uprice
+[2023-02-15 16:47:39,696] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=6_dataproc_***, task_id=par_task.avg_uprice, execution_date=20230214T000000, start_date=20230215T224738, end_date=20230215T224739
+[2023-02-15 16:47:39,706] {standard_task_runner.py:92} ERROR - Failed to execute job 207 for task par_task.avg_uprice (409 Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_uprice; 442415)
+[2023-02-15 16:47:39,739] {local_task_job.py:156} INFO - Task exited with return code 1

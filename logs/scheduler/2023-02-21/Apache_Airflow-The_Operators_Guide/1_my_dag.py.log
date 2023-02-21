@@ -1,0 +1,263 @@
+[2023-02-21T10:45:16.444-0600] {processor.py:156} INFO - Started process (PID=473221) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:45:16.446-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:45:16.447-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:45:16.447-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:45:16.469-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:45:16.468-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 8
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 4
+[2023-02-21T10:45:16.470-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:45:16.486-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.043 seconds
+[2023-02-21T10:45:46.779-0600] {processor.py:156} INFO - Started process (PID=473611) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:45:46.780-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:45:46.781-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:45:46.781-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:45:46.805-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:45:46.805-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 9
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 4
+[2023-02-21T10:45:46.806-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:45:46.824-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.048 seconds
+[2023-02-21T10:46:17.319-0600] {processor.py:156} INFO - Started process (PID=473994) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:46:17.320-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:46:17.321-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:46:17.321-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:46:17.342-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:46:17.341-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 6
+    owner='Tinmar'
+          ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-02-21T10:46:17.343-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:46:17.360-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.043 seconds
+[2023-02-21T10:46:47.542-0600] {processor.py:156} INFO - Started process (PID=474384) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:46:47.543-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:46:47.544-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:46:47.544-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:46:47.571-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:46:47.570-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 6
+    owner='Tinmar'
+          ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-02-21T10:46:47.571-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:46:47.590-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.050 seconds
+[2023-02-21T10:47:17.961-0600] {processor.py:156} INFO - Started process (PID=474767) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:47:17.962-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:47:17.963-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:47:17.963-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:47:17.985-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:47:17.984-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 12
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2023-02-21T10:47:17.985-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:47:18.005-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.047 seconds
+[2023-02-21T10:47:48.439-0600] {processor.py:156} INFO - Started process (PID=475159) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:47:48.440-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:47:48.441-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:47:48.441-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:47:48.459-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:47:48.459-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 12
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2023-02-21T10:47:48.460-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:47:48.476-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.039 seconds
+[2023-02-21T10:48:19.171-0600] {processor.py:156} INFO - Started process (PID=475548) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:48:19.172-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:48:19.173-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:48:19.173-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:48:19.197-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:48:19.197-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 12
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2023-02-21T10:48:19.198-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:48:19.213-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.044 seconds
+[2023-02-21T10:48:49.391-0600] {processor.py:156} INFO - Started process (PID=475938) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:48:49.392-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:48:49.393-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:48:49.393-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:48:49.421-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:48:49.421-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 12
+    ):
+      ^
+IndentationError: expected an indented block after 'with' statement on line 6
+[2023-02-21T10:48:49.422-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:48:49.438-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.049 seconds
+[2023-02-21T10:49:19.698-0600] {processor.py:156} INFO - Started process (PID=476321) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:49:19.699-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:49:19.700-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:49:19.699-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:49:19.731-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:49:19.728-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 6, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'owner'
+[2023-02-21T10:49:19.732-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:49:19.749-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.053 seconds
+[2023-02-21T10:49:50.582-0600] {processor.py:156} INFO - Started process (PID=476712) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:49:50.584-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:49:50.585-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:49:50.585-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:49:50.651-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:49:50.647-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 6, in <module>
+    with DAG(
+TypeError: DAG.__init__() got an unexpected keyword argument 'owner'
+[2023-02-21T10:49:50.652-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:49:50.667-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.087 seconds
+[2023-02-21T10:50:20.859-0600] {processor.py:156} INFO - Started process (PID=477111) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:50:20.861-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:50:20.862-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:20.862-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:50:20.898-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:50:20.970-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:20.970-0600] {manager.py:508} INFO - Created Permission View: can edit on DAG:1_my_dag
+[2023-02-21T10:50:20.977-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:20.977-0600] {manager.py:508} INFO - Created Permission View: can delete on DAG:1_my_dag
+[2023-02-21T10:50:20.982-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:20.982-0600] {manager.py:508} INFO - Created Permission View: can read on DAG:1_my_dag
+[2023-02-21T10:50:20.982-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:20.982-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:50:20.989-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:20.989-0600] {dag.py:2594} INFO - Creating ORM DAG for 1_my_dag
+[2023-02-21T10:50:20.996-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:20.995-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:50:21.009-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.153 seconds
+[2023-02-21T10:50:51.815-0600] {processor.py:156} INFO - Started process (PID=477500) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:50:51.816-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:50:51.817-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:51.817-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:50:51.838-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:50:51.838-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 9
+    default_args={"owner":"Tinmar"}
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-02-21T10:50:51.839-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:50:51.854-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.040 seconds
+[2023-02-21T10:51:22.154-0600] {processor.py:156} INFO - Started process (PID=477891) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:51:22.155-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:51:22.155-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:51:22.155-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:51:22.190-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:51:22.228-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:51:22.228-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:51:22.243-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:51:22.243-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:51:22.262-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.110 seconds
+[2023-02-21T10:51:52.549-0600] {processor.py:156} INFO - Started process (PID=478274) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:51:52.550-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:51:52.551-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:51:52.551-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:51:52.593-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:51:52.639-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:51:52.638-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:51:52.651-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:51:52.651-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:51:52.670-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.123 seconds
+[2023-02-21T10:52:22.845-0600] {processor.py:156} INFO - Started process (PID=478664) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:52:22.846-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:52:22.847-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:52:22.847-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:52:22.889-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:52:22.933-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:52:22.933-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:52:22.946-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:52:22.946-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:52:22.966-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.123 seconds
+[2023-02-21T10:52:53.554-0600] {processor.py:156} INFO - Started process (PID=479054) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:52:53.555-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:52:53.556-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:52:53.556-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:52:53.580-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:52:53.606-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:52:53.606-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:52:53.621-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:52:53.621-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:52:53.635-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.083 seconds
+[2023-02-21T10:53:24.174-0600] {processor.py:156} INFO - Started process (PID=479444) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:53:24.175-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:53:24.176-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:53:24.175-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:53:24.221-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:53:24.262-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:53:24.262-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:53:24.277-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:53:24.276-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:53:24.311-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.138 seconds
+[2023-02-21T10:53:55.337-0600] {processor.py:156} INFO - Started process (PID=479839) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:53:55.338-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:53:55.339-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:53:55.339-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:53:55.380-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:53:55.374-0600] {dagbag.py:330} ERROR - Failed to import: /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 326, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py", line 17, in <module>
+    task_a = DummyOperator(task_id='task_a')
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 773, in __init__
+    task_group.add(self)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 213, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'task_a' has already been added to the DAG
+[2023-02-21T10:53:55.380-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:53:55.396-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.061 seconds
+[2023-02-21T10:54:26.071-0600] {processor.py:156} INFO - Started process (PID=480229) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:54:26.072-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:54:26.073-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:54:26.072-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:54:26.108-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:54:26.147-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:54:26.147-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:54:26.159-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:54:26.159-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:54:26.179-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.111 seconds
+[2023-02-21T10:55:08.620-0600] {processor.py:156} INFO - Started process (PID=480519) to work on /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:55:08.621-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py for tasks to queue
+[2023-02-21T10:55:08.622-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:55:08.622-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:55:08.643-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1_my_dag']) retrieved from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py
+[2023-02-21T10:55:08.664-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:55:08.664-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-21T10:55:08.678-0600] {logging_mixin.py:117} INFO - [2023-02-21T10:55:08.678-0600] {dag.py:3324} INFO - Setting next_dagrun for 1_my_dag to 2023-02-21T00:00:00+00:00, run_after=2023-02-22T00:00:00+00:00
+[2023-02-21T10:55:08.693-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/1_my_dag.py took 0.074 seconds

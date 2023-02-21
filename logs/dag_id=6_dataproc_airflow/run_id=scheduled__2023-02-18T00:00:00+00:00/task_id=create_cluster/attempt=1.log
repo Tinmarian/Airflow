@@ -1,0 +1,68 @@
+[2023-02-18T18:29:03.993-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:04.009-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:04.020-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:04.025-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T18:29:04.032-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:04.119-0600] {taskinstance.py:1383} INFO - Executing <Task(DataprocCreateClusterOperator): create_cluster> on 2023-02-18 00:00:00+00:00
+[2023-02-18T18:29:04.133-0600] {standard_task_runner.py:54} INFO - Started process 195658 to run task
+[2023-02-18T18:29:04.138-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '6_dataproc_***', 'create_cluster', 'scheduled__2023-02-18T00:00:00+00:00', '--job-id', '502', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_***.py', '--cfg-path', '/tmp/tmptbe721l2']
+[2023-02-18T18:29:04.149-0600] {standard_task_runner.py:83} INFO - Job 502: Subtask create_cluster
+[2023-02-18T18:29:04.152-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/6_dataproc_***.py
+[2023-02-18T18:29:04.464-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `***.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-18T18:29:04.662-0600] {task_command.py:384} INFO - Running <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-02-18T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T18:29:04.782-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_***
+AIRFLOW_CTX_TASK_ID=create_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-18T00:00:00+00:00
+[2023-02-18T18:29:04.784-0600] {dataproc.py:591} INFO - Creating cluster: ***-spark-cluster
+[2023-02-18T18:29:04.802-0600] {base.py:71} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-18T18:29:06.673-0600] {dataproc.py:603} INFO - Cluster already exists.
+[2023-02-20T09:18:13.330-0600] {local_task_job.py:148} ERROR - Heartbeat time limit exceeded!
+[2023-02-20T09:18:13.349-0600] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 195658. PIDs of all processes in the group: [195658]
+[2023-02-20T09:18:13.362-0600] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 195658
+[2023-02-20T09:18:13.574-0600] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-02-20T09:18:13.659-0600] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 610, in execute
+    cluster = self._wait_for_cluster_in_creating_state(hook)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 587, in _wait_for_cluster_in_creating_state
+    cluster = self._get_cluster(hook)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 543, in _get_cluster
+    return hook.get_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 436, in get_cluster
+    result = client.get_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/dataproc_v1/services/cluster_controller/client.py", line 1256, in get_cluster
+    response = rpc(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/timeout.py", line 99, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 944, in __call__
+    state, call, = self._blocking(request, timeout, metadata, credentials,
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 933, in _blocking
+    event = call.next_event()
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 338, in grpc._cython.cygrpc.SegregatedCall.next_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 169, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 163, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 78, in grpc._cython.cygrpc._latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 61, in grpc._cython.cygrpc._internal_latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 42, in grpc._cython.cygrpc._next
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1564, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-02-20T09:18:13.668-0600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=6_dataproc_***, task_id=create_cluster, execution_date=20230218T000000, start_date=20230219T002903, end_date=20230220T151813
+[2023-02-20T09:18:13.688-0600] {standard_task_runner.py:102} ERROR - Failed to execute job 502 for task create_cluster (Task received SIGTERM signal; 195658)
+[2023-02-20T09:18:13.707-0600] {process_utils.py:79} INFO - Process psutil.Process(pid=195658, status='terminated', exitcode=1, started='2023-02-18 18:29:03') (195658) terminated with exit code 1

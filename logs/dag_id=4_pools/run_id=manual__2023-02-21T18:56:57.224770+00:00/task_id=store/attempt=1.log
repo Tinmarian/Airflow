@@ -1,0 +1,28 @@
+[2023-02-21T12:57:10.259-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 4_pools.store manual__2023-02-21T18:56:57.224770+00:00 [queued]>
+[2023-02-21T12:57:10.268-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 4_pools.store manual__2023-02-21T18:56:57.224770+00:00 [queued]>
+[2023-02-21T12:57:10.269-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T12:57:10.270-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 4
+[2023-02-21T12:57:10.270-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T12:57:10.278-0600] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): store> on 2023-02-21 18:56:57.224770+00:00
+[2023-02-21T12:57:10.280-0600] {standard_task_runner.py:54} INFO - Started process 575594 to run task
+[2023-02-21T12:57:10.282-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '4_pools', 'store', 'manual__2023-02-21T18:56:57.224770+00:00', '--job-id', '670', '--raw', '--subdir', 'DAGS_FOLDER/Apache_Airflow-The_Operators_Guide/4_pools.py', '--cfg-path', '/tmp/tmpjcpoondu']
+[2023-02-21T12:57:10.284-0600] {standard_task_runner.py:83} INFO - Job 670: Subtask store
+[2023-02-21T12:57:10.285-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/4_pools.py
+[2023-02-21T12:57:10.363-0600] {task_command.py:384} INFO - Running <TaskInstance: 4_pools.store manual__2023-02-21T18:56:57.224770+00:00 [running]> on host Tinmar.
+[2023-02-21T12:57:10.403-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Andrade
+AIRFLOW_CTX_DAG_ID=4_pools
+AIRFLOW_CTX_TASK_ID=store
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-21T18:56:57.224770+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-21T18:56:57.224770+00:00
+[2023-02-21T12:57:10.404-0600] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-21T12:57:10.405-0600] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sleep 10 && exit 0']
+[2023-02-21T12:57:10.410-0600] {subprocess.py:86} INFO - Output:
+[2023-02-21T12:57:20.412-0600] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-02-21T12:57:20.434-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=4_pools, task_id=store, execution_date=20230221T185657, start_date=20230221T185710, end_date=20230221T185720
+[2023-02-21T12:57:20.453-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-21T12:57:20.467-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

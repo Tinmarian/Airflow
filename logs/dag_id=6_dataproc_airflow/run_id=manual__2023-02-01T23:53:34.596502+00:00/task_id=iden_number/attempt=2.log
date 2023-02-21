@@ -1,0 +1,24 @@
+[2023-02-01 18:07:06,322] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.iden_number manual__2023-02-01T23:53:34.596502+00:00 [queued]>
+[2023-02-01 18:07:06,348] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.iden_number manual__2023-02-01T23:53:34.596502+00:00 [queued]>
+[2023-02-01 18:07:06,349] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 18:07:06,350] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-02-01 18:07:06,350] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 18:07:06,385] {taskinstance.py:1377} INFO - Executing <Task(BranchPythonOperator): iden_number> on 2023-02-01 23:53:34.596502+00:00
+[2023-02-01 18:07:06,387] {standard_task_runner.py:52} INFO - Started process 14544 to run task
+[2023-02-01 18:07:06,389] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '6_dataproc_airflow', 'iden_number', 'manual__2023-02-01T23:53:34.596502+00:00', '--job-id', '145', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_airflow.py', '--cfg-path', '/tmp/tmpdj_v44ex', '--error-file', '/tmp/tmps2zgw4ke']
+[2023-02-01 18:07:06,390] {standard_task_runner.py:80} INFO - Job 145: Subtask iden_number
+[2023-02-01 18:07:06,475] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.iden_number manual__2023-02-01T23:53:34.596502+00:00 [running]> on host Tinmar.
+[2023-02-01 18:07:06,572] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_airflow
+AIRFLOW_CTX_TASK_ID=iden_number
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-01T23:53:34.596502+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-01T23:53:34.596502+00:00
+[2023-02-01 18:07:06,573] {python.py:173} INFO - Done. Returned value was: ['par_task.avg_quant', 'par_task.avg_tincome', 'par_task.avg_uprice']
+[2023-02-01 18:07:06,574] {skipmixin.py:140} INFO - Following branch ['par_task.avg_quant', 'par_task.avg_tincome', 'par_task.avg_uprice']
+[2023-02-01 18:07:06,575] {skipmixin.py:175} INFO - Skipping tasks ['impar_task']
+[2023-02-01 18:07:06,669] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=6_dataproc_airflow, task_id=iden_number, execution_date=20230201T235334, start_date=20230202T000706, end_date=20230202T000706
+[2023-02-01 18:07:06,763] {local_task_job.py:156} INFO - Task exited with return code 0

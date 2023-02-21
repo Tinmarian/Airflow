@@ -1,0 +1,28 @@
+[2023-01-31 13:46:26,735] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.3_azure_storage_bigquery.transferir_azure_2020 manual__2023-01-31T19:46:23.508196+00:00 [queued]>
+[2023-01-31 13:46:26,749] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.3_azure_storage_bigquery.transferir_azure_2020 manual__2023-01-31T19:46:23.508196+00:00 [queued]>
+[2023-01-31 13:46:26,749] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 13:46:26,750] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 13:46:26,750] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 13:46:26,781] {taskinstance.py:1377} INFO - Executing <Task(AzureBlobStorageToGCSOperator): transferir_azure_2020> on 2023-01-31 19:46:23.508196+00:00
+[2023-01-31 13:46:26,784] {standard_task_runner.py:52} INFO - Started process 8305 to run task
+[2023-01-31 13:46:26,786] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2.3_azure_storage_bigquery', 'transferir_azure_2020', 'manual__2023-01-31T19:46:23.508196+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/2.3_azure_storage_bigquery.py', '--cfg-path', '/tmp/tmpvywfq9cu', '--error-file', '/tmp/tmpto66vldg']
+[2023-01-31 13:46:26,787] {standard_task_runner.py:80} INFO - Job 72: Subtask transferir_azure_2020
+[2023-01-31 13:46:26,879] {task_command.py:369} INFO - Running <TaskInstance: 2.3_azure_storage_bigquery.transferir_azure_2020 manual__2023-01-31T19:46:23.508196+00:00 [running]> on host Tinmar.
+[2023-01-31 13:46:26,986] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2.3_azure_storage_bigquery
+AIRFLOW_CTX_TASK_ID=transferir_azure_2020
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T19:46:23.508196+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T19:46:23.508196+00:00
+[2023-01-31 13:46:27,000] {base.py:68} INFO - Using connection ID 'wasb_default' for task execution.
+[2023-01-31 13:46:27,013] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 13:46:27,015] {azure_blob_to_gcs.py:108} INFO - Downloading data from blob: retail_2020.csv
+[2023-01-31 13:46:27,600] {azure_blob_to_gcs.py:114} INFO - Uploading data from blob's: retail_2020_azure.csv into GCP bucket: azure_airflow23
+[2023-01-31 13:46:28,110] {gcs.py:523} INFO - File /tmp/tmp6d923agb uploaded to retail_2020_azure.csv in azure_airflow23 bucket
+[2023-01-31 13:46:28,111] {azure_blob_to_gcs.py:123} INFO - Resources have been uploaded from blob: retail_2020.csv to GCS bucket:azure_airflow23
+[2023-01-31 13:46:28,172] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=2.3_azure_storage_bigquery, task_id=transferir_azure_2020, execution_date=20230131T194623, start_date=20230131T194626, end_date=20230131T194628
+[2023-01-31 13:46:28,209] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-31 13:46:28,243] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

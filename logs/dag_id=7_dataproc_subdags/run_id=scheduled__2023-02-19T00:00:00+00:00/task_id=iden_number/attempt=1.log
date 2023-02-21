@@ -1,0 +1,27 @@
+[2023-02-20T09:20:52.903-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.iden_number scheduled__2023-02-19T00:00:00+00:00 [queued]>
+[2023-02-20T09:20:52.915-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.iden_number scheduled__2023-02-19T00:00:00+00:00 [queued]>
+[2023-02-20T09:20:52.916-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T09:20:52.917-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-20T09:20:52.918-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T09:20:52.928-0600] {taskinstance.py:1383} INFO - Executing <Task(BranchPythonOperator): iden_number> on 2023-02-19 00:00:00+00:00
+[2023-02-20T09:20:52.931-0600] {standard_task_runner.py:54} INFO - Started process 200800 to run task
+[2023-02-20T09:20:52.934-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags', 'iden_number', 'scheduled__2023-02-19T00:00:00+00:00', '--job-id', '581', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmpbqxzjstw']
+[2023-02-20T09:20:52.937-0600] {standard_task_runner.py:83} INFO - Job 581: Subtask iden_number
+[2023-02-20T09:20:52.939-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-20T09:20:53.062-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `***.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-20T09:20:53.158-0600] {task_command.py:384} INFO - Running <TaskInstance: 7_dataproc_subdags.iden_number scheduled__2023-02-19T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-20T09:20:53.222-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags
+AIRFLOW_CTX_TASK_ID=iden_number
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-19T00:00:00+00:00
+[2023-02-20T09:20:53.223-0600] {python.py:177} INFO - Done. Returned value was: par_task
+[2023-02-20T09:20:53.224-0600] {skipmixin.py:155} INFO - Following branch par_task
+[2023-02-20T09:20:53.225-0600] {skipmixin.py:190} INFO - Skipping tasks ['impar_task']
+[2023-02-20T09:20:53.273-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=7_dataproc_subdags, task_id=iden_number, execution_date=20230219T000000, start_date=20230220T152052, end_date=20230220T152053
+[2023-02-20T09:20:53.307-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-20T09:20:53.333-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

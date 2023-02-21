@@ -1,0 +1,32 @@
+[2023-02-17T12:25:32.604-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.1_user_processing.select_data scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T12:25:32.617-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.1_user_processing.select_data scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T12:25:32.617-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T12:25:32.619-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T12:25:32.620-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T12:25:32.633-0600] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): select_data> on 2023-02-16 00:00:00+00:00
+[2023-02-17T12:25:32.636-0600] {standard_task_runner.py:54} INFO - Started process 134389 to run task
+[2023-02-17T12:25:32.639-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.6.1_user_processing', 'select_data', 'scheduled__2023-02-16T00:00:00+00:00', '--job-id', '400', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6.1_user_processing.py', '--cfg-path', '/tmp/tmpx79sam14']
+[2023-02-17T12:25:32.641-0600] {standard_task_runner.py:83} INFO - Job 400: Subtask select_data
+[2023-02-17T12:25:32.643-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.1_user_processing.py
+[2023-02-17T12:25:33.021-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.6.1_user_processing.select_data scheduled__2023-02-16T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-17T12:25:33.083-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6.1_user_processing
+AIRFLOW_CTX_TASK_ID=select_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-16T00:00:00+00:00
+[2023-02-17T12:25:33.084-0600] {sql.py:254} INFO - Executing: 
+                                        SELECT * FROM users
+                                    
+[2023-02-17T12:25:33.100-0600] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-02-17T12:25:33.312-0600] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-02-17T12:25:33.320-0600] {sql.py:375} INFO - Running statement: 
+                                        SELECT * FROM users
+                                    , parameters: None
+[2023-02-17T12:25:33.321-0600] {sql.py:384} INFO - Rows affected: 2
+[2023-02-17T12:25:33.350-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=1.6.1_user_processing, task_id=select_data, execution_date=20230216T000000, start_date=20230217T182532, end_date=20230217T182533
+[2023-02-17T12:25:33.366-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-17T12:25:33.389-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,58 @@
+[2023-02-15 18:02:27,403] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task.avg_uprice scheduled__2023-02-15T00:00:00+00:00 [queued]>
+[2023-02-15 18:02:27,412] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task.avg_uprice scheduled__2023-02-15T00:00:00+00:00 [queued]>
+[2023-02-15 18:02:27,412] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15 18:02:27,413] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-15 18:02:27,413] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15 18:02:27,423] {taskinstance.py:1377} INFO - Executing <Task(DataprocSubmitJobOperator): avg_uprice> on 2023-02-15 00:00:00+00:00
+[2023-02-15 18:02:27,426] {standard_task_runner.py:52} INFO - Started process 467271 to run task
+[2023-02-15 18:02:27,432] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags.par_task', 'avg_uprice', 'scheduled__2023-02-15T00:00:00+00:00', '--job-id', '228', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmp1x067kir', '--error-file', '/tmp/tmpkbssmrtq']
+[2023-02-15 18:02:27,434] {standard_task_runner.py:80} INFO - Job 228: Subtask avg_uprice
+[2023-02-15 18:02:27,497] {task_command.py:369} INFO - Running <TaskInstance: 7_dataproc_subdags.par_task.avg_uprice scheduled__2023-02-15T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-15 18:02:27,562] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags.par_task
+AIRFLOW_CTX_TASK_ID=avg_uprice
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-15T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-15T00:00:00+00:00
+[2023-02-15 18:02:27,564] {dataproc.py:1866} INFO - Submitting job
+[2023-02-15 18:02:27,577] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-15 18:02:28,098] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.FAILED_PRECONDITION
+	details = "Unable to submit job, cluster 'airflow-spark-cluster' is in state DELETING and cannot accept jobs."
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.251.34.234:443 {grpc_message:"Unable to submit job, cluster \'airflow-spark-cluster\' is in state DELETING and cannot accept jobs.", grpc_status:9, created_time:"2023-02-15T18:02:28.098439667-06:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 1868, in execute
+    job_object = self.hook.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 780, in submit_job
+    return client.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/dataproc_v1/services/job_controller/client.py", line 520, in submit_job
+    response = rpc(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.FailedPrecondition: 400 Unable to submit job, cluster 'airflow-spark-cluster' is in state DELETING and cannot accept jobs.
+[2023-02-15 18:02:28,107] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=7_dataproc_subdags.par_task, task_id=avg_uprice, execution_date=20230215T000000, start_date=20230216T000227, end_date=20230216T000228
+[2023-02-15 18:02:28,116] {standard_task_runner.py:92} ERROR - Failed to execute job 228 for task avg_uprice (400 Unable to submit job, cluster 'airflow-spark-cluster' is in state DELETING and cannot accept jobs.; 467271)
+[2023-02-15 18:02:28,134] {local_task_job.py:156} INFO - Task exited with return code 1

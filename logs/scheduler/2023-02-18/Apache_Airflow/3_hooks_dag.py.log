@@ -1,0 +1,35 @@
+[2023-02-18T03:00:04.457-0600] {processor.py:156} INFO - Started process (PID=192878) to work on /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:00:04.458-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py for tasks to queue
+[2023-02-18T03:00:04.459-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:04.459-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:00:04.507-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:00:04.556-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:04.556-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:04.690-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:04.690-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_dag to None, run_after=None
+[2023-02-18T03:00:04.708-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py took 0.253 seconds
+[2023-02-18T03:00:36.457-0600] {processor.py:156} INFO - Started process (PID=193288) to work on /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:00:36.458-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py for tasks to queue
+[2023-02-18T03:00:36.461-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:36.461-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:00:36.532-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:00:36.552-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:36.552-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:36.565-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:36.565-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_dag to None, run_after=None
+[2023-02-18T03:00:36.683-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py took 0.228 seconds
+[2023-02-18T03:01:06.782-0600] {processor.py:156} INFO - Started process (PID=193641) to work on /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:01:06.784-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py for tasks to queue
+[2023-02-18T03:01:06.787-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:06.787-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:01:06.881-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:01:06.903-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:06.903-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:07.010-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:07.009-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_dag to None, run_after=None
+[2023-02-18T03:01:07.026-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py took 0.247 seconds
+[2023-02-18T03:01:38.015-0600] {processor.py:156} INFO - Started process (PID=193971) to work on /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:01:38.016-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py for tasks to queue
+[2023-02-18T03:01:38.016-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:38.016-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:01:38.047-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:01:38.066-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:38.065-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:38.077-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:38.077-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_dag to None, run_after=None
+[2023-02-18T03:01:38.090-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py took 0.077 seconds
+[2023-02-18T03:02:08.888-0600] {processor.py:156} INFO - Started process (PID=194524) to work on /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:02:08.890-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py for tasks to queue
+[2023-02-18T03:02:08.891-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:08.891-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:02:08.956-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_hooks_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py
+[2023-02-18T03:02:08.979-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:08.979-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:02:08.995-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:08.995-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_hooks_dag to None, run_after=None
+[2023-02-18T03:02:09.015-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/3_hooks_dag.py took 0.129 seconds

@@ -1,0 +1,45 @@
+[2023-02-18T02:59:59.919-0600] {processor.py:156} INFO - Started process (PID=192649) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T02:59:59.920-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py for tasks to queue
+[2023-02-18T02:59:59.921-0600] {logging_mixin.py:117} INFO - [2023-02-18T02:59:59.921-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:00:00.339-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1.6.2_user_processing']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:00:00.390-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-18T03:00:00.391-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-18T03:00:00.524-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:00.523-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:00.538-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:00.537-0600] {dag.py:3324} INFO - Setting next_dagrun for 1.6.2_user_processing to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:00:00.615-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py took 0.704 seconds
+[2023-02-18T03:00:31.120-0600] {processor.py:156} INFO - Started process (PID=193120) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:00:31.121-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py for tasks to queue
+[2023-02-18T03:00:31.122-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:31.122-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:00:31.403-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1.6.2_user_processing']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:00:31.457-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-18T03:00:31.459-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-18T03:00:31.559-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:31.559-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:31.571-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:31.570-0600] {dag.py:3324} INFO - Setting next_dagrun for 1.6.2_user_processing to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:00:31.594-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py took 0.477 seconds
+[2023-02-18T03:01:01.793-0600] {processor.py:156} INFO - Started process (PID=193470) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:01:01.794-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py for tasks to queue
+[2023-02-18T03:01:01.795-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:01.795-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:01:02.074-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1.6.2_user_processing']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:01:02.107-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-18T03:01:02.108-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-18T03:01:02.177-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:02.177-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:02.190-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:02.190-0600] {dag.py:3324} INFO - Setting next_dagrun for 1.6.2_user_processing to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:01:02.204-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py took 0.413 seconds
+[2023-02-18T03:01:32.474-0600] {processor.py:156} INFO - Started process (PID=193800) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:01:32.476-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py for tasks to queue
+[2023-02-18T03:01:32.477-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:32.477-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:01:32.765-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1.6.2_user_processing']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:01:32.798-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-18T03:01:32.799-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-18T03:01:32.884-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:32.884-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:32.898-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:32.898-0600] {dag.py:3324} INFO - Setting next_dagrun for 1.6.2_user_processing to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:01:32.911-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py took 0.439 seconds
+[2023-02-18T03:02:03.102-0600] {processor.py:156} INFO - Started process (PID=194348) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:02:03.103-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py for tasks to queue
+[2023-02-18T03:02:03.104-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:03.104-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:02:03.442-0600] {processor.py:768} INFO - DAG(s) dict_keys(['1.6.2_user_processing']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T03:02:03.484-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-18T03:02:03.485-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-18T03:02:03.571-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:03.571-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:02:03.584-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:03.584-0600] {dag.py:3324} INFO - Setting next_dagrun for 1.6.2_user_processing to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:02:03.597-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py took 0.497 seconds

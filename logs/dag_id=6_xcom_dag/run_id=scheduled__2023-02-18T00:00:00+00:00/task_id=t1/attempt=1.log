@@ -1,0 +1,24 @@
+[2023-02-18T18:28:59.994-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 6_xcom_dag.t1 scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:00.030-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 6_xcom_dag.t1 scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:00.036-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:00.038-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T18:29:00.043-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:00.060-0600] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): t1> on 2023-02-18 00:00:00+00:00
+[2023-02-18T18:29:00.067-0600] {standard_task_runner.py:54} INFO - Started process 195231 to run task
+[2023-02-18T18:29:00.073-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '6_xcom_dag', 't1', 'scheduled__2023-02-18T00:00:00+00:00', '--job-id', '488', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/6_xcom_dag.py', '--cfg-path', '/tmp/tmpq1hs30cx']
+[2023-02-18T18:29:00.079-0600] {standard_task_runner.py:83} INFO - Job 488: Subtask t1
+[2023-02-18T18:29:00.081-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/6_xcom_dag.py
+[2023-02-18T18:29:00.405-0600] {task_command.py:384} INFO - Running <TaskInstance: 6_xcom_dag.t1 scheduled__2023-02-18T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T18:29:00.522-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=6_xcom_dag
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-18T00:00:00+00:00
+[2023-02-18T18:29:00.545-0600] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-18T18:29:00.569-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=6_xcom_dag, task_id=t1, execution_date=20230218T000000, start_date=20230219T002900, end_date=20230219T002900
+[2023-02-18T18:29:00.627-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-18T18:29:00.666-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

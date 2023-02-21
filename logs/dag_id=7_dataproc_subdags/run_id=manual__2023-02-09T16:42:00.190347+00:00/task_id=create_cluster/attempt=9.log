@@ -1,0 +1,54 @@
+[2023-02-09 11:47:59,997] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.create_cluster manual__2023-02-09T16:42:00.190347+00:00 [queued]>
+[2023-02-09 11:48:00,001] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.create_cluster manual__2023-02-09T16:42:00.190347+00:00 [queued]>
+[2023-02-09 11:48:00,002] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 11:48:00,003] {taskinstance.py:1357} INFO - Starting attempt 9 of 9
+[2023-02-09 11:48:00,003] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 11:48:00,010] {taskinstance.py:1377} INFO - Executing <Task(DataprocCreateClusterOperator): create_cluster> on 2023-02-09 16:42:00.190347+00:00
+[2023-02-09 11:48:00,013] {standard_task_runner.py:52} INFO - Started process 35790 to run task
+[2023-02-09 11:48:00,015] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags', 'create_cluster', 'manual__2023-02-09T16:42:00.190347+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmp1ujpc72i', '--error-file', '/tmp/tmpit14rm0f']
+[2023-02-09 11:48:00,016] {standard_task_runner.py:80} INFO - Job 24: Subtask create_cluster
+[2023-02-09 11:48:00,056] {task_command.py:369} INFO - Running <TaskInstance: 7_dataproc_subdags.create_cluster manual__2023-02-09T16:42:00.190347+00:00 [running]> on host Tinmar.
+[2023-02-09 11:48:00,099] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags
+AIRFLOW_CTX_TASK_ID=create_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-09T16:42:00.190347+00:00
+AIRFLOW_CTX_TRY_NUMBER=9
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-09T16:42:00.190347+00:00
+[2023-02-09 11:48:00,100] {dataproc.py:591} INFO - Creating cluster: ***-spark-cluster
+[2023-02-09 11:48:00,107] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-09 11:48:00,126] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 245, in get_credentials_and_project_id
+    keyfile_dict_json = json.loads(keyfile_dict)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 599, in execute
+    cluster = self._create_cluster(hook)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 522, in _create_cluster
+    operation = hook.create_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 321, in create_cluster
+    client = self.get_cluster_client(region=region)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 222, in get_cluster_client
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, client_options=client_options
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 275, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 247, in get_credentials_and_project_id
+    raise AirflowException("Invalid key JSON.")
+airflow.exceptions.AirflowException: Invalid key JSON.
+[2023-02-09 11:48:00,128] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=7_dataproc_subdags, task_id=create_cluster, execution_date=20230209T164200, start_date=20230209T174759, end_date=20230209T174800
+[2023-02-09 11:48:00,134] {standard_task_runner.py:92} ERROR - Failed to execute job 24 for task create_cluster (Invalid key JSON.; 35790)
+[2023-02-09 11:48:00,148] {local_task_job.py:156} INFO - Task exited with return code 1

@@ -1,0 +1,36 @@
+[2023-01-31 10:23:20,576] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos manual__2023-01-31T16:23:18.196721+00:00 [queued]>
+[2023-01-31 10:23:20,586] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos manual__2023-01-31T16:23:18.196721+00:00 [queued]>
+[2023-01-31 10:23:20,587] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:23:20,587] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 10:23:20,588] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:23:20,611] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 16:23:18.196721+00:00
+[2023-01-31 10:23:20,614] {standard_task_runner.py:52} INFO - Started process 544 to run task
+[2023-01-31 10:23:20,616] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2_simple_storage_bigquery', 'cargar_datos', 'manual__2023-01-31T16:23:18.196721+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/2_simple_storage_bigquery.py', '--cfg-path', '/tmp/tmpkv1b63r7', '--error-file', '/tmp/tmptvuajkvg']
+[2023-01-31 10:23:20,616] {standard_task_runner.py:80} INFO - Job 23: Subtask cargar_datos
+[2023-01-31 10:23:20,686] {task_command.py:369} INFO - Running <TaskInstance: 2_simple_storage_bigquery.cargar_datos manual__2023-01-31T16:23:18.196721+00:00 [running]> on host Tinmar.
+[2023-01-31 10:23:20,771] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2_simple_storage_bigquery
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T16:23:18.196721+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T16:23:18.196721+00:00
+[2023-01-31 10:23:20,781] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 10:23:20,783] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 10:23:20,820] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://airflow25_bucket/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-01-31 10:23:20,821] {bigquery.py:1542} INFO - Inserting job airflow_2_simple_storage_bigquery_cargar_datos_2023_01_31T16_23_18_196721_00_00_74249f9433cd002ee6f2cf805a8f4680
+[2023-01-31 10:23:21,588] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 440, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Cannot read and write in different locations: source: us-south1, destination: us-central1
+[2023-01-31 10:23:21,598] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=2_simple_storage_bigquery, task_id=cargar_datos, execution_date=20230131T162318, start_date=20230131T162320, end_date=20230131T162321
+[2023-01-31 10:23:21,621] {standard_task_runner.py:92} ERROR - Failed to execute job 23 for task cargar_datos (400 Cannot read and write in different locations: source: us-south1, destination: us-central1; 544)
+[2023-01-31 10:23:21,634] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 10:23:21,682] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

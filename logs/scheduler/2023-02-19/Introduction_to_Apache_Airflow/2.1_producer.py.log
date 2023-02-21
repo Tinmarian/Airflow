@@ -1,0 +1,7 @@
+[2023-02-18T18:29:28.627-0600] {processor.py:156} INFO - Started process (PID=196895) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/2.1_producer.py
+[2023-02-18T18:29:28.627-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/2.1_producer.py for tasks to queue
+[2023-02-18T18:29:28.628-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:28.628-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.1_producer.py
+[2023-02-18T18:29:28.657-0600] {processor.py:768} INFO - DAG(s) dict_keys(['2.1_producer']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/2.1_producer.py
+[2023-02-18T18:29:28.677-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:28.677-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T18:29:28.691-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:28.691-0600] {dag.py:3324} INFO - Setting next_dagrun for 2.1_producer to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T18:29:28.801-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/2.1_producer.py took 0.176 seconds

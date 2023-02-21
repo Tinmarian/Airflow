@@ -1,0 +1,54 @@
+[2023-02-17T13:49:56.688-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 8_docker_operator.t2 manual__2023-02-17T19:49:55.126086+00:00 [queued]>
+[2023-02-17T13:49:56.696-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 8_docker_operator.t2 manual__2023-02-17T19:49:55.126086+00:00 [queued]>
+[2023-02-17T13:49:56.696-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T13:49:56.697-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T13:49:56.697-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T13:49:56.704-0600] {taskinstance.py:1383} INFO - Executing <Task(DockerOperator): t2> on 2023-02-17 19:49:55.126086+00:00
+[2023-02-17T13:49:56.706-0600] {standard_task_runner.py:54} INFO - Started process 172236 to run task
+[2023-02-17T13:49:56.708-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '8_docker_operator', 't2', 'manual__2023-02-17T19:49:55.126086+00:00', '--job-id', '422', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/8_docker_operator.py', '--cfg-path', '/tmp/tmptwp2f1e6']
+[2023-02-17T13:49:56.710-0600] {standard_task_runner.py:83} INFO - Job 422: Subtask t2
+[2023-02-17T13:49:56.711-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/8_docker_operator.py
+[2023-02-17T13:49:56.764-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/models/dag.py:3393 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2023-02-17T13:49:56.823-0600] {task_command.py:384} INFO - Running <TaskInstance: 8_docker_operator.t2 manual__2023-02-17T19:49:55.126086+00:00 [running]> on host Tinmar.
+[2023-02-17T13:49:56.860-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=8_docker_operator
+AIRFLOW_CTX_TASK_ID=t2
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T19:49:55.126086+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-17T19:49:55.126086+00:00
+[2023-02-17T13:49:56.870-0600] {docker.py:306} INFO - Starting docker container from image python:3.10.6-slim-buster
+[2023-02-17T13:49:56.877-0600] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/docker/api/client.py", line 268, in _raise_for_status
+    response.raise_for_status()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: http+docker://localhost/v1.41/containers/create?name=task_t2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/docker/operators/docker.py", line 448, in execute
+    return self._run_image()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/docker/operators/docker.py", line 311, in _run_image
+    return self._run_image_with_mounts(self.mounts + [tmp_mount], add_tmp_variable=True)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/docker/operators/docker.py", line 338, in _run_image_with_mounts
+    self.container = self.cli.create_container(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/docker/api/container.py", line 431, in create_container
+    return self.create_container_from_config(config, name, platform)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/docker/api/container.py", line 448, in create_container_from_config
+    return self._result(res, True)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/docker/api/client.py", line 274, in _result
+    self._raise_for_status(response)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/docker/api/client.py", line 270, in _raise_for_status
+    raise create_api_error_from_http_exception(e) from e
+  File "/home/tinmar/.local/lib/python3.10/site-packages/docker/errors.py", line 39, in create_api_error_from_http_exception
+    raise cls(e, response=response, explanation=explanation) from e
+docker.errors.APIError: 409 Client Error for http+docker://localhost/v1.41/containers/create?name=task_t2: Conflict ("Conflict. The container name "/task_t2" is already in use by container "e369fa8312da9316c7f41fc364e8d5ff43b3bb96e60613681adeafeba6bf3428". You have to remove (or rename) that container to be able to reuse that name.")
+[2023-02-17T13:49:56.886-0600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=8_docker_operator, task_id=t2, execution_date=20230217T194955, start_date=20230217T194956, end_date=20230217T194956
+[2023-02-17T13:49:56.894-0600] {standard_task_runner.py:102} ERROR - Failed to execute job 422 for task t2 (409 Client Error for http+docker://localhost/v1.41/containers/create?name=task_t2: Conflict ("Conflict. The container name "/task_t2" is already in use by container "e369fa8312da9316c7f41fc364e8d5ff43b3bb96e60613681adeafeba6bf3428". You have to remove (or rename) that container to be able to reuse that name."); 172236)
+[2023-02-17T13:49:56.921-0600] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-02-17T13:49:56.934-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

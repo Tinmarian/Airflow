@@ -1,0 +1,26 @@
+[2023-02-17T08:30:22.864-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.extract_data scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T08:30:22.875-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.5_user_processing.extract_data scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T08:30:22.876-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:30:22.878-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T08:30:22.879-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:30:22.888-0600] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-16 00:00:00+00:00
+[2023-02-17T08:30:22.890-0600] {standard_task_runner.py:54} INFO - Started process 2407 to run task
+[2023-02-17T08:30:22.893-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.5_user_processing', 'extract_data', 'scheduled__2023-02-16T00:00:00+00:00', '--job-id', '339', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.5_user_processing.py', '--cfg-path', '/tmp/tmptssgu12x']
+[2023-02-17T08:30:22.894-0600] {standard_task_runner.py:83} INFO - Job 339: Subtask extract_data
+[2023-02-17T08:30:22.895-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.5_user_processing.py
+[2023-02-17T08:30:23.274-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.5_user_processing.extract_data scheduled__2023-02-16T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-17T08:30:23.345-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.5_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-16T00:00:00+00:00
+[2023-02-17T08:30:23.346-0600] {http.py:123} INFO - Calling HTTP method
+[2023-02-17T08:30:23.358-0600] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-17T08:30:23.639-0600] {http.py:127} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Anna","last":"Haugan"},"location":{"street":{"number":597,"name":"Nordstrandveien"},"city":"Høyanger","state":"Hordaland","country":"Norway","postcode":"3036","coordinates":{"latitude":"42.9169","longitude":"62.0395"},"timezone":{"offset":"+4:00","description":"Abu Dhabi, Muscat, Baku, Tbilisi"}},"email":"anna.haugan@example.com","login":{"uuid":"14aa0955-24ad-4a5b-bb06-8f9ddc1e8305","username":"happyleopard995","password":"1492","salt":"sO1QwS8T","md5":"ce8a4796767fa876927072dca7e9a26f","sha1":"a52bed70e9058545ca9b4ac15f2f025512b6655d","sha256":"0e1fc59d92cef73dfbadb5479dd6554b2f9fa57f3ba8280e57848bca5dd79164"},"dob":{"date":"1979-08-01T14:45:17.212Z","age":43},"registered":{"date":"2018-10-12T08:45:11.631Z","age":4},"phone":"71952038","cell":"40592272","id":{"name":"FN","value":"01087920484"},"picture":{"large":"https://randomuser.me/api/portraits/women/81.jpg","medium":"https://randomuser.me/api/portraits/med/women/81.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/81.jpg"},"nat":"NO"}],"info":{"seed":"ccfa0bd625799481","results":1,"page":1,"version":"1.4"}}
+[2023-02-17T08:30:23.778-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=1.5_user_processing, task_id=extract_data, execution_date=20230216T000000, start_date=20230217T143022, end_date=20230217T143023
+[2023-02-17T08:30:23.827-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-17T08:30:23.857-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

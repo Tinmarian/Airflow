@@ -1,0 +1,35 @@
+[2023-02-21T13:49:15.908-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 5_trigger_rules.process_c manual__2023-02-21T19:48:56.902282+00:00 [queued]>
+[2023-02-21T13:49:15.915-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 5_trigger_rules.process_c manual__2023-02-21T19:48:56.902282+00:00 [queued]>
+[2023-02-21T13:49:15.916-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T13:49:15.917-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-21T13:49:15.917-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T13:49:15.924-0600] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): process_c> on 2023-02-21 19:48:56.902282+00:00
+[2023-02-21T13:49:15.926-0600] {standard_task_runner.py:54} INFO - Started process 617230 to run task
+[2023-02-21T13:49:15.928-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '5_trigger_rules', 'process_c', 'manual__2023-02-21T19:48:56.902282+00:00', '--job-id', '681', '--raw', '--subdir', 'DAGS_FOLDER/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py', '--cfg-path', '/tmp/tmpslp72h4z']
+[2023-02-21T13:49:15.930-0600] {standard_task_runner.py:83} INFO - Job 681: Subtask process_c
+[2023-02-21T13:49:15.931-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow-The_Operators_Guide/5_trigger_rules.py
+[2023-02-21T13:49:16.009-0600] {task_command.py:384} INFO - Running <TaskInstance: 5_trigger_rules.process_c manual__2023-02-21T19:48:56.902282+00:00 [running]> on host Tinmar.
+[2023-02-21T13:49:16.049-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Armando
+AIRFLOW_CTX_DAG_ID=5_trigger_rules
+AIRFLOW_CTX_TASK_ID=process_c
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-21T19:48:56.902282+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-21T19:48:56.902282+00:00
+[2023-02-21T13:49:16.050-0600] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-21T13:49:16.051-0600] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', "echo 'process_c' && exit 1"]
+[2023-02-21T13:49:16.056-0600] {subprocess.py:86} INFO - Output:
+[2023-02-21T13:49:16.056-0600] {subprocess.py:93} INFO - process_c
+[2023-02-21T13:49:16.057-0600] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-02-21T13:49:16.066-0600] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 196, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-02-21T13:49:16.069-0600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=5_trigger_rules, task_id=process_c, execution_date=20230221T194856, start_date=20230221T194915, end_date=20230221T194916
+[2023-02-21T13:49:16.077-0600] {standard_task_runner.py:102} ERROR - Failed to execute job 681 for task process_c (Bash command failed. The command returned a non-zero exit code 1.; 617230)
+[2023-02-21T13:49:16.101-0600] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-02-21T13:49:16.117-0600] {local_task_job.py:273} INFO - 2 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,14 @@
+[2023-02-18T18:29:27.167-0600] {processor.py:156} INFO - Started process (PID=196795) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-18T18:29:27.168-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py for tasks to queue
+[2023-02-18T18:29:27.169-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:27.169-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-18T18:29:27.444-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `airflow.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-18T18:29:27.456-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_dataproc_subdags.par_task', '7_dataproc_subdags']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-18T18:29:27.485-0600] {logging_mixin.py:117} INFO - hola
+[2023-02-18T18:29:27.486-0600] {logging_mixin.py:117} INFO - algo
+[2023-02-18T18:29:27.567-0600] {processor.py:727} INFO - Executed failure callback for <TaskInstance: 7_dataproc_subdags.create_cluster scheduled__2023-02-17T00:00:00+00:00 [failed]> in state failed
+[2023-02-18T18:29:27.595-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:27.595-0600] {dag.py:2573} INFO - Sync 2 DAGs
+[2023-02-18T18:29:27.609-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:27.609-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags to 2023-02-19T00:00:00+00:00, run_after=2023-02-20T00:00:00+00:00
+[2023-02-18T18:29:27.614-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:27.613-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-18T18:29:27.629-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:27.629-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T18:29:27.633-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:27.633-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_dataproc_subdags.par_task to None, run_after=None
+[2023-02-18T18:29:27.648-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py took 0.483 seconds

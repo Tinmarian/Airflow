@@ -1,0 +1,35 @@
+[2023-02-18T03:00:02.107-0600] {processor.py:156} INFO - Started process (PID=192746) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:00:02.108-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py for tasks to queue
+[2023-02-18T03:00:02.109-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:02.109-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:00:02.148-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_parallel_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:00:02.171-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:02.171-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:02.186-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:02.186-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_parallel_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:00:02.206-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py took 0.102 seconds
+[2023-02-18T03:00:32.985-0600] {processor.py:156} INFO - Started process (PID=193192) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:00:32.987-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py for tasks to queue
+[2023-02-18T03:00:32.988-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:32.988-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:00:33.021-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_parallel_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:00:33.059-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:33.058-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:33.073-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:33.073-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_parallel_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:00:33.089-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py took 0.107 seconds
+[2023-02-18T03:01:03.850-0600] {processor.py:156} INFO - Started process (PID=193547) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:01:03.851-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py for tasks to queue
+[2023-02-18T03:01:03.852-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:03.852-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:01:03.874-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_parallel_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:01:03.894-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:03.894-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:03.907-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:03.907-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_parallel_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:01:04.006-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py took 0.157 seconds
+[2023-02-18T03:01:34.122-0600] {processor.py:156} INFO - Started process (PID=193875) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:01:34.122-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py for tasks to queue
+[2023-02-18T03:01:34.123-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:34.123-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:01:34.146-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_parallel_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:01:34.167-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:34.166-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:34.182-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:34.181-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_parallel_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:01:34.195-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py took 0.075 seconds
+[2023-02-18T03:02:05.156-0600] {processor.py:156} INFO - Started process (PID=194426) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:02:05.157-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py for tasks to queue
+[2023-02-18T03:02:05.158-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:05.158-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:02:05.355-0600] {processor.py:768} INFO - DAG(s) dict_keys(['3_parallel_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py
+[2023-02-18T03:02:05.382-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:05.382-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:02:05.404-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:05.404-0600] {dag.py:3324} INFO - Setting next_dagrun for 3_parallel_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:02:05.424-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/3_parallel_dag.py took 0.272 seconds

@@ -1,0 +1,35 @@
+[2023-02-18T03:00:04.852-0600] {processor.py:156} INFO - Started process (PID=192906) to work on /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:00:04.853-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py for tasks to queue
+[2023-02-18T03:00:04.854-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:04.854-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:00:04.943-0600] {processor.py:768} INFO - DAG(s) dict_keys(['4_xcoms_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:00:04.966-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:04.966-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:04.980-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:04.979-0600] {dag.py:3324} INFO - Setting next_dagrun for 4_xcoms_dag to None, run_after=None
+[2023-02-18T03:00:04.995-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py took 0.147 seconds
+[2023-02-18T03:00:36.986-0600] {processor.py:156} INFO - Started process (PID=193315) to work on /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:00:36.988-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py for tasks to queue
+[2023-02-18T03:00:36.990-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:36.989-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:00:37.141-0600] {processor.py:768} INFO - DAG(s) dict_keys(['4_xcoms_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:00:37.170-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:37.170-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:37.183-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:37.183-0600] {dag.py:3324} INFO - Setting next_dagrun for 4_xcoms_dag to None, run_after=None
+[2023-02-18T03:00:37.245-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py took 0.260 seconds
+[2023-02-18T03:01:07.609-0600] {processor.py:156} INFO - Started process (PID=193668) to work on /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:01:07.611-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py for tasks to queue
+[2023-02-18T03:01:07.611-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:07.611-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:01:07.645-0600] {processor.py:768} INFO - DAG(s) dict_keys(['4_xcoms_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:01:07.668-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:07.668-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:07.683-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:07.682-0600] {dag.py:3324} INFO - Setting next_dagrun for 4_xcoms_dag to None, run_after=None
+[2023-02-18T03:01:07.780-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py took 0.173 seconds
+[2023-02-18T03:01:38.329-0600] {processor.py:156} INFO - Started process (PID=193998) to work on /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:01:38.330-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py for tasks to queue
+[2023-02-18T03:01:38.331-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:38.331-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:01:38.357-0600] {processor.py:768} INFO - DAG(s) dict_keys(['4_xcoms_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:01:38.375-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:38.375-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:38.387-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:38.387-0600] {dag.py:3324} INFO - Setting next_dagrun for 4_xcoms_dag to None, run_after=None
+[2023-02-18T03:01:38.401-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py took 0.074 seconds
+[2023-02-18T03:02:09.276-0600] {processor.py:156} INFO - Started process (PID=194545) to work on /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:02:09.277-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py for tasks to queue
+[2023-02-18T03:02:09.279-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:09.279-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:02:09.345-0600] {processor.py:768} INFO - DAG(s) dict_keys(['4_xcoms_dag']) retrieved from /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py
+[2023-02-18T03:02:09.369-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:09.369-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:02:09.387-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:09.387-0600] {dag.py:3324} INFO - Setting next_dagrun for 4_xcoms_dag to None, run_after=None
+[2023-02-18T03:02:09.416-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Apache_Airflow/4_xcoms_dag.py took 0.144 seconds

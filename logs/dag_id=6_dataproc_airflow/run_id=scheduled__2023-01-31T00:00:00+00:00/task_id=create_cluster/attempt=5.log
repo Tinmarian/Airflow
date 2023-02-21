@@ -1,0 +1,62 @@
+[2023-02-01 17:44:23,624] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 17:44:23,651] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-02-01 17:44:23,651] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 17:44:23,652] {taskinstance.py:1357} INFO - Starting attempt 5 of 5
+[2023-02-01 17:44:23,652] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-01 17:44:23,687] {taskinstance.py:1377} INFO - Executing <Task(DataprocCreateClusterOperator): create_cluster> on 2023-01-31 00:00:00+00:00
+[2023-02-01 17:44:23,689] {standard_task_runner.py:52} INFO - Started process 13652 to run task
+[2023-02-01 17:44:23,691] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '6_dataproc_airflow', 'create_cluster', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_airflow.py', '--cfg-path', '/tmp/tmpbhb29ze4', '--error-file', '/tmp/tmp9my7zias']
+[2023-02-01 17:44:23,692] {standard_task_runner.py:80} INFO - Job 128: Subtask create_cluster
+[2023-02-01 17:44:23,753] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.create_cluster scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-01 17:44:23,841] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_airflow
+AIRFLOW_CTX_TASK_ID=create_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=5
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-02-01 17:44:23,842] {dataproc.py:591} INFO - Creating cluster: airflow_spark_cluster
+[2023-02-01 17:44:23,853] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-01 17:44:24,307] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.INVALID_ARGUMENT
+	details = "Cluster name 'airflow_spark_cluster' must match pattern (?:[a-z](?:[-a-z0-9]{0,49}[a-z0-9])?)"
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.250.65.138:443 {created_time:"2023-02-01T17:44:24.306724651-06:00", grpc_status:3, grpc_message:"Cluster name \'airflow_spark_cluster\' must match pattern (?:[a-z](?:[-a-z0-9]{0,49}[a-z0-9])?)"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 599, in execute
+    cluster = self._create_cluster(hook)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 522, in _create_cluster
+    operation = hook.create_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 322, in create_cluster
+    result = client.create_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/dataproc_v1/services/cluster_controller/client.py", line 560, in create_cluster
+    response = rpc(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/timeout.py", line 99, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 Cluster name 'airflow_spark_cluster' must match pattern (?:[a-z](?:[-a-z0-9]{0,49}[a-z0-9])?)
+[2023-02-01 17:44:24,324] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=6_dataproc_airflow, task_id=create_cluster, execution_date=20230131T000000, start_date=20230201T234423, end_date=20230201T234424
+[2023-02-01 17:44:24,351] {standard_task_runner.py:92} ERROR - Failed to execute job 128 for task create_cluster (400 Cluster name 'airflow_spark_cluster' must match pattern (?:[a-z](?:[-a-z0-9]{0,49}[a-z0-9])?); 13652)
+[2023-02-01 17:44:24,387] {local_task_job.py:156} INFO - Task exited with return code 1

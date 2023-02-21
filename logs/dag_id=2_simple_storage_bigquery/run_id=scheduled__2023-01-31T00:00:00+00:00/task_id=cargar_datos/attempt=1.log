@@ -1,0 +1,64 @@
+[2023-01-31 17:13:42,786] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-01-31 17:13:42,800] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-01-31 17:13:42,801] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:13:42,802] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 17:13:42,802] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:13:42,828] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 00:00:00+00:00
+[2023-01-31 17:13:42,831] {standard_task_runner.py:52} INFO - Started process 13401 to run task
+[2023-01-31 17:13:42,833] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2_simple_storage_bigquery', 'cargar_datos', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/2_simple_storage_bigquery.py', '--cfg-path', '/tmp/tmpquznddgv', '--error-file', '/tmp/tmpbk4hiv9b']
+[2023-01-31 17:13:42,834] {standard_task_runner.py:80} INFO - Job 79: Subtask cargar_datos
+[2023-01-31 17:13:42,898] {task_command.py:369} INFO - Running <TaskInstance: 2_simple_storage_bigquery.cargar_datos scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-01-31 17:13:42,981] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2_simple_storage_bigquery
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-01-31 17:13:42,991] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 17:13:42,993] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 17:13:43,030] {gcs_to_bigquery.py:381} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'serene-gradient-371719', 'datasetId': 'airflow_trabajo', 'tableId': 'retail_years'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://airflow23_bucket/*'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ';', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2023-01-31 17:13:43,031] {bigquery.py:1542} INFO - Inserting job airflow_2_simple_storage_bigquery_cargar_datos_2023_01_31T00_00_00_00_00_cad59f4d427125f07764dc3833921b9e
+[2023-01-31 17:13:43,242] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 382, in execute
+    job = self._submit_job(self.hook, job_id)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 302, in _submit_job
+    return hook.insert_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1545, in insert_job
+    job._begin()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/base.py", line 510, in _begin
+    api_response = client._call_api(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/client.py", line 782, in _call_api
+    return call()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 482, in api_request
+    response = self._make_request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 341, in _make_request
+    return self._do_request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/_http/__init__.py", line 379, in _do_request
+    return self.http.request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/auth/transport/requests.py", line 545, in request
+    self.credentials.before_request(auth_request, method, url, request_headers)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/auth/credentials.py", line 135, in before_request
+    self.refresh(request)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/service_account.py", line 429, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/_client.py", line 294, in jwt_grant
+    response_data = _token_endpoint_request(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/_client.py", line 265, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.'})
+[2023-01-31 17:13:43,259] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=2_simple_storage_bigquery, task_id=cargar_datos, execution_date=20230131T000000, start_date=20230201T001342, end_date=20230201T001343
+[2023-01-31 17:13:43,290] {standard_task_runner.py:92} ERROR - Failed to execute job 79 for task cargar_datos (('invalid_grant: Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT: Token must be a short-lived token (60 minutes) and in a reasonable timeframe. Check your iat and exp values in the JWT claim.'}); 13401)
+[2023-01-31 17:13:43,328] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 17:13:43,393] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

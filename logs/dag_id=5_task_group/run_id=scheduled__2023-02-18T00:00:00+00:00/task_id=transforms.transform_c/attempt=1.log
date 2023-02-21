@@ -1,0 +1,28 @@
+[2023-02-18T18:29:23.849-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 5_task_group.transforms.transform_c scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:23.861-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 5_task_group.transforms.transform_c scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:23.862-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:23.862-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T18:29:23.863-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:23.873-0600] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): transforms.transform_c> on 2023-02-18 00:00:00+00:00
+[2023-02-18T18:29:23.875-0600] {standard_task_runner.py:54} INFO - Started process 196744 to run task
+[2023-02-18T18:29:23.878-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '5_task_group', 'transforms.transform_c', 'scheduled__2023-02-18T00:00:00+00:00', '--job-id', '529', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/5_task_group.py', '--cfg-path', '/tmp/tmpx0jvi3xh']
+[2023-02-18T18:29:23.879-0600] {standard_task_runner.py:83} INFO - Job 529: Subtask transforms.transform_c
+[2023-02-18T18:29:23.880-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/5_task_group.py
+[2023-02-18T18:29:24.028-0600] {task_command.py:384} INFO - Running <TaskInstance: 5_task_group.transforms.transform_c scheduled__2023-02-18T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T18:29:24.093-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=5_task_group
+AIRFLOW_CTX_TASK_ID=transforms.transform_c
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-18T00:00:00+00:00
+[2023-02-18T18:29:24.093-0600] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-18T18:29:24.094-0600] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sleep 10']
+[2023-02-18T18:29:24.099-0600] {subprocess.py:86} INFO - Output:
+[2023-02-18T18:29:34.100-0600] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-02-18T18:29:34.122-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=5_task_group, task_id=transforms.transform_c, execution_date=20230218T000000, start_date=20230219T002923, end_date=20230219T002934
+[2023-02-18T18:29:34.155-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-18T18:29:34.168-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

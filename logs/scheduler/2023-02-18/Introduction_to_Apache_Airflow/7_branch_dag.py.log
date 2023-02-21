@@ -1,0 +1,35 @@
+[2023-02-18T03:00:00.663-0600] {processor.py:156} INFO - Started process (PID=192665) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:00:00.669-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py for tasks to queue
+[2023-02-18T03:00:00.671-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:00.671-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:00:00.719-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_branch_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:00:00.740-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:00.740-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:00.754-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:00.754-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_branch_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:00:00.770-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py took 0.109 seconds
+[2023-02-18T03:00:31.930-0600] {processor.py:156} INFO - Started process (PID=193130) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:00:31.931-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py for tasks to queue
+[2023-02-18T03:00:31.932-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:31.932-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:00:31.971-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_branch_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:00:31.993-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:31.992-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:32.007-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:32.007-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_branch_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:00:32.023-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py took 0.096 seconds
+[2023-02-18T03:01:02.300-0600] {processor.py:156} INFO - Started process (PID=193480) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:01:02.302-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py for tasks to queue
+[2023-02-18T03:01:02.303-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:02.303-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:01:02.333-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_branch_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:01:02.353-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:02.353-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:02.366-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:02.366-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_branch_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:01:02.464-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py took 0.167 seconds
+[2023-02-18T03:01:32.829-0600] {processor.py:156} INFO - Started process (PID=193808) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:01:32.831-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py for tasks to queue
+[2023-02-18T03:01:32.831-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:32.831-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:01:32.856-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_branch_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:01:32.877-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:32.877-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:32.892-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:32.892-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_branch_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:01:32.906-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py took 0.079 seconds
+[2023-02-18T03:02:03.539-0600] {processor.py:156} INFO - Started process (PID=194356) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:02:03.540-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py for tasks to queue
+[2023-02-18T03:02:03.541-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:03.541-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:02:03.574-0600] {processor.py:768} INFO - DAG(s) dict_keys(['7_branch_dag']) retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T03:02:03.595-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:03.595-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:02:03.609-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:03.609-0600] {dag.py:3324} INFO - Setting next_dagrun for 7_branch_dag to 2023-02-18T00:00:00+00:00, run_after=2023-02-19T00:00:00+00:00
+[2023-02-18T03:02:03.624-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py took 0.087 seconds

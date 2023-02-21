@@ -1,0 +1,60 @@
+[2023-01-31 12:59:58,647] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.3_azure_storage_bigquery.transferir_azure scheduled__2023-01-30T00:00:00+00:00 [queued]>
+[2023-01-31 12:59:58,674] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.3_azure_storage_bigquery.transferir_azure scheduled__2023-01-30T00:00:00+00:00 [queued]>
+[2023-01-31 12:59:58,674] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 12:59:58,677] {taskinstance.py:1357} INFO - Starting attempt 8 of 8
+[2023-01-31 12:59:58,678] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 12:59:58,729] {taskinstance.py:1377} INFO - Executing <Task(AzureBlobStorageToGCSOperator): transferir_azure> on 2023-01-30 00:00:00+00:00
+[2023-01-31 12:59:58,732] {standard_task_runner.py:52} INFO - Started process 7022 to run task
+[2023-01-31 12:59:58,735] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2.3_azure_storage_bigquery', 'transferir_azure', 'scheduled__2023-01-30T00:00:00+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/2.3_azure_storage_bigquery.py', '--cfg-path', '/tmp/tmpd8c8l3y5', '--error-file', '/tmp/tmp3ycy04ud']
+[2023-01-31 12:59:58,736] {standard_task_runner.py:80} INFO - Job 59: Subtask transferir_azure
+[2023-01-31 12:59:58,817] {task_command.py:369} INFO - Running <TaskInstance: 2.3_azure_storage_bigquery.transferir_azure scheduled__2023-01-30T00:00:00+00:00 [running]> on host Tinmar.
+[2023-01-31 12:59:58,936] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2.3_azure_storage_bigquery
+AIRFLOW_CTX_TASK_ID=transferir_azure
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-30T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=8
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-30T00:00:00+00:00
+[2023-01-31 12:59:58,951] {base.py:68} INFO - Using connection ID 'wasb_default' for task execution.
+[2023-01-31 12:59:58,966] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 12:59:58,968] {azure_blob_to_gcs.py:108} INFO - Downloading data from blob: retail_2020_azure.csv
+[2023-01-31 12:59:59,457] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/microsoft/azure/transfers/azure_blob_to_gcs.py", line 109, in execute
+    azure_hook.get_file(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/microsoft/azure/hooks/wasb.py", line 344, in get_file
+    stream = self.download(container_name=container_name, blob_name=blob_name, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/microsoft/azure/hooks/wasb.py", line 399, in download
+    return blob_client.download_blob(offset=offset, length=length, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/azure/core/tracing/decorator.py", line 78, in wrapper_use_tracer
+    return func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/azure/storage/blob/_blob_client.py", line 905, in download_blob
+    return StorageStreamDownloader(**options)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/azure/storage/blob/_download.py", line 366, in __init__
+    self._response = self._initial_request()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/azure/storage/blob/_download.py", line 466, in _initial_request
+    process_storage_error(error)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/azure/storage/blob/_shared/response_handlers.py", line 185, in process_storage_error
+    exec("raise error from None")   # pylint: disable=exec-used # nosec
+  File "<string>", line 1, in <module>
+azure.core.exceptions.ClientAuthenticationError: Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:fc9c871a-601e-005e-76a9-354a1d000000
+Time:2023-01-31T19:22:13.4576414Z
+ErrorCode:AuthenticationFailed
+authenticationerrordetail:Request date header too old: 'Tue, 31 Jan 2023 18:59:58 GMT'
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>AuthenticationFailed</Code><Message>Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:fc9c871a-601e-005e-76a9-354a1d000000
+Time:2023-01-31T19:22:13.4576414Z</Message><AuthenticationErrorDetail>Request date header too old: 'Tue, 31 Jan 2023 18:59:58 GMT'</AuthenticationErrorDetail></Error>
+[2023-01-31 12:59:59,476] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=2.3_azure_storage_bigquery, task_id=transferir_azure, execution_date=20230130T000000, start_date=20230131T185958, end_date=20230131T185959
+[2023-01-31 12:59:59,517] {standard_task_runner.py:92} ERROR - Failed to execute job 59 for task transferir_azure (Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:fc9c871a-601e-005e-76a9-354a1d000000
+Time:2023-01-31T19:22:13.4576414Z
+ErrorCode:AuthenticationFailed
+authenticationerrordetail:Request date header too old: 'Tue, 31 Jan 2023 18:59:58 GMT'
+Content: <?xml version="1.0" encoding="utf-8"?><Error><Code>AuthenticationFailed</Code><Message>Server failed to authenticate the request. Make sure the value of Authorization header is formed correctly including the signature.
+RequestId:fc9c871a-601e-005e-76a9-354a1d000000
+Time:2023-01-31T19:22:13.4576414Z</Message><AuthenticationErrorDetail>Request date header too old: 'Tue, 31 Jan 2023 18:59:58 GMT'</AuthenticationErrorDetail></Error>; 7022)
+[2023-01-31 12:59:59,542] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 12:59:59,634] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

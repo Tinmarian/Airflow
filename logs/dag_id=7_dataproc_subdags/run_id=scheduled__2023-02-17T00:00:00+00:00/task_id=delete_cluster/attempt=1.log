@@ -1,0 +1,73 @@
+[2023-02-18T18:29:30.422-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.delete_cluster scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:30.430-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.delete_cluster scheduled__2023-02-17T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:30.430-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:30.431-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T18:29:30.433-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:30.444-0600] {taskinstance.py:1383} INFO - Executing <Task(DataprocDeleteClusterOperator): delete_cluster> on 2023-02-17 00:00:00+00:00
+[2023-02-18T18:29:30.448-0600] {standard_task_runner.py:54} INFO - Started process 197041 to run task
+[2023-02-18T18:29:30.450-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags', 'delete_cluster', 'scheduled__2023-02-17T00:00:00+00:00', '--job-id', '530', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmpy3dt3c9a']
+[2023-02-18T18:29:30.453-0600] {standard_task_runner.py:83} INFO - Job 530: Subtask delete_cluster
+[2023-02-18T18:29:30.454-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py
+[2023-02-18T18:29:30.563-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `***.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-18T18:29:30.637-0600] {task_command.py:384} INFO - Running <TaskInstance: 7_dataproc_subdags.delete_cluster scheduled__2023-02-17T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T18:29:30.685-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags
+AIRFLOW_CTX_TASK_ID=delete_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-17T00:00:00+00:00
+[2023-02-18T18:29:30.693-0600] {base.py:71} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-18T18:29:30.696-0600] {dataproc.py:817} INFO - Deleting cluster: ***-spark-cluster
+[2023-02-20T09:18:24.829-0600] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.DEADLINE_EXCEEDED
+	details = "Deadline Exceeded"
+	debug_error_string = "UNKNOWN:Deadline Exceeded {created_time:"2023-02-20T09:18:24.823580189-06:00", grpc_status:4}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 828, in execute
+    operation.result()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 132, in result
+    self._blocking_poll(timeout=timeout, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 110, in _blocking_poll
+    retry_(self._done_or_raise)(**kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 88, in _done_or_raise
+    if not self.done(**kwargs):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/operation.py", line 170, in done
+    self._refresh_and_update(retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/operation.py", line 158, in _refresh_and_update
+    self._operation = self._refresh(retry=retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/operations_v1/operations_client.py", line 142, in get_operation
+    return self._get_operation(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/timeout.py", line 210, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.DeadlineExceeded: 504 Deadline Exceeded
+[2023-02-20T09:18:24.855-0600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=7_dataproc_subdags, task_id=delete_cluster, execution_date=20230217T000000, start_date=20230219T002930, end_date=20230220T151824
+[2023-02-20T09:18:24.886-0600] {standard_task_runner.py:102} ERROR - Failed to execute job 530 for task delete_cluster (504 Deadline Exceeded; 197041)
+[2023-02-20T09:18:24.945-0600] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-02-20T09:18:25.001-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

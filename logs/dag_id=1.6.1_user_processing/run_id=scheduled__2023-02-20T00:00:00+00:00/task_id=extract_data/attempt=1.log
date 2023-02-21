@@ -1,0 +1,26 @@
+[2023-02-21T08:48:34.833-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.1_user_processing.extract_data scheduled__2023-02-20T00:00:00+00:00 [queued]>
+[2023-02-21T08:48:34.871-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.1_user_processing.extract_data scheduled__2023-02-20T00:00:00+00:00 [queued]>
+[2023-02-21T08:48:34.880-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T08:48:34.884-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-21T08:48:34.911-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T08:48:34.955-0600] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-20 00:00:00+00:00
+[2023-02-21T08:48:34.964-0600] {standard_task_runner.py:54} INFO - Started process 428403 to run task
+[2023-02-21T08:48:34.969-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.6.1_user_processing', 'extract_data', 'scheduled__2023-02-20T00:00:00+00:00', '--job-id', '619', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6.1_user_processing.py', '--cfg-path', '/tmp/tmpkkefyqbk']
+[2023-02-21T08:48:35.010-0600] {standard_task_runner.py:83} INFO - Job 619: Subtask extract_data
+[2023-02-21T08:48:35.019-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.1_user_processing.py
+[2023-02-21T08:48:35.931-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.6.1_user_processing.extract_data scheduled__2023-02-20T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-21T08:48:36.111-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6.1_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-20T00:00:00+00:00
+[2023-02-21T08:48:36.113-0600] {http.py:123} INFO - Calling HTTP method
+[2023-02-21T08:48:36.140-0600] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-21T08:48:38.667-0600] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Nikolaj","last":"Sperl"},"location":{"street":{"number":7707,"name":"Gartenstraße"},"city":"Leer (Ostfriesland)","state":"Rheinland-Pfalz","country":"Germany","postcode":81972,"coordinates":{"latitude":"-47.3541","longitude":"-38.4043"},"timezone":{"offset":"+4:30","description":"Kabul"}},"email":"nikolaj.sperl@example.com","login":{"uuid":"bdac57ac-8268-4710-a0be-c1fe01c2a85e","username":"sadswan808","password":"1004","salt":"FlyIEfdi","md5":"e363fb8588d12fd89dd702aac2612e28","sha1":"39f4966119aae72c3c00a2b357c69094d88eeca3","sha256":"42125635703d93b43171bf94c4ee1a90212a573c4baefdcd06ceab81513b30d9"},"dob":{"date":"1951-05-24T22:48:10.458Z","age":71},"registered":{"date":"2021-08-04T21:45:52.286Z","age":1},"phone":"0008-1653952","cell":"0172-3403542","id":{"name":"SVNR","value":"12 240551 S 379"},"picture":{"large":"https://randomuser.me/api/portraits/men/90.jpg","medium":"https://randomuser.me/api/portraits/med/men/90.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/90.jpg"},"nat":"DE"}],"info":{"seed":"6bf671aae8fb1e17","results":1,"page":1,"version":"1.4"}}
+[2023-02-21T08:48:38.704-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=1.6.1_user_processing, task_id=extract_data, execution_date=20230220T000000, start_date=20230221T144834, end_date=20230221T144838
+[2023-02-21T08:48:38.766-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-21T08:48:38.803-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

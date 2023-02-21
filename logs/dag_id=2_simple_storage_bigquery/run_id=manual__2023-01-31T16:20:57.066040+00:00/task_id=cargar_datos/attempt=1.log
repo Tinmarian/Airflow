@@ -1,0 +1,42 @@
+[2023-01-31 10:20:59,904] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos manual__2023-01-31T16:20:57.066040+00:00 [queued]>
+[2023-01-31 10:20:59,916] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2_simple_storage_bigquery.cargar_datos manual__2023-01-31T16:20:57.066040+00:00 [queued]>
+[2023-01-31 10:20:59,917] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:20:59,917] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 10:20:59,918] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 10:20:59,948] {taskinstance.py:1377} INFO - Executing <Task(GCSToBigQueryOperator): cargar_datos> on 2023-01-31 16:20:57.066040+00:00
+[2023-01-31 10:20:59,952] {standard_task_runner.py:52} INFO - Started process 434 to run task
+[2023-01-31 10:20:59,954] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2_simple_storage_bigquery', 'cargar_datos', 'manual__2023-01-31T16:20:57.066040+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/2_simple_storage_bigquery.py', '--cfg-path', '/tmp/tmp97d05ii9', '--error-file', '/tmp/tmpz3k0c1c3']
+[2023-01-31 10:20:59,955] {standard_task_runner.py:80} INFO - Job 22: Subtask cargar_datos
+[2023-01-31 10:21:00,031] {task_command.py:369} INFO - Running <TaskInstance: 2_simple_storage_bigquery.cargar_datos manual__2023-01-31T16:20:57.066040+00:00 [running]> on host Tinmar.
+[2023-01-31 10:21:00,157] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2_simple_storage_bigquery
+AIRFLOW_CTX_TASK_ID=cargar_datos
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T16:20:57.066040+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T16:20:57.066040+00:00
+[2023-01-31 10:21:00,176] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 10:21:00,177] {gcs_to_bigquery.py:377} INFO - Using existing BigQuery table for storing data...
+[2023-01-31 10:21:00,194] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 378, in execute
+    self.configuration = self._use_existing_table()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 579, in _use_existing_table
+    default_project_id=self.hook.project_id or "",
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 342, in project_id
+    _, project_id = self.get_credentials_and_project_id()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 253, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 332, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 231, in get_credentials_and_project
+    credentials, project_id = self._get_credentials_using_key_path()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 277, in _get_credentials_using_key_path
+    raise AirflowException("Unrecognised extension for key file.")
+airflow.exceptions.AirflowException: Unrecognised extension for key file.
+[2023-01-31 10:21:00,199] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=2_simple_storage_bigquery, task_id=cargar_datos, execution_date=20230131T162057, start_date=20230131T162059, end_date=20230131T162100
+[2023-01-31 10:21:00,235] {standard_task_runner.py:92} ERROR - Failed to execute job 22 for task cargar_datos (Unrecognised extension for key file.; 434)
+[2023-01-31 10:21:00,248] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 10:21:00,325] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

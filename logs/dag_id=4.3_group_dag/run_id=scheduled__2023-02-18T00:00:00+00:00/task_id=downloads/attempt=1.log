@@ -1,0 +1,36 @@
+[2023-02-18T18:28:59.922-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 4.3_group_dag.downloads scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:28:59.946-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 4.3_group_dag.downloads scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:28:59.956-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:28:59.958-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T18:28:59.961-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:28:59.991-0600] {taskinstance.py:1383} INFO - Executing <Task(SubDagOperator): downloads> on 2023-02-18 00:00:00+00:00
+[2023-02-18T18:29:00.001-0600] {standard_task_runner.py:54} INFO - Started process 195219 to run task
+[2023-02-18T18:29:00.005-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '4.3_group_dag', 'downloads', 'scheduled__2023-02-18T00:00:00+00:00', '--job-id', '486', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/4.3_group_dag.py', '--cfg-path', '/tmp/tmprex2g82x']
+[2023-02-18T18:29:00.011-0600] {standard_task_runner.py:83} INFO - Job 486: Subtask downloads
+[2023-02-18T18:29:00.024-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/4.3_group_dag.py
+[2023-02-18T18:29:00.739-0600] {task_command.py:384} INFO - Running <TaskInstance: 4.3_group_dag.downloads scheduled__2023-02-18T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T18:29:01.694-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=4.3_group_dag
+AIRFLOW_CTX_TASK_ID=downloads
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-18T00:00:00+00:00
+[2023-02-18T18:29:01.705-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/utils/context.py:191 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-02-18T18:29:01.834-0600] {subdag.py:171} INFO - Created DagRun: scheduled__2023-02-18T00:00:00+00:00
+[2023-02-20T09:18:13.341-0600] {local_task_job.py:148} ERROR - Heartbeat time limit exceeded!
+[2023-02-20T09:18:13.358-0600] {process_utils.py:129} INFO - Sending Signals.SIGTERM to group 195219. PIDs of all processes in the group: [195219]
+[2023-02-20T09:18:13.370-0600] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 195219
+[2023-02-20T09:18:13.379-0600] {taskinstance.py:1562} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-02-20T09:18:13.397-0600] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/sensors/base.py", line 211, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1564, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-02-20T09:18:13.644-0600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=4.3_group_dag, task_id=downloads, execution_date=20230218T000000, start_date=20230219T002859, end_date=20230220T151813
+[2023-02-20T09:18:13.668-0600] {standard_task_runner.py:102} ERROR - Failed to execute job 486 for task downloads (Task received SIGTERM signal; 195219)
+[2023-02-20T09:18:13.713-0600] {process_utils.py:79} INFO - Process psutil.Process(pid=195219, status='terminated', exitcode=1, started='2023-02-18 18:28:59') (195219) terminated with exit code 1

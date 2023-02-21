@@ -1,0 +1,26 @@
+[2023-02-18T18:29:00.564-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.2_user_processing.extract_data scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:00.589-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.2_user_processing.extract_data scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:00.590-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:00.602-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T18:29:00.603-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:00.625-0600] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_data> on 2023-02-18 00:00:00+00:00
+[2023-02-18T18:29:00.633-0600] {standard_task_runner.py:54} INFO - Started process 195375 to run task
+[2023-02-18T18:29:00.638-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.6.2_user_processing', 'extract_data', 'scheduled__2023-02-18T00:00:00+00:00', '--job-id', '495', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6.2_user_processing.py', '--cfg-path', '/tmp/tmpl2nzpn3x']
+[2023-02-18T18:29:00.648-0600] {standard_task_runner.py:83} INFO - Job 495: Subtask extract_data
+[2023-02-18T18:29:00.652-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-18T18:29:02.277-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.6.2_user_processing.extract_data scheduled__2023-02-18T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T18:29:02.394-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6.2_user_processing
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-18T00:00:00+00:00
+[2023-02-18T18:29:02.396-0600] {http.py:123} INFO - Calling HTTP method
+[2023-02-18T18:29:02.420-0600] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-02-18T18:29:03.426-0600] {http.py:127} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Ali","last":"Kuzucu"},"location":{"street":{"number":1347,"name":"Abanoz Sk"},"city":"Mardin","state":"Antalya","country":"Turkey","postcode":95144,"coordinates":{"latitude":"69.9253","longitude":"-143.6511"},"timezone":{"offset":"-1:00","description":"Azores, Cape Verde Islands"}},"email":"ali.kuzucu@example.com","login":{"uuid":"0962691f-69e4-4ccd-b66e-2e72cf9919a6","username":"heavytiger221","password":"hemlock","salt":"AK3qXXZ0","md5":"29a02abefcbf4878abdba598ab3485ee","sha1":"06a83b6c597cccf7abedacfbd8034c8b573a6826","sha256":"1b9bbbd3814c3e823df4945762d76c1e18124b6788515ca1a1d6bb2992c4e657"},"dob":{"date":"1995-02-06T18:56:01.986Z","age":28},"registered":{"date":"2012-04-19T21:52:58.341Z","age":10},"phone":"(795)-516-6498","cell":"(002)-201-5009","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/16.jpg","medium":"https://randomuser.me/api/portraits/med/men/16.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/16.jpg"},"nat":"TR"}],"info":{"seed":"a75d1d9dad8c552c","results":1,"page":1,"version":"1.4"}}
+[2023-02-18T18:29:03.892-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=1.6.2_user_processing, task_id=extract_data, execution_date=20230218T000000, start_date=20230219T002900, end_date=20230219T002903
+[2023-02-18T18:29:03.974-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-18T18:29:04.038-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

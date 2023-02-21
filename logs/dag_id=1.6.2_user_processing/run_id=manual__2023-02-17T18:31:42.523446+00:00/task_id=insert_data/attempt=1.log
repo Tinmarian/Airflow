@@ -1,0 +1,32 @@
+[2023-02-17T12:31:46.842-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.2_user_processing.insert_data manual__2023-02-17T18:31:42.523446+00:00 [queued]>
+[2023-02-17T12:31:46.853-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 1.6.2_user_processing.insert_data manual__2023-02-17T18:31:42.523446+00:00 [queued]>
+[2023-02-17T12:31:46.854-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T12:31:46.855-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T12:31:46.855-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T12:31:46.865-0600] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): insert_data> on 2023-02-17 18:31:42.523446+00:00
+[2023-02-17T12:31:46.867-0600] {standard_task_runner.py:54} INFO - Started process 138014 to run task
+[2023-02-17T12:31:46.870-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '1.6.2_user_processing', 'insert_data', 'manual__2023-02-17T18:31:42.523446+00:00', '--job-id', '402', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/1.6.2_user_processing.py', '--cfg-path', '/tmp/tmpxtyf4qpu']
+[2023-02-17T12:31:46.872-0600] {standard_task_runner.py:83} INFO - Job 402: Subtask insert_data
+[2023-02-17T12:31:46.873-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/1.6.2_user_processing.py
+[2023-02-17T12:31:47.242-0600] {task_command.py:384} INFO - Running <TaskInstance: 1.6.2_user_processing.insert_data manual__2023-02-17T18:31:42.523446+00:00 [running]> on host Tinmar.
+[2023-02-17T12:31:47.307-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Tinmar
+AIRFLOW_CTX_DAG_ID=1.6.2_user_processing
+AIRFLOW_CTX_TASK_ID=insert_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T18:31:42.523446+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-17T18:31:42.523446+00:00
+[2023-02-17T12:31:47.308-0600] {sql.py:254} INFO - Executing: 
+                                        INSERT INTO users VALUES ('Tinmar', 'Andrade','México','tinmar','GuruSat.3','tinmar96@gmail.com')
+                                    
+[2023-02-17T12:31:47.322-0600] {base.py:71} INFO - Using connection ID 'postgres_default' for task execution.
+[2023-02-17T12:31:47.512-0600] {base.py:71} INFO - Using connection ID 'postgres_default' for task execution.
+[2023-02-17T12:31:47.518-0600] {sql.py:375} INFO - Running statement: 
+                                        INSERT INTO users VALUES ('Tinmar', 'Andrade','México','tinmar','GuruSat.3','tinmar96@gmail.com')
+                                    , parameters: None
+[2023-02-17T12:31:47.519-0600] {sql.py:384} INFO - Rows affected: 1
+[2023-02-17T12:31:47.530-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=1.6.2_user_processing, task_id=insert_data, execution_date=20230217T183142, start_date=20230217T183146, end_date=20230217T183147
+[2023-02-17T12:31:47.556-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-17T12:31:47.595-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,35 @@
+[2023-02-18T03:00:06.259-0600] {processor.py:156} INFO - Started process (PID=192958) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:00:06.261-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py for tasks to queue
+[2023-02-18T03:00:06.262-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:06.261-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:00:06.315-0600] {processor.py:768} INFO - DAG(s) dict_keys(['0_airflow_macro']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:00:06.351-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:06.351-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:06.365-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:06.365-0600] {dag.py:3324} INFO - Setting next_dagrun for 0_airflow_macro to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-18T03:00:06.471-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py took 0.214 seconds
+[2023-02-18T03:00:39.388-0600] {processor.py:156} INFO - Started process (PID=193368) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:00:39.390-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py for tasks to queue
+[2023-02-18T03:00:39.391-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:39.391-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:00:39.546-0600] {processor.py:768} INFO - DAG(s) dict_keys(['0_airflow_macro']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:00:39.567-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:39.567-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:00:39.582-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:00:39.582-0600] {dag.py:3324} INFO - Setting next_dagrun for 0_airflow_macro to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-18T03:00:39.599-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py took 0.213 seconds
+[2023-02-18T03:01:10.192-0600] {processor.py:156} INFO - Started process (PID=193722) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:01:10.193-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py for tasks to queue
+[2023-02-18T03:01:10.194-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:10.194-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:01:10.225-0600] {processor.py:768} INFO - DAG(s) dict_keys(['0_airflow_macro']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:01:10.247-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:10.246-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:10.262-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:10.262-0600] {dag.py:3324} INFO - Setting next_dagrun for 0_airflow_macro to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-18T03:01:10.365-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py took 0.176 seconds
+[2023-02-18T03:01:40.687-0600] {processor.py:156} INFO - Started process (PID=194050) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:01:40.687-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py for tasks to queue
+[2023-02-18T03:01:40.688-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:40.688-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:01:40.721-0600] {processor.py:768} INFO - DAG(s) dict_keys(['0_airflow_macro']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:01:40.739-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:40.739-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:01:40.757-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:01:40.757-0600] {dag.py:3324} INFO - Setting next_dagrun for 0_airflow_macro to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-18T03:01:40.772-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py took 0.088 seconds
+[2023-02-18T03:02:12.061-0600] {processor.py:156} INFO - Started process (PID=194591) to work on /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:02:12.064-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py for tasks to queue
+[2023-02-18T03:02:12.067-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:12.067-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:02:12.182-0600] {processor.py:768} INFO - DAG(s) dict_keys(['0_airflow_macro']) retrieved from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py
+[2023-02-18T03:02:12.211-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:12.210-0600] {dag.py:2573} INFO - Sync 1 DAGs
+[2023-02-18T03:02:12.229-0600] {logging_mixin.py:117} INFO - [2023-02-18T03:02:12.229-0600] {dag.py:3324} INFO - Setting next_dagrun for 0_airflow_macro to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-02-18T03:02:12.250-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/0_airflow_macro.py took 0.192 seconds

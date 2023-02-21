@@ -1,0 +1,61 @@
+[2023-02-17T08:32:45.483-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T08:32:45.492-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome scheduled__2023-02-16T00:00:00+00:00 [queued]>
+[2023-02-17T08:32:45.493-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:32:45.494-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-17T08:32:45.494-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:32:45.504-0600] {taskinstance.py:1383} INFO - Executing <Task(DataprocSubmitJobOperator): par_task.avg_tincome> on 2023-02-16 00:00:00+00:00
+[2023-02-17T08:32:45.507-0600] {standard_task_runner.py:54} INFO - Started process 4576 to run task
+[2023-02-17T08:32:45.510-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '6_dataproc_***', 'par_task.avg_tincome', 'scheduled__2023-02-16T00:00:00+00:00', '--job-id', '353', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_***.py', '--cfg-path', '/tmp/tmpjjobijf1']
+[2023-02-17T08:32:45.513-0600] {standard_task_runner.py:83} INFO - Job 353: Subtask par_task.avg_tincome
+[2023-02-17T08:32:45.516-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Airflow2_0_De_0_a_Heroe/6_dataproc_***.py
+[2023-02-17T08:32:45.604-0600] {logging_mixin.py:117} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/models/baseoperator.py:408 DeprecationWarning: Passing cluster parameters by keywords to `DataprocCreateClusterOperator` will be deprecated. Please provide cluster_config object using `cluster_config` parameter. You can use `***.dataproc.ClusterGenerator.generate_cluster` method to obtain cluster object.
+[2023-02-17T08:32:45.686-0600] {task_command.py:384} INFO - Running <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome scheduled__2023-02-16T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-17T08:32:45.748-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_***
+AIRFLOW_CTX_TASK_ID=par_task.avg_tincome
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-16T00:00:00+00:00
+[2023-02-17T08:32:45.749-0600] {dataproc.py:1866} INFO - Submitting job
+[2023-02-17T08:32:45.761-0600] {base.py:71} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-17T08:32:46.304-0600] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 50, in error_remapped_callable
+    return callable_(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 946, in __call__
+    return _end_unary_response_blocking(state, call, False, None)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/grpc/_channel.py", line 849, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.ALREADY_EXISTS
+	details = "Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_tincome"
+	debug_error_string = "UNKNOWN:Error received from peer ipv4:142.251.34.106:443 {grpc_message:"Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_tincome", grpc_status:6, created_time:"2023-02-17T08:32:46.303611143-06:00"}"
+>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 1868, in execute
+    job_object = self.hook.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 780, in submit_job
+    return client.submit_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/dataproc_v1/services/job_controller/client.py", line 520, in submit_job
+    response = rpc(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 154, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 52, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.AlreadyExists: 409 Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_tincome
+[2023-02-17T08:32:46.322-0600] {taskinstance.py:1401} INFO - Marking task as FAILED. dag_id=6_dataproc_***, task_id=par_task.avg_tincome, execution_date=20230216T000000, start_date=20230217T143245, end_date=20230217T143246
+[2023-02-17T08:32:46.332-0600] {standard_task_runner.py:102} ERROR - Failed to execute job 353 for task par_task.avg_tincome (409 Already exists: Failed to submit job: Job projects/serene-gradient-371719/regions/us-central1/jobs/PARTASK_dfa23fbf_avg_tincome; 4576)
+[2023-02-17T08:32:46.369-0600] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-02-17T08:32:46.388-0600] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

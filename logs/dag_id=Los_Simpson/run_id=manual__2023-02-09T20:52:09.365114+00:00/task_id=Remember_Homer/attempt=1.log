@@ -1,0 +1,52 @@
+[2023-02-09 14:52:10,123] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Los_Simpson.Remember_Homer manual__2023-02-09T20:52:09.365114+00:00 [queued]>
+[2023-02-09 14:52:10,129] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: Los_Simpson.Remember_Homer manual__2023-02-09T20:52:09.365114+00:00 [queued]>
+[2023-02-09 14:52:10,130] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 14:52:10,131] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-09 14:52:10,131] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 14:52:10,139] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): Remember_Homer> on 2023-02-09 20:52:09.365114+00:00
+[2023-02-09 14:52:10,141] {standard_task_runner.py:52} INFO - Started process 144068 to run task
+[2023-02-09 14:52:10,143] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'Los_Simpson', 'Remember_Homer', 'manual__2023-02-09T20:52:09.365114+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/Apache_Airflow/Los Simpson.py', '--cfg-path', '/tmp/tmpe625ak68', '--error-file', '/tmp/tmp0r6tkbt9']
+[2023-02-09 14:52:10,145] {standard_task_runner.py:80} INFO - Job 54: Subtask Remember_Homer
+[2023-02-09 14:52:10,189] {task_command.py:369} INFO - Running <TaskInstance: Los_Simpson.Remember_Homer manual__2023-02-09T20:52:09.365114+00:00 [running]> on host Tinmar.
+[2023-02-09 14:52:10,238] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Homero Simpson
+AIRFLOW_CTX_DAG_ID=Los_Simpson
+AIRFLOW_CTX_TASK_ID=Remember_Homer
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-09T20:52:09.365114+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-09T20:52:09.365114+00:00
+[2023-02-09 14:52:10,239] {logging_mixin.py:115} INFO - 
+
+
+El uso de Airflow en la universidad de Springfield
+
+El otro día mi hija me dijo que Airflow no se utilizaba en la universidad de Springfield, y yo le dije: qué no Lisa? qué no?
+
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+         Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+         Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+         Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders Púdrete Flanders 
+         Púdrete Flanders Púdrete Flanders Púdrete Flanders
+[2023-02-09 14:52:10,239] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-09 14:52:10,249] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=Los_Simpson, task_id=Remember_Homer, execution_date=20230209T205209, start_date=20230209T205210, end_date=20230209T205210
+[2023-02-09 14:52:10,276] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-09 14:52:10,298] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

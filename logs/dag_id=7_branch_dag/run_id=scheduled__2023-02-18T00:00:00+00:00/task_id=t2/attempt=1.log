@@ -1,0 +1,25 @@
+[2023-02-18T18:29:05.439-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 7_branch_dag.t2 scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:05.454-0600] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: 7_branch_dag.t2 scheduled__2023-02-18T00:00:00+00:00 [queued]>
+[2023-02-18T18:29:05.455-0600] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:05.455-0600] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-02-18T18:29:05.456-0600] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T18:29:05.467-0600] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): t2> on 2023-02-18 00:00:00+00:00
+[2023-02-18T18:29:05.472-0600] {standard_task_runner.py:54} INFO - Started process 195832 to run task
+[2023-02-18T18:29:05.475-0600] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '7_branch_dag', 't2', 'scheduled__2023-02-18T00:00:00+00:00', '--job-id', '507', '--raw', '--subdir', 'DAGS_FOLDER/Introduction_to_Apache_Airflow/7_branch_dag.py', '--cfg-path', '/tmp/tmpostws41z']
+[2023-02-18T18:29:05.477-0600] {standard_task_runner.py:83} INFO - Job 507: Subtask t2
+[2023-02-18T18:29:05.478-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/7_branch_dag.py
+[2023-02-18T18:29:05.652-0600] {task_command.py:384} INFO - Running <TaskInstance: 7_branch_dag.t2 scheduled__2023-02-18T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-18T18:29:05.733-0600] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=7_branch_dag
+AIRFLOW_CTX_TASK_ID=t2
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-18T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-18T00:00:00+00:00
+[2023-02-18T18:29:05.749-0600] {logging_mixin.py:117} INFO - 42
+[2023-02-18T18:29:05.749-0600] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-18T18:29:05.766-0600] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=7_branch_dag, task_id=t2, execution_date=20230218T000000, start_date=20230219T002905, end_date=20230219T002905
+[2023-02-18T18:29:05.848-0600] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-02-18T18:29:05.871-0600] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

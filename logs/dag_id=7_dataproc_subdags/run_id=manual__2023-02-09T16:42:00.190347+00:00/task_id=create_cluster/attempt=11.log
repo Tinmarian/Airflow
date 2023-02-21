@@ -1,0 +1,45 @@
+[2023-02-09 11:52:57,109] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.create_cluster manual__2023-02-09T16:42:00.190347+00:00 [queued]>
+[2023-02-09 11:52:57,114] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.create_cluster manual__2023-02-09T16:42:00.190347+00:00 [queued]>
+[2023-02-09 11:52:57,114] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 11:52:57,115] {taskinstance.py:1357} INFO - Starting attempt 11 of 11
+[2023-02-09 11:52:57,116] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-09 11:52:57,123] {taskinstance.py:1377} INFO - Executing <Task(DataprocCreateClusterOperator): create_cluster> on 2023-02-09 16:42:00.190347+00:00
+[2023-02-09 11:52:57,125] {standard_task_runner.py:52} INFO - Started process 38806 to run task
+[2023-02-09 11:52:57,127] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags', 'create_cluster', 'manual__2023-02-09T16:42:00.190347+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmpfb9v5vhs', '--error-file', '/tmp/tmp46sbk67_']
+[2023-02-09 11:52:57,128] {standard_task_runner.py:80} INFO - Job 28: Subtask create_cluster
+[2023-02-09 11:52:57,166] {task_command.py:369} INFO - Running <TaskInstance: 7_dataproc_subdags.create_cluster manual__2023-02-09T16:42:00.190347+00:00 [running]> on host Tinmar.
+[2023-02-09 11:52:57,211] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags
+AIRFLOW_CTX_TASK_ID=create_cluster
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-09T16:42:00.190347+00:00
+AIRFLOW_CTX_TRY_NUMBER=11
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-09T16:42:00.190347+00:00
+[2023-02-09 11:52:57,212] {dataproc.py:591} INFO - Creating cluster: ***-spark-cluster
+[2023-02-09 11:52:57,220] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-09 11:52:57,241] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 599, in execute
+    cluster = self._create_cluster(hook)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 522, in _create_cluster
+    operation = hook.create_cluster(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 321, in create_cluster
+    client = self.get_cluster_client(region=region)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 222, in get_cluster_client
+    credentials=self.get_credentials(), client_info=CLIENT_INFO, client_options=client_options
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 275, in get_credentials
+    credentials, _ = self.get_credentials_and_project_id()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 253, in get_credentials_and_project_id
+    credentials, project_id = get_credentials_and_project_id(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 332, in get_credentials_and_project_id
+    return _CredentialProvider(*args, **kwargs).get_credentials_and_project()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/utils/credentials_provider.py", line 210, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: The `keyfile_dict`, `key_path`, and `key_secret_name` fields are all mutually exclusive. Please provide only one value.
+[2023-02-09 11:52:57,243] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=7_dataproc_subdags, task_id=create_cluster, execution_date=20230209T164200, start_date=20230209T175257, end_date=20230209T175257
+[2023-02-09 11:52:57,250] {standard_task_runner.py:92} ERROR - Failed to execute job 28 for task create_cluster (The `keyfile_dict`, `key_path`, and `key_secret_name` fields are all mutually exclusive. Please provide only one value.; 38806)
+[2023-02-09 11:52:57,260] {local_task_job.py:156} INFO - Task exited with return code 1

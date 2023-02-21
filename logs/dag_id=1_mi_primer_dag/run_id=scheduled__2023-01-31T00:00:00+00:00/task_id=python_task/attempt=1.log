@@ -1,0 +1,33 @@
+[2023-01-31 17:13:54,699] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1_mi_primer_dag.python_task scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-01-31 17:13:54,711] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 1_mi_primer_dag.python_task scheduled__2023-01-31T00:00:00+00:00 [queued]>
+[2023-01-31 17:13:54,712] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:13:54,712] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 17:13:54,712] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 17:13:54,739] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): python_task> on 2023-01-31 00:00:00+00:00
+[2023-01-31 17:13:54,740] {standard_task_runner.py:52} INFO - Started process 13477 to run task
+[2023-01-31 17:13:54,742] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '1_mi_primer_dag', 'python_task', 'scheduled__2023-01-31T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/1_mi_primer_dag.py', '--cfg-path', '/tmp/tmplzh2v5fj', '--error-file', '/tmp/tmprg7vf_og']
+[2023-01-31 17:13:54,743] {standard_task_runner.py:80} INFO - Job 84: Subtask python_task
+[2023-01-31 17:13:54,809] {task_command.py:369} INFO - Running <TaskInstance: 1_mi_primer_dag.python_task scheduled__2023-01-31T00:00:00+00:00 [running]> on host Tinmar.
+[2023-01-31 17:13:54,903] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=1_mi_primer_dag
+AIRFLOW_CTX_TASK_ID=python_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-31T00:00:00+00:00
+[2023-01-31 17:13:54,904] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 1 0.7151105843052579
+[2023-01-31 17:13:54,904] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 2 0.5163504410239758
+[2023-01-31 17:13:54,904] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 3 0.23001358197724953
+[2023-01-31 17:13:54,904] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 4 0.48938503229154307
+[2023-01-31 17:13:54,905] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 5 0.6393287675250734
+[2023-01-31 17:13:54,905] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 6 0.17839536753216156
+[2023-01-31 17:13:54,905] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 7 0.28520645213109785
+[2023-01-31 17:13:54,906] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 8 0.4882186056406347
+[2023-01-31 17:13:54,906] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 9 0.6601661296827378
+[2023-01-31 17:13:54,906] {logging_mixin.py:115} INFO - ESTE ES EL RANDOM NUMBER 10 0.12602704520814878
+[2023-01-31 17:13:54,906] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-31 17:13:54,917] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=1_mi_primer_dag, task_id=python_task, execution_date=20230131T000000, start_date=20230201T001354, end_date=20230201T001354
+[2023-01-31 17:13:54,954] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-31 17:13:54,985] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

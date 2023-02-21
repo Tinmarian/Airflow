@@ -1,0 +1,59 @@
+[2023-01-31 11:44:39,988] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.2_aws_storage_bigquery.tabla_resumen manual__2023-01-31T17:37:26.996622+00:00 [queued]>
+[2023-01-31 11:44:40,000] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 2.2_aws_storage_bigquery.tabla_resumen manual__2023-01-31T17:37:26.996622+00:00 [queued]>
+[2023-01-31 11:44:40,001] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 11:44:40,001] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-31 11:44:40,001] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-31 11:44:40,024] {taskinstance.py:1377} INFO - Executing <Task(BigQueryExecuteQueryOperator): tabla_resumen> on 2023-01-31 17:37:26.996622+00:00
+[2023-01-31 11:44:40,027] {standard_task_runner.py:52} INFO - Started process 4075 to run task
+[2023-01-31 11:44:40,029] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '2.2_aws_storage_bigquery', 'tabla_resumen', 'manual__2023-01-31T17:37:26.996622+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2.0-De-0-a-Heroe/2.2_aws_storage_bigquery.py', '--cfg-path', '/tmp/tmptznl1p5g', '--error-file', '/tmp/tmprbtclh49']
+[2023-01-31 11:44:40,030] {standard_task_runner.py:80} INFO - Job 49: Subtask tabla_resumen
+[2023-01-31 11:44:40,086] {task_command.py:369} INFO - Running <TaskInstance: 2.2_aws_storage_bigquery.tabla_resumen manual__2023-01-31T17:37:26.996622+00:00 [running]> on host Tinmar.
+[2023-01-31 11:44:40,170] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rodrigo N
+AIRFLOW_CTX_DAG_ID=2.2_aws_storage_bigquery
+AIRFLOW_CTX_TASK_ID=tabla_resumen
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-31T17:37:26.996622+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-31T17:37:26.996622+00:00
+[2023-01-31 11:44:40,171] {bigquery.py:1077} INFO - Executing: 
+        SELECT `year`, `area`, ROUND(AVG(`total_inc`), 4) AS avg_income
+        FROM `regal-oasis-291423.working_dataset.retail_years_aws`
+        GROUP BY `year`, `area`
+        ORDER BY `area` ASC
+        
+[2023-01-31 11:44:40,181] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-01-31 11:44:40,186] {logging_mixin.py:115} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/bigquery.py:2050 DeprecationWarning: This method is deprecated. Please use `BigQueryHook.insert_job` method.
+[2023-01-31 11:44:40,225] {bigquery.py:1542} INFO - Inserting job airflow_1675187080225034_c1bf5d8cb34a7cb23d4219a8e37528bf
+[2023-01-31 11:44:40,780] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1086, in execute
+    job_id: str | list[str] = self.hook.run_query(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 2185, in run_query
+    job = self.insert_job(configuration=configuration, project_id=self.project_id)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1548, in insert_job
+    job.result(timeout=timeout, retry=retry)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/query.py", line 1499, in result
+    do_get_result()
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/query.py", line 1489, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/cloud/bigquery/job/base.py", line 728, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.NotFound: 404 Not found: Dataset serene-gradient-371719:airflow_trabajo was not found in location us-east1
+
+Location: us-east1
+Job ID: airflow_1675187080225034_c1bf5d8cb34a7cb23d4219a8e37528bf
+
+[2023-01-31 11:44:40,796] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=2.2_aws_storage_bigquery, task_id=tabla_resumen, execution_date=20230131T173726, start_date=20230131T174439, end_date=20230131T174440
+[2023-01-31 11:44:40,827] {standard_task_runner.py:92} ERROR - Failed to execute job 49 for task tabla_resumen (404 Not found: Dataset serene-gradient-371719:airflow_trabajo was not found in location us-east1
+
+Location: us-east1
+Job ID: airflow_1675187080225034_c1bf5d8cb34a7cb23d4219a8e37528bf
+; 4075)
+[2023-01-31 11:44:40,847] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-31 11:44:40,903] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

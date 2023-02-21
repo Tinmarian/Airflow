@@ -1,0 +1,147 @@
+[2023-02-02 10:21:19,810] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome manual__2023-02-02T16:17:27.910370+00:00 [queued]>
+[2023-02-02 10:21:19,841] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome manual__2023-02-02T16:17:27.910370+00:00 [queued]>
+[2023-02-02 10:21:19,842] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-02 10:21:19,844] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-02 10:21:19,845] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-02 10:21:19,882] {taskinstance.py:1377} INFO - Executing <Task(DataprocSubmitJobOperator): par_task.avg_tincome> on 2023-02-02 16:17:27.910370+00:00
+[2023-02-02 10:21:19,884] {standard_task_runner.py:52} INFO - Started process 17477 to run task
+[2023-02-02 10:21:19,886] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', '6_dataproc_airflow', 'par_task.avg_tincome', 'manual__2023-02-02T16:17:27.910370+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/6_dataproc_airflow.py', '--cfg-path', '/tmp/tmpexcltqll', '--error-file', '/tmp/tmplhuxwb4d']
+[2023-02-02 10:21:19,887] {standard_task_runner.py:80} INFO - Job 165: Subtask par_task.avg_tincome
+[2023-02-02 10:21:19,991] {task_command.py:369} INFO - Running <TaskInstance: 6_dataproc_airflow.par_task.avg_tincome manual__2023-02-02T16:17:27.910370+00:00 [running]> on host Tinmar.
+[2023-02-02 10:21:20,123] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David S
+AIRFLOW_CTX_DAG_ID=6_dataproc_airflow
+AIRFLOW_CTX_TASK_ID=par_task.avg_tincome
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-02T16:17:27.910370+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-02T16:17:27.910370+00:00
+[2023-02-02 10:21:20,124] {dataproc.py:1866} INFO - Submitting job
+[2023-02-02 10:21:20,139] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-02-02 10:21:20,653] {dataproc.py:1878} INFO - Job PARTASK_dfa22fbf_avg_tincome submitted successfully.
+[2023-02-02 10:21:20,686] {dataproc.py:1898} INFO - Waiting for job PARTASK_dfa22fbf_avg_tincome to complete
+[2023-02-02 10:22:02,398] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/operators/dataproc.py", line 1899, in execute
+    self.hook.wait_for_job(
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/common/hooks/base_google.py", line 462, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/tinmar/.local/lib/python3.10/site-packages/airflow/providers/google/cloud/hooks/dataproc.py", line 713, in wait_for_job
+    raise AirflowException(f"Job failed:\n{job}")
+airflow.exceptions.AirflowException: Job failed:
+reference {
+  project_id: "serene-gradient-371719"
+  job_id: "PARTASK_dfa22fbf_avg_tincome"
+}
+placement {
+  cluster_name: "airflow-spark-cluster"
+  cluster_uuid: "ee4ada41-ae33-40a0-b422-b13d1990d0ac"
+}
+pyspark_job {
+  main_python_file_uri: "gs://airflow_spark_bucket/par_task/avg_tincome.py"
+  jar_file_uris: "gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar"
+}
+status {
+  state: ERROR
+  details: "Google Cloud Dataproc Agent reports job failure. If logs are available, they can be found at:\nhttps://console.cloud.google.com/dataproc/jobs/PARTASK_dfa22fbf_avg_tincome?project=serene-gradient-371719&region=us-central1\ngcloud dataproc jobs wait \'PARTASK_dfa22fbf_avg_tincome\' --region \'us-central1\' --project \'serene-gradient-371719\'\nhttps://console.cloud.google.com/storage/browser/airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/\ngs://airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/driveroutput"
+  state_start_time {
+    seconds: 1675354916
+    nanos: 784615000
+  }
+}
+yarn_applications {
+  name: "bigquery-analytics-avg-income"
+  state: FINISHED
+  progress: 1.0
+  tracking_url: "http://airflow-spark-cluster-m:8088/proxy/application_1675354727154_0002/"
+}
+status_history {
+  state: PENDING
+  state_start_time {
+    seconds: 1675354880
+    nanos: 655449000
+  }
+}
+status_history {
+  state: SETUP_DONE
+  state_start_time {
+    seconds: 1675354880
+    nanos: 695202000
+  }
+}
+status_history {
+  state: RUNNING
+  state_start_time {
+    seconds: 1675354880
+    nanos: 948716000
+  }
+}
+driver_control_files_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/"
+driver_output_resource_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/driveroutput"
+labels {
+  key: "airflow-version"
+  value: "v2-3-0"
+}
+job_uuid: "03adde6a-ec96-4523-859c-3d5794aa1514"
+done: true
+
+[2023-02-02 10:22:02,403] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=6_dataproc_airflow, task_id=par_task.avg_tincome, execution_date=20230202T161727, start_date=20230202T162119, end_date=20230202T162202
+[2023-02-02 10:22:02,433] {standard_task_runner.py:92} ERROR - Failed to execute job 165 for task par_task.avg_tincome (Job failed:
+reference {
+  project_id: "serene-gradient-371719"
+  job_id: "PARTASK_dfa22fbf_avg_tincome"
+}
+placement {
+  cluster_name: "airflow-spark-cluster"
+  cluster_uuid: "ee4ada41-ae33-40a0-b422-b13d1990d0ac"
+}
+pyspark_job {
+  main_python_file_uri: "gs://airflow_spark_bucket/par_task/avg_tincome.py"
+  jar_file_uris: "gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar"
+}
+status {
+  state: ERROR
+  details: "Google Cloud Dataproc Agent reports job failure. If logs are available, they can be found at:\nhttps://console.cloud.google.com/dataproc/jobs/PARTASK_dfa22fbf_avg_tincome?project=serene-gradient-371719&region=us-central1\ngcloud dataproc jobs wait \'PARTASK_dfa22fbf_avg_tincome\' --region \'us-central1\' --project \'serene-gradient-371719\'\nhttps://console.cloud.google.com/storage/browser/airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/\ngs://airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/driveroutput"
+  state_start_time {
+    seconds: 1675354916
+    nanos: 784615000
+  }
+}
+yarn_applications {
+  name: "bigquery-analytics-avg-income"
+  state: FINISHED
+  progress: 1.0
+  tracking_url: "http://airflow-spark-cluster-m:8088/proxy/application_1675354727154_0002/"
+}
+status_history {
+  state: PENDING
+  state_start_time {
+    seconds: 1675354880
+    nanos: 655449000
+  }
+}
+status_history {
+  state: SETUP_DONE
+  state_start_time {
+    seconds: 1675354880
+    nanos: 695202000
+  }
+}
+status_history {
+  state: RUNNING
+  state_start_time {
+    seconds: 1675354880
+    nanos: 948716000
+  }
+}
+driver_control_files_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/"
+driver_output_resource_uri: "gs://airflow_spark_bucket/google-cloud-dataproc-metainfo/ee4ada41-ae33-40a0-b422-b13d1990d0ac/jobs/PARTASK_dfa22fbf_avg_tincome/driveroutput"
+labels {
+  key: "airflow-version"
+  value: "v2-3-0"
+}
+job_uuid: "03adde6a-ec96-4523-859c-3d5794aa1514"
+done: true
+; 17477)
+[2023-02-02 10:22:02,451] {local_task_job.py:156} INFO - Task exited with return code 1

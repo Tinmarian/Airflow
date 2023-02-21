@@ -1,0 +1,25 @@
+[2023-02-13 09:22:38,109] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task scheduled__2023-02-11T00:00:00+00:00 [queued]>
+[2023-02-13 09:22:38,116] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: 7_dataproc_subdags.par_task scheduled__2023-02-11T00:00:00+00:00 [queued]>
+[2023-02-13 09:22:38,117] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 09:22:38,117] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-02-13 09:22:38,119] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-13 09:22:38,127] {taskinstance.py:1377} INFO - Executing <Task(SubDagOperator): par_task> on 2023-02-11 00:00:00+00:00
+[2023-02-13 09:22:38,130] {standard_task_runner.py:52} INFO - Started process 4524 to run task
+[2023-02-13 09:22:38,132] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', '7_dataproc_subdags', 'par_task', 'scheduled__2023-02-11T00:00:00+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/Airflow2_0_De_0_a_Heroe/7_dataproc_subdags.py', '--cfg-path', '/tmp/tmpo43jau_l', '--error-file', '/tmp/tmppdxzjp8k']
+[2023-02-13 09:22:38,157] {standard_task_runner.py:80} INFO - Job 92: Subtask par_task
+[2023-02-13 09:22:38,202] {task_command.py:369} INFO - Running <TaskInstance: 7_dataproc_subdags.par_task scheduled__2023-02-11T00:00:00+00:00 [running]> on host Tinmar.
+[2023-02-13 09:22:38,247] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=David Sanchez
+AIRFLOW_CTX_DAG_ID=7_dataproc_subdags
+AIRFLOW_CTX_TASK_ID=par_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-11T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-11T00:00:00+00:00
+[2023-02-13 09:22:38,249] {logging_mixin.py:115} WARNING - /home/tinmar/.local/lib/python3.10/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-02-13 09:22:38,269] {subdag.py:176} INFO - Created DagRun: scheduled__2023-02-11T00:00:00+00:00
+[2023-02-13 09:23:38,295] {base.py:301} INFO - Success criteria met. Exiting.
+[2023-02-13 09:23:38,303] {subdag.py:191} INFO - Execution finished. State is success
+[2023-02-13 09:23:38,314] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=7_dataproc_subdags, task_id=par_task, execution_date=20230211T000000, start_date=20230213T152238, end_date=20230213T152338
+[2023-02-13 09:23:38,329] {local_task_job.py:156} INFO - Task exited with return code 0

@@ -1,0 +1,5 @@
+[2023-02-18T18:29:27.912-0600] {processor.py:156} INFO - Started process (PID=196834) to work on /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_downloads.py
+[2023-02-18T18:29:27.913-0600] {processor.py:758} INFO - Processing file /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_downloads.py for tasks to queue
+[2023-02-18T18:29:27.914-0600] {logging_mixin.py:117} INFO - [2023-02-18T18:29:27.914-0600] {dagbag.py:525} INFO - Filling up the DagBag from /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_downloads.py
+[2023-02-18T18:29:27.945-0600] {processor.py:770} WARNING - No viable dags retrieved from /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_downloads.py
+[2023-02-18T18:29:27.957-0600] {processor.py:178} INFO - Processing /c/Airflow/dags/Introduction_to_Apache_Airflow/groups/group_downloads.py took 0.047 seconds
